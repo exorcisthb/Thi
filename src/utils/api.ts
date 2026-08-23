@@ -39,12 +39,18 @@ async function handleResponse<T>(resp: Response): Promise<T> {
   if (!resp.ok) {
     let detail = '';
     try {
-      const err = await resp.json();
-      detail = err?.error || JSON.stringify(err);
+      // Đọc text trước, sau đó parse JSON nếu cần
+      const text = await resp.text();
+      try {
+        const err = JSON.parse(text);
+        detail = err?.error || JSON.stringify(err);
+      } catch {
+        detail = text;
+      }
     } catch {
-      detail = await resp.text();
+      detail = 'Không đọc được response';
     }
-    throw new Error(`Loi server (${resp.status}): ${detail.slice(0, 200)}`);
+    throw new Error(`Lỗi server (${resp.status}): ${detail.slice(0, 200)}`);
   }
   return resp.json() as Promise<T>;
 }

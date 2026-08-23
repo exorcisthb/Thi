@@ -81,6 +81,8 @@ function App() {
   }, [questionSets]);
 
   // Auto-nap cac phan bo de ITB tu backend thanh bo cau hoi (subject "ITB") 1 lan
+  // LƯU Ý: Chỉ hoạt động khi có backend Express chạy (localhost hoặc server riêng)
+  // Trên Vercel/GitHub Pages (static hosting), API này sẽ 404 - đây là hành vi bình thường
   useEffect(() => {
     let cancelled = false;
     fetchItbAllQuestions()
@@ -125,8 +127,12 @@ function App() {
           }
           return next;
         });
+        console.log('✅ Đã tải bộ đề ITB từ server');
       })
-      .catch((e) => console.warn('Khong the nap bo de ITB tu server:', e));
+      .catch((e) => {
+        // Bình thường khi deploy lên static hosting (Vercel/GitHub Pages)
+        console.info('ℹ️ Không thể tải bộ đề ITB từ server (có thể là static hosting):', e.message);
+      });
     return () => {
       cancelled = true;
     };
