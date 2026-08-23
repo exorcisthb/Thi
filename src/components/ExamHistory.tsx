@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { ExamHistory } from '../types';
-import { loadExamHistory, deleteExamHistory, clearExamHistory } from '../utils/storage';
+import { loadExamHistory, deleteExamHistory } from '../utils/storage';
 
 interface ExamHistoryProps {
   setId: string;
