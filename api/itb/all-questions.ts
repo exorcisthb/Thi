@@ -1,25 +1,7 @@
 // Vercel Serverless Function: GET /api/itb/all-questions
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-
-interface ItbQuestion {
-  id: string;
-  partNo: number;
-  content: string;
-  options: Record<string, string>;
-  answers: string[];
-  weight: number;
-  explanation: string;
-}
-
-interface ItbData {
-  parts: Array<{
-    id: number;
-    partNo: number;
-    name: string;
-    questionCount: number;
-  }>;
-  questions: ItbQuestion[];
-}
+// Import data trực tiếp
+import data from '../../public/data/itb-questions.json';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Chỉ cho phép GET
@@ -28,20 +10,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   try {
-    // Fetch data từ public URL thay vì đọc file
-    const baseUrl = `https://${req.headers.host}`;
-    const dataUrl = `${baseUrl}/data/itb-questions.json`;
-    
-    const response = await fetch(dataUrl);
-    if (!response.ok) {
-      throw new Error(`Failed to fetch data: ${response.status}`);
-    }
-    
-    const data: ItbData = await response.json();
-
-    // Trả về danh sách câu hỏi
+    // Trả về danh sách câu hỏi từ imported data
     res.setHeader('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate');
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    
+    if (req.method === 'OPTIONS') {
+      return res.status(200).end();
+    }
+    
     return res.status(200).json(data.questions);
   } catch (error) {
     console.error('Error loading ITB questions:', error);

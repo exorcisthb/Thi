@@ -1,17 +1,7 @@
 // Vercel Serverless Function: GET /api/itb/parts
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-
-interface ItbPart {
-  id: number;
-  partNo: number;
-  name: string;
-  questionCount: number;
-}
-
-interface ItbData {
-  parts: ItbPart[];
-  questions: any[];
-}
+// Import data trực tiếp
+import data from '../../public/data/itb-questions.json';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'GET') {
@@ -19,18 +9,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   try {
-    const baseUrl = `https://${req.headers.host}`;
-    const dataUrl = `${baseUrl}/data/itb-questions.json`;
-    
-    const response = await fetch(dataUrl);
-    if (!response.ok) {
-      throw new Error(`Failed to fetch data: ${response.status}`);
-    }
-    
-    const data: ItbData = await response.json();
-
     res.setHeader('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate');
     res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    
+    if (req.method === 'OPTIONS') {
+      return res.status(200).end();
+    }
+    
     return res.status(200).json(data.parts);
   } catch (error) {
     console.error('Error loading ITB parts:', error);
