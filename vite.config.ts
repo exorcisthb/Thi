@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Base path cho GitHub Pages
-  base: process.env.NODE_ENV === 'production' ? '/Thi/' : '/',
+  // Base path: '/Thi/' cho GitHub Pages, '/' cho Vercel
+  base: process.env.VERCEL ? '/' : (process.env.NODE_ENV === 'production' ? '/Thi/' : '/'),
   server: {
     host: true,
     allowedHosts: ['.trycloudflare.com'],
