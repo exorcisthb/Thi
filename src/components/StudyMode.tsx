@@ -28,6 +28,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
   const [showJumpBackMenu, setShowJumpBackMenu] = useState(false);
   const [showJumpForwardMenu, setShowJumpForwardMenu] = useState(false);
   const [zoomImage, setZoomImage] = useState<string | null>(null);
+  const [isFullScreen, setIsFullScreen] = useState(false);
   const [showQuickAnswers, setShowQuickAnswers] = useState(false);
 
   // Touch gesture state cho vuốt màn hình mobile
@@ -43,6 +44,12 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
   }
 
   const current = questions[currentIdx];
+  const isImageChoices = Boolean(
+    current.imageUrl &&
+    (Object.keys(current.options) as AnswerKey[])
+      .filter((k) => current.options[k]?.trim())
+      .every((k) => current.options[k].trim() === k || current.options[k].trim().length <= 2)
+  );
   const isBookmarked = bookmarked.has(current.id);
   const correctAnswers = getCorrectAnswers(current);
   const isMulti = correctAnswers.length > 1;
@@ -200,7 +207,8 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
   }, [showJumpBackMenu, showJumpForwardMenu]);
 
   return (
-    <div className="max-w-3xl mx-auto px-2 sm:px-0">
+    <div className={`mx-auto transition-all duration-300 ${isFullScreen ? "w-full max-w-none px-2" : "max-w-[1550px] w-full px-2 sm:px-4"}`}>
+      {/* Nút Fullscreen nhanh */}
       {/* Progress bar & Stats Header */}
       <div className="mb-4">
         <div className="flex items-center justify-between text-sm text-gray-600 dark:text-gray-400 mb-1 font-medium flex-wrap gap-2">
@@ -214,6 +222,17 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
               title="Xem bảng tra cứu nhanh toàn bộ đáp án của đề này"
             >
               <span>📊 Bảng đáp án</span>
+            </button>
+            <button
+              onClick={() => setIsFullScreen((prev) => !prev)}
+              className={`px-2.5 py-1 text-xs rounded-lg border transition-all flex items-center gap-1 font-semibold ${
+                isFullScreen
+                  ? 'bg-blue-600 text-white border-blue-600 shadow'
+                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-blue-900/30'
+              }`}
+              title={isFullScreen ? 'Thu nhỏ cửa sổ' : 'Mở rộng Full màn hình'}
+            >
+              <span>{isFullScreen ? '🗗 Thu nhỏ' : '⛶ Full màn hình'}</span>
             </button>
           </div>
           <div className="flex items-center gap-3">
@@ -307,7 +326,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                     src={getImageUrl(current.imageUrl)}
                     alt={`Ảnh đề thi câu ${currentIdx + 1}`}
                     loading="lazy"
-                    className="max-h-[380px] w-auto mx-auto object-contain rounded cursor-zoom-in transition-transform duration-200 group-hover:scale-[1.01]"
+                    className="w-auto max-w-full max-h-[72vh] sm:max-h-[80vh] mx-auto object-contain rounded-lg shadow-md cursor-zoom-in transition-transform duration-200 group-hover:scale-[1.008]"
                     onClick={(e) => {
                       e.stopPropagation();
                       setZoomImage(current.imageUrl || null);
@@ -323,23 +342,41 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
               )}
 
               {/* Các lựa chọn đáp án trung tính */}
-              <div className="space-y-2.5">
-                {(Object.keys(current.options) as AnswerKey[])
-                  .filter((k) => current.options[k] && current.options[k].trim())
-                  .map((key) => (
-                    <div
-                      key={key}
-                      className="w-full text-left px-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50/80 dark:bg-gray-700/50 hover:bg-blue-50/50 dark:hover:bg-blue-900/20 transition-colors flex items-start gap-3"
-                    >
-                      <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white dark:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold text-xs border border-gray-300 dark:border-gray-500 shrink-0 mt-0.5">
-                        {key}
-                      </span>
-                      <span className="text-gray-800 dark:text-gray-200 font-medium text-sm sm:text-base leading-normal">
-                        {current.options[key]}
-                      </span>
-                    </div>
-                  ))}
-              </div>
+              {isImageChoices ? (
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-3">
+                  {(Object.keys(current.options) as AnswerKey[])
+                    .filter((k) => current.options[k] && current.options[k].trim())
+                    .map((key) => (
+                      <div
+                        key={key}
+                        className="py-3 px-4 rounded-xl border-2 border-gray-200 dark:border-gray-700 bg-gray-50/90 dark:bg-gray-700/60 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-600 transition-all flex items-center justify-center gap-2.5 font-bold text-base sm:text-lg text-gray-800 dark:text-gray-200 shadow-sm"
+                      >
+                        <span className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-extrabold flex items-center justify-center border border-blue-300 dark:border-blue-700 text-sm">
+                          {key}
+                        </span>
+                        <span>Phương án {key}</span>
+                      </div>
+                    ))}
+                </div>
+              ) : (
+                <div className="space-y-2.5">
+                  {(Object.keys(current.options) as AnswerKey[])
+                    .filter((k) => current.options[k] && current.options[k].trim())
+                    .map((key) => (
+                      <div
+                        key={key}
+                        className="w-full text-left px-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50/80 dark:bg-gray-700/50 hover:bg-blue-50/50 dark:hover:bg-blue-900/20 transition-colors flex items-start gap-3"
+                      >
+                        <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white dark:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold text-xs border border-gray-300 dark:border-gray-500 shrink-0 mt-0.5">
+                          {key}
+                        </span>
+                        <span className="text-gray-800 dark:text-gray-200 font-medium text-sm sm:text-base leading-normal">
+                          {current.options[key]}
+                        </span>
+                      </div>
+                    ))}
+                </div>
+              )}
             </div>
 
             {/* Hint & Button lật mặt card */}
@@ -415,7 +452,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                     src={getImageUrl(current.imageUrl)}
                     alt={`Ảnh đề thi câu ${currentIdx + 1}`}
                     loading="lazy"
-                    className="max-h-[300px] w-auto mx-auto object-contain rounded cursor-zoom-in transition-transform duration-200 group-hover:scale-[1.01]"
+                    className="w-auto max-w-full max-h-[72vh] sm:max-h-[80vh] mx-auto object-contain rounded-lg shadow-md cursor-zoom-in transition-transform duration-200 group-hover:scale-[1.008]"
                     onClick={(e) => {
                       e.stopPropagation();
                       setZoomImage(current.imageUrl || null);
@@ -616,7 +653,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
           className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 backdrop-blur-sm cursor-zoom-out"
           onClick={() => setZoomImage(null)}
         >
-          <div className="relative max-w-5xl max-h-[92vh] w-full flex flex-col items-center" onClick={(e) => e.stopPropagation()}>
+          <div className="relative max-w-[96vw] max-h-[95vh] w-full flex flex-col items-center" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={() => setZoomImage(null)}
               className="absolute -top-10 right-0 text-white bg-red-600 hover:bg-red-700 px-3 py-1 rounded-full text-xs font-bold shadow-lg transition-colors"
@@ -626,7 +663,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
             <img
               src={getImageUrl(zoomImage)}
               alt="Phóng to hình ảnh đề thi"
-              className="max-w-full max-h-[85vh] object-contain rounded-xl shadow-2xl border border-slate-700"
+              className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl border border-slate-700"
             />
           </div>
         </div>

@@ -352,7 +352,11 @@ function App() {
         </div>
       )}
 
-      <main className="max-w-5xl mx-auto px-4 py-6">
+      <main className={`mx-auto py-6 transition-all duration-300 ${
+        viewMode === 'detail'
+          ? 'max-w-[1680px] w-full px-2 sm:px-6'
+          : 'max-w-7xl px-4 sm:px-6'
+      }`}>
         {/* Dashboard - Trang chủ hiển thị các môn học */}
         {viewMode === 'dashboard' && (
           <Dashboard

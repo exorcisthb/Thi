@@ -415,9 +415,15 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
   // Khi đang thi, hiển thị câu hỏi (sử dụng displayQuestions nếu có shuffle)
   const questionsToDisplay = displayQuestions.length > 0 ? displayQuestions : questions;
   const current = questionsToDisplay[currentIdx];
+  const isImageChoices = Boolean(
+    current?.imageUrl &&
+    (Object.keys(current.options) as AnswerKey[])
+      .filter((k) => current.options[k]?.trim())
+      .every((k) => current.options[k].trim() === k || current.options[k].trim().length <= 2)
+  );
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-[1550px] w-full mx-auto px-1 sm:px-4">
       {/* Header: timer + submit */}
       <div className="sticky top-14 z-40 bg-gray-50 dark:bg-gray-900 py-3 mb-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
@@ -486,7 +492,7 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
                   src={getImageUrl(current.imageUrl)}
                   alt={`Ảnh đề thi câu ${currentIdx + 1}`}
                   loading="lazy"
-                  className="max-h-[360px] w-auto mx-auto object-contain rounded cursor-zoom-in"
+                  className="w-auto max-w-full max-h-[72vh] sm:max-h-[80vh] mx-auto object-contain rounded-lg shadow-md cursor-zoom-in transition-transform duration-200 group-hover:scale-[1.008]"
                   onClick={() => setZoomImage(current.imageUrl || null)}
                 />
                 <div className="mt-1 text-xs text-slate-400 font-medium">
@@ -494,24 +500,50 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
                 </div>
               </div>
             )}
-            <div className="space-y-2">
-              {(Object.keys(current.options) as AnswerKey[]).filter((k) => current.options[k].trim()).map((key) => {
-                const isSelected = (answers[current.id] ?? []).includes(key);
-                return (
-                  <button
-                    key={key}
-                    onClick={() => handleSelect(key)}
-                    className={`w-full text-left px-4 py-3 rounded-lg border-2 transition-all ${
-                      isSelected
-                        ? 'bg-blue-100 dark:bg-blue-900/30 border-blue-500'
-                        : 'bg-gray-50 dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-600'
-                    }`}
-                  >
-                    {key}. {current.options[key]}
-                  </button>
-                );
-              })}
-            </div>
+            {isImageChoices ? (
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-4">
+                {(Object.keys(current.options) as AnswerKey[]).filter((k) => current.options[k].trim()).map((key) => {
+                  const isSelected = (answers[current.id] ?? []).includes(key);
+                  return (
+                    <button
+                      key={key}
+                      onClick={() => handleSelect(key)}
+                      className={`py-4 px-5 rounded-2xl border-2 transition-all flex items-center justify-center gap-3 font-bold text-lg sm:text-xl shadow-sm ${
+                        isSelected
+                          ? 'bg-blue-600 text-white border-blue-600 shadow-md scale-[1.02] ring-2 ring-blue-400'
+                          : 'bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 border-gray-200 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 hover:bg-blue-50/50 dark:hover:bg-blue-900/20'
+                      }`}
+                    >
+                      <span className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-extrabold ${
+                        isSelected ? 'bg-white text-blue-600' : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
+                      }`}>
+                        {key}
+                      </span>
+                      <span>Phương án {key}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="space-y-2">
+                {(Object.keys(current.options) as AnswerKey[]).filter((k) => current.options[k].trim()).map((key) => {
+                  const isSelected = (answers[current.id] ?? []).includes(key);
+                  return (
+                    <button
+                      key={key}
+                      onClick={() => handleSelect(key)}
+                      className={`w-full text-left px-4 py-3 rounded-lg border-2 transition-all ${
+                        isSelected
+                          ? 'bg-blue-100 dark:bg-blue-900/30 border-blue-500'
+                          : 'bg-gray-50 dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      {key}. {current.options[key]}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
           </div>
           <div className="flex items-center justify-between mt-4">
             <button
@@ -553,7 +585,7 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
                     src={getImageUrl(q.imageUrl)}
                     alt={`Ảnh đề thi câu ${idx + 1}`}
                     loading="lazy"
-                    className="max-h-[300px] w-auto mx-auto object-contain rounded cursor-zoom-in"
+                    className="w-auto max-w-full max-h-[68vh] mx-auto object-contain rounded-lg shadow-md cursor-zoom-in"
                     onClick={() => setZoomImage(q.imageUrl || null)}
                   />
                   <div className="mt-1 text-xs text-slate-400 font-medium">
@@ -601,7 +633,7 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
           className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 backdrop-blur-sm cursor-zoom-out"
           onClick={() => setZoomImage(null)}
         >
-          <div className="relative max-w-5xl max-h-[92vh] w-full flex flex-col items-center" onClick={(e) => e.stopPropagation()}>
+          <div className="relative max-w-[96vw] max-h-[95vh] w-full flex flex-col items-center" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={() => setZoomImage(null)}
               className="absolute -top-10 right-0 text-white bg-red-600 hover:bg-red-700 px-3 py-1 rounded-full text-xs font-bold shadow-lg transition-colors"
@@ -611,7 +643,7 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
             <img
               src={getImageUrl(zoomImage)}
               alt="Phóng to ảnh đề thi"
-              className="max-w-full max-h-[85vh] object-contain rounded-xl shadow-2xl border border-slate-700"
+              className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl border border-slate-700"
             />
           </div>
         </div>

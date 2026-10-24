@@ -194,7 +194,7 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
                     <img
                       src={getImageUrl(q.imageUrl)}
                       alt={`Ảnh câu ${idx + 1}`}
-                      className="max-h-[240px] w-auto mx-auto object-contain rounded"
+                      className="w-auto max-w-full max-h-[60vh] sm:max-h-[72vh] mx-auto object-contain rounded-lg shadow-md"
                     />
                   </div>
                 )}
