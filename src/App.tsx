@@ -138,6 +138,52 @@ function App() {
     };
   }, []);
 
+
+  // Auto-nap cac bo de mon HCM202 va VNR202 tu public/data/
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadBuiltinSubject = async (dataPath: string, subjectCode: string) => {
+      try {
+        const resp = await fetch(dataPath);
+        if (!resp.ok) return;
+        const sets: QuestionSet[] = await resp.json();
+        if (cancelled || !Array.isArray(sets)) return;
+
+        const deletedIds: string[] = JSON.parse(
+          localStorage.getItem('quiz-app-deleted-sets') || '[]'
+        );
+        const deletedSet = new Set(deletedIds);
+
+        setQuestionSets((prev) => {
+          const map = new Map(prev.map((s) => [s.id, s]));
+          let addedCount = 0;
+          for (const s of sets) {
+            if (deletedSet.has(s.id)) continue;
+            // Luon dong bo / cap nhat bo de tu file du lieu goc
+            map.set(s.id, s);
+            addedCount++;
+          }
+          if (addedCount > 0) {
+            console.log(`✓ Đã nạp thành công ${addedCount} bộ đề môn ${subjectCode}`);
+          }
+          return Array.from(map.values());
+        });
+      } catch (err) {
+        console.info(`Không thể nạp bộ đề ${subjectCode}:`, err);
+      }
+    };
+
+    const base = import.meta.env.BASE_URL || '/';
+    const cleanBase = base.endsWith('/') ? base : `${base}/`;
+    loadBuiltinSubject(`${cleanBase}data/hcm-sets.json`, 'HCM202');
+    loadBuiltinSubject(`${cleanBase}data/vnr-sets.json`, 'VNR202');
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   // Ham toggle dark mode
   const toggleDarkMode = useCallback(() => {
     setDarkMode((prev) => {
@@ -183,6 +229,19 @@ function App() {
   const handleDeleteSet = (id: string) => {
     if (!window.confirm('Xóa bộ câu hỏi này?')) return;
     deleteSetImages(id).catch((e) => console.warn('Xóa ảnh trong DB lỗi:', e));
+
+    try {
+      const deleted: string[] = JSON.parse(
+        localStorage.getItem('quiz-app-deleted-sets') || '[]'
+      );
+      if (!deleted.includes(id)) {
+        deleted.push(id);
+        localStorage.setItem('quiz-app-deleted-sets', JSON.stringify(deleted));
+      }
+    } catch (e) {
+      console.warn('Lỗi lưu quiz-app-deleted-sets:', e);
+    }
+
     setQuestionSets((prev) => {
       const next = prev.filter((s) => s.id !== id);
       if (currentSetId === id) {

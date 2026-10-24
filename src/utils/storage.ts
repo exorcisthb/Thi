@@ -1,4 +1,4 @@
-import type { QuestionSet } from '../types';
+import type { QuestionSet, ExamHistory } from '../types';
 
 const QUESTION_SETS_KEY = 'quiz-app-question-sets';
 const DARK_MODE_KEY = 'quiz-app-dark-mode';
@@ -13,9 +13,13 @@ export function loadQuestionSets(): QuestionSet[] {
   }
 }
 
-// Lưu danh sách bộ câu hỏi vào localStorage
+// Lưu danh sách bộ câu hỏi vào localStorage (an toàn với quota)
 export function saveQuestionSets(sets: QuestionSet[]): void {
-  localStorage.setItem(QUESTION_SETS_KEY, JSON.stringify(sets));
+  try {
+    localStorage.setItem(QUESTION_SETS_KEY, JSON.stringify(sets));
+  } catch (e) {
+    console.warn('Không thể lưu questionSets vào localStorage (vượt dung lượng quota):', e);
+  }
 }
 
 // Đọc trạng thái dark mode từ localStorage
@@ -41,7 +45,7 @@ export function generateId(): string {
 // Lưu lịch sử thi thử
 const EXAM_HISTORY_KEY = 'quiz-app-exam-history';
 
-export function saveExamHistory(history: any): void {
+export function saveExamHistory(history: ExamHistory): void {
   try {
     const existing = loadExamHistory();
     existing.push(history);
@@ -53,7 +57,7 @@ export function saveExamHistory(history: any): void {
   }
 }
 
-export function loadExamHistory(): any[] {
+export function loadExamHistory(): ExamHistory[] {
   try {
     const data = localStorage.getItem(EXAM_HISTORY_KEY);
     return data ? JSON.parse(data) : [];
@@ -65,7 +69,7 @@ export function loadExamHistory(): any[] {
 export function deleteExamHistory(id: string): void {
   try {
     const existing = loadExamHistory();
-    const filtered = existing.filter((h: any) => h.id !== id);
+    const filtered = existing.filter((h) => h.id !== id);
     localStorage.setItem(EXAM_HISTORY_KEY, JSON.stringify(filtered));
   } catch (e) {
     console.error('Error deleting exam history:', e);

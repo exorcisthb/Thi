@@ -1,3 +1,4 @@
+import { getImageUrl } from '../utils/imageUrl';
 import { useState, useEffect, useCallback, useRef } from 'react';
 import type { Question, AnswerKey, ExamViewMode, ExamResult, AnswerDetail } from '../types';
 import { answersEqual, getCorrectAnswers } from '../types';
@@ -39,6 +40,7 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
   const [numQuestions, setNumQuestions] = useState(questions.length); // Số câu hỏi muốn làm
   const [displayQuestions, setDisplayQuestions] = useState<Question[]>([]);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const [zoomImage, setZoomImage] = useState<string | null>(null);
 
   // Hàm shuffle mảng
   const shuffleArray = <T,>(array: T[]): T[] => {
@@ -478,6 +480,20 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
                 </span>
               )}
             </h3>
+            {current.imageUrl && (
+              <div className="mb-4 text-center bg-slate-900 rounded-xl p-3 border border-slate-700 shadow-inner overflow-hidden">
+                <img
+                  src={getImageUrl(current.imageUrl)}
+                  alt={`Ảnh đề thi câu ${currentIdx + 1}`}
+                  loading="lazy"
+                  className="max-h-[360px] w-auto mx-auto object-contain rounded cursor-zoom-in"
+                  onClick={() => setZoomImage(current.imageUrl || null)}
+                />
+                <div className="mt-1 text-xs text-slate-400 font-medium">
+                  🔍 Click vào ảnh để phóng to toàn màn hình
+                </div>
+              </div>
+            )}
             <div className="space-y-2">
               {(Object.keys(current.options) as AnswerKey[]).filter((k) => current.options[k].trim()).map((key) => {
                 const isSelected = (answers[current.id] ?? []).includes(key);
@@ -531,6 +547,20 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
                   </span>
                 )}
               </h3>
+              {q.imageUrl && (
+                <div className="mb-4 text-center bg-slate-900 rounded-xl p-3 border border-slate-700 shadow-inner overflow-hidden">
+                  <img
+                    src={getImageUrl(q.imageUrl)}
+                    alt={`Ảnh đề thi câu ${idx + 1}`}
+                    loading="lazy"
+                    className="max-h-[300px] w-auto mx-auto object-contain rounded cursor-zoom-in"
+                    onClick={() => setZoomImage(q.imageUrl || null)}
+                  />
+                  <div className="mt-1 text-xs text-slate-400 font-medium">
+                    🔍 Click vào ảnh để phóng to toàn màn hình
+                  </div>
+                </div>
+              )}
               <div className="space-y-2">
                 {(Object.keys(q.options) as AnswerKey[]).filter((k) => q.options[k].trim()).map((key) => {
                     const isSelected = (answers[q.id] ?? []).includes(key);
@@ -564,6 +594,28 @@ export default function ExamMode({ questions, onSubmit }: ExamModeProps) {
           ))}
         </div>
       )}
-    </div>
+    
+      {/* Phóng to ảnh đề thi (Lightbox) */}
+      {zoomImage && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 backdrop-blur-sm cursor-zoom-out"
+          onClick={() => setZoomImage(null)}
+        >
+          <div className="relative max-w-5xl max-h-[92vh] w-full flex flex-col items-center" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setZoomImage(null)}
+              className="absolute -top-10 right-0 text-white bg-red-600 hover:bg-red-700 px-3 py-1 rounded-full text-xs font-bold shadow-lg transition-colors"
+            >
+              ✕ Đóng (ESC)
+            </button>
+            <img
+              src={getImageUrl(zoomImage)}
+              alt="Phóng to ảnh đề thi"
+              className="max-w-full max-h-[85vh] object-contain rounded-xl shadow-2xl border border-slate-700"
+            />
+          </div>
+        </div>
+      )}
+</div>
   );
 }

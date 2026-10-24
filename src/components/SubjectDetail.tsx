@@ -9,7 +9,7 @@ interface SubjectDetailProps {
   onDeleteSet: (setId: string) => void;
 }
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 12;
 
 export default function SubjectDetail({
   subject,
@@ -31,6 +31,13 @@ export default function SubjectDetail({
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
       result = result.filter((set) => set.name.toLowerCase().includes(query));
+    }
+
+    // Lọc theo loại đề (FE / PE)
+    if (filterType === 'pe') {
+      result = result.filter((set) => set.name.toLowerCase().includes('pe'));
+    } else if (filterType === 'fe') {
+      result = result.filter((set) => set.name.toLowerCase().includes('fe'));
     }
 
     // Sắp xếp
@@ -173,9 +180,21 @@ export default function SubjectDetail({
                     <h4 className="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                       {set.name}
                     </h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                      {set.questions.length} câu • {new Date(set.createdAt).toLocaleDateString('vi-VN')}
-                    </p>
+                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1.5 flex items-center gap-2 flex-wrap">
+                      <span className="font-semibold text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/30 px-2 py-0.5 rounded">
+                        {set.questions.length} câu hỏi
+                      </span>
+                      {set.questions.some((q) => q.imageUrl) && (
+                        <span className="bg-purple-50 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 px-2 py-0.5 rounded font-medium">
+                          📷 Đề thi có ảnh
+                        </span>
+                      )}
+                      {set.questions.some((q) => q.correctAnswer) && (
+                        <span className="bg-emerald-50 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300 px-2 py-0.5 rounded font-medium">
+                          ✓ Có đáp án
+                        </span>
+                      )}
+                    </div>
                   </button>
                 </div>
 

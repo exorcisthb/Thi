@@ -5,12 +5,14 @@ export type AnswerKey = 'A' | 'B' | 'C' | 'D' | 'E';
 export interface Question {
   id: string;
   content: string;          // Nội dung câu hỏi
-  options: Record<AnswerKey, string>;  // 4 đáp án
+  options: Record<AnswerKey, string>;  // 4 hoặc 5 đáp án
   correctAnswer: AnswerKey; // Đáp án đúng (chính)
   correctAnswers?: AnswerKey[]; // Danh sách nhiều đáp án đúng (câu "Select all that apply")
   weight: number;           // Trọng số điểm
   explanation: string;      // Giải thích đáp án
   keywords?: string[];      // Từ khóa (Key words) của câu hỏi
+  imageUrl?: string;        // Đường dẫn hình ảnh đề thi (nếu có)
+  answerNote?: string;      // Ghi chú đáp án (ví dụ: 'Xem trên ảnh')
 }
 
 // Lấy danh sách các đáp án đúng (1 hoặc nhiều)
@@ -30,7 +32,7 @@ export interface QuestionSet {
 
 // Lấy môn học của một bộ câu hỏi (mặc định "Khac")
 export function getSubject(s: QuestionSet): string {
-  return s.subject && s.subject.trim() ? s.subject.trim() : 'Khac';
+  return s.subject && s.subject.trim() ? s.subject.trim() : 'Khác';
 }
 
 // Các chế độ của app
@@ -49,7 +51,7 @@ export interface AnswerDetail {
   earned: number;
 }
 
-// So sánh 2 tập đáp án (coi như bằng nhau nếu cùng tập hợp, không quan trọng thứ tự)
+// So sánh 2 tập đáp án
 export function answersEqual(a: AnswerKey[], b: AnswerKey[]): boolean {
   if (a.length !== b.length) return false;
   const sa = [...a].sort();
@@ -67,7 +69,7 @@ export interface ExamResult {
   totalCount: number;      // Tổng số câu
   scale: number;           // Thang điểm (10 hoặc 100)
   timeTaken: number;       // Thời gian làm bài (giây)
-  usedQuestions?: Question[]; // Câu hỏi đã sử dụng (có thể đã shuffle)
+  usedQuestions?: Question[]; // Câu hỏi đã sử dụng
 }
 
 // Lịch sử thi thử

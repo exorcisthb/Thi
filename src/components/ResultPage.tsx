@@ -1,3 +1,4 @@
+import { getImageUrl } from '../utils/imageUrl';
 import { useState } from 'react';
 import type { ExamResult, Question } from '../types';
 
@@ -187,6 +188,16 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
                   <span className="text-sm text-gray-500 dark:text-gray-400">Câu {idx + 1}:</span>{' '}
                   {q.content}
                 </p>
+
+                {q.imageUrl && (
+                  <div className="mb-3 text-center bg-slate-900 rounded-lg p-2 border border-slate-700">
+                    <img
+                      src={getImageUrl(q.imageUrl)}
+                      alt={`Ảnh câu ${idx + 1}`}
+                      className="max-h-[240px] w-auto mx-auto object-contain rounded"
+                    />
+                  </div>
+                )}
                 
                 <div className="space-y-2 mb-3">
                   <div className="text-sm">
