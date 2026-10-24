@@ -44,12 +44,8 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
   }
 
   const current = questions[currentIdx];
-  const isImageChoices = Boolean(
-    current.imageUrl &&
-    (Object.keys(current.options) as AnswerKey[])
-      .filter((k) => current.options[k]?.trim())
-      .every((k) => current.options[k].trim() === k || current.options[k].trim().length <= 2)
-  );
+  // Đề dạng ảnh thì bỏ hẳn phần phương án ở ôn tập, chỉ đề dạng chữ mới hiển thị
+  const isImageChoices = Boolean(current.imageUrl);
   const isBookmarked = bookmarked.has(current.id);
   const correctAnswers = getCorrectAnswers(current);
   const isMulti = correctAnswers.length > 1;
@@ -341,25 +337,9 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                 </div>
               )}
 
-              {/* Các lựa chọn đáp án trung tính */}
-              {isImageChoices ? (
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-3">
-                  {(Object.keys(current.options) as AnswerKey[])
-                    .filter((k) => current.options[k] && current.options[k].trim())
-                    .map((key) => (
-                      <div
-                        key={key}
-                        className="py-3 px-4 rounded-xl border-2 border-gray-200 dark:border-gray-700 bg-gray-50/90 dark:bg-gray-700/60 hover:bg-blue-50 dark:hover:bg-blue-900/30 hover:border-blue-300 dark:hover:border-blue-600 transition-all flex items-center justify-center gap-2.5 font-bold text-base sm:text-lg text-gray-800 dark:text-gray-200 shadow-sm"
-                      >
-                        <span className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-extrabold flex items-center justify-center border border-blue-300 dark:border-blue-700 text-sm">
-                          {key}
-                        </span>
-                        <span>Phương án {key}</span>
-                      </div>
-                    ))}
-                </div>
-              ) : (
-                <div className="space-y-2.5">
+              {/* Các lựa chọn đáp án: Đề dạng ảnh đã có sẵn phương án trong ảnh nên ẩn hoàn toàn, chỉ hiển thị với đề dạng chữ */}
+              {!isImageChoices && (
+                <div className="space-y-2.5 my-3">
                   {(Object.keys(current.options) as AnswerKey[])
                     .filter((k) => current.options[k] && current.options[k].trim())
                     .map((key) => (
@@ -474,6 +454,27 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                   <p className="text-xs text-emerald-700 dark:text-emerald-300 mt-1">
                     (Quan sát lựa chọn được tô màu / tích chọn / khoanh tròn trên ảnh đề thi ở trên)
                   </p>
+                </div>
+              ) : isImageChoices ? (
+                <div className="my-3 p-4 bg-emerald-50 dark:bg-emerald-950/40 border-2 border-emerald-500 rounded-2xl flex items-center justify-between shadow-sm">
+                  <div className="flex items-center gap-3">
+                    <span className="text-emerald-800 dark:text-emerald-200 font-bold text-lg sm:text-xl">
+                      ✓ Đáp án đúng:
+                    </span>
+                    <div className="flex gap-2">
+                      {correctAnswers.map((key) => (
+                        <span
+                          key={key}
+                          className="px-6 py-2 bg-emerald-600 text-white rounded-xl font-extrabold text-2xl sm:text-3xl shadow"
+                        >
+                          {key}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <span className="text-emerald-600 dark:text-emerald-400 font-extrabold text-lg sm:text-xl hidden sm:inline">
+                    ✓ CHÍNH XÁC
+                  </span>
                 </div>
               ) : (
                 <div className="space-y-2.5 mb-4">

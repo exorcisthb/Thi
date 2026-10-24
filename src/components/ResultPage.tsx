@@ -211,7 +211,7 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
                 </div>
 
                 {/* Hiển thị nội dung các đáp án bạn chọn */}
-                {detail.selectedAnswers.length > 0 && (
+                {!q.imageUrl && detail.selectedAnswers.length > 0 && (
                   <div className="mb-3 p-3 bg-red-100/60 dark:bg-red-950/30 rounded-lg border border-red-200/60 dark:border-red-800/40">
                     <p className="text-xs font-medium text-red-700 dark:text-red-400 mb-2">
                       ✗ Nội dung đáp án bạn chọn:
@@ -230,6 +230,7 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
                 )}
 
                 {/* Hiển thị nội dung các đáp án đúng */}
+                {!q.imageUrl && (
                 <div className="mb-3 p-3 bg-green-50 dark:bg-green-900/20 rounded-lg">
                   <p className="text-xs font-medium text-green-700 dark:text-green-400 mb-2">✓ Nội dung đáp án đúng:</p>
                   <div className="space-y-1 text-sm text-gray-700 dark:text-gray-300">
@@ -243,6 +244,7 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
                       ))}
                   </div>
                 </div>
+                )}
 
                 {q.explanation && (
                   <div className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">

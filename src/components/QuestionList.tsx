@@ -63,6 +63,7 @@ export default function QuestionList({ questions, onEdit, onDelete }: QuestionLi
                   </div>
                 )}
 
+                {!q.imageUrl && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-sm mb-3">
                   {(Object.keys(q.options) as Array<keyof typeof q.options>).filter((k) => q.options[k] && q.options[k].trim()).map((key) => {
                     const isCorrect = correctList.includes(key);
@@ -82,6 +83,7 @@ export default function QuestionList({ questions, onEdit, onDelete }: QuestionLi
                     );
                   })}
                 </div>
+                )}
 
                 <div className="flex flex-wrap gap-3 text-xs text-gray-500 dark:text-gray-400">
                   <span>Trọng số: {q.weight}</span>
