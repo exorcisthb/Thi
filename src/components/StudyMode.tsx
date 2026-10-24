@@ -250,7 +250,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
 
       {/* 3D FLASHCARD CARD CONTAINER */}
       <div
-        className="perspective-1000 my-4 min-h-[420px]"
+        className="perspective-1000 my-4"
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
@@ -263,7 +263,9 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
           title="Bấm vào card hoặc phím Space để lật mặt card"
         >
           {/* ================= FRONT SIDE (Mặt trước) ================= */}
-          <div className="[grid-area:1/1] backface-hidden bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 p-5 sm:p-7 flex flex-col justify-between shadow-md hover:shadow-lg transition-shadow relative overflow-hidden">
+          <div className={`backface-hidden bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 p-4 sm:p-6 flex flex-col justify-start shadow-md hover:shadow-lg transition-shadow overflow-hidden ${
+            isFlipped ? 'absolute inset-0 pointer-events-none' : 'relative w-full'
+          }`}>
             <div>
               {/* Header card mặt trước */}
               <div className="flex items-center justify-between mb-4 pb-3 border-b border-gray-100 dark:border-gray-700/60">
@@ -317,7 +319,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
 
               {/* Hình ảnh đề thi (nếu có) */}
               {current.imageUrl && (
-                <div className="mb-5 text-center bg-slate-900 rounded-xl p-3 border border-slate-700 shadow-inner overflow-hidden relative group">
+                <div className="mb-3 text-center bg-slate-900 rounded-xl p-3 border border-slate-700 shadow-inner overflow-hidden relative group">
                   <img
                     src={getImageUrl(current.imageUrl)}
                     alt={`Ảnh đề thi câu ${currentIdx + 1}`}
@@ -360,7 +362,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
             </div>
 
             {/* Hint & Button lật mặt card */}
-            <div className="mt-6 pt-4 border-t border-gray-100 dark:border-gray-700/60 flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
+            <div className="mt-3 pt-3 border-t border-gray-100 dark:border-gray-700/60 flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
               <span className="flex items-center gap-1.5 font-medium text-blue-600 dark:text-blue-400">
                 💡 Chạm vào card hoặc bấm [Space] để xem đáp án
               </span>
@@ -378,7 +380,9 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
           </div>
 
           {/* ================= BACK SIDE (Mặt sau - Lộ đáp án) ================= */}
-          <div className="[grid-area:1/1] backface-hidden rotate-y-180 bg-white dark:bg-gray-800 rounded-2xl border-2 border-emerald-500/60 dark:border-emerald-500/70 p-5 sm:p-7 flex flex-col justify-between shadow-md hover:shadow-lg transition-shadow relative overflow-hidden">
+          <div className={`backface-hidden rotate-y-180 bg-white dark:bg-gray-800 rounded-2xl border-2 border-emerald-500/60 dark:border-emerald-500/70 p-4 sm:p-6 flex flex-col justify-start shadow-md hover:shadow-lg transition-shadow overflow-hidden ${
+            isFlipped ? 'relative w-full' : 'absolute inset-0 pointer-events-none'
+          }`}>
             <div>
               {/* Header card mặt sau */}
               <div className="flex items-center justify-between mb-4 pb-3 border-b border-emerald-100 dark:border-emerald-900/40">
@@ -513,7 +517,7 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
             </div>
 
             {/* Hint & Button lật về mặt trước */}
-            <div className="mt-6 pt-4 border-t border-emerald-100 dark:border-emerald-900/40 flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
+            <div className="mt-3 pt-3 border-t border-emerald-100 dark:border-emerald-900/40 flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
               <span className="flex items-center gap-1 font-medium text-emerald-600 dark:text-emerald-400">
                 Chạm vào card để lật về câu hỏi
               </span>
