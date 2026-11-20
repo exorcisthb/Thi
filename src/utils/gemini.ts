@@ -458,3 +458,268 @@ export function parseAnswerText(text: string): Record<number, AnswerKey> {
   }
   return result;
 }
+
+// ==========================================
+// CHATBOT ASSISTANT (GEMINI 2.5 FLASH)
+// ==========================================
+
+import { getImageUrl } from './imageUrl';
+
+export interface ChatMessage {
+  id: string;
+  role: 'user' | 'model';
+  text: string;
+  timestamp: number;
+}
+
+export interface QuestionContext {
+  subject?: string;
+  setName?: string;
+  questionNumber?: number;
+  content?: string;
+  options?: Record<string, string>;
+  correctAnswer?: string;
+  correctAnswers?: string[];
+  explanation?: string;
+  imageUrl?: string;
+  imageBase64?: { mimeType: string; data: string } | null;
+}
+
+// Chuyển ảnh từ URL sang Base64 để gửi trực tiếp cho Gemini Multimodal Vision
+export async function fetchImageAsBase64(imageUrl: string): Promise<{ mimeType: string; data: string } | null> {
+  try {
+    const fullUrl = getImageUrl(imageUrl);
+    const resp = await fetch(fullUrl);
+    if (!resp.ok) return null;
+    const blob = await resp.blob();
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const resStr = reader.result as string;
+        const matches = resStr.match(/^data:([^;]+);base64,(.+)$/);
+        if (matches) {
+          resolve({ mimeType: matches[1], data: matches[2] });
+        } else {
+          resolve(null);
+        }
+      };
+      reader.onerror = () => resolve(null);
+      reader.readAsDataURL(blob);
+    });
+  } catch (err) {
+    console.warn('Không thể nạp ảnh câu hỏi cho Gemini Vision:', err);
+    return null;
+  }
+}
+
+const CANDIDATE_MODELS = ['gemini-2.5-flash', 'gemini-2.5-flash-lite', 'gemini-flash-latest'];
+
+export async function sendGeminiChatMessage(
+  messages: { role: 'user' | 'model'; text: string }[],
+  context?: QuestionContext | null,
+  customApiKey?: string,
+  onRetryProgress?: (attempt: number, maxAttempts: number, statusMsg?: string) => void
+): Promise<string> {
+  const apiKey = (customApiKey || getGeminiApiKey()).trim();
+  if (!apiKey) {
+    throw new Error('Chưa có Gemini API Key! Vui lòng cấu hình VITE_GEMINI_API_KEY trong file .env hoặc nhập key trong cài đặt Chatbot.');
+  }
+
+  // Build System Instruction tập trung, ngắn gọn, súc tích, không lan man
+  let systemText = `Bạn là Trợ lý Gia sư AI chuyên giải thích câu hỏi ôn thi trắc nghiệm sinh viên Đại học FPT (sử dụng model Gemini 2.5 Flash).
+
+QUY TẮC CỐT LÕI (BẮT BUỘC TUÂN THỦ NGHIÊM NGẶT):
+1. TUYỆT ĐỐI KHÔNG mở bài chào hỏi xã giao, KHÔNG viết "Chào bạn!", "Mình hiểu bạn đang hỏi...", "Trong lúc chờ đợi...".
+2. ĐI THẲNG VÀO TRỌNG TÂM - GIẢI THÍCH NGẮN GỌN, SÚC TÍCH, KHÔNG LAN MAN VĂN MẪU:
+   - **Đáp án đúng**: [Ký tự A/B/C/D] - [Nội dung tóm tắt ngắn]
+   - **Lý do vì sao đúng**: Phân tích cốt lõi lý thuyết/giáo trình chuẩn trong 2 - 3 câu ngắn gọn, rõ ràng.
+   - **Vì sao các câu khác sai**: Chỉ ra điểm sai hoặc bẫy chính của các phương án còn lại trong 1 - 2 câu.
+   - **Mẹo nhớ thi**: 1 từ khóa (keyword) hoặc quy tắc ngắn gọn để nhớ nhanh khi vào phòng thi.
+3. QUAN TRỌNG VỀ VĂN PHONG VÀ BẢN QUYỀN:
+   - Hãy luôn tự diễn giải nội dung bằng văn phong của bạn một cách cô đọng, súc tích.
+   - TUYỆT ĐỐI KHÔNG chép nguyên văn từng đoạn câu chữ dài từ giáo trình hay tài liệu mạng để tránh bị kích hoạt bộ lọc kiểm duyệt bản quyền (Recitation filter).
+4. KHI CÂU HỎI CÓ HÌNH ẢNH KÈM THEO:
+   - Bạn được cung cấp trực tiếp ảnh chụp đề thi gốc. Hãy QUAN SÁT VÀ ĐỌC TRỰC TIẾP từ hình ảnh để thấy đầy đủ câu hỏi, 4 phương án A, B, C, D và đáp án được đánh dấu/khoanh tròn/tô màu trên ảnh.
+   - TUYỆT ĐỐI KHÔNG phàn nàn thiếu thông tin hoặc yêu cầu người dùng cung cấp thêm phương án.
+5. Trả lời bằng tiếng Việt chuẩn xác, sử dụng Markdown in đậm ở các đề mục.`;
+
+  const hasOptions = context?.options && Object.values(context.options).some((v) => Boolean(v && v.trim()));
+
+  if (context && (context.content || context.imageUrl)) {
+    systemText += `\n\n[NGỮ CẢNH CÂU HỎI HIỆN TẠI]:
+- Môn học: ${context.subject || 'Đại học FPT'}
+- Bộ đề: ${context.setName || 'Chưa xác định'}
+- Câu số: ${context.questionNumber || 'N/A'}
+- Nội dung câu hỏi: ${context.content || 'Xem trên ảnh đính kèm'}
+${hasOptions ? `- Các phương án lựa chọn:\n${Object.entries(context.options || {})
+  .filter(([_, val]) => Boolean(val && val.trim()))
+  .map(([k, val]) => `  ${k}. ${val}`)
+  .join('\n')}` : '- Các phương án lựa chọn: (Được chụp trực tiếp trong ảnh đính kèm)'}
+- Đáp án đúng theo hệ thống: ${context.correctAnswers?.join(', ') || context.correctAnswer || 'Xem đánh dấu trên ảnh'}
+${context.explanation ? `- Ghi chú đề bài: ${context.explanation}` : ''}
+${context.imageUrl ? `- Có ảnh đề thi đính kèm trực tiếp trong yêu cầu.` : ''}`;
+  }
+
+  // Chuẩn bị ảnh base64 nếu có imageUrl
+  let imageInlinePart: { inlineData: { mimeType: string; data: string } } | null = null;
+  if (context?.imageBase64) {
+    imageInlinePart = { inlineData: context.imageBase64 };
+  } else if (context?.imageUrl) {
+    const fetched = await fetchImageAsBase64(context.imageUrl);
+    if (fetched) {
+      imageInlinePart = { inlineData: fetched };
+    }
+  }
+
+  // 1. Làm sạch danh sách tin nhắn: loại bỏ tin nhắn chào ban đầu và các tin nhắn báo lỗi
+  const cleanedMessages = messages.filter((m) => {
+    const text = m.text.trim();
+    if (!text) return false;
+    if (m.role === 'model') {
+      if (text.startsWith('⚠️') || text.includes('Không thể kết nối Gemini')) return false;
+      if (text.includes('Xin chào bạn!') || text.includes('Cuộc trò chuyện đã được làm mới')) return false;
+    }
+    return true;
+  });
+
+  // 2. Đảm bảo tin nhắn đầu tiên gửi cho Gemini luôn có role 'user'
+  while (cleanedMessages.length > 0 && cleanedMessages[0].role !== 'user') {
+    cleanedMessages.shift();
+  }
+
+  if (cleanedMessages.length === 0) {
+    cleanedMessages.push({ role: 'user', text: 'Hãy giải thích câu hỏi này.' });
+  }
+
+  // 3. Giới hạn tối đa 6 tin nhắn gần nhất để tránh phình token
+  const recentMessages = cleanedMessages.slice(-6);
+
+  // 4. Định dạng contents đảm bảo xen kẽ role hợp lệ theo chuẩn Gemini API
+  const formattedContents: { role: 'user' | 'model'; parts: any[] }[] = [];
+  for (let i = 0; i < recentMessages.length; i++) {
+    const m = recentMessages[i];
+    const isLatest = i === recentMessages.length - 1;
+    const parts: any[] = [];
+    if (isLatest && m.role === 'user' && imageInlinePart) {
+      parts.push(imageInlinePart);
+    }
+    parts.push({ text: m.text });
+
+    if (formattedContents.length > 0 && formattedContents[formattedContents.length - 1].role === (m.role === 'model' ? 'model' : 'user')) {
+      formattedContents[formattedContents.length - 1].parts.push(...parts);
+    } else {
+      formattedContents.push({
+        role: m.role === 'model' ? 'model' : 'user',
+        parts,
+      });
+    }
+  }
+
+  // Safety settings BLOCK_NONE cho cả 5 danh mục để tránh báo động giả với các môn lịch sử/chính trị (VNR202, HCM202)
+  const safetySettings = [
+    { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_NONE' },
+    { category: 'HARM_CATEGORY_CIVIC_INTEGRITY', threshold: 'BLOCK_NONE' },
+  ];
+
+  const MAX_ATTEMPTS = 3;
+  let lastErr: any = null;
+
+  // Tự động thử lại tối đa 3 lần trước khi hiển thị thông báo lỗi cho người dùng
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    if (attempt > 1) {
+      onRetryProgress?.(attempt, MAX_ATTEMPTS, `Đang tự động thử lại kết nối (lần ${attempt}/${MAX_ATTEMPTS})...`);
+    }
+
+    // Nhiệt độ tăng dần nếu bị ngắt do recitation (trùng tài liệu) để AI tự diễn đạt lại linh hoạt hơn
+    const currentTemperature = attempt === 1 ? 0.35 : 0.5 + (attempt - 2) * 0.15;
+
+    const body = {
+      contents: formattedContents,
+      systemInstruction: {
+        parts: [{ text: systemText }],
+      },
+      safetySettings,
+      generationConfig: {
+        temperature: currentTemperature,
+        maxOutputTokens: 8192,
+        thinkingConfig: {
+          thinkingBudget: 0,
+        },
+      },
+    };
+
+    // Lần lượt thử qua các candidate models (gemini-2.5-flash -> gemini-2.5-flash-lite -> gemini-flash-latest)
+    for (const model of CANDIDATE_MODELS) {
+      try {
+        await throttle();
+
+        const resp = await fetch(`${API_ENDPOINT}/${model}:generateContent?key=${encodeURIComponent(apiKey)}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        });
+
+        if (!resp.ok) {
+          let detail = '';
+          try {
+            const err = await resp.json();
+            detail = err?.error?.message || JSON.stringify(err);
+          } catch {
+            detail = await resp.text();
+          }
+
+          // Nếu model này bị 429 (hết quota) hoặc 503 (quá tải), ghi nhận lỗi và fallback sang model kế tiếp
+          if (resp.status === 429 || resp.status === 503) {
+            console.warn(`Model ${model} phản hồi ${resp.status}, tự động chuyển sang model kế tiếp...`);
+            lastErr = new Error(`Model ${model} (${resp.status}): ${detail.slice(0, 200)}`);
+            continue;
+          }
+
+          throw new Error(`Lỗi Gemini API (${resp.status}): ${detail.slice(0, 300)}`);
+        }
+
+        const data = await resp.json();
+        const candidate = data?.candidates?.[0];
+        const finishReason = candidate?.finishReason || 'N/A';
+        const blockReason = data?.promptFeedback?.blockReason;
+
+        if (blockReason) {
+          console.warn(`Nội dung bị chặn bởi Gemini (${blockReason})`);
+          lastErr = new Error(`Nội dung bị chặn bởi bộ lọc Gemini (${blockReason}).`);
+          continue;
+        }
+
+        const partsOut = candidate?.content?.parts as Array<{ text?: string } | undefined> | undefined;
+        const reply = (partsOut || []).map((p) => p?.text || '').join('').trim();
+
+        // NẾU BỊ CẮT BỞI RECITATION (trùng khớp nguyên văn giáo trình):
+        // KHÔNG trả về đoạn văn bị đứt giữa câu, ghi nhận để thử lại với diễn đạt mới
+        if (finishReason === 'RECITATION') {
+          console.warn(`Model ${model} bị cắt giữa chừng bởi bộ lọc RECITATION (trùng tài liệu). Tự động thử lại...`);
+          lastErr = new Error('Câu trả lời bị cắt giữa chừng do trùng khớp văn bản giáo trình (Recitation). Đang tự động thử lại...');
+          continue;
+        }
+
+        if (reply) {
+          return reply;
+        }
+
+        if (finishReason && finishReason !== 'STOP') {
+          lastErr = new Error(`Gemini kết thúc với mã ${finishReason}.`);
+        }
+      } catch (err: any) {
+        lastErr = err;
+      }
+    }
+
+    // Nếu các model trong lượt này chưa thành công và chưa hết 3 lần thử, chờ tăng dần rồi thử lại
+    if (attempt < MAX_ATTEMPTS) {
+      await sleep(attempt * 1200);
+    }
+  }
+
+  throw lastErr || new Error('Đã tự động thử lại 3 lần qua các model nhưng không nhận được phản hồi. Vui lòng thử lại!');
+}

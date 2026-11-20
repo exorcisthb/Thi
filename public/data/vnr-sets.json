@@ -32762,1094 +32762,6 @@
     "createdAt": 1729800029000
   },
   {
-    "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023",
-    "name": "[FE] VNR202 - Block 5 - FE - FALL2023",
-    "subject": "VNR202",
-    "questions": [
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q1",
-        "content": "Việt Nam hoàn thành nhiệm vụ thống nhất đất nước về mặt nhà nước vào:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_01.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q2",
-        "content": "Bản chỉ thị \"Kháng chiến, kiến quốc\" ngày 25/11/1945 của Trung ương Đảng đã xác định ai là kẻ thù chính của cách mạng Việt Nam lúc này?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_02.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q3",
-        "content": "Hội nghị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam (10-1930) đã đổi tên Đảng thành:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_03.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q4",
-        "content": "Tại sao cần cải cách chính sách tiền lương, bảo hiểm xã hội và trợ cấp ưu đãi người có công giai đoạn 2008 - 2012?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_04.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q5",
-        "content": "Tính chất toàn diện trong cuộc kháng chiến chống Pháp được hiểu là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_05.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q6",
-        "content": "Lực lượng tạo nên động lực cho cách mạng Việt Nam được nêu ra trong Chính cương của Đảng Lao động Việt Nam là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_06.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q7",
-        "content": "Chủ trương, nhận định nào là hạn chế của Đảng tại Đại hội lần thứ IV (1976)?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_07.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q8",
-        "content": "Tác phẩm \"Kháng chiến nhất định thắng lợi\" là của ai?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_08.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q9",
-        "content": "Một trong những nội dung phát triển kinh tế mà Đại hội Đảng lần thứ VI đề ra là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_09.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q10",
-        "content": "Phong trào Đồng Khởi làm thất bại hình thức chiến lược chiến tranh nào của Mỹ?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_10.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q11",
-        "content": "Đại hội đại biểu toàn quốc lần thứ III của Đảng được tổ chức tại:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_11.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q12",
-        "content": "Trong 5 yếu tố chính để tăng trưởng kinh tế, yếu tố nào giữ vai trò quyết định?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_12.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q13",
-        "content": "Tên gọi \"Nước Cộng hòa xã hội chủ nghĩa Việt Nam\" có từ khi nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_13.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q14",
-        "content": "Trước cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp (1897 - 1913), ở Việt Nam có những giai cấp nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_14.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q15",
-        "content": "Đường lối Đổi mới được Đảng đề ra tại Đại hội VI (1986) nhằm:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_15.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q16",
-        "content": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội được Đại hội Đảng lần thứ VII (1991) thông qua xác định xã hội xã hội chủ nghĩa mà nhân dân ta xây dựng có mấy đặc trưng cơ bản?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_16.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q17",
-        "content": "Tổng kết thành tựu 35 năm lãnh đạo công cuộc Đổi mới, Đại hội XIII của Đảng (1/2021) khẳng định:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_17.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q18",
-        "content": "Trong phong trào dân chủ 1936 - 1939, nhân dân Việt Nam thực hiện một trong những nhiệm vụ trực tiếp, trước mắt là đấu tranh:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_18.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q19",
-        "content": "Đường lối chung xây dựng XHCN ở miền Bắc (1954 - 1975) được đề cập ở Đại hội lần thứ mấy của Đảng?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_19.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q20",
-        "content": "Mục tiêu xây dựng chủ nghĩa xã hội ở Việt Nam là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_20.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q21",
-        "content": "Phát xít Nhật xâm lược nước ta vào ngày, tháng, năm nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_21.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q22",
-        "content": "Chiến thắng Phước Long (1/1975) có ý nghĩa như thế nào đối với việc Đảng đề ra quyết tâm chiến lược giải phóng miền Nam trong hai năm 1975 - 1976?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_22.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q23",
-        "content": "Mục tiêu cụ thể trước mắt của cao trào cách mạng 1936 - 1939 là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_23.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q24",
-        "content": "Đoàn đại biểu miền Nam do ai dẫn đầu để hiệp thương thống nhất với miền Bắc sau năm 1975?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_24.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q25",
-        "content": "Hội nghị thành lập Đảng Cộng sản Việt Nam được tổ chức ở đâu?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_25.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q26",
-        "content": "Hội nghị nào của Đảng mở đường cho phong trào \"Đồng khởi\" ở miền Nam năm 1960?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_26.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q27",
-        "content": "Việt Nam gia nhập tổ chức ASEAN năm nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_27.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q28",
-        "content": "Thắng lợi nào của quân và dân ta trong cuộc kháng chiến chống Pháp đã làm phá sản hoàn toàn kế hoạch Nava?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_28.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q29",
-        "content": "Nguyên nhân cơ bản nhất dẫn đến thắng lợi của cuộc kháng chiến chống Pháp là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_29.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q30",
-        "content": "Xu hướng giải phóng dân tộc theo con đường cải cách đất nước gắn với tên tuổi của nhà yêu nước nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_30.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q31",
-        "content": "Một trong những nội dung của Chương trình hành động của Đảng Cộng sản Đông Dương là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_31.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q32",
-        "content": "Sau Cách mạng tháng Tám đến 1954, kẻ thù chính của nhân dân Việt Nam là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_32.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q33",
-        "content": "Đại hội Đảng lần thứ II xác định nhiệm vụ của cách mạng Việt Nam là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_33.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q34",
-        "content": "Hội nghị Trung ương III, khóa VIII tháng 12/1996 đã chủ trương:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_34.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q35",
-        "content": "Đảng đánh giá thế nào về bộ phận công chức nhà nước hiện nay?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_35.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q36",
-        "content": "Sự kiện nào được Nguyễn Ái Quốc đánh giá là \"một bước ngoặt vô cùng quan trọng trong lịch sử Cách mạng Việt Nam ta\"?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_36.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q37",
-        "content": "Cuộc tập dượt thứ nhất của Đảng chuẩn bị cho thắng lợi của Cách mạng tháng Tám là giai đoạn:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_37.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q38",
-        "content": "Hội nghị Trung ương VIII khóa IX tháng 7/2003 đã ban hành:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_38.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q39",
-        "content": "Tại hội nghị nào, Ban Chấp hành Trung ương Đảng quyết định để nhân dân miền Nam sử dụng bạo lực cách mạng đánh đổ chính quyền Mĩ - Diệm?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_39.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q40",
-        "content": "Sau khi Mỹ thực hiện chiến lược \"chiến tranh cục bộ\", Đảng xác định nhiệm vụ cách mạng của miền Bắc là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_40.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q41",
-        "content": "Đại hội lần thứ V của Đảng (1982) đã coi lĩnh vực nào là mặt trận hàng đầu?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_41.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q42",
-        "content": "Nhiệm vụ của cách mạng Việt Nam được xác định trong Cương lĩnh chính trị đầu tiên của Đảng là gì?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_42.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q43",
-        "content": "Đại hội Đảng lần thứ IV (12/1976) quyết định đổi tên Đảng thành:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_43.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q44",
-        "content": "Hội nghị Trung ương II, khóa VIII tháng 12/1996 nhận định phát triển khoa học và công nghệ là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_44.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q45",
-        "content": "Sau đại thắng mùa xuân 1975, đất nước độc lập thống nhất, Chủ tịch nước là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_45.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q46",
-        "content": "Nét nổi bật nhất về tình hình chính trị ở Việt Nam sau khi Hiệp định Giơnevơ về Đông Dương được ký kết là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_46.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q47",
-        "content": "Đường lối kháng chiến chống thực dân Pháp thể hiện trong ba văn kiện quan trọng, đó là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_47.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q48",
-        "content": "Chống phát xít, chống chiến tranh đế quốc, chống bọn phản động thuộc địa và tay sai là nhiệm vụ cách mạng được Đảng đề ra trong giai đoạn nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_48.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q49",
-        "content": "Qua thực tế lãnh đạo phong trào cách mạng 1930 - 1931, Đảng ta đã trưởng thành nhanh chóng. Do đó, tháng 4/1931 Đảng ta được Quốc tế Cộng sản công nhận:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_49.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q50",
-        "content": "Tại Đại hội lần thứ II, Đảng Cộng sản Đông Dương quyết định tách ra thành ba đảng cách mạng ở ba nước Đông Dương. Ở Việt Nam, Đảng ra hoạt động công khai tên là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_50.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q51",
-        "content": "Hội nghị Trung ương VII khóa XII đã ban hành Nghị quyết số 28-NQ/TW ngày 23/5/2018 về:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_51.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q52",
-        "content": "Đâu là hạn chế của Đảng trong quá trình lãnh đạo, chỉ đạo các hoạt động quân sự năm 1968?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_52.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q53",
-        "content": "Sự kiện nào được Nguyễn Ái Quốc đánh giá \"Nó là quả trứng, mà từ đó nở ra con chim non Cộng sản\"?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_53.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q54",
-        "content": "Kỳ họp thứ nhất Quốc hội khóa VI (24/6 - 3/7/1976) quyết định đặt tên nước là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_54.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q55",
-        "content": "Căn cứ địa cách mạng của ta trong cuộc kháng chiến chống Pháp xâm lược lần thứ hai là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_55.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q56",
-        "content": "Đặc điểm lớn nhất của cách mạng Việt Nam sau tháng 7/1954 là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_56.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q57",
-        "content": "Hội nghị thành lập Đảng Cộng sản Việt Nam thông qua mấy văn kiện do lãnh tụ Nguyễn Ái Quốc soạn thảo?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_57.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q58",
-        "content": "Tại sao phải tăng cường công tác kiểm tra, giám sát của Đảng?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_58.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q59",
-        "content": "Nội dung nào không phản ánh thành tựu của kế hoạch Nhà nước 5 năm (1961 - 1965)?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_59.png"
-      },
-      {
-        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q60",
-        "content": "Sau năm 1975, đất nước ta bước vào thời kỳ:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_60.png"
-      }
-    ],
-    "createdAt": 1729800030000
-  },
-  {
     "id": "vnr202-45_fe_vnr202_-_fa_2023_-_re",
     "name": "[FE] VNR202 - FA 2023 - RE",
     "subject": "VNR202",
@@ -39218,1346 +38130,6 @@
     "createdAt": 1729800035000
   },
   {
-    "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe",
-    "name": "[FE] VNR202 - SP 2023 - FE",
-    "subject": "VNR202",
-    "questions": [
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q1",
-        "content": "Theo quan điểm của Đại hội X, nội dung nào sau đây không thể hiện định hướng xã hội chủ nghĩa đối với kinh tế thị trường nước ta:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_01.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q2",
-        "content": "Lãnh tụ cao nhất của Đảng bị địch bắt sau Cao trào cách mạng 1930 - 1931 là ai?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_02.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q3",
-        "content": "Đảng xác định mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế là ở chỗ:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_03.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q4",
-        "content": "Việt Nam và Trung Quốc đã ký thỏa thuận khung khống chế hệ thống vào năm 1999 theo phương châm:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_04.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q5",
-        "content": "Khi nói về đấu tranh giai cấp trong thời kỳ quá độ lên CNXH, Đảng khẳng định:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_05.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q6",
-        "content": "Hiện nay, trong nền kinh tế thị trường ở nước ta, nhà nước có chức năng kinh tế gì?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_06.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q7",
-        "content": "Đối tượng của cách mạng Việt Nam được xác định trong Cương lĩnh chính trị đầu tiên của Đảng (2/1930) là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_07.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q8",
-        "content": "Các thành phần kinh tế ở nước ta hiện nay được Đảng xác định là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_08.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q9",
-        "content": "Chính sách thống trị của thực dân Pháp ở Việt Nam và Đông Dương có nội dung cốt lõi là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_09.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q10",
-        "content": "Nguyễn Ái Quốc đã trở thành người cộng sản vào thời gian nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_10.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q11",
-        "content": "Mục tiêu văn hóa xã hội phải gắn liền với mục tiêu nào sau đây:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_11.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q12",
-        "content": "Đại hội toàn quốc nào của Đảng rút ra bài học kinh nghiệm: \"Một là: Trong toàn bộ hoạt động của mình, Đảng phải quán triệt tư tưởng lấy dân làm gốc\"?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_12.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q13",
-        "content": "Mối quan hệ giữa hai nhiệm vụ cách mạng của hai miền được Đại hội III của Đảng xác định là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_13.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q14",
-        "content": "An sinh xã hội thuộc chính sách nào sau đây?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_14.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q15",
-        "content": "Đâu không phải là một tư tưởng chỉ đạo đối ngoại, hội nhập kinh tế quốc tế của Đảng?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_15.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q16",
-        "content": "Đảng ta xác định công nghiệp hóa XHCN là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_16.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q17",
-        "content": "Để tránh sự chú ý và đàn áp của Pháp, Đảng ta đã tuyên bố tự giải tán vào ngày tháng năm nào và đổi tên là gì?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_17.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q18",
-        "content": "Điểm cốt lõi của cơ sở chính trị trong hệ thống chuyên chính vô sản là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_18.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q19",
-        "content": "Đảng Cộng sản Việt Nam đóng vai trò gì trong hệ thống chính trị ở nước ta?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_19.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q20",
-        "content": "Đại hội đại biểu toàn quốc của Đảng Cộng sản Đông Dương vào tháng 3-1935 bầu ai làm Tổng Bí thư?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_20.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q21",
-        "content": "Cuốn \"Đường Kách Mệnh\" tập hợp các bài giảng của Nguyễn Ái Quốc tại các khóa huấn luyện chính trị được xuất bản tại đâu?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_21.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q22",
-        "content": "Đại hội lần thứ III (9-1960) Đảng Lao động Việt Nam khẳng định nhiệm vụ cách mạng giữ vai trò quyết định nhất đó là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_22.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q23",
-        "content": "Chính phủ nước Việt Nam Dân chủ Cộng hòa do Hồ Chí Minh làm Chủ tịch ra mắt quốc dân vào ngày, tháng, năm nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_23.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q24",
-        "content": "Việt Nam là thành viên thứ bao nhiêu của Tổ chức Thương mại thế giới (WTO)?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_24.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q25",
-        "content": "Thời gian và địa điểm diễn ra Đại hội lần thứ II của Đảng là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_25.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q26",
-        "content": "Đặc trưng chủ yếu của công nghiệp hóa thời kỳ trước đổi mới là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_26.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q27",
-        "content": "Luật đầu tư nước ngoài tại Việt Nam ban hành vào thời gian nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_27.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q28",
-        "content": "Đại hội X xác định mục tiêu cụ thể đẩy mạnh công nghiệp hóa, hiện đại hóa là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_28.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q29",
-        "content": "Mục tiêu chủ yếu của mỗi hệ thống chính trị là nhằm:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_29.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q30",
-        "content": "Đảng đánh giá như thế nào về bộ phận công chức nhà nước hiện nay?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_30.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q31",
-        "content": "Tại hội nghị thành lập Đảng, Ban Chấp hành Trung ương lâm thời được cử ra do ai đứng đầu?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_31.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q32",
-        "content": "Điều kiện nào không tạo ra khả năng đấu tranh công khai, hợp pháp cho phong trào dân chủ Đông Dương (1936-1939)?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_32.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q33",
-        "content": "Về vị trí của Đảng Cộng sản Việt Nam được xác định trong bản Cương lĩnh cách mạng đầu tiên là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_33.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q34",
-        "content": "Tháng 7-1995 Việt Nam gia nhập tổ chức nào dưới đây?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_34.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q35",
-        "content": "Nói về quá trình đổi mới hệ thống chính trị, Đảng khẳng định:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_35.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q36",
-        "content": "Khi nói về động lực chủ yếu để phát triển đất nước, Đảng nhận thức:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_36.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q37",
-        "content": "Biện pháp hoàn thiện khung pháp lý cho việc ký kết và thực hiện hợp đồng phù hợp với chủ trương nào sau đây của Đảng?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_37.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q38",
-        "content": "Chủ trương \"Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước\" được đề ra tại Đại hội nào sau đây của Đảng?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_38.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q39",
-        "content": "Đại hội Đảng toàn quốc lần thứ II của Đảng Lao động Việt Nam đã thông qua một văn kiện mang tính chất cương lĩnh. Đó là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_39.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q40",
-        "content": "Hai khẩu hiệu mà Đảng ta vận động trong phong trào cách mạng 1930-1931 là gì?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_40.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q41",
-        "content": "Nội dung nào không thuộc đặc điểm chủ yếu của kinh tế thị trường định hướng xã hội chủ nghĩa?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_41.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q42",
-        "content": "Chống phát xít, chống chiến tranh đế quốc, chống bọn phản động thuộc địa và tay sai là nhiệm vụ cách mạng được Đảng đề ra trong giai đoạn nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_42.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q43",
-        "content": "Quan niệm về nền văn hóa Việt Nam có đặc trưng tiên tiến, đậm đà bản sắc dân tộc lần đầu được đưa ra tại Đại hội Đảng lần thứ mấy?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_43.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q44",
-        "content": "Các đại biểu rời khỏi hội nghị thành lập Đảng Cộng sản Việt Nam và trở về nước vào thời gian nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_44.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q45",
-        "content": "Trọng tâm của đổi mới hệ thống chính trị là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_45.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q46",
-        "content": "Việc xác định tiến hành đồng thời 3 cuộc cách mạng về quan hệ sản xuất, khoa học kỹ thuật, tư tưởng văn hóa, trong đó cách mạng khoa học kỹ thuật là then chốt được đưa ra ở đâu?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_46.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q47",
-        "content": "Điền vào chỗ trống. Mục tiêu cụ thể được nêu trong Đại hội lần thứ XIII của Đảng đó là: \"Đến năm 2025, kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước: là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập...\"",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_47.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q48",
-        "content": "Chỉ thị \"Kháng chiến kiến quốc\" của Đảng vạch ra khẩu hiệu chiến lược là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_48.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q49",
-        "content": "Câu nào sau đây không đúng với đặc điểm của kinh tế thị trường ở Việt Nam?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_49.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q50",
-        "content": "Chọn nội dung sai trong chủ trương đối ngoại của Đảng tại Đại hội lần thứ V (3-1982) của Đảng?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_50.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q51",
-        "content": "Quan điểm nào sau đây được Đại hội Đảng toàn quốc lần thứ VI đưa ra khi bàn về mục tiêu của chính sách xã hội?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_51.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q52",
-        "content": "Đại hội VI đã phê phán những sai lầm trong nhận thức về chủ trương công nghiệp hóa, hiện đại hóa thời kỳ 1960-1985.",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_52.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q53",
-        "content": "Biện pháp \"Xử lý triệt để những ô nhiễm môi trường nghiêm trọng và ngăn chặn để không phát sinh thêm\" phù hợp với chủ trương nào sau đây của Đảng?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_53.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q54",
-        "content": "Khi bắt đầu tiến hành xâm lược Việt Nam, thực dân Pháp đã thực hiện chiến lược:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_54.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q55",
-        "content": "Phong trào mà Đảng ta vận động nhân dân chống nạn mù chữ diễn ra sau Cách mạng Tháng Tám năm 1945 là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_55.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q56",
-        "content": "Phương châm kháng chiến \"Dựa vào sức mình là chính\" được Đảng xác định là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_56.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q57",
-        "content": "Sự lãnh đạo toàn diện và tuyệt đối của Đảng là điểm cốt lõi của cơ sở chính trị trong hệ thống gì?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_57.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q58",
-        "content": "Quốc tế Cộng sản (Quốc tế III) được thành lập vào năm nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_58.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q59",
-        "content": "Đại hội IV của Đảng (tháng 12/1976), trên cơ sở phân tích toàn diện tình hình trong nước và quốc tế, đề ra đường lối công nghiệp hóa xã hội chủ nghĩa là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_59.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q60",
-        "content": "Hội nghị Trung ương Đảng lần thứ 11 tháng 3 năm 1965 và Hội nghị Trung ương Đảng lần thứ 12 tháng 12 năm 1965 đề ra khẩu hiệu chung của nhân dân cả nước là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_60.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q61",
-        "content": "Nội dung nào không phải là mục tiêu phát triển kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_61.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q62",
-        "content": "Nội dung nào không đúng trong chính sách xã hội cấp bách thời kỳ 1945 - 1954 là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_62.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q63",
-        "content": "Chính sách cai trị của thực dân Pháp trên lĩnh vực văn hóa như thế nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: C",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_63.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q64",
-        "content": "Sau khi Mỹ thực hiện chiến lược \"Chiến tranh cục bộ\", Đảng nhận định tình hình:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_64.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q65",
-        "content": "Trước cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp (1897 - 1913), ở Việt Nam có những giai cấp nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_65.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q66",
-        "content": "Đại hội VI của Đảng đã cụ thể hóa nội dung chính của công nghiệp hóa xã hội chủ nghĩa trong những năm còn lại của chặng đường đầu tiên thời kỳ quá độ là thực hiện cho được ba chương trình mục tiêu:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_66.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q67",
-        "content": "Chánh cương vắn tắt, Sách lược vắn tắt do Hội nghị thành lập Đảng thông qua đã đặt nhiệm vụ gì lên hàng đầu?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_67.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q68",
-        "content": "Hội nghị lần thứ 7 Ban Chấp hành Trung ương Đảng khóa III (tháng 4/1962) nêu phương hướng chỉ đạo và phát triển công nghiệp là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_68.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q69",
-        "content": "Điền từ đúng vào phương châm đối ngoại mà Đại hội lần IX của Đảng (4-2001) đưa ra: \"Việt Nam _____ là bạn, là đối tác tin cậy của các nước trong cộng đồng quốc tế, phấn đấu vì hòa bình, độc lập và phát triển\".",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: B",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_69.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q70",
-        "content": "Chủ trương điều chỉnh chiến lược cách mạng của Đảng được bắt đầu từ Hội nghị Trung ương nào của khóa I?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_70.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q71",
-        "content": "Chính sách xã hội được Đảng xác định là:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_71.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q72",
-        "content": "Chế độ phân phối trong thời kỳ trước đổi mới thông qua:",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_72.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q73",
-        "content": "Nội dung nào không phải là quan điểm cơ bản của Đảng về công nghiệp hóa, hiện đại hóa?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: D",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_73.png"
-      },
-      {
-        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q74",
-        "content": "Bài học \"giương cao ngọn cờ độc lập dân tộc, kết hợp đúng đắn hai nhiệm vụ chống đế quốc và chống phong kiến\" được Đảng rút ra sau thời gian nào?",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D",
-          "E": ""
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Đáp án đúng: A",
-        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_74.png"
-      }
-    ],
-    "createdAt": 1729800036000
-  },
-  {
     "id": "vnr202-52_fe_vnr202_-_su_2023_-_fe",
     "name": "[FE] VNR202 - SU 2023 - FE",
     "subject": "VNR202",
@@ -42264,5 +39836,2433 @@
       }
     ],
     "createdAt": 1729800038000
+  },
+  {
+    "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe",
+    "name": "[FE] VNR202 - SP 2023 - FE",
+    "subject": "VNR202",
+    "questions": [
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q1",
+        "content": "Theo quan điểm của Đại hội X, nội dung nào sau đây không thể hiện định hướng xã hội chủ nghĩa đối với kinh tế thị trường nước ta:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_01.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q2",
+        "content": "Lãnh tụ cao nhất của Đảng bị địch bắt sau Cao trào cách mạng 1930 - 1931 là ai?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_02.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q3",
+        "content": "Đảng xác định mục tiêu của chính sách xã hội thống nhất với mục tiêu phát triển kinh tế là ở chỗ:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_03.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q4",
+        "content": "Việt Nam và Trung Quốc đã ký thỏa thuận khung khống chế hệ thống vào năm 1999 theo phương châm:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_04.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q5",
+        "content": "Khi nói về đấu tranh giai cấp trong thời kỳ quá độ lên CNXH, Đảng khẳng định:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_05.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q6",
+        "content": "Hiện nay, trong nền kinh tế thị trường ở nước ta, nhà nước có chức năng kinh tế gì?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_06.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q7",
+        "content": "Đối tượng của cách mạng Việt Nam được xác định trong Cương lĩnh chính trị đầu tiên của Đảng (2/1930) là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_07.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q8",
+        "content": "Các thành phần kinh tế ở nước ta hiện nay được Đảng xác định là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_08.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q9",
+        "content": "Chính sách thống trị của thực dân Pháp ở Việt Nam và Đông Dương có nội dung cốt lõi là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_09.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q10",
+        "content": "Nguyễn Ái Quốc đã trở thành người cộng sản vào thời gian nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_10.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q11",
+        "content": "Mục tiêu văn hóa xã hội phải gắn liền với mục tiêu nào sau đây:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_11.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q12",
+        "content": "Đại hội toàn quốc nào của Đảng rút ra bài học kinh nghiệm: \"Một là: Trong toàn bộ hoạt động của mình, Đảng phải quán triệt tư tưởng lấy dân làm gốc\"?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_12.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q13",
+        "content": "Mối quan hệ giữa hai nhiệm vụ cách mạng của hai miền được Đại hội III của Đảng xác định là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_13.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q14",
+        "content": "An sinh xã hội thuộc chính sách nào sau đây?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_14.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q15",
+        "content": "Đâu không phải là một tư tưởng chỉ đạo đối ngoại, hội nhập kinh tế quốc tế của Đảng?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_15.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q16",
+        "content": "Đảng ta xác định công nghiệp hóa XHCN là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_16.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q17",
+        "content": "Để tránh sự chú ý và đàn áp của Pháp, Đảng ta đã tuyên bố tự giải tán vào ngày tháng năm nào và đổi tên là gì?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_17.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q18",
+        "content": "Điểm cốt lõi của cơ sở chính trị trong hệ thống chuyên chính vô sản là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_18.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q19",
+        "content": "Đảng Cộng sản Việt Nam đóng vai trò gì trong hệ thống chính trị ở nước ta?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_19.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q20",
+        "content": "Đại hội đại biểu toàn quốc của Đảng Cộng sản Đông Dương vào tháng 3-1935 bầu ai làm Tổng Bí thư?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_20.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q21",
+        "content": "Cuốn \"Đường Kách Mệnh\" tập hợp các bài giảng của Nguyễn Ái Quốc tại các khóa huấn luyện chính trị được xuất bản tại đâu?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_21.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q22",
+        "content": "Đại hội lần thứ III (9-1960) Đảng Lao động Việt Nam khẳng định nhiệm vụ cách mạng giữ vai trò quyết định nhất đó là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_22.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q23",
+        "content": "Chính phủ nước Việt Nam Dân chủ Cộng hòa do Hồ Chí Minh làm Chủ tịch ra mắt quốc dân vào ngày, tháng, năm nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_23.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q24",
+        "content": "Việt Nam là thành viên thứ bao nhiêu của Tổ chức Thương mại thế giới (WTO)?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_24.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q25",
+        "content": "Thời gian và địa điểm diễn ra Đại hội lần thứ II của Đảng là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_25.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q26",
+        "content": "Đặc trưng chủ yếu của công nghiệp hóa thời kỳ trước đổi mới là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_26.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q27",
+        "content": "Luật đầu tư nước ngoài tại Việt Nam ban hành vào thời gian nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_27.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q28",
+        "content": "Đại hội X xác định mục tiêu cụ thể đẩy mạnh công nghiệp hóa, hiện đại hóa là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_28.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q29",
+        "content": "Mục tiêu chủ yếu của mỗi hệ thống chính trị là nhằm:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_29.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q30",
+        "content": "Đảng đánh giá như thế nào về bộ phận công chức nhà nước hiện nay?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_30.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q31",
+        "content": "Tại hội nghị thành lập Đảng, Ban Chấp hành Trung ương lâm thời được cử ra do ai đứng đầu?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_31.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q32",
+        "content": "Điều kiện nào không tạo ra khả năng đấu tranh công khai, hợp pháp cho phong trào dân chủ Đông Dương (1936-1939)?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_32.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q33",
+        "content": "Về vị trí của Đảng Cộng sản Việt Nam được xác định trong bản Cương lĩnh cách mạng đầu tiên là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_33.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q34",
+        "content": "Tháng 7-1995 Việt Nam gia nhập tổ chức nào dưới đây?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_34.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q35",
+        "content": "Nói về quá trình đổi mới hệ thống chính trị, Đảng khẳng định:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_35.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q36",
+        "content": "Khi nói về động lực chủ yếu để phát triển đất nước, Đảng nhận thức:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_36.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q37",
+        "content": "Biện pháp hoàn thiện khung pháp lý cho việc ký kết và thực hiện hợp đồng phù hợp với chủ trương nào sau đây của Đảng?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_37.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q38",
+        "content": "Chủ trương \"Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước\" được đề ra tại Đại hội nào sau đây của Đảng?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_38.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q39",
+        "content": "Đại hội Đảng toàn quốc lần thứ II của Đảng Lao động Việt Nam đã thông qua một văn kiện mang tính chất cương lĩnh. Đó là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_39.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q40",
+        "content": "Hai khẩu hiệu mà Đảng ta vận động trong phong trào cách mạng 1930-1931 là gì?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_40.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q41",
+        "content": "Nội dung nào không thuộc đặc điểm chủ yếu của kinh tế thị trường định hướng xã hội chủ nghĩa?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_41.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q42",
+        "content": "Chống phát xít, chống chiến tranh đế quốc, chống bọn phản động thuộc địa và tay sai là nhiệm vụ cách mạng được Đảng đề ra trong giai đoạn nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_42.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q43",
+        "content": "Quan niệm về nền văn hóa Việt Nam có đặc trưng tiên tiến, đậm đà bản sắc dân tộc lần đầu được đưa ra tại Đại hội Đảng lần thứ mấy?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_43.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q44",
+        "content": "Các đại biểu rời khỏi hội nghị thành lập Đảng Cộng sản Việt Nam và trở về nước vào thời gian nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_44.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q45",
+        "content": "Trọng tâm của đổi mới hệ thống chính trị là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_45.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q46",
+        "content": "Việc xác định tiến hành đồng thời 3 cuộc cách mạng về quan hệ sản xuất, khoa học kỹ thuật, tư tưởng văn hóa, trong đó cách mạng khoa học kỹ thuật là then chốt được đưa ra ở đâu?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_46.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q47",
+        "content": "Điền vào chỗ trống. Mục tiêu cụ thể được nêu trong Đại hội lần thứ XIII của Đảng đó là: \"Đến năm 2025, kỷ niệm 50 năm giải phóng hoàn toàn miền Nam, thống nhất đất nước: là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập...\"",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_47.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q48",
+        "content": "Chỉ thị \"Kháng chiến kiến quốc\" của Đảng vạch ra khẩu hiệu chiến lược là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_48.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q49",
+        "content": "Câu nào sau đây không đúng với đặc điểm của kinh tế thị trường ở Việt Nam?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_49.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q50",
+        "content": "Chọn nội dung sai trong chủ trương đối ngoại của Đảng tại Đại hội lần thứ V (3-1982) của Đảng?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_50.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q51",
+        "content": "Quan điểm nào sau đây được Đại hội Đảng toàn quốc lần thứ VI đưa ra khi bàn về mục tiêu của chính sách xã hội?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_51.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q52",
+        "content": "Đại hội VI đã phê phán những sai lầm trong nhận thức về chủ trương công nghiệp hóa, hiện đại hóa thời kỳ 1960-1985.",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_52.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q53",
+        "content": "Biện pháp \"Xử lý triệt để những ô nhiễm môi trường nghiêm trọng và ngăn chặn để không phát sinh thêm\" phù hợp với chủ trương nào sau đây của Đảng?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_53.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q54",
+        "content": "Khi bắt đầu tiến hành xâm lược Việt Nam, thực dân Pháp đã thực hiện chiến lược:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_54.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q55",
+        "content": "Phong trào mà Đảng ta vận động nhân dân chống nạn mù chữ diễn ra sau Cách mạng Tháng Tám năm 1945 là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_55.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q56",
+        "content": "Phương châm kháng chiến \"Dựa vào sức mình là chính\" được Đảng xác định là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_56.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q57",
+        "content": "Sự lãnh đạo toàn diện và tuyệt đối của Đảng là điểm cốt lõi của cơ sở chính trị trong hệ thống gì?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_57.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q58",
+        "content": "Quốc tế Cộng sản (Quốc tế III) được thành lập vào năm nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_58.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q59",
+        "content": "Đại hội IV của Đảng (tháng 12/1976), trên cơ sở phân tích toàn diện tình hình trong nước và quốc tế, đề ra đường lối công nghiệp hóa xã hội chủ nghĩa là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_59.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q60",
+        "content": "Hội nghị Trung ương Đảng lần thứ 11 tháng 3 năm 1965 và Hội nghị Trung ương Đảng lần thứ 12 tháng 12 năm 1965 đề ra khẩu hiệu chung của nhân dân cả nước là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_60.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q61",
+        "content": "Nội dung nào không phải là mục tiêu phát triển kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_61.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q62",
+        "content": "Nội dung nào không đúng trong chính sách xã hội cấp bách thời kỳ 1945 - 1954 là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_62.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q63",
+        "content": "Chính sách cai trị của thực dân Pháp trên lĩnh vực văn hóa như thế nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_63.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q64",
+        "content": "Sau khi Mỹ thực hiện chiến lược \"Chiến tranh cục bộ\", Đảng nhận định tình hình:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_64.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q65",
+        "content": "Trước cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp (1897 - 1913), ở Việt Nam có những giai cấp nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_65.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q66",
+        "content": "Đại hội VI của Đảng đã cụ thể hóa nội dung chính của công nghiệp hóa xã hội chủ nghĩa trong những năm còn lại của chặng đường đầu tiên thời kỳ quá độ là thực hiện cho được ba chương trình mục tiêu:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_66.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q67",
+        "content": "Chánh cương vắn tắt, Sách lược vắn tắt do Hội nghị thành lập Đảng thông qua đã đặt nhiệm vụ gì lên hàng đầu?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_67.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q68",
+        "content": "Hội nghị lần thứ 7 Ban Chấp hành Trung ương Đảng khóa III (tháng 4/1962) nêu phương hướng chỉ đạo và phát triển công nghiệp là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_68.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q69",
+        "content": "Điền từ đúng vào phương châm đối ngoại mà Đại hội lần IX của Đảng (4-2001) đưa ra: \"Việt Nam _____ là bạn, là đối tác tin cậy của các nước trong cộng đồng quốc tế, phấn đấu vì hòa bình, độc lập và phát triển\".",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_69.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q70",
+        "content": "Chủ trương điều chỉnh chiến lược cách mạng của Đảng được bắt đầu từ Hội nghị Trung ương nào của khóa I?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_70.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q71",
+        "content": "Chính sách xã hội được Đảng xác định là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_71.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q72",
+        "content": "Chế độ phân phối trong thời kỳ trước đổi mới thông qua:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_72.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q73",
+        "content": "Nội dung nào không phải là quan điểm cơ bản của Đảng về công nghiệp hóa, hiện đại hóa?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_73.png"
+      },
+      {
+        "id": "vnr202-51_fe_vnr202_-_sp_2023_-_fe-q74",
+        "content": "Bài học \"giương cao ngọn cờ độc lập dân tộc, kết hợp đúng đắn hai nhiệm vụ chống đế quốc và chống phong kiến\" được Đảng rút ra sau thời gian nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/51_FE_VNR202_-_SP_2023_-_FE/Cau_74.png"
+      }
+    ],
+    "createdAt": 1729800036000
+  },
+  {
+    "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023",
+    "name": "[FE] VNR202 - Block 5 - FE - FALL2023",
+    "subject": "VNR202",
+    "questions": [
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q1",
+        "content": "Việt Nam hoàn thành nhiệm vụ thống nhất đất nước về mặt nhà nước vào:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_01.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q2",
+        "content": "Bản chỉ thị \"Kháng chiến, kiến quốc\" ngày 25/11/1945 của Trung ương Đảng đã xác định ai là kẻ thù chính của cách mạng Việt Nam lúc này?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_02.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q3",
+        "content": "Hội nghị Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam (10-1930) đã đổi tên Đảng thành:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_03.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q4",
+        "content": "Tại sao cần cải cách chính sách tiền lương, bảo hiểm xã hội và trợ cấp ưu đãi người có công giai đoạn 2008 - 2012?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_04.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q5",
+        "content": "Tính chất toàn diện trong cuộc kháng chiến chống Pháp được hiểu là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_05.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q6",
+        "content": "Lực lượng tạo nên động lực cho cách mạng Việt Nam được nêu ra trong Chính cương của Đảng Lao động Việt Nam là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_06.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q7",
+        "content": "Chủ trương, nhận định nào là hạn chế của Đảng tại Đại hội lần thứ IV (1976)?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_07.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q8",
+        "content": "Tác phẩm \"Kháng chiến nhất định thắng lợi\" là của ai?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_08.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q9",
+        "content": "Một trong những nội dung phát triển kinh tế mà Đại hội Đảng lần thứ VI đề ra là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_09.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q10",
+        "content": "Phong trào Đồng Khởi làm thất bại hình thức chiến lược chiến tranh nào của Mỹ?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_10.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q11",
+        "content": "Đại hội đại biểu toàn quốc lần thứ III của Đảng được tổ chức tại:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_11.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q12",
+        "content": "Trong 5 yếu tố chính để tăng trưởng kinh tế, yếu tố nào giữ vai trò quyết định?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_12.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q13",
+        "content": "Tên gọi \"Nước Cộng hòa xã hội chủ nghĩa Việt Nam\" có từ khi nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_13.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q14",
+        "content": "Trước cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp (1897 - 1913), ở Việt Nam có những giai cấp nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_14.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q15",
+        "content": "Đường lối Đổi mới được Đảng đề ra tại Đại hội VI (1986) nhằm:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_15.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q16",
+        "content": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội được Đại hội Đảng lần thứ VII (1991) thông qua xác định xã hội xã hội chủ nghĩa mà nhân dân ta xây dựng có mấy đặc trưng cơ bản?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_16.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q17",
+        "content": "Tổng kết thành tựu 35 năm lãnh đạo công cuộc Đổi mới, Đại hội XIII của Đảng (1/2021) khẳng định:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_17.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q18",
+        "content": "Trong phong trào dân chủ 1936 - 1939, nhân dân Việt Nam thực hiện một trong những nhiệm vụ trực tiếp, trước mắt là đấu tranh:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_18.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q19",
+        "content": "Đường lối chung xây dựng XHCN ở miền Bắc (1954 - 1975) được đề cập ở Đại hội lần thứ mấy của Đảng?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_19.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q20",
+        "content": "Mục tiêu xây dựng chủ nghĩa xã hội ở Việt Nam là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_20.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q21",
+        "content": "Phát xít Nhật xâm lược nước ta vào ngày, tháng, năm nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_21.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q22",
+        "content": "Chiến thắng Phước Long (1/1975) có ý nghĩa như thế nào đối với việc Đảng đề ra quyết tâm chiến lược giải phóng miền Nam trong hai năm 1975 - 1976?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_22.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q23",
+        "content": "Mục tiêu cụ thể trước mắt của cao trào cách mạng 1936 - 1939 là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_23.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q24",
+        "content": "Đoàn đại biểu miền Nam do ai dẫn đầu để hiệp thương thống nhất với miền Bắc sau năm 1975?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_24.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q25",
+        "content": "Hội nghị thành lập Đảng Cộng sản Việt Nam được tổ chức ở đâu?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_25.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q26",
+        "content": "Hội nghị nào của Đảng mở đường cho phong trào \"Đồng khởi\" ở miền Nam năm 1960?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_26.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q27",
+        "content": "Việt Nam gia nhập tổ chức ASEAN năm nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_27.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q28",
+        "content": "Thắng lợi nào của quân và dân ta trong cuộc kháng chiến chống Pháp đã làm phá sản hoàn toàn kế hoạch Nava?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_28.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q29",
+        "content": "Nguyên nhân cơ bản nhất dẫn đến thắng lợi của cuộc kháng chiến chống Pháp là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_29.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q30",
+        "content": "Xu hướng giải phóng dân tộc theo con đường cải cách đất nước gắn với tên tuổi của nhà yêu nước nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_30.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q31",
+        "content": "Một trong những nội dung của Chương trình hành động của Đảng Cộng sản Đông Dương là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_31.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q32",
+        "content": "Sau Cách mạng tháng Tám đến 1954, kẻ thù chính của nhân dân Việt Nam là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_32.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q33",
+        "content": "Đại hội Đảng lần thứ II xác định nhiệm vụ của cách mạng Việt Nam là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_33.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q34",
+        "content": "Hội nghị Trung ương III, khóa VIII tháng 12/1996 đã chủ trương:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_34.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q35",
+        "content": "Đảng đánh giá thế nào về bộ phận công chức nhà nước hiện nay?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_35.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q36",
+        "content": "Sự kiện nào được Nguyễn Ái Quốc đánh giá là \"một bước ngoặt vô cùng quan trọng trong lịch sử Cách mạng Việt Nam ta\"?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_36.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q37",
+        "content": "Cuộc tập dượt thứ nhất của Đảng chuẩn bị cho thắng lợi của Cách mạng tháng Tám là giai đoạn:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_37.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q38",
+        "content": "Hội nghị Trung ương VIII khóa IX tháng 7/2003 đã ban hành:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_38.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q39",
+        "content": "Tại hội nghị nào, Ban Chấp hành Trung ương Đảng quyết định để nhân dân miền Nam sử dụng bạo lực cách mạng đánh đổ chính quyền Mĩ - Diệm?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_39.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q40",
+        "content": "Sau khi Mỹ thực hiện chiến lược \"chiến tranh cục bộ\", Đảng xác định nhiệm vụ cách mạng của miền Bắc là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_40.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q41",
+        "content": "Đại hội lần thứ V của Đảng (1982) đã coi lĩnh vực nào là mặt trận hàng đầu?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_41.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q42",
+        "content": "Nhiệm vụ của cách mạng Việt Nam được xác định trong Cương lĩnh chính trị đầu tiên của Đảng là gì?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_42.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q43",
+        "content": "Đại hội Đảng lần thứ IV (12/1976) quyết định đổi tên Đảng thành:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_43.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q44",
+        "content": "Hội nghị Trung ương II, khóa VIII tháng 12/1996 nhận định phát triển khoa học và công nghệ là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_44.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q45",
+        "content": "Sau đại thắng mùa xuân 1975, đất nước độc lập thống nhất, Chủ tịch nước là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_45.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q46",
+        "content": "Nét nổi bật nhất về tình hình chính trị ở Việt Nam sau khi Hiệp định Giơnevơ về Đông Dương được ký kết là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_46.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q47",
+        "content": "Đường lối kháng chiến chống thực dân Pháp thể hiện trong ba văn kiện quan trọng, đó là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_47.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q48",
+        "content": "Chống phát xít, chống chiến tranh đế quốc, chống bọn phản động thuộc địa và tay sai là nhiệm vụ cách mạng được Đảng đề ra trong giai đoạn nào?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_48.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q49",
+        "content": "Qua thực tế lãnh đạo phong trào cách mạng 1930 - 1931, Đảng ta đã trưởng thành nhanh chóng. Do đó, tháng 4/1931 Đảng ta được Quốc tế Cộng sản công nhận:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_49.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q50",
+        "content": "Tại Đại hội lần thứ II, Đảng Cộng sản Đông Dương quyết định tách ra thành ba đảng cách mạng ở ba nước Đông Dương. Ở Việt Nam, Đảng ra hoạt động công khai tên là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_50.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q51",
+        "content": "Hội nghị Trung ương VII khóa XII đã ban hành Nghị quyết số 28-NQ/TW ngày 23/5/2018 về:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_51.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q52",
+        "content": "Đâu là hạn chế của Đảng trong quá trình lãnh đạo, chỉ đạo các hoạt động quân sự năm 1968?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_52.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q53",
+        "content": "Sự kiện nào được Nguyễn Ái Quốc đánh giá \"Nó là quả trứng, mà từ đó nở ra con chim non Cộng sản\"?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_53.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q54",
+        "content": "Kỳ họp thứ nhất Quốc hội khóa VI (24/6 - 3/7/1976) quyết định đặt tên nước là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_54.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q55",
+        "content": "Căn cứ địa cách mạng của ta trong cuộc kháng chiến chống Pháp xâm lược lần thứ hai là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_55.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q56",
+        "content": "Đặc điểm lớn nhất của cách mạng Việt Nam sau tháng 7/1954 là:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_56.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q57",
+        "content": "Hội nghị thành lập Đảng Cộng sản Việt Nam thông qua mấy văn kiện do lãnh tụ Nguyễn Ái Quốc soạn thảo?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_57.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q58",
+        "content": "Tại sao phải tăng cường công tác kiểm tra, giám sát của Đảng?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_58.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q59",
+        "content": "Nội dung nào không phản ánh thành tựu của kế hoạch Nhà nước 5 năm (1961 - 1965)?",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_59.png"
+      },
+      {
+        "id": "vnr202-44_fe_vnr202_-_block_5_-_fe_-_fall2023-q60",
+        "content": "Sau năm 1975, đất nước ta bước vào thời kỳ:",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/VNR202/44_FE_VNR202_-_Block_5_-_FE_-_FALL2023/Cau_60.png"
+      }
+    ],
+    "createdAt": 1729800030000
   }
 ]

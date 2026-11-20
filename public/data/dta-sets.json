@@ -1,0 +1,3266 @@
+[
+  {
+    "id": "dta301-dta301-su26-fe",
+    "name": "[FE] DTA301 - SU26 - FE",
+    "subject": "DTA301",
+    "questions": [
+      {
+        "id": "dta301-dta301-su26-fe-q1",
+        "content": "Câu hỏi trắc nghiệm số 1 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_01.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q2",
+        "content": "Câu hỏi trắc nghiệm số 2 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_02.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q3",
+        "content": "Câu hỏi trắc nghiệm số 3 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_03.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q4",
+        "content": "Câu hỏi trắc nghiệm số 4 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_04.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q5",
+        "content": "Câu hỏi trắc nghiệm số 5 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_05.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q6",
+        "content": "Câu hỏi trắc nghiệm số 6 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_06.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q7",
+        "content": "Câu hỏi trắc nghiệm số 7 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_07.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q8",
+        "content": "Câu hỏi trắc nghiệm số 8 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_08.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q9",
+        "content": "Câu hỏi trắc nghiệm số 9 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_09.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q10",
+        "content": "Câu hỏi trắc nghiệm số 10 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_10.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q11",
+        "content": "Câu hỏi trắc nghiệm số 11 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_11.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q12",
+        "content": "Câu hỏi trắc nghiệm số 12 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_12.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q13",
+        "content": "Câu hỏi trắc nghiệm số 13 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_13.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q14",
+        "content": "Câu hỏi trắc nghiệm số 14 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_14.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q15",
+        "content": "Câu hỏi trắc nghiệm số 15 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_15.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q16",
+        "content": "Câu hỏi trắc nghiệm số 16 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_16.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q17",
+        "content": "Câu hỏi trắc nghiệm số 17 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_17.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q18",
+        "content": "Câu hỏi trắc nghiệm số 18 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_18.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q19",
+        "content": "Câu hỏi trắc nghiệm số 19 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_19.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q20",
+        "content": "Câu hỏi trắc nghiệm số 20 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_20.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q21",
+        "content": "Câu hỏi trắc nghiệm số 21 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_21.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q22",
+        "content": "Câu hỏi trắc nghiệm số 22 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_22.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q23",
+        "content": "Câu hỏi trắc nghiệm số 23 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_23.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q24",
+        "content": "Câu hỏi trắc nghiệm số 24 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_24.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q25",
+        "content": "Câu hỏi trắc nghiệm số 25 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_25.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q26",
+        "content": "Câu hỏi trắc nghiệm số 26 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_26.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q27",
+        "content": "Câu hỏi trắc nghiệm số 27 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_27.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q28",
+        "content": "Câu hỏi trắc nghiệm số 28 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_28.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q29",
+        "content": "Câu hỏi trắc nghiệm số 29 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_29.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q30",
+        "content": "Câu hỏi trắc nghiệm số 30 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_30.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q31",
+        "content": "Câu hỏi trắc nghiệm số 31 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_31.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q32",
+        "content": "Câu hỏi trắc nghiệm số 32 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_32.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q33",
+        "content": "Câu hỏi trắc nghiệm số 33 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_33.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q34",
+        "content": "Câu hỏi trắc nghiệm số 34 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_34.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q35",
+        "content": "Câu hỏi trắc nghiệm số 35 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_35.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q36",
+        "content": "Câu hỏi trắc nghiệm số 36 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_36.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q37",
+        "content": "Câu hỏi trắc nghiệm số 37 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_37.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q38",
+        "content": "Câu hỏi trắc nghiệm số 38 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_38.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q39",
+        "content": "Câu hỏi trắc nghiệm số 39 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_39.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q40",
+        "content": "Câu hỏi trắc nghiệm số 40 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_40.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q41",
+        "content": "Câu hỏi trắc nghiệm số 41 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_41.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q42",
+        "content": "Câu hỏi trắc nghiệm số 42 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_42.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q43",
+        "content": "Câu hỏi trắc nghiệm số 43 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_43.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q44",
+        "content": "Câu hỏi trắc nghiệm số 44 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_44.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q45",
+        "content": "Câu hỏi trắc nghiệm số 45 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_45.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q46",
+        "content": "Câu hỏi trắc nghiệm số 46 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_46.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q47",
+        "content": "Câu hỏi trắc nghiệm số 47 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_47.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q48",
+        "content": "Câu hỏi trắc nghiệm số 48 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_48.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q49",
+        "content": "Câu hỏi trắc nghiệm số 49 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_49.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q50",
+        "content": "Câu hỏi trắc nghiệm số 50 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_50.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q51",
+        "content": "Câu hỏi trắc nghiệm số 51 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_51.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q52",
+        "content": "Câu hỏi trắc nghiệm số 52 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_52.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q53",
+        "content": "Câu hỏi trắc nghiệm số 53 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_53.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q54",
+        "content": "Câu hỏi trắc nghiệm số 54 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_54.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q55",
+        "content": "Câu hỏi trắc nghiệm số 55 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_55.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q56",
+        "content": "Câu hỏi trắc nghiệm số 56 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_56.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q57",
+        "content": "Câu hỏi trắc nghiệm số 57 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_57.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q58",
+        "content": "Câu hỏi trắc nghiệm số 58 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_58.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q59",
+        "content": "Câu hỏi trắc nghiệm số 59 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_59.png"
+      },
+      {
+        "id": "dta301-dta301-su26-fe-q60",
+        "content": "Câu hỏi trắc nghiệm số 60 môn DTA301 (DTA301 - SU26 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su26-fe/Cau_60.png"
+      }
+    ],
+    "createdAt": 1729780000000
+  },
+  {
+    "id": "dta301-dta301-fa-2024-fe",
+    "name": "[FE] DTA301 - FA 2024 - FE",
+    "subject": "DTA301",
+    "questions": [
+      {
+        "id": "dta301-dta301-fa-2024-fe-q1",
+        "content": "Câu hỏi trắc nghiệm số 1 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_01.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q2",
+        "content": "Câu hỏi trắc nghiệm số 2 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_02.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q3",
+        "content": "Câu hỏi trắc nghiệm số 3 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_03.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q4",
+        "content": "Câu hỏi trắc nghiệm số 4 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_04.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q5",
+        "content": "Câu hỏi trắc nghiệm số 5 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_05.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q6",
+        "content": "Câu hỏi trắc nghiệm số 6 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_06.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q7",
+        "content": "Câu hỏi trắc nghiệm số 7 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_07.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q8",
+        "content": "Câu hỏi trắc nghiệm số 8 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "E",
+        "correctAnswers": [
+          "E"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: E",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_08.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q9",
+        "content": "Câu hỏi trắc nghiệm số 9 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_09.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q10",
+        "content": "Câu hỏi trắc nghiệm số 10 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_10.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q11",
+        "content": "Câu hỏi trắc nghiệm số 11 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_11.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q12",
+        "content": "Câu hỏi trắc nghiệm số 12 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_12.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q13",
+        "content": "Câu hỏi trắc nghiệm số 13 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_13.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q14",
+        "content": "Câu hỏi trắc nghiệm số 14 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "E",
+        "correctAnswers": [
+          "E"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: E",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_14.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q15",
+        "content": "Câu hỏi trắc nghiệm số 15 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_15.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q16",
+        "content": "Câu hỏi trắc nghiệm số 16 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_16.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q17",
+        "content": "Câu hỏi trắc nghiệm số 17 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_17.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q18",
+        "content": "Câu hỏi trắc nghiệm số 18 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_18.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q19",
+        "content": "Câu hỏi trắc nghiệm số 19 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "E",
+        "correctAnswers": [
+          "E"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: E",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_19.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q20",
+        "content": "Câu hỏi trắc nghiệm số 20 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_20.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q21",
+        "content": "Câu hỏi trắc nghiệm số 21 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_21.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q22",
+        "content": "Câu hỏi trắc nghiệm số 22 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_22.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q23",
+        "content": "Câu hỏi trắc nghiệm số 23 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_23.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q24",
+        "content": "Câu hỏi trắc nghiệm số 24 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_24.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q25",
+        "content": "Câu hỏi trắc nghiệm số 25 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_25.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q26",
+        "content": "Câu hỏi trắc nghiệm số 26 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_26.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q27",
+        "content": "Câu hỏi trắc nghiệm số 27 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_27.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q28",
+        "content": "Câu hỏi trắc nghiệm số 28 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_28.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q29",
+        "content": "Câu hỏi trắc nghiệm số 29 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_29.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q30",
+        "content": "Câu hỏi trắc nghiệm số 30 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_30.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q31",
+        "content": "Câu hỏi trắc nghiệm số 31 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_31.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q32",
+        "content": "Câu hỏi trắc nghiệm số 32 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_32.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q33",
+        "content": "Câu hỏi trắc nghiệm số 33 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_33.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q34",
+        "content": "Câu hỏi trắc nghiệm số 34 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_34.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q35",
+        "content": "Câu hỏi trắc nghiệm số 35 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_35.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q36",
+        "content": "Câu hỏi trắc nghiệm số 36 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_36.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q37",
+        "content": "Câu hỏi trắc nghiệm số 37 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_37.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q38",
+        "content": "Câu hỏi trắc nghiệm số 38 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_38.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q39",
+        "content": "Câu hỏi trắc nghiệm số 39 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_39.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q40",
+        "content": "Câu hỏi trắc nghiệm số 40 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_40.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q41",
+        "content": "Câu hỏi trắc nghiệm số 41 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_41.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q42",
+        "content": "Câu hỏi trắc nghiệm số 42 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_42.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q43",
+        "content": "Câu hỏi trắc nghiệm số 43 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_43.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q44",
+        "content": "Câu hỏi trắc nghiệm số 44 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_44.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q45",
+        "content": "Câu hỏi trắc nghiệm số 45 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_45.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q46",
+        "content": "Câu hỏi trắc nghiệm số 46 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_46.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q47",
+        "content": "Câu hỏi trắc nghiệm số 47 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_47.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q48",
+        "content": "Câu hỏi trắc nghiệm số 48 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_48.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q49",
+        "content": "Câu hỏi trắc nghiệm số 49 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_49.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q50",
+        "content": "Câu hỏi trắc nghiệm số 50 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_50.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q51",
+        "content": "Câu hỏi trắc nghiệm số 51 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_51.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q52",
+        "content": "Câu hỏi trắc nghiệm số 52 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_52.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q53",
+        "content": "Câu hỏi trắc nghiệm số 53 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_53.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q54",
+        "content": "Câu hỏi trắc nghiệm số 54 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_54.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q55",
+        "content": "Câu hỏi trắc nghiệm số 55 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_55.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q56",
+        "content": "Câu hỏi trắc nghiệm số 56 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_56.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q57",
+        "content": "Câu hỏi trắc nghiệm số 57 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_57.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q58",
+        "content": "Câu hỏi trắc nghiệm số 58 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_58.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q59",
+        "content": "Câu hỏi trắc nghiệm số 59 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_59.png"
+      },
+      {
+        "id": "dta301-dta301-fa-2024-fe-q60",
+        "content": "Câu hỏi trắc nghiệm số 60 môn DTA301 (DTA301 - FA 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-fa-2024-fe/Cau_60.png"
+      }
+    ],
+    "createdAt": 1729780000000
+  },
+  {
+    "id": "dta301-dta301-su-2024-fe",
+    "name": "[FE] DTA301 - SU 2024 - FE",
+    "subject": "DTA301",
+    "questions": [
+      {
+        "id": "dta301-dta301-su-2024-fe-q1",
+        "content": "Câu hỏi trắc nghiệm số 1 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_01.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q2",
+        "content": "Câu hỏi trắc nghiệm số 2 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_02.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q3",
+        "content": "Câu hỏi trắc nghiệm số 3 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_03.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q4",
+        "content": "Câu hỏi trắc nghiệm số 4 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_04.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q5",
+        "content": "Câu hỏi trắc nghiệm số 5 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_05.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q6",
+        "content": "Câu hỏi trắc nghiệm số 6 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_06.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q7",
+        "content": "Câu hỏi trắc nghiệm số 7 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_07.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q8",
+        "content": "Câu hỏi trắc nghiệm số 8 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_08.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q9",
+        "content": "Câu hỏi trắc nghiệm số 9 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_09.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q10",
+        "content": "Câu hỏi trắc nghiệm số 10 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_10.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q11",
+        "content": "Câu hỏi trắc nghiệm số 11 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_11.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q12",
+        "content": "Câu hỏi trắc nghiệm số 12 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_12.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q13",
+        "content": "Câu hỏi trắc nghiệm số 13 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_13.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q14",
+        "content": "Câu hỏi trắc nghiệm số 14 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "E",
+        "correctAnswers": [
+          "E"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: E",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_14.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q15",
+        "content": "Câu hỏi trắc nghiệm số 15 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_15.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q16",
+        "content": "Câu hỏi trắc nghiệm số 16 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_16.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q17",
+        "content": "Câu hỏi trắc nghiệm số 17 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_17.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q18",
+        "content": "Câu hỏi trắc nghiệm số 18 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_18.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q19",
+        "content": "Câu hỏi trắc nghiệm số 19 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_19.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q20",
+        "content": "Câu hỏi trắc nghiệm số 20 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_20.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q21",
+        "content": "Câu hỏi trắc nghiệm số 21 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_21.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q22",
+        "content": "Câu hỏi trắc nghiệm số 22 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_22.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q23",
+        "content": "Câu hỏi trắc nghiệm số 23 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_23.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q24",
+        "content": "Câu hỏi trắc nghiệm số 24 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_24.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q25",
+        "content": "Câu hỏi trắc nghiệm số 25 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_25.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q26",
+        "content": "Câu hỏi trắc nghiệm số 26 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_26.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q27",
+        "content": "Câu hỏi trắc nghiệm số 27 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_27.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q28",
+        "content": "Câu hỏi trắc nghiệm số 28 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_28.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q29",
+        "content": "Câu hỏi trắc nghiệm số 29 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_29.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q30",
+        "content": "Câu hỏi trắc nghiệm số 30 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_30.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q31",
+        "content": "Câu hỏi trắc nghiệm số 31 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_31.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q32",
+        "content": "Câu hỏi trắc nghiệm số 32 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_32.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q33",
+        "content": "Câu hỏi trắc nghiệm số 33 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_33.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q34",
+        "content": "Câu hỏi trắc nghiệm số 34 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_34.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q35",
+        "content": "Câu hỏi trắc nghiệm số 35 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_35.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q36",
+        "content": "Câu hỏi trắc nghiệm số 36 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_36.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q37",
+        "content": "Câu hỏi trắc nghiệm số 37 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_37.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q38",
+        "content": "Câu hỏi trắc nghiệm số 38 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: D",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_38.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q39",
+        "content": "Câu hỏi trắc nghiệm số 39 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_39.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q40",
+        "content": "Câu hỏi trắc nghiệm số 40 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_40.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q41",
+        "content": "Câu hỏi trắc nghiệm số 41 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_41.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q42",
+        "content": "Câu hỏi trắc nghiệm số 42 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_42.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q43",
+        "content": "Câu hỏi trắc nghiệm số 43 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_43.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q44",
+        "content": "Câu hỏi trắc nghiệm số 44 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_44.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q45",
+        "content": "Câu hỏi trắc nghiệm số 45 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_45.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q46",
+        "content": "Câu hỏi trắc nghiệm số 46 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_46.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q47",
+        "content": "Câu hỏi trắc nghiệm số 47 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_47.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q48",
+        "content": "Câu hỏi trắc nghiệm số 48 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_48.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q49",
+        "content": "Câu hỏi trắc nghiệm số 49 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_49.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q50",
+        "content": "Câu hỏi trắc nghiệm số 50 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_50.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q51",
+        "content": "Câu hỏi trắc nghiệm số 51 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_51.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q52",
+        "content": "Câu hỏi trắc nghiệm số 52 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_52.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q53",
+        "content": "Câu hỏi trắc nghiệm số 53 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_53.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q54",
+        "content": "Câu hỏi trắc nghiệm số 54 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_54.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q55",
+        "content": "Câu hỏi trắc nghiệm số 55 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: B",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_55.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q56",
+        "content": "Câu hỏi trắc nghiệm số 56 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_56.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q57",
+        "content": "Câu hỏi trắc nghiệm số 57 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_57.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q58",
+        "content": "Câu hỏi trắc nghiệm số 58 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_58.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q59",
+        "content": "Câu hỏi trắc nghiệm số 59 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: A",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_59.png"
+      },
+      {
+        "id": "dta301-dta301-su-2024-fe-q60",
+        "content": "Câu hỏi trắc nghiệm số 60 môn DTA301 (DTA301 - SU 2024 - FE)",
+        "options": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": ""
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Đáp án đúng: C",
+        "imageUrl": "/images/DTA301/dta301-su-2024-fe/Cau_60.png"
+      }
+    ],
+    "createdAt": 1729780000000
+  }
+]

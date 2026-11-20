@@ -50,6 +50,35 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
   const correctAnswers = getCorrectAnswers(current);
   const isMulti = correctAnswers.length > 1;
 
+  // Đồng bộ câu hỏi hiện tại với AI Chatbot
+  useEffect(() => {
+    if (current) {
+      window.dispatchEvent(
+        new CustomEvent('quiz-ask-ai', {
+          detail: {
+            question: current,
+            questionIndex: currentIdx,
+            autoAsk: false,
+          },
+        })
+      );
+    }
+  }, [currentIdx, current]);
+
+  // Kích hoạt AI Chatbot với câu hỏi này
+  const handleAskAi = (customPrompt?: string) => {
+    window.dispatchEvent(
+      new CustomEvent('quiz-ask-ai', {
+        detail: {
+          question: current,
+          questionIndex: currentIdx,
+          autoAsk: true,
+          prompt: customPrompt,
+        },
+      })
+    );
+  };
+
   // Copy câu hỏi ra clipboard
   const handleCopyQuestion = async () => {
     const optionsText = (Object.keys(current.options) as AnswerKey[])
@@ -284,7 +313,17 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                     </span>
                   )}
                 </div>
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1.5">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleAskAi();
+                    }}
+                    className="px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-xs flex items-center gap-1 shadow-sm transition-all active:scale-95"
+                    title="Hỏi AI Gemini 2.5 Flash giải thích câu này"
+                  >
+                    <span>🤖 Hỏi AI</span>
+                  </button>
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
@@ -396,7 +435,17 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                     </span>
                   )}
                 </div>
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1.5">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleAskAi();
+                    }}
+                    className="px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-xs flex items-center gap-1 shadow-sm transition-all active:scale-95"
+                    title="Hỏi AI Gemini 2.5 Flash giải thích câu này"
+                  >
+                    <span>🤖 Hỏi AI</span>
+                  </button>
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
@@ -514,6 +563,42 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                   {current.explanation}
                 </div>
               )}
+              {/* Trợ lý Gemini 2.5 Flash */}
+              <div className="mt-3 p-3 bg-gradient-to-r from-blue-50/90 to-indigo-50/90 dark:from-blue-950/40 dark:to-indigo-950/40 rounded-xl border border-blue-200/80 dark:border-blue-800/50 flex flex-wrap items-center justify-between gap-2">
+                <div className="flex items-center gap-1.5 text-xs text-blue-800 dark:text-blue-300 font-semibold">
+                  <span className="text-base">🤖</span>
+                  <span>Trợ lý Gemini 2.5 Flash:</span>
+                </div>
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleAskAi('Hãy giải thích chi tiết vì sao đáp án này là đúng? Phân tích lý thuyết trọng tâm.');
+                    }}
+                    className="px-2.5 py-1 text-xs bg-white dark:bg-gray-800 text-blue-700 dark:text-blue-300 font-medium rounded-lg border border-blue-200 dark:border-blue-700 hover:bg-blue-100 dark:hover:bg-blue-900/40 transition-colors shadow-2xs"
+                  >
+                    💡 Vì sao đúng?
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleAskAi('Hãy phân tích vì sao các phương án khác là sai hoặc bẫy thường gặp trong đề thi?');
+                    }}
+                    className="px-2.5 py-1 text-xs bg-white dark:bg-gray-800 text-indigo-700 dark:text-indigo-300 font-medium rounded-lg border border-indigo-200 dark:border-indigo-700 hover:bg-indigo-100 dark:hover:bg-indigo-900/40 transition-colors shadow-2xs"
+                  >
+                    🔍 Vì sao các câu khác sai?
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleAskAi('Cho tôi mẹo ghi nhớ nhanh hoặc từ khóa (keyword) quan trọng của câu hỏi này khi đi thi.');
+                    }}
+                    className="px-2.5 py-1 text-xs bg-white dark:bg-gray-800 text-purple-700 dark:text-purple-300 font-medium rounded-lg border border-purple-200 dark:border-purple-700 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors shadow-2xs"
+                  >
+                    📌 Mẹo nhớ thi
+                  </button>
+                </div>
+              </div>
             </div>
 
             {/* Hint & Button lật về mặt trước */}

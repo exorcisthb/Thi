@@ -26,6 +26,19 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
     return `${m} phút ${s} giây`;
   };
 
+  const handleAskAiForQuestion = (q: Question, idx: number, userSelection: string, correctSelection: string) => {
+    window.dispatchEvent(
+      new CustomEvent('quiz-ask-ai', {
+        detail: {
+          question: q,
+          questionIndex: idx,
+          autoAsk: true,
+          prompt: `Tôi đã làm sai câu này trong bài thi (tôi chọn: ${userSelection}, đáp án đúng là: ${correctSelection}). Hãy phân tích vì sao tôi làm sai và giải thích chi tiết phương pháp làm đúng.`,
+        },
+      })
+    );
+  };
+
   // Du lieu cho bieu do tron SVG
   const chartSize = 160;
   const strokeWidth = 20;
@@ -252,6 +265,16 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
                     <p className="text-sm text-blue-700 dark:text-blue-400">{q.explanation}</p>
                   </div>
                 )}
+
+                <div className="mt-3 pt-3 border-t border-red-200/80 dark:border-red-800/40 flex justify-end">
+                  <button
+                    onClick={() => handleAskAiForQuestion(q, idx, selectedAnswersText, correctAnswersText)}
+                    className="px-3 py-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-medium text-xs flex items-center gap-1.5 shadow-sm transition-all active:scale-95"
+                    title="Nhờ Gemini 2.5 Flash giải thích lỗi sai"
+                  >
+                    <span>🤖 Hỏi Gemini 2.5 Flash vì sao sai</span>
+                  </button>
+                </div>
               </div>
             );
           })}

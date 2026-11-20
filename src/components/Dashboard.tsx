@@ -36,6 +36,24 @@ const SUBJECT_CONFIG: Record<string, { title: string; desc: string; gradient: st
     gradient: 'from-purple-500 to-pink-500',
     icon: '📚',
   },
+  DTA301: {
+    title: 'DTA301 - Data Analytics',
+    desc: 'Hệ thống đề thi FE môn Phân tích dữ liệu DTA301 kèm hình ảnh và bảng đáp án chi tiết.',
+    gradient: 'from-cyan-500 to-blue-600',
+    icon: '📈',
+  },
+  BPS301: {
+    title: 'BPS301 - Business Process Simulation',
+    desc: 'Kho đề thi FE, hình ảnh đề thi thực tế và bảng tra cứu đáp án môn BPS301.',
+    gradient: 'from-amber-500 to-orange-600',
+    icon: '📊',
+  },
+  PMG201c: {
+    title: 'PMG201c - Project Management',
+    desc: 'Kho đề thi FE & PE môn Quản trị dự án PMG201c theo chuẩn PMBOK.',
+    gradient: 'from-violet-500 to-purple-600',
+    icon: '📋',
+  },
 };
 
 export default function Dashboard({

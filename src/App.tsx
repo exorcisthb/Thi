@@ -6,43 +6,76 @@ import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import SubjectDetail from './components/SubjectDetail';
 import SetDetail from './components/SetDetail';
+import Chatbot from './components/Chatbot';
 import { deleteSetImages, fetchItbAllQuestions } from './utils/api';
 
+interface NavSessionState {
+  viewMode: 'dashboard' | 'subject' | 'detail';
+  selectedSubject: string | null;
+  currentSetId: string | null;
+}
+
+function loadInitialNavState(): NavSessionState {
+  try {
+    const raw = sessionStorage.getItem('quiz-app-session-nav');
+    if (raw) {
+      const parsed = JSON.parse(raw) as Partial<NavSessionState>;
+      if (parsed.viewMode) {
+        return {
+          viewMode: parsed.viewMode,
+          selectedSubject: parsed.selectedSubject || null,
+          currentSetId: parsed.currentSetId || null,
+        };
+      }
+    }
+  } catch (e) {
+    console.warn('Lỗi đọc session nav:', e);
+  }
+  return {
+    viewMode: 'dashboard',
+    selectedSubject: null,
+    currentSetId: null,
+  };
+}
+
 function App() {
-  // State chinh
-  const [viewMode, setViewMode] = useState<'dashboard' | 'subject' | 'detail'>(() => {
-    const saved = localStorage.getItem('quiz-app-viewMode');
-    return (saved as 'dashboard' | 'subject' | 'detail') || 'dashboard';
-  });
-  const [selectedSubject, setSelectedSubject] = useState<string | null>(() => {
-    return localStorage.getItem('quiz-app-selectedSubject') || null;
-  });
+  // Khởi tạo điều hướng từ sessionStorage (giữ trạng thái khi F5 trong tab, tự reset về homepage khi mở tab mới)
+  const initialNav = loadInitialNavState();
+  const [viewMode, setViewMode] = useState<'dashboard' | 'subject' | 'detail'>(initialNav.viewMode);
+  const [selectedSubject, setSelectedSubject] = useState<string | null>(initialNav.selectedSubject);
+  const [currentSetId, setCurrentSetId] = useState<string | null>(initialNav.currentSetId);
   const [questionSets, setQuestionSets] = useState<QuestionSet[]>([]);
-  const [currentSetId, setCurrentSetId] = useState<string | null>(null);
   const [darkMode, setDarkMode] = useState(false);
   const [notification, setNotification] = useState('');
   const [imagesRefreshKey, setImagesRefreshKey] = useState(0);
 
-  // Lưu navigation state vào localStorage khi thay đổi
+  // Lắng nghe sự kiện nút Back/Forward của trình duyệt (Cốc Cốc, Chrome, Edge)
   useEffect(() => {
-    localStorage.setItem('quiz-app-viewMode', viewMode);
-  }, [viewMode]);
+    const currentState: NavSessionState = { viewMode, selectedSubject, currentSetId };
+    window.history.replaceState(currentState, '');
 
-  useEffect(() => {
-    if (selectedSubject) {
-      localStorage.setItem('quiz-app-selectedSubject', selectedSubject);
-    } else {
-      localStorage.removeItem('quiz-app-selectedSubject');
-    }
-  }, [selectedSubject]);
+    const handlePopState = (event: PopStateEvent) => {
+      const state = event.state as NavSessionState | null;
+      if (state && state.viewMode) {
+        setViewMode(state.viewMode);
+        setSelectedSubject(state.selectedSubject);
+        setCurrentSetId(state.currentSetId);
+        sessionStorage.setItem('quiz-app-session-nav', JSON.stringify(state));
+      } else {
+        // Fallback về trang chủ Dashboard
+        setViewMode('dashboard');
+        setSelectedSubject(null);
+        setCurrentSetId(null);
+        sessionStorage.setItem(
+          'quiz-app-session-nav',
+          JSON.stringify({ viewMode: 'dashboard', selectedSubject: null, currentSetId: null })
+        );
+      }
+    };
 
-  useEffect(() => {
-    if (currentSetId) {
-      localStorage.setItem('quiz-app-currentSetId', currentSetId);
-    } else {
-      localStorage.removeItem('quiz-app-currentSetId');
-    }
-  }, [currentSetId]);
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   // Khoi tao tu localStorage
   useEffect(() => {
@@ -64,11 +97,6 @@ function App() {
     }
 
     setQuestionSets(saved);
-    
-    // Reset về dashboard khi mở trang mới
-    setViewMode('dashboard');
-    setCurrentSetId(null);
-    setSelectedSubject(null);
     
     const isDark = loadDarkMode();
     setDarkMode(isDark);
@@ -178,6 +206,9 @@ function App() {
     const cleanBase = base.endsWith('/') ? base : `${base}/`;
     loadBuiltinSubject(`${cleanBase}data/hcm-sets.json`, 'HCM202');
     loadBuiltinSubject(`${cleanBase}data/vnr-sets.json`, 'VNR202');
+    loadBuiltinSubject(`${cleanBase}data/dta-sets.json`, 'DTA301');
+    loadBuiltinSubject(`${cleanBase}data/bps-sets.json`, 'BPS301');
+    loadBuiltinSubject(`${cleanBase}data/pmg-sets.json`, 'PMG201c');
 
     return () => {
       cancelled = true;
@@ -254,19 +285,65 @@ function App() {
     showNotification('Đã xóa bộ câu hỏi');
   };
 
+  // Điều hướng đồng bộ State, SessionStorage và History API (hỗ trợ nút Back/Forward của trình duyệt)
+  const navigateTo = useCallback((nextState: NavSessionState, replace = false) => {
+    setViewMode(nextState.viewMode);
+    setSelectedSubject(nextState.selectedSubject);
+    setCurrentSetId(nextState.currentSetId);
+
+    sessionStorage.setItem('quiz-app-session-nav', JSON.stringify(nextState));
+
+    if (replace) {
+      window.history.replaceState(nextState, '');
+    } else {
+      window.history.pushState(nextState, '');
+    }
+  }, []);
+
   const handleSelectSet = (id: string) => {
-    setCurrentSetId(id);
-    setViewMode('detail');
+    navigateTo({
+      viewMode: 'detail',
+      selectedSubject,
+      currentSetId: id,
+    });
   };
 
   const handleSelectSubject = (subject: string) => {
-    setSelectedSubject(subject);
-    setViewMode('subject');
+    navigateTo({
+      viewMode: 'subject',
+      selectedSubject: subject,
+      currentSetId: null,
+    });
   };
 
   const handleBackToDashboard = () => {
-    setSelectedSubject(null);
-    setViewMode('dashboard');
+    if (window.history.state && window.history.state.viewMode === 'subject') {
+      window.history.back();
+    } else {
+      navigateTo({
+        viewMode: 'dashboard',
+        selectedSubject: null,
+        currentSetId: null,
+      });
+    }
+  };
+
+  const handleBackFromSetDetail = () => {
+    if (window.history.state && window.history.state.viewMode === 'detail') {
+      window.history.back();
+    } else if (selectedSubject) {
+      navigateTo({
+        viewMode: 'subject',
+        selectedSubject,
+        currentSetId: null,
+      });
+    } else {
+      navigateTo({
+        viewMode: 'dashboard',
+        selectedSubject: null,
+        currentSetId: null,
+      });
+    }
   };
 
   // --- Quản lý câu hỏi trong bộ ---
@@ -341,6 +418,7 @@ function App() {
         darkMode={darkMode}
         toggleDarkMode={toggleDarkMode}
         title={currentSet?.name}
+        onGoHome={handleBackToDashboard}
       />
 
       {/* Notification */}
@@ -383,13 +461,7 @@ function App() {
         {viewMode === 'detail' && currentSet && (
           <SetDetail
             set={currentSet}
-            onBack={() => {
-              if (selectedSubject) {
-                setViewMode('subject');
-              } else {
-                setViewMode('dashboard');
-              }
-            }}
+            onBack={handleBackFromSetDetail}
             onAddQuestion={addQuestion}
             onUpdateQuestion={updateQuestion}
             onDeleteQuestion={deleteQuestion}
@@ -401,6 +473,9 @@ function App() {
           />
         )}
       </main>
+
+      {/* Floating AI Chatbot (Gemini 2.5 Flash) */}
+      <Chatbot />
     </div>
   );
 }

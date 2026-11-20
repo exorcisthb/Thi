@@ -11,6 +11,38 @@ interface SubjectDetailProps {
 
 const ITEMS_PER_PAGE = 12;
 
+function getSemesterWeight(name: string): number {
+  const nameUpper = name.toUpperCase();
+  let semScore = 0;
+  if (/\b(FA|FALL)\b|FA\d|FA_\d/.test(nameUpper)) {
+    semScore = 3;
+  } else if (/\b(SU|SUMMER)\b|SU\d|SU_\d/.test(nameUpper)) {
+    semScore = 2;
+  } else if (/\b(SP|SPRING)\b|SP\d|SP_\d/.test(nameUpper)) {
+    semScore = 1;
+  }
+
+  let year = 0;
+  const mYear = nameUpper.match(/20(2[0-9])/);
+  if (mYear) {
+    year = parseInt('20' + mYear[1], 10);
+  } else {
+    const m2dig = nameUpper.match(/(?:FA|SU|SP|K|RESP|FESP)\s*(\d{2})/);
+    if (m2dig) {
+      year = 2000 + parseInt(m2dig[1], 10);
+    }
+  }
+
+  if (year === 0) {
+    const mAny2dig = nameUpper.match(/\b(2[0-9])\b/);
+    if (mAny2dig) {
+      year = 2000 + parseInt(mAny2dig[1], 10);
+    }
+  }
+
+  return year * 10 + semScore;
+}
+
 export default function SubjectDetail({
   subject,
   questionSets,
@@ -40,17 +72,27 @@ export default function SubjectDetail({
       result = result.filter((set) => set.name.toLowerCase().includes('fe'));
     }
 
-    // Sắp xếp
+    // Sắp xếp: Ưu tiên theo kỳ (FA26 > SU26 > SP26 > FA25 > SU25 > SP25...)
     if (sortBy === 'newest') {
-      result.sort((a, b) => b.createdAt - a.createdAt);
+      result.sort((a, b) => {
+        const weightA = getSemesterWeight(a.name);
+        const weightB = getSemesterWeight(b.name);
+        if (weightB !== weightA) return weightB - weightA;
+        return b.createdAt - a.createdAt;
+      });
     } else if (sortBy === 'oldest') {
-      result.sort((a, b) => a.createdAt - b.createdAt);
+      result.sort((a, b) => {
+        const weightA = getSemesterWeight(a.name);
+        const weightB = getSemesterWeight(b.name);
+        if (weightA !== weightB) return weightA - weightB;
+        return a.createdAt - b.createdAt;
+      });
     } else if (sortBy === 'most') {
       result.sort((a, b) => b.questions.length - a.questions.length);
     }
 
     return result;
-  }, [questionSets, searchQuery, sortBy]);
+  }, [questionSets, searchQuery, sortBy, filterType]);
 
   // Phân trang
   const totalPages = Math.ceil(filteredSets.length / ITEMS_PER_PAGE);
