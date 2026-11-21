@@ -909,13 +909,13 @@
         "answerNote": "Đáp án chính thức: B"
       }
     ],
-    "createdAt": 1770000050000
+    "createdAt": 1770000070000
   },
   {
     "id": "bps301-fa26-mock-01",
     "name": "[FE] BPS301 - FA26 - Đề Thi Thử Chuẩn FE - Đề 01 (50 câu)",
     "subject": "BPS301",
-    "createdAt": 1770000040000,
+    "createdAt": 1770000060000,
     "questions": [
       {
         "id": "bps301-fa26-mock1-q01",
@@ -1804,7 +1804,7 @@
     "id": "bps301-fa26-mock-02",
     "name": "[FE] BPS301 - FA26 - Đề Thi Thử Chuẩn FE - Đề 02 (50 câu)",
     "subject": "BPS301",
-    "createdAt": 1770000030000,
+    "createdAt": 1770000050000,
     "questions": [
       {
         "id": "bps301-fa26-mock2-q01",
@@ -2701,6 +2701,1822 @@
         "explanation": "Trọng tâm: Theo khuyến nghị của Dumas & Davenport: Quy trình quan trọng nhưng tính khả thi thấp (Feasibility thấp) cần được chia nhỏ thành các dự án nhỏ khả thi (quick-wins) hoặc tạm hoãn để chuẩn bị nguồn lực, tránh rủi ro thất bại quy mô lớn.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
+      }
+    ]
+  },
+  {
+    "id": "bps301-fa26-mock-03",
+    "name": "[FE] BPS301 - FA26 - Đề Thi Thử Chuẩn FE - Đề 03 (50 câu)",
+    "subject": "BPS301",
+    "createdAt": 1770000040000,
+    "questions": [
+      {
+        "id": "bps301-fa26-mock3-q01",
+        "content": "Câu 01 [Lec 1 - Định nghĩa Business Process]: Theo chuẩn giáo trình Dumas (Slide Lecture 1), phát biểu nào sau đây định nghĩa chính xác nhất về một 'Business Process'?",
+        "options": {
+          "A": "Một tập hợp phần mềm quản lý dữ liệu nội bộ được phòng CNTT vận hành.",
+          "B": "Một bảng phân công nhiệm vụ và mô tả công việc của từng nhân viên trong một phòng ban cụ thể.",
+          "C": "Một quyết định chiến lược duy nhất của ban giám đốc nhằm cắt giảm chi phí nhân sự.",
+          "D": "Một chuỗi các sự kiện, hoạt động và quyết định có sự tham gia của con người và tài nguyên, được kích hoạt bởi nhu cầu và dẫn tới kết quả mang lại giá trị cho khách hàng."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 1):**\nMột quy trình kinh doanh là tập hợp các sự kiện (events), hoạt động (activities) và điểm quyết định (decision points) liên quan đến nhiều bên tham gia (actors) và đối tượng (objects), được kích hoạt bởi một nhu cầu cụ thể và dẫn đến một kết quả mang lại giá trị (valuable outcome).\n\n🎯 **Khi nào chọn đáp án này?**\n• Chọn phương án có đủ 3 yếu tố: Chuỗi sự kiện/hoạt động/quyết định + Kích hoạt bởi nhu cầu (trigger) + Mang lại kết quả có giá trị cho khách hàng.\n\n⚠️ **Bẫy thường gặp:**\nCác phương án sai thường thu hẹp quy trình vào một bộ phận (như phòng CNTT, phòng nhân sự) hoặc xem nó là phần mềm đơn thuần.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q02",
+        "content": "Câu 02 [Lec 1 - Khung Rummler]: Khung đánh giá hiệu suất Rummler (Rummler's Framework) trong Slide Lecture 1 nhấn mạnh điều gì khi phân tích hiệu suất quy trình?",
+        "options": {
+          "A": "Hiệu suất quy trình phải được xem xét đồng thời với 3 cấp độ: Môi trường kinh doanh (Organization/Market), Tổ chức/Quy trình (Process), và Con người/Nguồn lực (Job/Performer).",
+          "B": "Chỉ cần đo lường tốc độ xử lý của từng nhân viên riêng lẻ mà không cần quan tâm đến luồng công việc.",
+          "C": "Hiệu suất của quy trình chỉ phụ thuộc hoàn toàn vào ngân sách tài chính đầu tư cho phần mềm.",
+          "D": "Bỏ qua các yếu tố môi trường bên ngoài để tập trung tối đa vào cấu trúc phòng ban nội bộ."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 1):**\nKhung Rummler-Brache phân tích hiệu suất ở 3 tầng: Cấp độ Tổ chức (Organization level), Cấp độ Quy trình (Process level), và Cấp độ Công việc/Thực thi (Job/Performer level) đặt trong môi trường kinh doanh tổng thể.\n\n🎯 **Khi nào chọn đáp án này?**\n• Khi câu hỏi đề cập đến 'Rummler's framework' hoặc 'các cấp độ hiệu suất' -> Tìm ngay đáp án liên kết giữa Môi trường (Organization), Quy trình (Process) và Nguồn lực/Con người (Job/Resources).\n\n⚠️ **Bẫy thường gặp:**\nĐừng chọn các đáp án chỉ tập trung vào một yếu tố duy nhất (như 'chỉ đo nhân viên' hoặc 'chỉ đo ngân sách').",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q03",
+        "content": "Câu 03 [Lec 1 - BPM Lifecycle]: Thứ tự tuần tự đúng của các giai đoạn trong Vòng đời Quản trị Quy trình Kinh doanh (BPM Lifecycle) là gì?",
+        "options": {
+          "A": "Process Discovery -> Process Identification -> Process Redesign -> Process Analysis -> Process Monitoring -> Process Implementation",
+          "B": "Process Identification -> Process Discovery -> Process Analysis -> Process Redesign -> Process Implementation -> Process Monitoring and Controlling",
+          "C": "Process Analysis -> Process Identification -> Process Discovery -> Process Implementation -> Process Redesign",
+          "D": "Process Modeling -> Process Automation -> Process Elimination -> Process Audit"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 1):**\nVòng đời BPM gồm 6 giai đoạn tuần hoàn: 1. Identification (Nhận diện) -> 2. Discovery (Khám phá / mô hình AS-IS) -> 3. Analysis (Phân tích lỗi, nghẽn) -> 4. Redesign (Thiết kế lại TO-BE) -> 5. Implementation (Triển khai) -> 6. Monitoring & Controlling (Giám sát & kiểm soát).\n\n🎯 **Khi nào chọn đáp án này?**\n• Ghi nhớ câu thần chú: **I - D - A - R - I - M** (Nhận diện -> Khám phá -> Phân tích -> Thiết kế lại -> Triển khai -> Giám sát).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q04",
+        "content": "Câu 04 [Lec 2 - Phân loại quy trình Porter]: Theo phân loại của Michael Porter trong Slide Lecture 2, quy trình nào sau đây là 'Core Process' của một bệnh viện đa khoa?",
+        "options": {
+          "A": "Quy trình mua sắm vật tư văn phòng và giấy in cho phòng hành chính.",
+          "B": "Quy trình bảo trì hệ thống máy chủ và mạng LAN nội bộ bệnh viện.",
+          "C": "Quy trình tiếp nhận, khám chữa bệnh và chăm sóc bệnh nhân nội trú (Patient Admission to Discharge).",
+          "D": "Quy trình tính lương và quyết toán thuế thu nhập cho y bác sĩ."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 2):**\n• **Core Processes (Quy trình cốt lõi):** Trực tiếp tạo ra và cung ứng giá trị cho khách hàng bên ngoài (Sell, Deliver, Service).\n• **Support Processes (Hỗ trợ):** Cung cấp tài nguyên cho Core hoạt động (HR, IT, Tài chính).\n• **Management Processes (Quản lý):** Định hướng chiến lược, quản trị rủi ro.\n\n🎯 **Khi nào chọn Core Process?**\n• Chọn quy trình gắn liền với sứ mệnh phục vụ khách hàng trực tiếp (ở bệnh viện là Khám chữa bệnh cho bệnh nhân; ở trường ĐH là Tuyển sinh và Đào tạo; ở công ty bán lẻ là Order-to-cash).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q05",
+        "content": "Câu 05 [Lec 2 - Tiêu chí lựa chọn quy trình]: Khi lập danh mục quy trình (Process Portfolio) để cải tiến, tiêu chí 'Dysfunction' (hoặc Health) phản ánh điều gì?",
+        "options": {
+          "A": "Mức độ quy trình đóng góp trực tiếp vào mục tiêu doanh thu của doanh nghiệp.",
+          "B": "Mức độ dễ dàng và chi phí thấp khi áp dụng phần mềm tự động hóa.",
+          "C": "Số lượng nhân viên tham gia vào quy trình đó.",
+          "D": "Mức độ trục trặc, lỗi thời, hay gặp sự cố hoặc hiệu suất kém của quy trình trong thực tế."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 2):**\n3 tiêu chí lựa chọn quy trình của Dumas gồm:\n1. **Strategic Importance:** Tầm quan trọng chiến lược (ảnh hưởng lớn nhất đến mục tiêu kinh doanh).\n2. **Health / Dysfunction:** Mức độ sức khỏe/trục trặc (quy trình nào đang hoạt động tồi tệ nhất, nhiều phàn nàn nhất).\n3. **Feasibility:** Tính khả thi (quy trình nào có khả năng thay đổi thành công cao nhất, ít rủi ro chính trị/văn hóa).\n\n🎯 **Khi nào chọn Dysfunction?**\n• Khi đề bài nhắc đến lỗi hỏng, nghẽn cổ chai, phàn nàn của khách hàng, hoặc hiệu suất tồi tệ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q06",
+        "content": "Câu 06 [Lec 2 - Quan hệ trong kiến trúc quy trình]: Mối quan hệ nào thể hiện việc một quy trình tổng thể cấp cao (Level 1) được phân rã thành các quy trình con chi tiết hơn (Level 2, Level 3)?",
+        "options": {
+          "A": "Mối quan hệ phân rã theo chiều dọc (Decomposition / Hierarchical relationship)",
+          "B": "Mối quan hệ chuyên môn hóa (Specialization relationship)",
+          "C": "Mối quan hệ tuần tự đầu vào - đầu ra (Sequence relationship)",
+          "D": "Mối quan hệ cạnh tranh tài nguyên (Resource conflict)"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 2):**\n3 loại quan hệ trong Process Architecture:\n1. **Sequence (Tuần tự):** Quy trình A cung cấp đầu ra làm đầu vào cho quy trình B (Upstream -> Downstream).\n2. **Decomposition (Phân rã):** Quy trình cha cấp cao chứa các quy trình con chi tiết hơn.\n3. **Specialization (Chuyên biệt hóa):** Quy trình tổng quát sinh ra các biến thể cụ thể (VD: Xử lý bảo hiểm xe máy vs Xử lý bảo hiểm thân vỏ ô tô).\n\n🎯 **Khi nào chọn Decomposition?**\n• Khi đề bài nhắc đến phân cấp Level 1 -> Level 2 -> Level 3 hoặc chi tiết hóa quy trình cha thành quy trình con.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q07",
+        "content": "Câu 07 [Lec 3 - Quy tắc Token Game]: Theo luật chơi Token (Token Game) trong BPMN 2.0 (Slide Lecture 3), điều gì xảy ra khi một token di chuyển đến cổng song song AND-split có 3 nhánh đầu ra?",
+        "options": {
+          "A": "Cổng AND-split chọn ngẫu nhiên một nhánh dựa trên điều kiện dữ liệu.",
+          "B": "Token gốc được nhân bản thành 3 token giống nhau, mỗi token đi vào một nhánh đầu ra để chạy song song.",
+          "C": "Token bị dừng lại và chờ cho đến khi người dùng phê duyệt luồng.",
+          "D": "Token chỉ đi vào nhánh đầu tiên xuất hiện trong tệp XML."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3):**\nCổng song song AND-split tạo ra sự đồng thời (concurrency): Token đến sẽ được nhân bản thành $n$ token đi vào tất cả $n$ nhánh đầu ra đồng thời.\n\n🎯 **Khi nào chọn AND-split?**\n• Khi tất cả các công việc tiếp theo PHẢI được thực hiện cùng nhau, không phụ thuộc vào điều kiện lựa chọn.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q08",
+        "content": "Câu 08 [Lec 3 - Cổng XOR vs AND trong Rework Loop]: Trong một khối lặp kiểm tra lại (Rework Loop), tại sao cổng đón luồng lặp quay lại BẮT BUỘC phải là XOR-join mà KHÔNG ĐƯỢC dùng AND-join?",
+        "options": {
+          "A": "Vì BPMN 2.0 quy định cổng XOR xử lý nhanh hơn cổng AND trong máy ảo.",
+          "B": "Vì AND-join chỉ có thể kết nối tối đa 2 luồng đầu vào.",
+          "C": "Vì AND-join sẽ gây ra bế tắc (Deadlock) do nó luôn chờ đủ token từ cả nhánh trước và nhánh lặp quay về.",
+          "D": "Vì XOR-join sẽ xóa sạch dữ liệu của các phiên chạy trước."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3 & 4):**\nCổng AND-join đòi hỏi TẤT CẢ các nhánh đầu vào đều phải có token thì mới cho đi tiếp. Nếu dùng AND-join để đón nhánh lặp (loop back), trong lần chạy đầu tiên, nhánh lặp chưa hề có token -> AND-join ngồi chờ mãi mãi -> Bế tắc hoàn toàn (Deadlock)!\n\n🎯 **Khi nào chọn XOR-join?**\n• Cứ gặp khối lặp (rework loop / repeat) thì điểm nhập luồng bắt buộc là XOR-join!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q09",
+        "content": "Câu 09 [Lec 3 - Pools và Lanes]: Trong mô hình cộng tác BPMN (Collaboration Diagram), phát biểu nào sau đây về Pool và Lane là ĐÚNG?",
+        "options": {
+          "A": "Luồng tuần tự (Sequence Flow) có thể tự do cắt ngang qua ranh giới giữa hai Pool độc lập.",
+          "B": "Các Lane trong cùng một Pool không bao giờ chia sẻ dữ liệu với nhau.",
+          "C": "Một Pool bắt buộc phải chứa ít nhất 3 Lane thì mới hợp lệ cú pháp BPMN.",
+          "D": "Luồng thông điệp (Message Flow) dùng để truyền tin giữa hai Pool độc lập, còn Luồng tuần tự (Sequence Flow) chỉ được di chuyển bên trong cùng một Pool."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3):**\n• **Sequence Flow:** Chỉ đi bên trong 1 Pool (kể cả xuyên qua các Lane khác nhau).\n• **Message Flow:** Đi xuyên qua ranh giới giữa 2 Pool khác nhau (thể hiện giao tiếp B2B giữa 2 thực thể độc lập).\n• **NGUYÊN TẮC VÀNG:** Tuyệt đối KHÔNG ĐƯỢC vẽ Sequence Flow nối giữa 2 Pool khác nhau!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q10",
+        "content": "Câu 10 [Lec 4 - Boundary Events]: Sự khác biệt cốt lõi giữa sự kiện biên ngắt quãng (Interrupting Boundary Event) và sự kiện biên không ngắt quãng (Non-interrupting Boundary Event) là gì?",
+        "options": {
+          "A": "Interrupting có viền nét liền và hủy bỏ ngay lập tức tác vụ chính khi kích hoạt; Non-interrupting có viền nét đứt và cho phép tác vụ chính tiếp tục chạy song song.",
+          "B": "Interrupting chỉ dùng cho Timer, còn Non-interrupting chỉ dùng cho Message.",
+          "C": "Non-interrupting xóa toàn bộ biến quy trình khỏi cơ sở dữ liệu.",
+          "D": "Interrupting chỉ được gắn vào cổng rẽ nhánh Gateway chứ không gắn vào Task."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\n• **Interrupting (Viền nét liền):** Ngắt ngang hoạt động đang chạy (abort task) ngay khi sự kiện xảy ra (VD: Khách hủy đơn hàng).\n• **Non-interrupting (Viền nét đứt):** Kích hoạt luồng phụ song song trong khi hoạt động chính VẪN TIẾP TỤC chạy bình thường (VD: Gửi email nhắc nhở sau 2 ngày mà không hủy công việc).\n\n🎯 **Dấu hiệu nhận biết:**\n• Muốn hủy tác vụ -> Chọn Interrupting (solid border).\n• Muốn làm song song / gửi nhắc nhở -> Chọn Non-interrupting (dashed border).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q11",
+        "content": "Câu 11 [Lec 4 - Event-based Gateway]: Trong trường hợp nào thì nhà phân tích quy trình BẮT BUỘC phải sử dụng Cổng dựa trên sự kiện (Event-based Gateway) thay vì Cổng dữ liệu thông thường (Data-based XOR)?",
+        "options": {
+          "A": "Khi quy trình cần rẽ nhánh dựa trên dữ liệu giá trị đơn hàng đã lưu trong database nội bộ.",
+          "B": "Khi quy trình phải chờ đợi một trong nhiều sự kiện ngoại sinh do đối tác bên ngoài quyết định, sự kiện nào xảy ra trước sẽ kích hoạt nhánh đó.",
+          "C": "Khi muốn thực thi tất cả các nhánh cùng một lúc.",
+          "D": "Khi cần tính toán chỉ số Cycle Time cho toàn bộ quy trình."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\n• **Data-based XOR:** Quyết định nội bộ (Internal choice) dựa trên dữ liệu có sẵn (VD: Giá đơn hàng > 10 triệu).\n• **Event-based Gateway:** Quyết định ngoại sinh (External choice / Race condition) - Quy trình ở trạng thái chờ đối tác (VD: Chờ khách trả lời email HOẶC chờ hết hạn 48 giờ. Cái nào đến trước thắng!).\n\n🎯 **Khi nào chọn Event-based Gateway?**\n• Cứ thấy từ khóa: Chờ phản hồi bên ngoài, cuộc đua sự kiện (race condition), hoặc theo sau bởi Intermediate Catching Events.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q12",
+        "content": "Câu 12 [Lec 4 - Quy tắc 7PMG]: Quy tắc G5 trong 7 Hướng dẫn Mô hình hóa Quy trình (7 Process Modeling Guidelines - 7PMG) khuyến nghị điều gì về cổng Inclusive OR?",
+        "options": {
+          "A": "Nên sử dụng cổng OR ở mọi nơi để tối ưu hóa không gian hiển thị.",
+          "B": "Bắt buộc phải thay thế cổng AND bằng cổng OR.",
+          "C": "Nên tránh sử dụng cổng OR (cả OR-split và OR-join) vì ngữ nghĩa của OR-join rất phức tạp và người đọc dễ hiểu sai luồng.",
+          "D": "Chỉ được dùng cổng OR khi mô hình có hơn 100 tác vụ."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\nQuy tắc 7PMG G5: 'Avoid OR routing elements'. Cơ chế đồng bộ của OR-join (chờ tất cả các nhánh active) rất phức tạp, dễ dẫn đến lỗi thiết kế hoặc người xem hiểu nhầm. Thay vào đó, hãy dùng tổ hợp XOR và AND rõ ràng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q13",
+        "content": "Câu 13 [Lec 5 - Value-Added Analysis]: Theo phân tích giá trị gia tăng (VAA) trong Slide Lecture 5, một bước công việc được phân loại là 'Business Value-Adding' (BVA) khi nào?",
+        "options": {
+          "A": "Khách hàng cuối trực tiếp hưởng lợi và sẵn sàng trả tiền thêm cho bước đó.",
+          "B": "Bước đó hoàn toàn vô ích và cần phải xóa bỏ ngay lập tức.",
+          "C": "Bước đó giúp tăng gấp đôi tốc độ giao hàng cho khách.",
+          "D": "Khách hàng không trực tiếp trả tiền nhưng bước đó bắt buộc phải thực hiện để tuân thủ pháp luật, kiểm toán, hoặc kiểm soát rủi ro tài chính của doanh nghiệp."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\n• **VA (Value-Adding):** Khách hàng sẵn lòng trả tiền (willing to pay), trực tiếp tạo giá trị cho sản phẩm/dịch vụ.\n• **BVA (Business Value-Adding):** Khách không muốn trả tiền nhưng bắt buộc đối với doanh nghiệp (kiểm soát rủi ro, tuân thủ luật, kế toán thuế, lưu trữ hồ sơ pháp lý).\n• **NVA (Non-Value-Adding):** Lãng phí thuần túy (chờ đợi, chuyển giao, sửa lỗi) -> Mục tiêu: Loại bỏ hoàn toàn (Eliminate)!\n\n🎯 **Mẹo phân biệt:**\n• Hỏi: 'Nếu bỏ bước này khách có biết không?' -> Không biết. 'Nếu bỏ bước này công ty có bị phạt/rủi ro không?' -> Có bị phạt/mất tiền -> Đích thị là **BVA**!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q14",
+        "content": "Câu 14 [Lec 5 - 7 Lãng phí TIMWOOD]: Nhân viên tín dụng phải nhập lại cùng một thông tin khách hàng từ file giấy vào 3 phần mềm nội bộ khác nhau. Đây là loại lãng phí nào trong 7 lãng phí kinh điển (TIMWOOD)?",
+        "options": {
+          "A": "Over-processing (Gia công/xử lý thừa)",
+          "B": "Transportation (Vận chuyển vật lý)",
+          "C": "Motion (Di chuyển cơ học của con người)",
+          "D": "Inventory (Tồn kho)"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\n• **Over-processing:** Làm nhiều hơn mức cần thiết, thực hiện các bước xử lý trùng lặp không tạo thêm giá trị (như nhập liệu trùng lặp, kiểm tra lặp đi lặp lại).\n• **Motion:** Di chuyển tay chân/vật lý của con người.\n• **Transportation:** Vận chuyển tài liệu/hàng hóa qua lại giữa các địa điểm.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q15",
+        "content": "Câu 15 [Lec 5 - Biểu đồ Pareto]: Biểu đồ Pareto trong phân tích định tính dựa trên nguyên lý 80/20 nhằm mục đích gì?",
+        "options": {
+          "A": "Chứng minh rằng mọi vấn đề đều có mức độ ảnh hưởng như nhau.",
+          "B": "Xác định số ít nguyên nhân cốt tử (vital few - khoảng 20%) gây ra phần lớn hậu quả/chi phí tổn thất (khoảng 80%) để ưu tiên xử lý trước.",
+          "C": "Tính toán thời gian chu kỳ cho các nhánh song song.",
+          "D": "Vẽ lại quy trình kinh doanh dưới dạng sơ đồ mạng."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\nNguyên lý Pareto (80/20): Tập trung vào nhóm nguyên nhân cốt lõi (the vital few) thay vì phân tán nguồn lực vào nhóm nguyên nhân vặt vãnh (the useful many).\n\n🎯 **Khi nào chọn Pareto?**\n• Cứ thấy từ khóa: Ưu tiên hóa vấn đề (issue prioritization), 80/20, hoặc 'vital few causes'.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q16",
+        "content": "Câu 16 [Lec 5 - Ma trận PICK]: Trong ma trận phân loại sáng kiến PICK, một giải pháp có Lợi ích kỳ vọng rất cao (High Payoff) nhưng lại Cực kỳ khó triển khai do vướng mắc chính trị và công nghệ (High Difficulty) sẽ nằm ở ô nào?",
+        "options": {
+          "A": "Implement (Thực hiện ngay)",
+          "B": "Possible (Có thể cân nhắc)",
+          "C": "Challenge (Thử thách)",
+          "D": "Kill (Hủy bỏ)"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\nBốn góc của Ma trận PICK (Payoff vs Difficulty):\n• High Payoff + Low Difficulty = **Implement** (Làm ngay - Quick win!)\n• High Payoff + High Difficulty = **Challenge** (Thử thách - Cần kế hoạch lớn)\n• Low Payoff + Low Difficulty = **Possible** (Khả thi - Làm khi rảnh)\n• Low Payoff + High Difficulty = **Kill** (Hủy ngay - Tốn công vô ích)",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q17",
+        "content": "Câu 17 [Lec 6 - Little's Law]: Một trung tâm dịch vụ khách hàng có số lượng hồ sơ đang tồn đọng dở dang trung bình là WIP = 120 hồ sơ. Tốc độ tiếp nhận và xử lý đầu ra là λ = 30 hồ sơ/ngày. Theo Định luật Little, thời gian chu kỳ trung bình (CT) của một hồ sơ là bao nhiêu?",
+        "options": {
+          "A": "0.25 ngày",
+          "B": "90 ngày",
+          "C": "3600 ngày",
+          "D": "4 ngày"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nCông thức Định luật Little: $WIP = \\lambda \\times CT$\nSuy ra: $CT = \\frac{WIP}{\\lambda} = \\frac{120}{30} = 4$ ngày.\n\n🎯 **Khi nào áp dụng Little's Law?**\n• Khi đề bài cho 2 trong 3 đại lượng: WIP (số ca dở dang), $\\lambda$ (tốc độ đến / throughput), CT (thời gian chu kỳ).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q18",
+        "content": "Câu 18 [Lec 6 - CT Rework Loop]: Một tác vụ 'Thẩm định hồ sơ' mất 6 giờ để thực hiện. Sau tác vụ có bước kiểm tra: 80% hồ sơ đạt tiêu chuẩn và đi tiếp, 20% hồ sơ bị lỗi phải quay lại thẩm định lại từ đầu (tỷ lệ lỗi $r = 0.2$). Bỏ qua thời gian chờ, thời gian chu kỳ trung bình của tác vụ thẩm định có vòng lặp này là bao nhiêu?",
+        "options": {
+          "A": "7.5 giờ",
+          "B": "6.0 giờ",
+          "C": "7.2 giờ",
+          "D": "12.0 giờ"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nCông thức thời gian chu kỳ cho khối lặp (Rework loop với tỷ lệ làm lại $r$):\n$$CT = \\frac{T}{1 - r} = \\frac{6}{1 - 0.2} = \\frac{6}{0.8} = 7.5 \\text{ giờ}.$$\n\n⚠️ **Bẫy thường gặp:**\nNhiều bạn lấy $6 + 6 \\times 0.2 = 7.2$ giờ là sai! Vì hồ sơ lặp lại vẫn có xác suất bị lỗi tiếp ở các lần sau, nên phải chia cho $(1 - r)$.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q19",
+        "content": "Câu 19 [Lec 6 - Cycle Time Efficiency]: Một quy trình có Thời gian xử lý lý thuyết (Theoretical Cycle Time - TCT / thời gian thực làm việc) là 2 giờ, nhưng tổng Thời gian chu kỳ thực tế (Cycle Time - CT bao gồm cả hàng đợi xếp hàng) là 40 giờ. Hiệu suất thời gian chu kỳ (CTE) là bao nhiêu?",
+        "options": {
+          "A": "20%",
+          "B": "5%",
+          "C": "50%",
+          "D": "200%"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nCông thức Hiệu suất thời gian chu kỳ:\n$$CTE = \\frac{TCT}{CT} = \\frac{2}{40} = 0.05 = 5\\%.$$\n(Điều này phản ánh 95% thời gian ca quy trình tồn tại là thời gian chết / lãng phí chờ đợi trong hàng đợi!).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q20",
+        "content": "Câu 20 [Lec 6 - Flow Analysis với nhánh song song]: Một khối quy trình bắt đầu bằng cổng AND-split tách thành 3 nhánh song song: Nhánh 1 mất 5 ngày, Nhánh 2 mất 8 ngày, và Nhánh 3 mất 3 ngày. Sau đó 3 nhánh cùng hội tụ vào một cổng AND-join. Thời gian chu kỳ của khối AND này là bao nhiêu?",
+        "options": {
+          "A": "5.33 ngày (trung bình cộng)",
+          "B": "16 ngày (tổng cả 3 nhánh)",
+          "C": "8 ngày (nhánh dài nhất)",
+          "D": "24 ngày (tích các nhánh)"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nQuy tắc tính thời gian khối song song (AND-block):\n$$CT_{\\text{AND}} = \\max(T_1, T_2, \\dots, T_n) = \\max(5, 8, 3) = 8 \\text{ ngày}.$$\nBởi vì cổng AND-join phải chờ cho nhánh cuối cùng (nhánh chậm nhất) hoàn thành thì mới cho token đi tiếp.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q21",
+        "content": "Câu 21 [Lec 7 - Hệ số sử dụng tài nguyên]: Trong mô hình hàng đợi với $c = 3$ nhân viên phục vụ, tốc độ khách đến trung bình là $\\lambda = 12$ khách/giờ. Mỗi nhân viên có thể phục vụ trung bình $\\mu = 5$ khách/giờ. Hệ số sử dụng tài nguyên (Resource Utilization $\\rho$) là bao nhiêu?",
+        "options": {
+          "A": "40%",
+          "B": "125%",
+          "C": "60%",
+          "D": "80%"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nCông thức hệ số sử dụng tài nguyên:\n$$\\rho = \\frac{\\lambda}{c \\times \\mu} = \\frac{12}{3 \\times 5} = \\frac{12}{15} = 0.8 = 80\\%.$$\n\n🎯 **Quy tắc ổn định hệ thống:**\nĐể hàng đợi không bị tràn vô tận, bắt buộc $\\rho < 1$ (tức $\\lambda < c \\times \\mu$).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q22",
+        "content": "Câu 22 [Lec 7 - Ký hiệu Kendall M/M/1]: Trong ký hiệu hàng đợi chuẩn Kendall M/M/1, chữ 'M' đầu tiên và chữ 'M' thứ hai lần lượt đại diện cho điều gì?",
+        "options": {
+          "A": "Markovian (phân phối Exponential/Poisson cho thời gian đến) và Markovian (phân phối Exponential cho thời gian phục vụ).",
+          "B": "Manual process và Machine process.",
+          "C": "Mean arrival rate và Maximum capacity.",
+          "D": "Multiple queues và Multiple servers."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nKý hiệu Kendall $A / B / c$:\n• $A$ = Phân phối thời gian giữa các lần đến (Inter-arrival time distribution). 'M' = Markovian (Exponential / Poisson).\n• $B$ = Phân phối thời gian phục vụ (Service time distribution). 'M' = Markovian (Exponential).\n• $c$ = Số lượng máy chủ/nhân viên phục vụ song song (Servers).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q23",
+        "content": "Câu 23 [Lec 7 - Hiện tượng bùng nổ hàng đợi]: Theo Slide Lecture 7, khi hệ số sử dụng tài nguyên $\\rho$ tăng từ 80% lên 95%, thời gian chờ đợi trung bình trong hàng đợi sẽ thay đổi như thế nào?",
+        "options": {
+          "A": "Tăng tuyến tính nhẹ nhàng khoảng 15%.",
+          "B": "Tăng phi tuyến tính đột biến (tăng vọt theo cấp số nhân) do hiệu ứng biến thiên ngẫu nhiên.",
+          "C": "Không thay đổi vì năng lực phục vụ vẫn lớn hơn tốc độ đến.",
+          "D": "Giảm đi vì nhân viên làm việc năng suất hơn."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nHiện tượng 'The hockey-stick effect' (cây gậy khúc côn cầu): Khi $\\rho \\to 1$ (đặc biệt khi $\\rho > 85\\%$), thời gian chờ trong hàng đợi $W_q = \\frac{\\rho}{\\mu(1 - \\rho)}$ sẽ bùng nổ phi tuyến tính do sự biến thiên ngẫu nhiên (burstiness & variability) của khách đến và thời gian làm.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q24",
+        "content": "Câu 24 [Lec 7 - Cạm bẫy mô phỏng]: Một cạm bẫy phổ biến khi thực hiện mô phỏng quy trình (Process Simulation) được cảnh báo trong Slide Lecture 7 là gì?",
+        "options": {
+          "A": "Mô phỏng sử dụng quá nhiều tài nguyên tính toán của máy tính.",
+          "B": "Sử dụng phân phối xác suất thay vì một giá trị hằng số duy nhất.",
+          "C": "Bỏ qua thời gian biểu làm việc thực tế (Resource Calendars) và giả định tài nguyên luôn sẵn sàng 24/7 với năng suất cố định 100%.",
+          "D": "Mô phỏng quy trình bằng phần mềm thay vì tính tay."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nCạm bẫy lớn nhất trong mô phỏng là bỏ qua tính khả dụng thực tế của con người: ngày nghỉ, giờ ăn trưa, họp hành (Resource Calendars), và sự biến động hiệu suất, dẫn đến kết quả mô phỏng quá lạc quan so với thực tế.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q25",
+        "content": "Câu 25 [Lec 8 - Tứ giác ác quỷ Devil's Quadrangle]: Bốn chiều hiệu suất cốt lõi cấu thành nên Tứ giác Ác quỷ (Devil's Quadrangle) trong tái thiết kế quy trình là gì?",
+        "options": {
+          "A": "Con người (People), Quy trình (Process), Công nghệ (Technology), Đối tác (Partners).",
+          "B": "Đầu vào (Input), Đầu ra (Output), Kiểm soát (Control), Cơ chế (Mechanism).",
+          "C": "Phần mềm (Software), Phần cứng (Hardware), Mạng (Network), Dữ liệu (Data).",
+          "D": "Thời gian (Time), Chi phí (Cost), Chất lượng (Quality), Tính linh hoạt (Flexibility)."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 8):**\nTứ giác ác quỷ gồm 4 đỉnh: **Time, Cost, Quality, Flexibility**.\nNguyên lý cốt lõi: Rất hiếm khi một giải pháp cải tiến tối ưu được cả 4 chiều cùng lúc; thường việc cải thiện một chiều sẽ phải đánh đổi (trade-off) làm giảm sút một chiều khác.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q26",
+        "content": "Câu 26 [Lec 8 - Case Study Ford vs Mazda]: Trong ví dụ kinh điển về BPR tại công ty Ford (Slide Lecture 8), Ford đã làm gì để giảm 75% nhân sự phòng Kế toán Phải trả (Accounts Payable)?",
+        "options": {
+          "A": "Áp dụng phương pháp 'Thanh toán tại khâu nhận hàng' (Invoiceless processing / Pay on receipt), loại bỏ hoàn toàn việc đối soát hóa đơn giấy.",
+          "B": "Tự động hóa hoàn toàn việc in hóa đơn giấy gửi qua đường bưu điện.",
+          "C": "Thuê ngoài (outsource) toàn bộ phòng kế toán sang một công ty dịch vụ kế toán tại Nhật Bản.",
+          "D": "Ép nhà cung cấp giảm 50% giá linh kiện."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 8):**\nHammer & Champy ('Don't automate, obliterate'): Ford không tự động hóa quy trình đối soát 3 chứng từ cũ, mà thiết kế lại hoàn toàn: Khi hàng về đến kho, thủ kho quét mã đối chiếu với Đơn đặt hàng (PO). Khớp là hệ thống tự động trả tiền! Không cần nhà cung cấp gửi hóa đơn giấy nữa.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q27",
+        "content": "Câu 27 [Lec 9 - Heuristic Knock-out]: Công ty áp dụng Heuristic Knock-out để kiểm tra ứng viên. Kiểm tra A có chi phí 10$, tỷ lệ loại 20%. Kiểm tra B có chi phí 4$, tỷ lệ loại 40%. Thứ tự thực hiện tối ưu theo Knock-out Heuristic là gì?",
+        "options": {
+          "A": "Làm A trước rồi mới làm B.",
+          "B": "Làm B trước rồi mới làm A.",
+          "C": "Làm cả A và B song song cùng lúc.",
+          "D": "Bỏ cả hai bước và phỏng vấn trực tiếp."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nNguyên tắc Knock-out Heuristic: Sắp xếp các tác vụ kiểm tra loại trừ sao cho tỷ lệ loại trừ trên chi phí (Rejection Rate / Cost) là LỚN NHẤT:\n• Kiểm tra B: $\\frac{40\\%}{4\\$} = 10\\% / \\$$\n• Kiểm tra A: $\\frac{20\\%}{10\\$} = 2\\% / \\$$\nVì $10\\% > 2\\%$, nên bắt buộc làm Kiểm tra B trước để loại sớm 40% ứng viên chỉ với chi phí rất rẻ (4$)!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q28",
+        "content": "Câu 28 [Lec 9 - Heuristic Task Triage]: Doanh nghiệp áp dụng Heuristic 'Task Triage' (Phân loại tác vụ) trong trường hợp nào sau đây?",
+        "options": {
+          "A": "Khi muốn xóa bỏ hoàn toàn tất cả các bước kiểm soát nội bộ.",
+          "B": "Khi muốn gộp toàn bộ các phòng ban lại thành một phòng duy nhất.",
+          "C": "Khi một tác vụ chung đang xử lý mọi loại hồ sơ; áp dụng Triage để chia thành 2 luồng: Luồng đơn giản (xử lý nhanh/tự động) và Luồng phức tạp (chuyên gia xử lý kỹ).",
+          "D": "Khi bắt buộc mọi nhân viên phải làm việc tăng ca."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\n• **Task Triage:** Phân loại hồ sơ theo mức độ phức tạp/rủi ro. Tách hồ sơ dễ (chiếm 80%) sang luồng tự động hoặc nhân viên sơ cấp xử lý nhanh; chỉ chuyển hồ sơ khó (20%) cho chuyên gia cấp cao nhằm giảm tải nút thắt cổ chai.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q29",
+        "content": "Câu 29 [Lec 9 - Heuristic Case Manager]: Doanh nghiệp chỉ định một nhân viên duy nhất làm đầu mối phụ trách hồ sơ khách hàng từ đầu đến cuối (Single Point of Contact). Đây là heuristic nào?",
+        "options": {
+          "A": "Task elimination",
+          "B": "Parallelism",
+          "C": "Empowerment",
+          "D": "Case Manager (Case Handler)"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nHeuristic Case Manager: Thay vì khách hàng phải tự liên hệ qua 4-5 phòng ban (bán hàng, kế toán, kỹ thuật, giao hàng), doanh nghiệp bố trí một 'Case Manager' chịu trách nhiệm trọn gói ca quy trình cho khách.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q30",
+        "content": "Câu 30 [Lec 10 - 5 bước chuyển đổi sang Executable BPMN]: Trong 5 bước chuyển đổi mô hình ý niệm sang mô hình thực thi (Slide Lecture 10), bước đầu tiên cần làm là gì?",
+        "options": {
+          "A": "Xác định ranh giới tự động hóa (Identify the automation boundaries) để phân biệt tác vụ nào làm tự động, tác vụ nào do người làm.",
+          "B": "Viết mã nguồn Java và kết nối cơ sở dữ liệu.",
+          "C": "Xây dựng giao diện biểu mẫu HTML cho người dùng.",
+          "D": "Cấu hình cổng rẽ nhánh phức tạp."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\n5 bước chuyển đổi:\n1. **Identify automation boundaries** (Xác định ranh giới tự động hóa - cái gì tự động, cái gì thủ công).\n2. Review manual tasks (Hỗ trợ tác vụ thủ công bằng CNTT).\n3. Complete process model (Xử lý ngoại lệ, đường luồng thiếu).\n4. Bring participants into loop (Giao diện người dùng, User task).\n5. Specify execution properties (Biến số, script, service call).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q31",
+        "content": "Câu 31 [Lec 10 - Phân loại Task trong Camunda]: Trong Camunda Modeler, khi một tác vụ cần gọi một REST API bên ngoài hoặc thực thi một đoạn code Java tự động mà không cần con người can thiệp, ta phải dùng loại Task nào?",
+        "options": {
+          "A": "User Task (biểu tượng hình người)",
+          "B": "Service Task (biểu tượng bánh răng)",
+          "C": "Manual Task (biểu tượng bàn tay)",
+          "D": "Receive Task (biểu tượng phong bì rỗng)"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\n• **Service Task (Bánh răng):** Tác vụ tự động hóa hoàn toàn do hệ thống / code thực thi (JavaDelegate, Spring Bean, REST External Worker).\n• **User Task (Hình người):** Tác vụ cần người dùng thao tác trên form.\n• **Manual Task (Bàn tay):** Tác vụ vật lý ngoài đời không nối với phần mềm.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q32",
+        "content": "Câu 32 [Lec 10 - Thành phần của BPMS]: Thành phần nào trong hệ thống BPMS chịu trách nhiệm trực tiếp trong việc tạo mới instance, luân chuyển token, đánh giá điều kiện rẽ nhánh và kích hoạt các tác vụ?",
+        "options": {
+          "A": "Worklist Handler",
+          "B": "Administration Tool",
+          "C": "Process Engine (Execution Engine)",
+          "D": "Process Modeling Tool"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\n• **Process Engine:** Trái tim của BPMS - quản lý trạng thái quy trình, sinh token, chuyển token qua các node, gọi API.\n• **Worklist Handler:** Hộp thư công việc hiển thị danh sách nhiệm vụ cần làm cho người dùng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q33",
+        "content": "Câu 33 [Lec 11 - Phân loại Dashboard]: Bảng điều khiển giám sát quy trình cấp độ 'Tactical Dashboard' (Cấp chiến thuật) được thiết kế phục vụ cho đối tượng nào và với mục đích gì?",
+        "options": {
+          "A": "Dành cho nhân viên trực tiếp đang làm ca để biết đơn hàng nào sắp bị trễ trong vài phút tới.",
+          "B": "Dành cho Hội đồng quản trị để theo dõi giá cổ phiếu công ty trên thị trường chứng khoán.",
+          "C": "Dành riêng cho kỹ sư cơ sở dữ liệu để kiểm tra lỗi tràn RAM.",
+          "D": "Dành cho Process Owner và nhà quản lý cấp trung để phân tích xu hướng hiệu suất theo tuần/tháng, phát hiện nút thắt cổ chai và phân bổ tải công việc."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\n3 cấp độ Dashboard:\n• **Operational Dashboard:** Thời gian thực (real-time/short-term), cho công nhân & giám sát ca.\n• **Tactical Dashboard:** Trung hạn (tuần/tháng), cho Process Owner & Quản lý phân tích xu hướng và nút thắt.\n• **Strategic Dashboard:** Dài hạn (quý/năm), cho Ban giám đốc (C-level) gắn kết với chiến lược kinh doanh.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q34",
+        "content": "Câu 34 [Lec 11 - Cấu trúc Event Log]: Trong Process Mining, ba trường dữ liệu TỐI THIỂU bắt buộc phải có trong mỗi dòng sự kiện của Event Log để có thể khám phá quy trình là gì?",
+        "options": {
+          "A": "Case ID (Mã ca quy trình), Activity Name (Tên hoạt động), Timestamp (Dấu thời gian).",
+          "B": "IP máy tính, Mã số thuế, Chi phí thực hiện.",
+          "C": "Tên người dùng, Mật khẩu tài khoản, Số điện thoại.",
+          "D": "Tên phần mềm, Hệ điều hành, Dung lượng file."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nCấu trúc bắt buộc của Event Log:\n1. **Case ID:** Định danh ca quy trình duy nhất (để biết sự kiện thuộc về đơn hàng nào).\n2. **Activity:** Tên hoạt động được thực hiện.\n3. **Timestamp:** Thời gian diễn ra sự kiện (để sắp xếp thứ tự trước - sau).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q35",
+        "content": "Câu 35 [Lec 11 - 3 Loại Process Mining]: Khi doanh nghiệp ĐÃ CÓ sẵn một mô hình quy trình BPMN chuẩn và muốn kiểm tra xem dữ liệu nhật ký thực tế (Event Log) có nhân viên nào làm sai quy trình hay bỏ bước không, kỹ thuật Process Mining nào được áp dụng?",
+        "options": {
+          "A": "Automated Process Discovery",
+          "B": "Conformance Checking",
+          "C": "Process Simulation",
+          "D": "Process Elimination"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\n• **Discovery:** Có Log -> Tự sinh ra Model mới (chưa có model trước đó).\n• **Conformance Checking:** Đã có Model + Có Log -> So khớp kiểm tra vi phạm, tuân thủ.\n• **Enhancement:** Đã có Model + Có Log -> Bổ sung dữ liệu thời gian/chi phí vào model.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q36",
+        "content": "Câu 36 [Lec 11 - Chất lượng mô hình Conformance]: Một mô hình quy trình tự động khám phá bị đánh giá là kém về chỉ số 'Precision' khi nào?",
+        "options": {
+          "A": "Khi mô hình không thể chạy lại (replay) được các ca trong nhật ký sự kiện.",
+          "B": "Khi mô hình có quá ít cổng rẽ nhánh.",
+          "C": "Khi mô hình quá lỏng lẻo (underfitting / flower model), cho phép cả những chuỗi hoạt động tùy tiện, vô lý không bao giờ xảy ra trong thực tế.",
+          "D": "Khi tệp nhật ký sự kiện bị thiếu trường Timestamp."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\n• **Kém Fitness:** Mô hình quá chật hẹp, không cho phép chạy những hành vi có trong Log.\n• **Kém Precision:** Mô hình quá lỏng lẻo (flower model), cho phép cả hành vi rác/không có thật ngoài đời.\n• **Kém Generalization:** Mô hình bị overfitting, chỉ biết học vẹt đúng các ca trong Log mà không khái quát hóa được.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q37",
+        "content": "Câu 37 [Lec 11 - Token Replay Flaws]: Trong kỹ thuật Token Replay để kiểm tra mức độ phù hợp (Conformance), nếu kết thúc một ca mà trong mô hình vẫn còn 'Orphaned Tokens' (token mồ côi bị bỏ rơi), điều này chỉ ra lỗi gì của mô hình?",
+        "options": {
+          "A": "Deadlock (Bế tắc luồng)",
+          "B": "Livelock (Vòng lặp vô tận)",
+          "C": "Missing activity (Thiếu tác vụ)",
+          "D": "Lack of proper completion (Quy trình không hoàn thành đúng cách)"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nTrong Token Replay:\n• Thiếu token tại AND-join -> **Deadlock** (Bế tắc).\n• Token bị sót lại sau khi End Event đã đạt tới -> **Improper completion / Lack of proper completion** (Chưa hoàn tất trọn vẹn).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q38",
+        "content": "Câu 38 [Lec 6 - Tính CT với xác suất rẽ nhánh XOR]: Một quy trình xét duyệt hồ sơ: Nhánh A (Chiếm 60% hồ sơ, mất 4 ngày), Nhánh B (Chiếm 40% hồ sơ, mất 9 ngày). Thời gian chu kỳ trung bình của khối rẽ nhánh XOR này là bao nhiêu?",
+        "options": {
+          "A": "6.0 ngày",
+          "B": "5.0 ngày",
+          "C": "6.5 ngày",
+          "D": "13.0 ngày"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nThời gian chu kỳ khối XOR-split:\n$$CT = (0.6 \\times 4) + (0.4 \\times 9) = 2.4 + 3.6 = 6.0 \\text{ ngày}.$$\n\n🎯 **Mẹo tính nhanh:** Bình quân gia quyền xác suất của các nhánh!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q39",
+        "content": "Câu 39 [Lec 7 - Công thức độ dài hàng đợi M/M/1]: Trong hệ thống hàng đợi ổn định M/M/1 với hệ số sử dụng $\\rho = 0.75$, số lượng khách hàng trung bình đang có mặt trong toàn bộ hệ thống ($L$) là bao nhiêu?",
+        "options": {
+          "A": "1 người",
+          "B": "3 người",
+          "C": "4 người",
+          "D": "0.75 người"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nCông thức số lượng khách trong hệ thống M/M/1:\n$$L = \\frac{\\rho}{1 - \\rho} = \\frac{0.75}{1 - 0.75} = \\frac{0.75}{0.25} = 3 \\text{ người}.$$\nSố lượng khách đứng chờ trong hàng đợi: $L_q = \\frac{\\rho^2}{1 - \\rho} = \\frac{0.5625}{0.25} = 2.25$ người.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q40",
+        "content": "Câu 40 [Lec 9 - Heuristic Parallelism]: Heuristic 'Parallelism' (Thực thi song song) khuyến nghị chuyển đổi các tác vụ tuần tự độc lập thành các tác vụ chạy song song. Tác động của heuristic này lên Tứ giác Devil's Quadrangle là gì?",
+        "options": {
+          "A": "Tăng Cycle Time và giảm chi phí.",
+          "B": "Giúp quy trình linh hoạt hơn với mọi loại yêu cầu.",
+          "C": "Giảm Cycle Time đáng kể, nhưng có thể tăng chi phí điều phối hoặc đòi hỏi nhiều nhân sự cùng lúc.",
+          "D": "Không có bất kỳ tác động nào đến thời gian hay chi phí."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nHeuristic Parallelism rút ngắn thời gian chu kỳ (Time) bằng cách làm đồng thời, nhưng cái giá phải trả (trade-off) là tăng độ phức tạp điều phối, tăng chi phí công nghệ hoặc xung đột tài nguyên.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q41",
+        "content": "Câu 41 [Lec 5 - Biểu đồ Xương cá Ishikawa]: Trong biểu đồ nhân quả (Fishbone Diagram) theo khung 6M, nguyên nhân 'Tài liệu hướng dẫn nghiệp vụ viết không rõ ràng, các bước bị mâu thuẫn' thuộc nhóm nào?",
+        "options": {
+          "A": "Manpower (Con người)",
+          "B": "Machine (Máy móc)",
+          "C": "Material (Nguyên vật liệu)",
+          "D": "Method (Phương pháp / Quy trình)"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\n• **Method:** Quy định, chính sách, quy trình, tài liệu hướng dẫn công việc.\n• **Manpower:** Kỹ năng, thái độ, thể lực của con người.\n• **Material:** Dữ liệu đầu vào, linh kiện, nguyên liệu thô.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q42",
+        "content": "Câu 42 [Lec 3 - Cổng Inclusive OR-join]: Khi nào một cổng Inclusive (OR) join cho phép token đi qua sang luồng đầu ra?",
+        "options": {
+          "A": "Khi và chỉ khi TẤT CẢ các nhánh đang hoạt động (active incoming paths) đã gửi token tới.",
+          "B": "Ngay khi có ít nhất một token đầu tiên đến bất kể các nhánh khác.",
+          "C": "Sau một khoảng thời gian cố định 10 phút.",
+          "D": "Khi người quản trị ấn nút kích hoạt."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3 & 4):**\nOR-join phải đồng bộ hóa thông minh: Nó kiểm tra xem những nhánh nào đã được OR-split kích hoạt trước đó, và chỉ chờ đủ token từ các nhánh ĐANG ACTIVE đó.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q43",
+        "content": "Câu 43 [Lec 2 - Case/Function Matrix]: Ma trận Ca/Chức năng (Case/Function Matrix) trong Nhận diện quy trình dùng để làm gì?",
+        "options": {
+          "A": "Phân chia các phòng ban theo bảng lương nhân viên.",
+          "B": "Đối chiếu giữa các loại trường hợp nghiệp vụ (Case types - sản phẩm, kênh, khách hàng) với các chức năng kinh doanh (Functions) để xác định ranh giới các quy trình.",
+          "C": "Viết mã nguồn phần mềm ERP.",
+          "D": "Tính toán chỉ số ROI của dự án."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 2):**\nCase/Function Matrix là công cụ cốt lõi để xây dựng Process Landscape Model: Các cột là Case Types, các dòng là Business Functions. Giao điểm giữa chúng giúp nhận diện rõ ranh giới từng quy trình kinh doanh.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q44",
+        "content": "Câu 44 [Lec 10 - Tác vụ Script Task]: Trong Camunda BPMN, một 'Script Task' (biểu tượng trang giấy có đoạn script) khác gì so với 'Service Task'?",
+        "options": {
+          "A": "Script Task chỉ do người dùng nhập form bằng tay.",
+          "B": "Script Task bắt buộc phải có máy chủ database riêng.",
+          "C": "Script Task thực thi trực tiếp các đoạn kịch bản ngắn nội bộ (như Groovy, JavaScript) ngay bên trong Process Engine mà không cần gọi ra bên ngoài.",
+          "D": "Script Task không bao giờ được phép có dữ liệu đầu ra."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\n• **Script Task:** Chạy kịch bản nội bộ (Groovy, JS, Python) trực tiếp trên engine.\n• **Service Task:** Gọi mã nguồn Java compiled hoặc gọi API dịch vụ từ hệ thống bên ngoài.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q45",
+        "content": "Câu 45 [Lec 11 - Alpha Miner Footprint]: Trong ma trận vết chân (Footprint Matrix) của thuật toán Alpha Miner, nếu sự kiện $a$ trực tiếp theo sau bởi $b$ ($a > b$) VÀ đồng thời $b$ cũng trực tiếp theo sau bởi $a$ ($b > a$), quan hệ giữa $a$ và $b$ là gì?",
+        "options": {
+          "A": "Causality (Nhân quả một chiều: $a \\to b$)",
+          "B": "Choice / Conflict (Lựa chọn loại trừ: $a \\# b$)",
+          "C": "Incomparable (Không liên quan)",
+          "D": "Parallel / Concurrency (Song song: $a \\parallel b$)"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nCác quan hệ trong Alpha Miner Footprint:\n• $a > b$ và KHÔNG $b > a$ $\\Rightarrow a \\to b$ (Causality / Nhân quả).\n• $a > b$ VÀ $b > a$ $\\Rightarrow a \\parallel b$ (Parallel / Song song độc lập).\n• KHÔNG $a > b$ và KHÔNG $b > a$ $\\Rightarrow a \\# b$ (Choice / Không bao giờ đi liền nhau).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q46",
+        "content": "Câu 46 [Lec 8 - Transformational vs Transactional Redesign]: Sự khác biệt giữa Tái thiết kế chuyển đổi căn bản (Transformational / BPR) và Tái thiết kế cải tiến từng bước (Transactional / Heuristic) là gì?",
+        "options": {
+          "A": "Transformational đặt lại toàn bộ câu hỏi về bản chất quy trình và thay đổi triệt để cấu trúc (radical overhaul); Transactional cải tiến tinh chỉnh trên quy trình hiện có (incremental).",
+          "B": "Transformational chỉ dùng cho doanh nghiệp nhà nước.",
+          "C": "Transactional xóa bỏ toàn bộ nhân viên công ty.",
+          "D": "Hai phương pháp này hoàn toàn giống nhau về phạm vi và rủi ro."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 8):**\n• **Transformational (BPR):** Thay đổi căn bản, xóa đi làm lại từ đầu (radical redesign), rủi ro cao nhưng tiềm năng đột phá lớn.\n• **Transactional (Heuristic):** Tinh chỉnh, cải tiến tiệm tiến (incremental redesign) dựa trên mô hình AS-IS sẵn có.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock3-q47",
+        "content": "Câu 47 [Lec 9 - Heuristic Control Relocation]: Heuristic 'Chuyển giao quyền kiểm soát' (Control Relocation) đề xuất điều gì đối với việc nhập liệu của khách hàng?",
+        "options": {
+          "A": "Thuê thêm nhân viên trực tổng đài để ghi chép đơn hàng.",
+          "B": "Cho phép khách hàng tự nhập dữ liệu trực tiếp qua cổng thông tin (self-service portal) thay vì nhân viên công ty phải nhập lại dữ liệu gián tiếp.",
+          "C": "Bắt khách hàng phải in đơn giấy và công chứng tại phường.",
+          "D": "Chuyển toàn bộ dữ liệu khách hàng sang ổ cứng ngoài."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nControl Relocation: Chuyển quyền kiểm soát và nhập liệu cho khách hàng (như mua vé máy bay online, tự check-in sân bay) giúp giảm nhân công, giảm sai sót do truyền đạt trung gian và tăng tốc độ xử lý.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock3-q48",
+        "content": "Câu 48 [Lec 4 - Multi-Instance Activity]: Biểu tượng ba vạch kẻ dọc song song ở đáy một tác vụ trong BPMN thể hiện điều gì?",
+        "options": {
+          "A": "Tác vụ chạy tuần tự từng cái một (Sequential Multi-Instance).",
+          "B": "Tác vụ chạy lặp lại với điều kiện dừng (Loop Activity).",
+          "C": "Tác vụ chạy đa thể hiện song song (Parallel Multi-Instance - nhiều phiên bản cùng chạy đồng thời).",
+          "D": "Tác vụ chỉ định cho 3 người cùng làm."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\n• **3 vạch dọc song song (|||):** Parallel Multi-Instance (VD: Gửi yêu cầu báo giá cho $n$ nhà cung cấp cùng một lúc).\n• **3 vạch ngang (≡):** Sequential Multi-Instance (xử lý tuần tự từng người).\n• **Mũi tên xoay vòng:** Loop Activity (khối lặp có điều kiện).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock3-q49",
+        "content": "Câu 49 [Lec 1 - Vai trò Process Owner]: Trong quản trị quy trình kinh doanh hướng tiến trình, ai là người chịu trách nhiệm cao nhất về hiệu suất tổng thể từ đầu đến cuối (End-to-End) của quy trình?",
+        "options": {
+          "A": "Các nhân viên tham gia thực hiện từng tác vụ nhỏ (Process Participants).",
+          "B": "Trưởng phòng hành chính tổng hợp.",
+          "C": "Nhà cung cấp phần mềm bên ngoài.",
+          "D": "Chủ sở hữu quy trình (Process Owner)."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 1):**\nProcess Owner (Chủ sở hữu quy trình) là người được giao trách nhiệm giải trình toàn diện về kết quả đầu ra, hiệu suất, chi phí và chất lượng của toàn bộ quy trình xuyên suốt qua các phòng ban chức năng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock3-q50",
+        "content": "Câu 50 [Lec 11 - Variant Analysis]: Kỹ thuật Phân tích Biến thể (Variant Analysis) trong Process Mining (Slide Lecture 11) được sử dụng để làm gì?",
+        "options": {
+          "A": "Để so sánh và tìm ra sự khác biệt về đường đi (control-flow) và hiệu suất (thời gian, nghẽn) giữa các nhóm ca khác nhau (như nhóm giải quyết nhanh vs nhóm giải quyết chậm).",
+          "B": "Để mã hóa dữ liệu thành các tệp nén zip.",
+          "C": "Để xóa các ca quy trình chạy quá 3 ngày.",
+          "D": "Để thay thế hoàn toàn vai trò của giám đốc điều hành."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nVariant Analysis: Chia Event Log thành các nhóm biến thể (VD: 75% hồ sơ chạy luồng chuẩn nhanh gọn vs 25% hồ sơ bị chậm trễ) và so sánh trực quan sơ đồ luồng để tìm ra nguyên nhân gây lệch chuẩn và chậm trễ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      }
+    ]
+  },
+  {
+    "id": "bps301-fa26-mock-04",
+    "name": "[FE] BPS301 - FA26 - Đề Thi Thử Chuẩn FE - Đề 04 (50 câu)",
+    "subject": "BPS301",
+    "createdAt": 1770000030000,
+    "questions": [
+      {
+        "id": "bps301-fa26-mock4-q01",
+        "content": "Câu 01 [Lec 3 - Cổng XOR vs OR]: Điểm khác biệt mấu chốt giữa cổng Exclusive (XOR) split và cổng Inclusive (OR) split là gì?",
+        "options": {
+          "A": "Cổng XOR-split luôn kích hoạt tất cả các nhánh, còn OR-split chỉ chọn 1 nhánh.",
+          "B": "Cổng XOR-split kích hoạt chính xác một nhánh đầu ra duy nhất, trong khi cổng OR-split có thể kích hoạt một hoặc nhiều nhánh đầu ra cùng lúc dựa trên các điều kiện độc lập.",
+          "C": "Cổng OR-split bắt buộc phải đi kèm với Timer.",
+          "D": "Cổng XOR-split chỉ dùng được trong Sub-process."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3 & 4):**\n• **XOR-split:** Các điều kiện loại trừ lẫn nhau (mutually exclusive) -> Đúng 1 nhánh được chọn.\n• **OR-split:** Các điều kiện độc lập -> Có thể chọn 1, 2 hoặc tất cả các nhánh thỏa mãn cùng lúc.\n\n🎯 **Khi nào chọn XOR vs OR?**\n• Nếu đề bài nói 'Khách hàng có thể chọn nhận hàng qua bưu điện HOẶC nhận tại cửa hàng, hoặc cả hai' -> Chọn **OR-split**.\n• Nếu chỉ được chọn đúng 1 hình thức -> Chọn **XOR-split**.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q02",
+        "content": "Câu 02 [Lec 4 - Sự kiện Biên Lỗi Error Boundary Event]: Theo quy định chuẩn BPMN 2.0 (Slide Lecture 4), sự kiện biên báo lỗi (Error Boundary Event) có đặc tính bắt buộc nào sau đây?",
+        "options": {
+          "A": "Có thể chọn viền nét đứt (Non-interrupting) để cho tác vụ chạy tiếp.",
+          "B": "Chỉ được gắn vào cổng rẽ nhánh Gateway.",
+          "C": "Bắt buộc phải là sự kiện ngắt quãng (Interrupting - viền nét liền) và chỉ được gắn vào ranh giới của một tác vụ hoặc Sub-process.",
+          "D": "Luôn luôn sinh ra token lặp lại vô tận."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\nQuy tắc bất di bất dịch của BPMN 2.0: Error Event gắn trên boundary BẮT BUỘC PHẢI LÀ **Interrupting** (viền nét liền)! Khi có lỗi xảy ra, hoạt động chính bắt buộc phải bị hủy bỏ ngay lập tức, không bao giờ có lỗi mà vẫn cho chạy song song.\n\n⚠️ **Bẫy thi cử:**\nNếu thấy đề bài hỏi 'Sự kiện nào sau đây KHÔNG THỂ là non-interrupting?' -> Chọn ngay **Error Event**!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q03",
+        "content": "Câu 03 [Lec 4 - Sub-process Nhúng vs Gọi tái sử dụng Call Activity]: Khi nào một nhà phân tích quy trình nên dùng 'Call Activity' (Sub-process toàn cục) thay vì dùng 'Embedded Sub-process' (Sub-process nhúng cục bộ)?",
+        "options": {
+          "A": "Khi quy trình con chỉ có duy nhất 1 tác vụ đơn giản.",
+          "B": "Khi muốn giấu kín quy trình con không cho ai xem.",
+          "C": "Khi quy trình con không có điểm bắt đầu hay kết thúc.",
+          "D": "Khi quy trình con đó được tái sử dụng ở nhiều quy trình kinh doanh khác nhau trong toàn doanh nghiệp."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\n• **Embedded Sub-process:** Nằm lọt bên trong quy trình cha, chia sẻ biến số của quy trình cha, KHÔNG THỂ tái sử dụng cho quy trình khác.\n• **Call Activity (Viền đậm):** Là một quy trình độc lập riêng biệt, được gọi tái sử dụng (reusable) ở nhiều quy trình cha khác nhau (VD: Quy trình con 'Xác minh danh tính khách hàng - eKYC').",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q04",
+        "content": "Câu 04 [Lec 4 - Sự kiện Bù trừ Compensation Event]: Mục đích của sự kiện bù trừ (Compensation Intermediate Throw / Boundary Event) trong BPMN 2.0 là gì?",
+        "options": {
+          "A": "Để hoàn tác (undo/rollback) kết quả của một tác vụ ĐÃ HOÀN THÀNH trước đó (ví dụ: hoàn tiền khi đơn hàng bị hủy sau khi đã trừ tiền thẻ).",
+          "B": "Để hủy bỏ toàn bộ hệ thống máy chủ khi có sự cố mạng.",
+          "C": "Để tăng lương bù trừ cho nhân viên làm thêm giờ.",
+          "D": "Để gộp hai cổng rẽ nhánh lại với nhau."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\nCompensation Event (biểu tượng hai hình tam giác tua lại ⏮): Dùng cho các giao dịch nghiệp vụ không thể rollback bằng database đơn thuần. Khi xảy ra sự cố hủy ngang, nó kích hoạt hành động nghiệp vụ để 'hoàn tác' (như hủy phòng khách sạn, hoàn lại tiền vé máy bay).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q05",
+        "content": "Câu 05 [Lec 4 - Event Sub-process]: Một 'Event Sub-process' (Quy trình con sự kiện) được kích hoạt như thế nào và có điểm gì đặc biệt so với Sub-process thông thường?",
+        "options": {
+          "A": "Nó được nối bằng một đường Sequence Flow từ một cổng Gateway.",
+          "B": "Nó không có Sequence Flow nối tới, mà được kích hoạt bởi một Start Event sự kiện (Message, Timer, Error) khi sự kiện đó xuất hiện trong phạm vi quy trình.",
+          "C": "Nó bắt buộc phải chạy trước Start Event của quy trình cha.",
+          "D": "Nó chỉ chạy được trên điện thoại thông minh."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\nEvent Sub-process nằm bên trong quy trình cha nhưng **KHÔNG CÓ luồng Sequence Flow nối vào**. Khung của nó là đường nét đứt, và nó tự kích hoạt khi Start Event đặc biệt của nó bắt được sự tín hiệu (VD: Khách hàng yêu cầu tra cứu trạng thái đơn bất kỳ lúc nào).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q06",
+        "content": "Câu 06 [Lec 5 - Biểu đồ Tại sao 5 Whys]: Kỹ thuật '5 Whys' (Why-Why Diagram) trong phân tích nguyên nhân gốc rễ (Root Cause Analysis) hoạt động theo cơ chế nào?",
+        "options": {
+          "A": "Yêu cầu 5 nhân viên khác nhau giải trình lỗi.",
+          "B": "Viết 5 giải pháp khác nhau cho một bài toán.",
+          "C": "Hỏi câu hỏi 'Tại sao' liên tiếp qua các tầng nguyên nhân bề nổi để đi sâu dần đến tận nguyên nhân gốc rễ sâu xa nhất của vấn đề.",
+          "D": "Dừng lại ngay ở nguyên nhân đầu tiên được phát hiện."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\nKỹ thuật 5 Whys: Liên tục đào sâu bằng câu hỏi 'Tại sao điều này xảy ra?' (thường khoảng 5 lần) để bóc tách các triệu chứng bề ngoài và chạm tới lỗi hệ thống hoặc nguyên nhân quản trị cốt lõi.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q07",
+        "content": "Câu 07 [Lec 5 - Issue Register]: Bảng đăng ký vấn đề (Issue Register) trong Slide Lecture 5 thường bao gồm các cột thông tin chuẩn nào sau đây?",
+        "options": {
+          "A": "Tên nhân viên, Số tài khoản ngân hàng, Địa chỉ nhà riêng.",
+          "B": "Cấu hình CPU, Tốc độ mạng, Phiên bản phần mềm.",
+          "C": "Lịch trực nhật văn phòng của các phòng ban.",
+          "D": "Số thứ tự, Tên vấn đề (Issue name), Mô tả ngắn, Tác động định tính (Qualitative impact), Tổn thất định lượng (Quantitative impact / Cost)."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\nIssue Register là bảng tổng hợp tiêu chuẩn trong bước phân tích định tính: Liệt kê chi tiết từng vấn đề, nguyên nhân, bằng chứng, tác động định tính (uy tín, sự hài lòng) và tác động định lượng (thời gian trễ, chi phí tiền bạc).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q08",
+        "content": "Câu 08 [Lec 5 - Phân loại 7 Lãng phí - Defect/Rework]: Hồ sơ vay vốn ngân hàng bị trả về do thiếu chữ ký của người bảo lãnh, nhân viên phải gọi điện hẹn khách hàng đến ký bổ sung và thẩm định lại từ đầu. Đây là lãng phí nào?",
+        "options": {
+          "A": "Lãng phí do sai sót và làm lại (Defects / Rework).",
+          "B": "Lãng phí tồn kho (Inventory).",
+          "C": "Lãng phí gia công thừa (Over-processing).",
+          "D": "Lãng phí di chuyển (Motion)."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\n• **Defects / Rework:** Hồ sơ làm sai, thiếu thông tin dẫn đến việc phải làm lại (re-execution), gây tốn kém thời gian và chi phí gấp đôi gấp ba.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q09",
+        "content": "Câu 09 [Lec 6 - TCT vs CT]: Trong một quy trình đăng ký kinh doanh, tổng thời gian các chuyên viên thực sự ngồi thao tác xử lý giấy tờ là 4 giờ (TCT = 4 giờ). Tuy nhiên, hồ sơ phải nằm chờ trong ngăn kéo và hàng đợi phê duyệt mất tới 16 ngày làm việc (mỗi ngày 8 giờ làm việc = 128 giờ chờ). Tỷ lệ thời gian chờ đợi (Waiting time ratio) chiếm bao nhiêu phần trăm tổng Cycle Time?",
+        "options": {
+          "A": "khoảng 3%",
+          "B": "khoảng 97% (128 / 132)",
+          "C": "50%",
+          "D": "25%"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nTổng Cycle Time $CT = \\text{Processing Time (TCT)} + \\text{Waiting Time} = 4 + 128 = 132$ giờ.\nTỷ lệ thời gian lãng phí chờ đợi trong hàng đợi là:\n$$\\frac{128}{132} \\approx 96.97\\%.$$\nĐây là minh chứng cho thấy trong các quy trình dịch vụ, đa số thời gian trễ là do chờ đợi chứ không phải do thời gian thao tác!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q10",
+        "content": "Câu 10 [Lec 7 - Mô hình hàng đợi M/M/c]: Một văn phòng công chứng có $c = 4$ công chứng viên làm việc độc lập. Tốc độ khách đến là $\\lambda = 16$ khách/giờ. Mỗi công chứng viên công chứng trung bình được $\\mu = 5$ khách/giờ. Hệ số sử dụng tài nguyên của văn phòng là:",
+        "options": {
+          "A": "100%",
+          "B": "25%",
+          "C": "80%",
+          "D": "40%"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nCông thức hệ số sử dụng cho hệ thống $c$ máy chủ song song:\n$$\\rho = \\frac{\\lambda}{c \\times \\mu} = \\frac{16}{4 \\times 5} = \\frac{16}{20} = 0.8 = 80\\%.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q11",
+        "content": "Câu 11 [Lec 7 - Định luật Little với thời gian chờ]: Nếu số lượng khách hàng trung bình đang phải ngồi chờ trong hàng đợi là $L_q = 6$ người, và tốc độ khách đến là $\\lambda = 12$ người/giờ. Thời gian chờ đợi trung bình của một khách hàng trong hàng đợi ($W_q$) là bao nhiêu?",
+        "options": {
+          "A": "2 giờ",
+          "B": "72 phút",
+          "C": "6 phút",
+          "D": "0.5 giờ (30 phút)"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nĐịnh luật Little áp dụng riêng cho hàng đợi:\n$$W_q = \\frac{L_q}{\\lambda} = \\frac{6}{12} = 0.5 \\text{ giờ} = 30 \\text{ phút}.$$\n\n🎯 **Mẹo nhớ:** $L_q = \\lambda \\times W_q$ (Số người trong hàng = Tốc độ đến $\\times$ Thời gian chờ trong hàng).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q12",
+        "content": "Câu 12 [Lec 6 - Điểm gãy công suất Bottleneck]: Trong một dây chuyền tuần tự gồm 4 công đoạn: Bước 1 (năng lực 30 hồ sơ/giờ), Bước 2 (năng lực 15 hồ sơ/giờ), Bước 3 (năng lực 25 hồ sơ/giờ), Bước 4 (năng lực 40 hồ sơ/giờ). Nút thắt cổ chai (Bottleneck) nằm ở bước nào và công suất tối đa của toàn bộ dây chuyền là bao nhiêu?",
+        "options": {
+          "A": "Bước 2 là nút thắt cổ chai; công suất tối đa của quy trình là 15 hồ sơ/giờ.",
+          "B": "Bước 4 là nút thắt cổ chai; công suất tối đa là 40 hồ sơ/giờ.",
+          "C": "Bước 1 là nút thắt cổ chai; công suất tối đa là 30 hồ sơ/giờ.",
+          "D": "Công suất bằng trung bình cộng của cả 4 bước (27.5 hồ sơ/giờ)."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6 & 7):**\nNguyên lý đường găng / Cổ chai (Bottleneck): Dây chuyền chỉ có thể chạy nhanh bằng công đoạn CHẬM NHẤT trong chuỗi. Bước 2 có năng lực nhỏ nhất (15 hồ sơ/giờ) chính là nút thắt, khống chế toàn bộ công suất của cả quy trình ở mức 15 hồ sơ/giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q13",
+        "content": "Câu 13 [Lec 8 - Cắt giảm Chi phí vs Chất lượng trong Devil's Quadrangle]: Một công ty cắt giảm 50% số lượng chuyên viên kiểm tra chất lượng sản phẩm để giảm chi phí nhân sự và rút ngắn thời gian xuất kho. Sau 3 tháng, tỷ lệ sản phẩm lỗi bị khách hàng trả lại tăng gấp 4 lần. Đây là minh họa điển hình cho sự đánh đổi nào trong Tứ giác Devil's Quadrangle?",
+        "options": {
+          "A": "Tăng tính linh hoạt (Flexibility) làm tăng chi phí.",
+          "B": "Tối ưu hóa Chi phí (Cost) và Thời gian (Time) dẫn đến suy giảm nghiêm trọng Chất lượng (Quality).",
+          "C": "Cải tiến chất lượng làm tăng thời gian.",
+          "D": "Không có sự đánh đổi nào xảy ra."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 8):**\nTứ giác Ác quỷ (Devil's Quadrangle): Mối quan hệ đánh đổi trực tiếp giữa Chi phí - Thời gian với Chất lượng. Cắt giảm kiểm soát nội bộ (giảm Cost/Time) thường đẩy rủi ro lỗi ra phía khách hàng (giảm Quality).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q14",
+        "content": "Câu 14 [Lec 9 - Heuristic Flexible Assignment]: Heuristic 'Phân công linh hoạt' (Flexible Assignment) trong thiết kế lại quy trình khuyến nghị điều gì?",
+        "options": {
+          "A": "Cho phép nhân viên tự do chọn làm việc hoặc nghỉ việc bất kỳ ngày nào.",
+          "B": "Thuê toàn bộ nhân viên thời vụ giá rẻ.",
+          "C": "Đào tạo nhân viên đa kỹ năng (cross-training) để họ có thể linh hoạt chuyển đổi hỗ trợ các công đoạn khác khi công đoạn đó bị nghẽn tải.",
+          "D": "Cố định mỗi nhân viên chỉ được làm đúng 1 thao tác duy nhất suốt đời."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nFlexible Assignment (Resource Heuristics): Đào tạo nhân viên đa năng (cross-functional resources) giúp tổ chức linh hoạt điều chuyển nhân lực sang hỗ trợ các vị trí đang bị nghẽn (bottleneck) vào giờ cao điểm.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q15",
+        "content": "Câu 15 [Lec 9 - Heuristic Integration]: Heuristic 'Tích hợp quy trình với đối tác' (Integration) trong quan hệ với nhà cung cấp mang lại lợi ích gì lớn nhất?",
+        "options": {
+          "A": "Ép đối tác phải bàn giao lại mã nguồn phần mềm.",
+          "B": "Giải thể phòng mua hàng của doanh nghiệp.",
+          "C": "Tăng số lượng bước kiểm tra giấy tờ hải quan.",
+          "D": "Loại bỏ các giao dịch gửi - nhận hóa đơn/đơn hàng thủ công bằng cách kết nối hệ thống thông tin (EDI, API) trực tiếp giữa hai bên."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nIntegration Heuristic: Tích hợp hệ thống giữa doanh nghiệp và nhà cung cấp/khách hàng qua API/EDI giúp luồng dữ liệu thông suốt, loại bỏ độ trễ vận chuyển thông tin và giảm sai sót nhập liệu thủ công.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q16",
+        "content": "Câu 16 [Lec 10 - Business Rule Task trong Camunda]: Trong Camunda BPMN, một 'Business Rule Task' (biểu tượng bảng tính) thường được tích hợp với công cụ nào để quản lý các quy tắc bảng quyết định?",
+        "options": {
+          "A": "DMN (Decision Model and Notation) Decision Tables.",
+          "B": "Microsoft Excel thông thường cài trên máy cá nhân.",
+          "C": "Hệ điều hành Windows CMD.",
+          "D": "Một trang web tin tức."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\nBusiness Rule Task trong BPMN 2.0 / Camunda được liên kết trực tiếp với chuẩn **DMN (Decision Model and Notation)** để thực thi các bảng luật quyết định (Decision Table) phức tạp (như chấm điểm tín dụng, tính mức chiết khấu).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q17",
+        "content": "Câu 17 [Lec 10 - Biến quy trình Process Variables]: Trong một hệ thống BPMS như Camunda, các biến quy trình (Process Variables) đóng vai trò gì?",
+        "options": {
+          "A": "Kiểm tra nhiệt độ CPU của máy chủ.",
+          "B": "Lưu trữ dữ liệu của ca quy trình (như mã đơn hàng, số tiền, trạng thái phê duyệt) và truyền dữ liệu qua lại giữa các tác vụ và biểu thức điều kiện rẽ nhánh.",
+          "C": "Lưu mật khẩu ngân hàng của khách hàng dưới dạng file text công khai.",
+          "D": "Chỉ dùng để đếm số lượng node trên màn hình."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\nProcess Variables là bộ nhớ dữ liệu gắn liền với mỗi Process Instance, được Process Engine lưu vào database để các Service Task đọc/ghi và các cổng Gateway dùng để đánh giá điều kiện rẽ nhánh (VD: `${amount > 5000}`).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q18",
+        "content": "Câu 18 [Lec 10 - Ngoại lệ trong tự động hóa]: Slide Lecture 10 nêu rõ nguyên lý 'Exceptions are the rule' (Ngoại lệ là chuyện bình thường). Khi chuyển đổi sang mô hình thực thi, nhà phân tích phải làm gì?",
+        "options": {
+          "A": "Chỉ mô hình hóa luồng chạy êm đẹp (Sunny-day scenario) và bỏ qua các lỗi để code cho nhanh.",
+          "B": "Bắt người dùng phải tự xử lý lỗi ngoài đời.",
+          "C": "Bắt buộc phải rà soát và mô hình hóa đầy đủ các đường luồng xử lý lỗi, sự kiện quá hạn (Timeouts), hủy đơn, hoặc từ chối phê duyệt (Rainy-day scenarios).",
+          "D": "Xóa bỏ các cổng rẽ nhánh để luồng chạy thẳng."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\nTrong thực tế phần mềm, nếu hệ thống không có đường luồng xử lý cho trường hợp lỗi hoặc quá hạn thì token sẽ bị kẹt hoặc hệ thống bị treo. Do đó, mô hình thực thi bắt buộc phải bao quát các kịch bản ngoại lệ (Rainy-day paths).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q19",
+        "content": "Câu 19 [Lec 11 - Performance Mining]: Kỹ thuật 'Performance Mining' trong Process Mining khác với 'Automated Process Discovery' ở điểm nào?",
+        "options": {
+          "A": "Discovery chạy tự động, còn Performance Mining phải vẽ tay.",
+          "B": "Performance Mining không cần sử dụng Event Log.",
+          "C": "Performance Mining chỉ áp dụng cho ngành ngân hàng.",
+          "D": "Discovery chỉ khám phá cấu trúc đường đi luồng công việc (control-flow), còn Performance Mining phủ thêm dữ liệu thời gian (thời gian xử lý, thời gian chờ, nút thắt) lên trên sơ đồ luồng."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\n• **Discovery:** Tìm ra 'CÁI GÌ ĐÃ DIỄN RA?' (Cấu trúc các bước và đường nối).\n• **Performance Mining:** Trả lời 'MẤT BAO LÂU VÀ NGHẼN Ở ĐÂU?' (Chiếu trực tiếp thời gian chờ giữa các bước và tô đỏ các nút thắt cổ chai).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q20",
+        "content": "Câu 20 [Lec 11 - 4 Chiều chất lượng mô hình Conformance]: Bốn chiều chất lượng dùng để đánh giá một mô hình quy trình sinh ra từ Process Mining (Slide Lecture 11) bao gồm:",
+        "options": {
+          "A": "Fitness, Precision, Generalization, Simplicity.",
+          "B": "Time, Cost, Quality, Flexibility.",
+          "C": "Speed, Security, Scalability, Storage.",
+          "D": "Input, Process, Output, Outcome."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\n4 tiêu chí chất lượng kinh điển của Wil van der Aalst:\n1. **Fitness:** Mô hình có cho phép chạy lại hết các ca trong Log không?\n2. **Precision:** Mô hình có ngăn chặn các hành vi vô lý/sai lệch không?\n3. **Generalization:** Mô hình có dự đoán được hành vi hợp lý trong tương lai không?\n4. **Simplicity:** Mô hình có đơn giản, dễ hiểu theo nguyên lý Occam không?",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q21",
+        "content": "Câu 21 [Lec 11 - Operational Dashboard vs BAM]: Business Activity Monitoring (BAM) và Operational Process Dashboard phục vụ trường hợp sử dụng nào sau đây?",
+        "options": {
+          "A": "Lập báo cáo tài chính năm gửi cơ quan thuế.",
+          "B": "Cảnh báo sớm và tức thời (real-time alerts) về các ca quy trình đang có nguy cơ vi phạm cam kết chất lượng dịch vụ (SLA) để nhân viên can thiệp kịp thời.",
+          "C": "Lên kế hoạch sáp nhập công ty trong 5 năm tới.",
+          "D": "Thiết kế lại toàn bộ văn hóa doanh nghiệp."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nBAM (Business Activity Monitoring) & Operational Dashboard hoạt động trực tiếp trên luồng sự kiện thời gian thực (real-time event stream): Báo động đỏ ngay khi một đơn hàng sắp hết hạn SLA (VD: Đơn hàng giao trong 2 giờ đã trôi qua 1h45) để điều phối viên giải cứu kịp thời.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q22",
+        "content": "Câu 22 [Lec 1 - Performance Dimensions]: Trong 4 chiều hiệu suất quy trình (Time, Cost, Quality, Flexibility), yếu tố nào đo lường khả năng của quy trình thích ứng với sự thay đổi về khối lượng công việc (Workload variation)?",
+        "options": {
+          "A": "Chất lượng nội bộ (Internal Quality).",
+          "B": "Thời gian chu kỳ (Cycle Time).",
+          "C": "Tính linh hoạt (Flexibility).",
+          "D": "Chi phí cố định (Fixed Cost)."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 1 & 8):**\nFlexibility (Tính linh hoạt) gồm: Khả năng thích ứng với biến động tải công việc (Workload capacity flexibility) và khả năng thích ứng với yêu cầu đa dạng của khách hàng (Mix/Customization flexibility).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q23",
+        "content": "Câu 23 [Lec 2 - Process Architecture]: Trong kiến trúc quy trình, một 'Process Landscape Model' (Mô hình toàn cảnh quy trình) thường được hiển thị ở cấp độ nào?",
+        "options": {
+          "A": "Level 3 - Cấp độ chi tiết hiển thị từng câu lệnh code.",
+          "B": "Cấp độ kịch bản thử nghiệm phần mềm.",
+          "C": "Cấp độ bảng lương nhân sự.",
+          "D": "Level 1 - Cấp độ trừu tượng cao nhất, hiển thị bức tranh toàn cảnh các nhóm quy trình cốt lõi, hỗ trợ và quản lý của doanh nghiệp."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 2):**\nProcess Landscape Model là mô hình trực quan ở **Level 1** (cấp cao nhất), giúp toàn thể cán bộ công nhân viên và ban lãnh đạo nhìn thấy bản đồ chuỗi giá trị và mối quan hệ giữa các nhóm quy trình lớn trong tổ chức.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q24",
+        "content": "Câu 24 [Lec 3 - Sequence Flow Validation]: Trong BPMN 2.0, phần tử nào sau đây TUYỆT ĐỐI KHÔNG ĐƯỢC PHÉP có luồng tuần tự đi ra (Outgoing Sequence Flow)?",
+        "options": {
+          "A": "End Event",
+          "B": "Start Event",
+          "C": "Task",
+          "D": "Parallel Gateway"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3):**\nQuy tắc cú pháp BPMN cơ bản:\n• **Start Event:** Không có incoming sequence flow, CHỈ CÓ outgoing.\n• **End Event:** Kết thúc quy trình, tiêu hủy token, CHỈ CÓ incoming, TUYỆT ĐỐI KHÔNG CÓ outgoing sequence flow!\n• **Intermediate Event:** Có cả incoming và outgoing.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q25",
+        "content": "Câu 25 [Lec 4 - Sub-process Lặp lại]: Để mô hình hóa một tác vụ kiểm tra hồ sơ được lặp đi lặp lại cho đến khi đạt chất lượng mới dừng lại, ta gắn dấu hiệu gì vào đáy của tác vụ?",
+        "options": {
+          "A": "Dấu cộng trong ô vuông (Sub-process marker).",
+          "B": "Dấu mũi tên uốn tròn (Loop marker).",
+          "C": "Dấu ba vạch kẻ dọc (Multi-Instance marker).",
+          "D": "Dấu hình thoi."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\n• Mũi tên uốn cong dạng vòng lặp (Loop marker): Đại diện cho khối lặp tiêu chuẩn (Standard Loop) lặp lại dựa trên một biểu thức điều kiện boolean (While/Until).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q26",
+        "content": "Câu 26 [Lec 5 - Root Cause 6Ms]: Trong biểu đồ Ishikawa, nguyên nhân 'Nhiệt độ phòng máy chủ quá nóng khiến máy tính thường xuyên bị treo khởi động lại' thuộc nhóm M nào?",
+        "options": {
+          "A": "Manpower",
+          "B": "Method",
+          "C": "Milieu / Mother Nature (Môi trường làm việc xung quanh).",
+          "D": "Measurement"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\nChữ M thứ 6: **Milieu** (hoặc Mother Nature / Environment) bao gồm các yếu tố môi trường vật lý xung quanh như nhiệt độ, độ ẩm, tiếng ồn, ánh sáng, hoặc các cú sốc bên ngoài.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q27",
+        "content": "Câu 27 [Lec 6 - CT với nhánh song song và xác suất kết hợp]: Khối quy trình có 2 công việc A (5 giờ) và B (3 giờ) chạy song song qua cổng AND. Sau đó nối vào bước C (4 giờ). Tổng thời gian chu kỳ của toàn bộ khối tuần tự này là:",
+        "options": {
+          "A": "12 giờ",
+          "B": "8 giờ",
+          "C": "7 giờ",
+          "D": "9 giờ"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\n• Khối song song A và B: $CT_{\\text{AND}} = \\max(5, 3) = 5$ giờ.\n• Nối tiếp bước C tuần tự: $CT_{\\text{Total}} = 5 + 4 = 9$ giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q28",
+        "content": "Câu 28 [Lec 7 - Tốc độ đến Poisson]: Trong lý thuyết hàng đợi, giả định khoảng thời gian giữa các lần đến (Inter-arrival time) tuân theo phân phối hàm mũ (Exponential distribution) tương đương với giả định nào về số lượng khách đến?",
+        "options": {
+          "A": "Số lượng khách đến trong một khoảng thời gian tuân theo phân phối Poisson.",
+          "B": "Số lượng khách đến hoàn toàn cố định từng phút một.",
+          "C": "Không bao giờ có hai khách cùng đến một lúc.",
+          "D": "Khách đến theo chu kỳ mùa vụ hàng năm."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nĐịnh lý cơ bản trong xác suất: Nếu thời gian giữa các lần xuất hiện biến cố tuân theo phân phối Exponential với tham số $\\lambda$, thì số lượng biến cố xảy ra trong một đơn vị thời gian tuân theo **phân phối Poisson** với cường độ $\\lambda$.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q29",
+        "content": "Câu 29 [Lec 8 - Quy luật Devil's Quadrangle về Flexibility]: Việc áp dụng các hệ thống ERP chuẩn hóa cực kỳ cứng nhắc (Standardization) nhằm tối ưu hóa chi phí và thời gian thường tác động tiêu cực nhất đến chiều nào trong Tứ giác Devil's Quadrangle?",
+        "options": {
+          "A": "Chi phí (Cost).",
+          "B": "Tính linh hoạt (Flexibility) - Doanh nghiệp khó thay đổi quy trình khi thị trường biến động.",
+          "C": "Thời gian chu kỳ (Time).",
+          "D": "Độ chính xác dữ liệu."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 8):**\nCàng cứng nhắc và tự động hóa theo một khuôn mẫu duy nhất (để ép giảm Cost và Time), thì tính thích ứng và độ linh hoạt (Flexibility) của doanh nghiệp trước các yêu cầu tùy biến của khách hàng càng bị suy giảm nghiêm trọng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q30",
+        "content": "Câu 30 [Lec 9 - Heuristic Empower]: Heuristic 'Trao quyền cho nhân viên' (Empowerment) trong thiết kế lại quy trình đề xuất điều gì?",
+        "options": {
+          "A": "Bắt nhân viên tự bỏ tiền túi đền bù thiệt hại.",
+          "B": "Yêu cầu mọi quyết định phải có chữ ký của Tổng giám đốc.",
+          "C": "Cắt giảm các tầng phê duyệt cấp trung, trao quyền tự quyết định cho nhân viên tiếp xúc trực tiếp với khách hàng trong một hạn mức cho phép.",
+          "D": "Xóa bỏ quyền kiểm toán nội bộ."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nHeuristic Empowerment (Trao quyền): Cho phép nhân viên trực tiếp (như nhân viên chăm sóc khách hàng) được quyền tự bồi thường hoặc tự duyệt đơn trong hạn mức (VD: dưới 1 triệu VNĐ) mà không cần xin phép quản lý, giúp giải phóng thời gian chờ cho khách.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q31",
+        "content": "Câu 31 [Lec 10 - Service Task Implementation]: Khi cấu hình một Service Task trong Camunda Modeler, nếu lựa chọn kiểu triển khai là 'External', cơ chế hoạt động giữa Camunda Engine và Worker là gì?",
+        "options": {
+          "A": "Camunda Engine tự động sinh code C++ và compile trên máy tính cá nhân.",
+          "B": "Camunda Engine xóa bỏ tác vụ đó khỏi quy trình.",
+          "C": "Worker bắt buộc phải cài đặt chung một bộ nhớ RAM với Camunda Engine.",
+          "D": "Worker (viết bằng bất kỳ ngôn ngữ nào như Node.js, Python, Java) liên tục thăm dò (Long-polling) qua REST API để nhận tác vụ về xử lý độc lập và báo kết quả lại cho Camunda Engine."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\nCơ chế External Task Pattern trong Camunda: Phân tách hoàn toàn (decoupling) giữa Process Engine và mã nguồn xử lý. Worker bên ngoài giao tiếp qua REST API (Fetch and Lock), giúp hệ thống có khả năng mở rộng (scale) không giới hạn.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q32",
+        "content": "Câu 32 [Lec 11 - Inductive Miner & Alpha Miner]: So với thuật toán sơ khai Alpha Miner, các thuật toán hiện đại như Inductive Miner hoặc Split Miner trong Process Mining có ưu điểm vượt trội nào?",
+        "options": {
+          "A": "Đảm bảo sinh ra mô hình không bị lỗi cấu trúc (sound model / deadlock-free) và xử lý tốt được dữ liệu có chứa nhiễu (noise) và thiếu sót.",
+          "B": "Không cần sử dụng file Log.",
+          "C": "Chỉ dùng để tính toán lương nhân viên.",
+          "D": "Tạo ra mô hình có 100% các hoạt động chạy song song."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nAlpha Miner là thuật toán nền tảng nhưng rất nhạy cảm với nhiễu và dễ sinh ra mô hình bị Deadlock. Các thuật toán hiện đại (Split Miner, Inductive Miner) được thiết kế có khả năng lọc nhiễu và đảm bảo tính đúng đắn về mặt ngữ nghĩa (Soundness).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q33",
+        "content": "Câu 33 [Lec 1 - Khái niệm Actor trong BPM]: Trong một quy trình kinh doanh, 'Actor' (Tác nhân) được hiểu là:",
+        "options": {
+          "A": "Diễn viên đóng phim quảng cáo cho sản phẩm.",
+          "B": "Bất kỳ thực thể con người, nhóm người hoặc hệ thống phần mềm nào tham gia thực hiện các hoạt động trong quy trình.",
+          "C": "Chỉ duy nhất khách hàng trả tiền mua hàng.",
+          "D": "Hệ điều hành Windows."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 1):**\nActor trong BPM bao gồm cả con người (nhân viên bán hàng, khách hàng, quản lý) và các tác nhân tự động (hệ thống phần mềm, bot RPA) tham gia vào chuỗi tác vụ để tạo ra kết quả.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q34",
+        "content": "Câu 34 [Lec 2 - Upstream vs Downstream]: Trong chuỗi giá trị bán hàng, quy trình 'Giao hàng và Thu tiền' (Delivery & Billing) có mối quan hệ gì với quy trình 'Tiếp nhận Đơn hàng' (Order Entry)?",
+        "options": {
+          "A": "Delivery & Billing là quy trình cha của Order Entry.",
+          "B": "Order Entry là quy trình Downstream.",
+          "C": "Delivery & Billing là quy trình xuôi dòng (Downstream process) nhận đầu vào từ quy trình ngược dòng (Upstream process) Order Entry.",
+          "D": "Hai quy trình này hoàn toàn độc lập không có quan hệ dữ liệu."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 2):**\nQuan hệ dòng chảy (Sequence): Quy trình diễn ra trước cung cấp đầu ra là **Upstream** (ngược dòng); quy trình tiếp nhận đầu vào ở phía sau là **Downstream** (xuôi dòng).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q35",
+        "content": "Câu 35 [Lec 3 - Lỗi Cú pháp trong BPMN]: Mô hình BPMN nào sau đây bị coi là vi phạm cú pháp cấu trúc (Syntactic Error)?",
+        "options": {
+          "A": "Một Task có 1 luồng vào và 1 luồng ra.",
+          "B": "Một Pool chứa 2 Lane khác nhau.",
+          "C": "Một cổng XOR-split có 2 nhánh đầu ra.",
+          "D": "Một Start Event có luồng tuần tự đầu vào nối vào nó."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3 & 4):**\nStart Event là điểm khởi đầu sinh ra token, TUYỆT ĐỐI KHÔNG ĐƯỢC có luồng tuần tự đầu vào (Incoming sequence flow). Vẽ đường nối vào Start Event là lỗi cú pháp cơ bản nhất trong BPMN!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q36",
+        "content": "Câu 36 [Lec 4 - Sự kiện Timer dạng bắt Catching Timer Event]: Một sự kiện Timer trung gian dạng bắt (Intermediate Catching Timer Event) đặt nằm giữa hai tác vụ tuần tự A và B có tác dụng gì?",
+        "options": {
+          "A": "Tạm dừng luồng thực thi trong một khoảng thời gian quy định (hoặc đến một mốc thời gian cụ thể) trước khi cho phép tác vụ B bắt đầu.",
+          "B": "Hủy bỏ tác vụ A.",
+          "C": "Gửi một email thông báo cho khách hàng.",
+          "D": "Tính toán chi phí của tác vụ B."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 4):**\nIntermediate Catching Timer trên dòng tuần tự đóng vai trò như một bộ 'trì hoãn' (delay / wait): Token tới đó sẽ đứng đợi đủ thời gian quy định (VD: Chờ 24 giờ sau khi gửi email) rồi mới giải phóng token đi tiếp đến tác vụ tiếp theo.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q37",
+        "content": "Câu 37 [Lec 5 - Giá trị VA đối với khách hàng]: Trong một quy trình sửa chữa máy tính, bước nào sau đây thuần túy là 'Value-Adding' (VA)?",
+        "options": {
+          "A": "Bảo vệ ghi phiếu giữ xe cho khách hàng mang máy tính tới.",
+          "B": "Kỹ thuật viên thay thế thanh RAM mới bị hỏng vào bo mạch chủ để máy tính hoạt động trở lại.",
+          "C": "Kế toán lưu hóa đơn sửa chữa vào hồ sơ lưu trữ thuế 10 năm.",
+          "D": "Máy tính nằm trong tủ chờ kỹ thuật viên rảnh tay lấy ra sửa."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\nChỉ có hành động trực tiếp biến đổi trạng thái sản phẩm (sửa máy, thay linh kiện) đáp ứng mong muốn của khách hàng mới là **VA**! Các bước còn lại là BVA (kế toán) hoặc NVA (chờ đợi trong tủ).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q38",
+        "content": "Câu 38 [Lec 6 - TCT cho nhiều tác vụ tuần tự]: Một quy trình tuần tự gồm 5 tác vụ độc lập lần lượt mất: 10 phút, 25 phút, 15 phút, 30 phút và 20 phút. Nếu không có thời gian chờ đợi giữa các bước, TCT (Theoretical Cycle Time) của quy trình là:",
+        "options": {
+          "A": "30 phút",
+          "B": "20 phút",
+          "C": "100 phút",
+          "D": "50 phút"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nVới các bước tuần tự (Sequence block):\n$$TCT = \\sum T_i = 10 + 25 + 15 + 30 + 20 = 100 \\text{ phút}.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q39",
+        "content": "Câu 39 [Lec 7 - Công thức Kingman về hàng đợi]: Công thức xấp xỉ Kingman trong Slide Lecture 7 cho thấy thời gian chờ đợi trong hàng đợi phụ thuộc vào 3 thành phần nhân tử nào?",
+        "options": {
+          "A": "Giá tiền $\\times$ Số lượng nhân viên $\\times$ Độ tuổi khách hàng.",
+          "B": "Thời gian $\\times$ Không gian $\\times$ Trọng lượng.",
+          "C": "Số lượng node $\\times$ Số lượng gateway $\\times$ Dung lượng RAM.",
+          "D": "Hệ số biến thiên (Variability) $\\times$ Hệ số sử dụng tài nguyên (Utilization) $\\times$ Thời gian phục vụ (Service time)."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 7):**\nCông thức Kingman (VUT Equation):\n$$W_q \\approx (\\text{Variability factor}) \\times (\\text{Utilization factor: } \\frac{\\rho}{1 - \\rho}) \\times (\\text{Service time: } \\frac{1}{\\mu}).$$\nBa yếu tố cốt lõi: Độ biến thiên, Mức độ bận rộn của tài nguyên, và Tốc độ xử lý.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q40",
+        "content": "Câu 40 [Lec 8 - Transformational BPR Drivers]: Yếu tố nào sau đây thường là động lực mạnh mẽ nhất thúc đẩy một doanh nghiệp quyết định thực hiện tái thiết kế căn bản (Transformational BPR) thay vì cải tiến nhỏ?",
+        "options": {
+          "A": "Doanh nghiệp đối mặt với cuộc khủng hoảng sinh tồn nghiêm trọng, thị phần sụt giảm thảm hại hoặc bị đối thủ công nghệ mới phá hủy mô hình kinh doanh truyền thống.",
+          "B": "Doanh nghiệp muốn đổi màu logo công ty.",
+          "C": "Nhân viên muốn đổi máy tính mới.",
+          "D": "Hệ thống mạng bị chậm 5 phút vào buổi sáng."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 8):**\nBPR (Business Process Reengineering) mang tính đột phá và rủi ro rất cao, thường chỉ được ban lãnh đạo kích hoạt khi tổ chức rơi vào khủng hoảng sống còn (crisis), đối mặt với sự sụp đổ nếu không lột xác toàn diện.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q41",
+        "content": "Câu 41 [Lec 9 - Heuristic Buffering]: Heuristic 'Tạo vùng đệm' (Buffering) trong quản trị quy trình nhằm mục đích gì?",
+        "options": {
+          "A": "Xóa toàn bộ kho hàng để tiết kiệm diện tích mặt bằng.",
+          "B": "Tạo ra kho đệm dự phòng dữ liệu hoặc nguyên liệu bán thành phẩm giữa các công đoạn để giảm tác động của sự biến thiên và tránh đứt gãy dây chuyền khi có sự cố tạm thời.",
+          "C": "Yêu cầu khách hàng thanh toán trước 100% chi phí.",
+          "D": "Tắt máy chủ khi không có người sử dụng."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nBuffering Heuristic: Đặt bộ đệm (buffer) hợp lý để hấp thụ xung động biến thiên ngẫu nhiên (dampen variability), giúp các công đoạn phía sau không bị 'bỏ đói' (starvation) khi công đoạn trước gặp trục trặc ngắn hạn.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q42",
+        "content": "Câu 42 [Lec 10 - Form Data Binding]: Trong Camunda User Task, việc ràng buộc dữ liệu biểu mẫu (Form Data Binding) cho phép người dùng:",
+        "options": {
+          "A": "Sửa đổi mã nguồn gốc của hệ điều hành Linux.",
+          "B": "Xóa bỏ các hồ sơ của phòng kế toán.",
+          "C": "Xem và cập nhật các biến quy trình trực tiếp thông qua các trường nhập liệu trên giao diện web.",
+          "D": "Thay đổi địa chỉ IP của modem internet."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 10):**\nForm Data Binding liên kết các trường input trên HTML/Form (như `customerName`, `loanAmount`) với các Process Variables trong Process Engine, đảm bảo dữ liệu người dùng nhập vào được lưu trữ và truyền tiếp trong quy trình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q43",
+        "content": "Câu 43 [Lec 11 - Directly-Follows Graph]: Trong một đồ thị Directly-Follows Graph (DFG) sinh ra từ Process Mining, một mũi tên nối từ hoạt động A sang hoạt động B có ghi số 450 thể hiện điều gì?",
+        "options": {
+          "A": "Hoạt động A tốn 450 phút để hoàn thành.",
+          "B": "Hoạt động B tốn 450 USD chi phí.",
+          "C": "Có 450 nhân viên tham gia thực hiện hoạt động A.",
+          "D": "Có 450 lần hoạt động B diễn ra ngay lập tức sau hoạt động A trong tập nhật ký sự kiện."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nTrong Directly-Follows Graph (DFG): Nhãn trên cung nối $A \\to B$ biểu thị tần suất trực tiếp đi liền nhau (directly-follows frequency), tức có 450 vết sự kiện mà $B$ xảy ra ngay kế tiếp sau $A$.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q44",
+        "content": "Câu 44 [Lec 1 - Mục tiêu của BPM]: Mục tiêu tối thượng của việc áp dụng BPM trong một tổ chức là gì?",
+        "options": {
+          "A": "Hiểu rõ, tối ưu hóa và liên tục cải tiến hiệu suất của toàn bộ vòng đời quy trình để tạo ra giá trị bền vững cho khách hàng và tổ chức.",
+          "B": "Thay thế 100% con người bằng robot tự động trong mọi khâu.",
+          "C": "Cắt giảm tối đa chi phí bằng mọi giá kể cả làm giảm chất lượng phục vụ.",
+          "D": "Vẽ càng nhiều sơ đồ quy trình càng tốt để lưu trữ trong kho tài liệu."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 1):**\nBPM là nghệ thuật và khoa học quản trị toàn diện: Kết hợp nguyên tắc, phương pháp và công cụ để thiết kế, phân tích, thực thi và giám sát quy trình nhằm nâng cao năng lực cạnh tranh và giá trị khách hàng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q45",
+        "content": "Câu 45 [Lec 2 - Trục trặc trong quy trình Lead-to-Quote]: Trong quy trình bán hàng 'Lead-to-Quote', vấn đề nào sau đây là biểu hiện của sự kém hiệu quả (Dysfunctional performance)?",
+        "options": {
+          "A": "Khách hàng khen ngợi nhân viên tư vấn nhiệt tình.",
+          "B": "Mất trung bình 14 ngày mới gửi được báo giá cho khách, dẫn đến 60% khách hàng tiềm năng đã chọn mua hàng của đối thủ cạnh tranh.",
+          "C": "Hệ thống gửi email báo giá tự động trong vòng 5 giây.",
+          "D": "Doanh thu công ty tăng trưởng vượt bậc."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 2):**\nThời gian phản hồi báo giá quá chậm (Lead time quá dài) là nguyên nhân hàng đầu khiến tỷ lệ chuyển đổi thất bại, phản ánh quy trình Lead-to-Quote đang bị 'ốm nặng' (High dysfunction) cần ưu tiên cải tiến.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q46",
+        "content": "Câu 46 [Lec 3 - Deadlock với AND-join]: Xem xét cấu trúc: Một cổng XOR-split rẽ thành 2 nhánh A và B. Sau đó 2 nhánh này lại cùng nối vào một cổng AND-join. Điều gì chắc chắn xảy ra khi quy trình chạy?",
+        "options": {
+          "A": "Quy trình chạy bình thường không có lỗi.",
+          "B": "Token sẽ tự động biến mất không để lại dấu vết.",
+          "C": "Xảy ra bế tắc hoàn toàn (Deadlock) tại cổng AND-join, vì XOR-split chỉ gửi token qua 1 nhánh, trong khi AND-join ngồi chờ token từ cả 2 nhánh mãi mãi.",
+          "D": "Hai tác vụ A và B sẽ tự động chạy song song."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 3 & 4):**\nĐây là **Lỗi bẫy Deadlock kinh điển**: Phối hợp sai giữa XOR-split và AND-join! XOR-split chỉ kích hoạt 1 nhánh -> Nhánh kia không bao giờ có token -> AND-join ngồi chờ vĩnh viễn -> DEADLOCK!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock4-q47",
+        "content": "Câu 47 [Lec 5 - FMEA trong phân tích rủi ro]: Chỉ số RPN (Risk Priority Number) trong phân tích chế độ hỏng hóc và tác động (FMEA) được tính bằng tích của 3 yếu tố nào?",
+        "options": {
+          "A": "Thời gian $\\times$ Chi phí $\\times$ Nhân sự.",
+          "B": "Doanh thu $\\times$ Lợi nhuận $\\times$ Thuế suất.",
+          "C": "Số lượng tác vụ $\\times$ Số lượng cổng rẽ nhánh $\\times$ Số lượng sự kiện.",
+          "D": "Mức độ nghiêm trọng (Severity) $\\times$ Khả năng xảy ra (Occurrence) $\\times$ Khả năng phát hiện (Detection)."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 5):**\nCông thức chỉ số ưu tiên rủi ro FMEA:\n$$RPN = \\text{Severity (S)} \\times \\text{Occurrence (O)} \\times \\text{Detection (D)}.$$\nChỉ số RPN càng cao thì rủi ro đó càng nguy hiểm và bắt buộc phải có kế hoạch phòng ngừa khẩn cấp.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock4-q48",
+        "content": "Câu 48 [Lec 6 - Tác động của vòng lặp Rework lên chi phí]: Nếu một tác vụ có chi phí thực hiện mỗi lần là 50 USD, và tỷ lệ phải làm lại do lỗi là $r = 0.25$ (25%). Chi phí trung bình thực tế để hoàn thành một hồ sơ qua tác vụ có vòng lặp này là:",
+        "options": {
+          "A": "66.67 USD",
+          "B": "50 USD",
+          "C": "62.5 USD",
+          "D": "200 USD"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 6):**\nCông thức chi phí tích lũy theo vòng lặp (tương tự Cycle Time):\n$$\\text{Cost} = \\frac{C}{1 - r} = \\frac{50}{1 - 0.25} = \\frac{50}{0.75} \\approx 66.67 \\text{ USD}.$$\nChi phí đội thêm hơn 16 USD cho mỗi hồ sơ chỉ vì tỷ lệ lỗi 25%!",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock4-q49",
+        "content": "Câu 49 [Lec 9 - Heuristic Outsource]: Khi xem xét Heuristic 'Thuê ngoài' (Outsourcing) cho một công đoạn trong quy trình, rủi ro lớn nhất mà tổ chức phải đối mặt là gì?",
+        "options": {
+          "A": "Tăng diện tích mặt bằng kho bãi.",
+          "B": "Mất quyền kiểm soát trực tiếp đối với chất lượng dịch vụ và nguy cơ rò rỉ dữ liệu nhạy cảm cho bên thứ ba.",
+          "C": "Không thể thanh toán tiền cho đối tác.",
+          "D": "Bắt buộc phải sa thải toàn bộ ban giám đốc."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 9):**\nThuê ngoài (Outsourcing) giúp biến chi phí cố định thành biến phí và tận dụng năng lực chuyên biệt của đối tác, nhưng cái giá phải trả là mất quyền kiểm soát chi tiết tiến độ, chất lượng và phụ thuộc vào đối tác bên ngoài.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock4-q50",
+        "content": "Câu 50 [Lec 11 - Conformance Alignment]: Trong kỹ thuật so khớp nâng cao (Alignment-based Conformance Checking), một 'Model Move' (Bước di chuyển trên mô hình) xảy ra khi nào?",
+        "options": {
+          "A": "Khi nhân viên làm thêm một bước thừa không có trong quy trình.",
+          "B": "Khi hệ điều hành di chuyển con trỏ chuột.",
+          "C": "Khi một hoạt động bắt buộc phải thực hiện theo mô hình quy trình nhưng lại HOÀN TOÀN KHÔNG XUẤT HIỆN trong vết sự kiện của Log (bị nhân viên nhảy cóc/bỏ bước ngoài đời).",
+          "D": "Khi tệp nhật ký sự kiện bị virus tấn công."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "💡 **Lý thuyết chuẩn Slide (Lecture 11):**\nTrong Alignment:\n• **Synchronous Move:** Cả Model và Log đều thực hiện cùng một hoạt động (khớp chuẩn 100%).\n• **Model Move:** Hoạt động xuất hiện trên Model nhưng thiếu trong Log (nhân viên nhảy cóc/bỏ bước).\n• **Log Move:** Hoạt động xuất hiện trong Log nhưng không có trong Model (nhân viên tự ý làm thêm bước ngoài quy trình).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
       }
     ]
   },
