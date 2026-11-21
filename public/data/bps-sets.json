@@ -919,12 +919,12 @@
     "questions": [
       {
         "id": "bps301-fa26-mock1-q01",
-        "content": "Câu 01 [Lecture 1: Introduction to BPM]: Which statement best defines a business process?",
+        "content": "Câu 01 [Lecture 1 : Introduction to BPM]: Which statement best defines a business process?",
         "options": {
-          "A": "department’s list of job descriptions",
-          "B": "collection of unrelated software applications",
-          "C": "one-time management decision",
-          "D": "chain of events, activities and decisions involving actors and objects, triggered by a need and leading to a valuable outcome"
+          "A": "A department’s list of job descriptions",
+          "B": "A collection of unrelated software applications",
+          "C": "A one-time management decision",
+          "D": "A chain of events, activities and decisions involving actors and objects, triggered by a need and leading to a valuable outcome"
         },
         "correctAnswer": "D",
         "correctAnswers": [
@@ -937,7 +937,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q02",
-        "content": "Câu 02 [Lecture 1: Introduction to BPM]: What is the main aim of Business Process Management (BPM)?",
+        "content": "Câu 02 [Lecture 1 : Introduction to BPM]: What is the main aim of Business Process Management (BPM)?",
         "options": {
           "A": "To design, analyze, execute and monitor processes to improve performance",
           "B": "To automate every activity",
@@ -955,295 +955,295 @@
       },
       {
         "id": "bps301-fa26-mock1-q03",
-        "content": "Câu 03 [Lecture 1: Introduction to BPM]: Which sequence best represents the BPM lifecycle?",
+        "content": "Câu 03 [Lecture 1 : Introduction to BPM]: Which set contains the three basic process performance dimensions?",
         "options": {
-          "A": "Recruitment, training, appraisal and dismissal",
-          "B": "Identification, discovery, analysis, redesign, implementation and monitoring",
-          "C": "Planning, budgeting, purchasing and invoicing",
-          "D": "Modeling, coding and archiving only"
+          "A": "Staff, technology and budget",
+          "B": "Time, cost and quality",
+          "C": "Scope, risk and authority",
+          "D": "Speed, location and volume"
         },
         "correctAnswer": "B",
         "correctAnswers": [
           "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Lifecycle bao gồm nhận diện, khám phá/mô hình hóa, phân tích, thiết kế lại, triển khai và giám sát; kết quả giám sát có thể quay lại các giai đoạn trước.",
+        "explanation": "Trọng tâm: Ba chiều cơ bản trong slide là thời gian, chi phí và chất lượng.",
         "imageUrl": "",
         "answerNote": "Đáp án: B"
       },
       {
         "id": "bps301-fa26-mock1-q04",
-        "content": "Câu 04 [Lecture 2: Process Identification]: Which is most likely a core process for a university?",
+        "content": "Câu 04 [Lecture 1 : Introduction to BPM]: Which sequence best represents the BPM lifecycle?",
         "options": {
-          "A": "Payroll administration",
-          "B": "Office cleaning",
-          "C": "Student admission",
-          "D": "IT equipment purchasing"
+          "A": "Recruitment, training, appraisal and dismissal",
+          "B": "Planning, budgeting, purchasing and invoicing",
+          "C": "Identification, discovery, analysis, redesign, implementation and monitoring",
+          "D": "Modeling, coding and archiving only"
         },
         "correctAnswer": "C",
         "correctAnswers": [
           "C"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Quy trình tuyển sinh trực tiếp tạo giá trị dịch vụ giáo dục cho người học, nên thường thuộc nhóm core; các lựa chọn còn lại thường hỗ trợ.",
+        "explanation": "Trọng tâm: Lifecycle bao gồm nhận diện, khám phá/mô hình hóa, phân tích, thiết kế lại, triển khai và giám sát; kết quả giám sát có thể quay lại các giai đoạn trước.",
         "imageUrl": "",
         "answerNote": "Đáp án: C"
       },
       {
         "id": "bps301-fa26-mock1-q05",
-        "content": "Câu 05 [Lecture 2: Process Identification]: Which is most likely a support process?",
+        "content": "Câu 05 [Lecture 2 : Process Identification]: Which is most likely a core process for a university?",
         "options": {
-          "A": "Delivering the organization’s main service to customers",
-          "B": "Managing the organization’s strategy",
-          "C": "Developing the core product for sale",
-          "D": "Recruitment and onboarding of employees"
+          "A": "Payroll administration",
+          "B": "Office cleaning",
+          "C": "IT equipment purchasing",
+          "D": "Student admission"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Tuyển dụng và tiếp nhận nhân viên hỗ trợ các quy trình tạo giá trị cốt lõi.",
+        "explanation": "Trọng tâm: Quy trình tuyển sinh trực tiếp tạo giá trị dịch vụ giáo dục cho người học, nên thường thuộc nhóm core; các lựa chọn còn lại thường hỗ trợ.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock1-q06",
-        "content": "Câu 06 [Lecture 2: Process Identification]: Which three criteria are commonly used to prioritize processes for management?",
+        "content": "Câu 06 [Lecture 2 : Process Identification]: Which is most likely a support process?",
         "options": {
-          "A": "Importance, health and feasibility",
-          "B": "Cost, location and ownership",
-          "C": "Age, size and popularity",
-          "D": "Automation, staffing and branding"
+          "A": "Recruitment and onboarding of employees",
+          "B": "Delivering the organization’s main service to customers",
+          "C": "Managing the organization’s strategy",
+          "D": "Developing the core product for sale"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Ưu tiên quy trình dựa trên tầm quan trọng chiến lược, mức độ sức khỏe/trục trặc và tính khả thi cải tiến.",
+        "explanation": "Trọng tâm: Tuyển dụng và tiếp nhận nhân viên hỗ trợ các quy trình tạo giá trị cốt lõi.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock1-q07",
-        "content": "Câu 07 [Lecture 2: Process Identification]: Which relationship describes one process being a more specific version of another?",
+        "content": "Câu 07 [Lecture 2 : Process Identification]: Which three criteria are commonly used to prioritize processes for management?",
         "options": {
-          "A": "Sequence",
-          "B": "Specialization",
-          "C": "Message flow",
-          "D": "Resource assignment"
+          "A": "Cost, location and ownership",
+          "B": "Importance, health and feasibility",
+          "C": "Age, size and popularity",
+          "D": "Automation, staffing and branding"
         },
         "correctAnswer": "B",
         "correctAnswers": [
           "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Specialization nối quy trình tổng quát với phiên bản chuyên biệt, ví dụ quy trình theo sản phẩm hoặc địa lý.",
+        "explanation": "Trọng tâm: Ưu tiên quy trình dựa trên tầm quan trọng chiến lược, mức độ sức khỏe/trục trặc và tính khả thi cải tiến.",
         "imageUrl": "",
         "answerNote": "Đáp án: B"
       },
       {
         "id": "bps301-fa26-mock1-q08",
-        "content": "Câu 08 [Lecture 3: Process Modeling 1]: Which are the four core BPMN flow elements?",
+        "content": "Câu 08 [Lecture 2 : Process Identification]: What is the purpose of a process architecture?",
         "options": {
-          "A": "Pools, data stores, annotations and messages",
-          "B": "Actors, documents, databases and APIs",
-          "C": "Activities, gateways, events and sequence flows",
-          "D": "Tasks, roles, costs and KPIs"
+          "A": "To list every employee’s daily schedule",
+          "B": "To show only the IT system architecture",
+          "C": "To show the organization’s processes and their relationships at suitable levels",
+          "D": "To replace all detailed process models"
         },
         "correctAnswer": "C",
         "correctAnswers": [
           "C"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Bốn nhóm flow elements chính là activity, gateway, event và sequence flow.",
+        "explanation": "Trọng tâm: Process architecture mô tả hệ thống quy trình và mối quan hệ giữa chúng, thường phân cấp từ landscape đến quy trình con.",
         "imageUrl": "",
         "answerNote": "Đáp án: C"
       },
       {
         "id": "bps301-fa26-mock1-q09",
-        "content": "Câu 09 [Lecture 3: Process Modeling 1]: What does a start event do in the token game?",
+        "content": "Câu 09 [Lecture 3 : Process Modeling 1]: Which are the four core BPMN flow elements?",
         "options": {
-          "A": "Synchronizes all incoming branches",
-          "B": "Deletes every active token",
-          "C": "Stores a data object permanently",
-          "D": "Creates a token and starts a process instance"
+          "A": "Pools, data stores, annotations and messages",
+          "B": "Actors, documents, databases and APIs",
+          "C": "Tasks, roles, costs and KPIs",
+          "D": "Activities, gateways, events and sequence flows"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Start event là nguồn token và khởi tạo một instance quy trình.",
+        "explanation": "Trọng tâm: Bốn nhóm flow elements chính là activity, gateway, event và sequence flow.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock1-q10",
-        "content": "Câu 10 [Lecture 3: Process Modeling 1]: A task has two outgoing sequence flows with no gateway. What behavior is implied?",
+        "content": "Câu 10 [Lecture 3 : Process Modeling 1]: What does a start event do in the token game?",
         "options": {
-          "A": "Both paths are taken, like an AND-split",
-          "B": "Exactly one path is chosen, like XOR",
-          "C": "Only the first path is taken",
-          "D": "The process ends"
+          "A": "Creates a token and starts a process instance",
+          "B": "Synchronizes all incoming branches",
+          "C": "Deletes every active token",
+          "D": "Stores a data object permanently"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Task với nhiều output mặc định kích hoạt tất cả các nhánh; tương đương AND-split.",
+        "explanation": "Trọng tâm: Start event là nguồn token và khởi tạo một instance quy trình.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock1-q11",
-        "content": "Câu 11 [Lecture 3: Process Modeling 1]: When does an XOR-join proceed?",
+        "content": "Câu 11 [Lecture 3 : Process Modeling 1]: A task has two outgoing sequence flows with no gateway. What behavior is implied?",
         "options": {
-          "A": "Only after tokens arrive on every incoming branch",
-          "B": "When a token arrives on any one incoming branch",
-          "C": "Only after all active branches are known",
-          "D": "When a timer expires"
+          "A": "Exactly one path is chosen, like XOR",
+          "B": "Both paths are taken, like an AND-split",
+          "C": "Only the first path is taken",
+          "D": "The process ends"
         },
         "correctAnswer": "B",
         "correctAnswers": [
           "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: XOR-join hợp các nhánh thay thế và chuyển tiếp token đến; nó không chờ các nhánh khác.",
+        "explanation": "Trọng tâm: Task với nhiều output mặc định kích hoạt tất cả các nhánh; tương đương AND-split.",
         "imageUrl": "",
         "answerNote": "Đáp án: B"
       },
       {
         "id": "bps301-fa26-mock1-q12",
-        "content": "Câu 12 [Lecture 3: Process Modeling 1]: When does an AND-join proceed?",
+        "content": "Câu 12 [Lecture 3 : Process Modeling 1]: When does an XOR-join proceed?",
         "options": {
-          "A": "As soon as one incoming token arrives",
-          "B": "After any one condition becomes true",
-          "C": "After all incoming branches have completed and their tokens arrive",
-          "D": "Only when a message arrives"
+          "A": "Only after tokens arrive on every incoming branch",
+          "B": "Only after all active branches are known",
+          "C": "When a token arrives on any one incoming branch",
+          "D": "When a timer expires"
         },
         "correctAnswer": "C",
         "correctAnswers": [
           "C"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: AND-join đồng bộ song song và cần token từ mọi nhánh vào tương ứng.",
+        "explanation": "Trọng tâm: XOR-join hợp các nhánh thay thế và chuyển tiếp token đến; nó không chờ các nhánh khác.",
         "imageUrl": "",
         "answerNote": "Đáp án: C"
       },
       {
         "id": "bps301-fa26-mock1-q13",
-        "content": "Câu 13 [Lecture 4: Process Modeling 2]: Why decompose a large process into sub-processes?",
+        "content": "Câu 13 [Lecture 3 : Process Modeling 1]: When does an AND-join proceed?",
         "options": {
-          "A": "To add more gateways to every model",
-          "B": "To hide all process decisions",
-          "C": "To avoid defining process boundaries",
-          "D": "To make models easier to understand and maintain, and reuse common fragments"
+          "A": "As soon as one incoming token arrives",
+          "B": "After any one condition becomes true",
+          "C": "Only when a message arrives",
+          "D": "After all incoming branches have completed and their tokens arrive"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Sub-process giúp chia mô hình lớn thành phần dễ quản lý và cho phép tái sử dụng các phần chung.",
+        "explanation": "Trọng tâm: AND-join đồng bộ song song và cần token từ mọi nhánh vào tương ứng.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock1-q14",
-        "content": "Câu 14 [Lecture 4: Process Modeling 2]: Which case is best represented by a parallel multi-instance activity?",
+        "content": "Câu 14 [Lecture 4 : Process Modeling 2]: Why decompose a large process into sub-processes?",
         "options": {
-          "A": "Requesting a quote from each of several suppliers",
-          "B": "Repeating one task until a reviewer approves it",
-          "C": "Choosing one of two paths based on stock data",
-          "D": "Waiting for either a message or a timer"
+          "A": "To make models easier to understand and maintain, and reuse common fragments",
+          "B": "To add more gateways to every model",
+          "C": "To hide all process decisions",
+          "D": "To avoid defining process boundaries"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Multi-instance biểu diễn cùng một hoạt động được thực hiện nhiều lần cho nhiều đối tượng, thường song song.",
+        "explanation": "Trọng tâm: Sub-process giúp chia mô hình lớn thành phần dễ quản lý và cho phép tái sử dụng các phần chung.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock1-q15",
-        "content": "Câu 15 [Lecture 4: Process Modeling 2]: A reviewer may reject a draft, requiring preparation and review again. Which repetition construct is suitable?",
+        "content": "Câu 15 [Lecture 4 : Process Modeling 2]: Which case is best represented by a parallel multi-instance activity?",
         "options": {
-          "A": "Message flow between pools",
-          "B": "Loop activity or a structured cycle with a completion condition",
-          "C": "Data store",
-          "D": "Terminate event"
+          "A": "Repeating one task until a reviewer approves it",
+          "B": "Requesting a quote from each of several suppliers",
+          "C": "Choosing one of two paths based on stock data",
+          "D": "Waiting for either a message or a timer"
         },
         "correctAnswer": "B",
         "correctAnswers": [
           "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Đây là lặp lại công việc cho đến khi điều kiện hoàn thành (được duyệt) được thỏa mãn.",
+        "explanation": "Trọng tâm: Multi-instance biểu diễn cùng một hoạt động được thực hiện nhiều lần cho nhiều đối tượng, thường song song.",
         "imageUrl": "",
         "answerNote": "Đáp án: B"
       },
       {
         "id": "bps301-fa26-mock1-q16",
-        "content": "Câu 16 [Lecture 4: Process Modeling 2]: When should an event-based gateway be used?",
+        "content": "Câu 16 [Lecture 4 : Process Modeling 2]: A reviewer may reject a draft, requiring preparation and review again. Which repetition construct is suitable?",
         "options": {
-          "A": "When a decision can be made immediately from available data",
-          "B": "When all parallel paths must synchronize",
-          "C": "When the next path depends on which event happens first",
-          "D": "When a process must be terminated"
+          "A": "Message flow between pools",
+          "B": "Data store",
+          "C": "Loop activity or a structured cycle with a completion condition",
+          "D": "Terminate event"
         },
         "correctAnswer": "C",
         "correctAnswers": [
           "C"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Event-based gateway trì hoãn lựa chọn đến khi một sự kiện xảy ra trước, ví dụ nhận phản hồi hoặc hết hạn timer.",
+        "explanation": "Trọng tâm: Đây là lặp lại công việc cho đến khi điều kiện hoàn thành (được duyệt) được thỏa mãn.",
         "imageUrl": "",
         "answerNote": "Đáp án: C"
       },
       {
         "id": "bps301-fa26-mock1-q17",
-        "content": "Câu 17 [Lecture 4: Process Modeling 2]: Which element can directly follow an event-based gateway?",
+        "content": "Câu 17 [Lecture 4 : Process Modeling 2]: When should an event-based gateway be used?",
         "options": {
-          "A": "send task",
-          "B": "An end event only",
-          "C": "An arbitrary automated task",
-          "D": "catching event or receive task that waits for an event/message"
+          "A": "When a decision can be made immediately from available data",
+          "B": "When all parallel paths must synchronize",
+          "C": "When a process must be terminated",
+          "D": "When the next path depends on which event happens first"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Các nhánh sau event-based gateway phải là phần tử chờ bắt sự kiện, chẳng hạn catching event hoặc receive task.",
+        "explanation": "Trọng tâm: Event-based gateway trì hoãn lựa chọn đến khi một sự kiện xảy ra trước, ví dụ nhận phản hồi hoặc hết hạn timer.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock1-q18",
-        "content": "Câu 18 [Lecture 4: Process Modeling 2]: A customer may cancel an order while “Acquire materials” is running, and that work must stop. How should this be modeled?",
+        "content": "Câu 18 [Lecture 4 : Process Modeling 2]: Which element can directly follow an event-based gateway?",
         "options": {
-          "A": "An interrupting boundary message event on the activity/sub-process",
-          "B": "non-interrupting timer event",
-          "C": "data object on the pool boundary",
-          "D": "An AND-join"
+          "A": "A catching event or receive task that waits for an event/message",
+          "B": "A send task",
+          "C": "An end event only",
+          "D": "An arbitrary automated task"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Yêu cầu hủy từ bên ngoài làm dừng hoạt động hiện tại, nên dùng interrupting boundary message event.",
+        "explanation": "Trọng tâm: Các nhánh sau event-based gateway phải là phần tử chờ bắt sự kiện, chẳng hạn catching event hoặc receive task.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock1-q19",
-        "content": "Câu 19 [Lecture 5: Qualitative Process Analysis]: Which step is value-adding (VA) from the customer’s perspective?",
+        "content": "Câu 19 [Lecture 5 : Qualitative Process Analysis]: Which step is value-adding (VA) from the customer’s perspective?",
         "options": {
           "A": "Forwarding a form between departments",
           "B": "Repairing the customer’s faulty appliance",
@@ -1261,12 +1261,12 @@
       },
       {
         "id": "bps301-fa26-mock1-q20",
-        "content": "Câu 20 [Lecture 5: Qualitative Process Analysis]: A regulatory identity check is required even though the customer would not pay for it. How is it classified?",
+        "content": "Câu 20 [Lecture 5 : Qualitative Process Analysis]: A regulatory identity check is required even though the customer would not pay for it. How is it classified?",
         "options": {
           "A": "Value-adding (VA)",
           "B": "Non-value-adding (NVA) by definition",
           "C": "Business value-adding (BVA)",
-          "D": "customer outcome"
+          "D": "A customer outcome"
         },
         "correctAnswer": "C",
         "correctAnswers": [
@@ -1279,7 +1279,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q21",
-        "content": "Câu 21 [Lecture 5: Qualitative Process Analysis]: A task waits for an approval resource to become available. Which Lean waste is this?",
+        "content": "Câu 21 [Lecture 5 : Qualitative Process Analysis]: A task waits for an approval resource to become available. Which Lean waste is this?",
         "options": {
           "A": "Motion",
           "B": "Over-production",
@@ -1297,7 +1297,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q22",
-        "content": "Câu 22 [Lecture 5: Qualitative Process Analysis]: Sending a paper form between two offices is which waste?",
+        "content": "Câu 22 [Lecture 5 : Qualitative Process Analysis]: Sending a paper form between two offices is which waste?",
         "options": {
           "A": "Transportation",
           "B": "Motion",
@@ -1315,7 +1315,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q23",
-        "content": "Câu 23 [Lecture 5: Qualitative Process Analysis]: Repeatedly fixing an application because it contains errors is which waste?",
+        "content": "Câu 23 [Lecture 5 : Qualitative Process Analysis]: Repeatedly fixing an application because it contains errors is which waste?",
         "options": {
           "A": "Inventory",
           "B": "Defects",
@@ -1333,7 +1333,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q24",
-        "content": "Câu 24 [Lecture 6: Quantitative Analysis 1]: Three sequential activities take 2, 5 and 3 days. Ignoring waiting and resource contention, what is the cycle time?",
+        "content": "Câu 24 [Lecture 6 : Quantitative Analysis 1]: Three sequential activities take 2, 5 and 3 days. Ignoring waiting and resource contention, what is the cycle time?",
         "options": {
           "A": "5 days",
           "B": "3 days",
@@ -1351,7 +1351,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q25",
-        "content": "Câu 25 [Lecture 6: Quantitative Analysis 1]: Two parallel branches take 4 and 7 hours, then rejoin. What is the block cycle time?",
+        "content": "Câu 25 [Lecture 6 : Quantitative Analysis 1]: Two parallel branches take 4 and 7 hours, then rejoin. What is the block cycle time?",
         "options": {
           "A": "11 hours",
           "B": "4 hours",
@@ -1369,24 +1369,12 @@
       },
       {
         "id": "bps301-fa26-mock1-q26",
-        "content": "Câu 26 [Lecture 6: Quantitative Analysis 1]: A process takes 8 hours per attempt and repeats with probability 25% after each attempt. What is the expected time in the rework block?",
-        "options": {},
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: ",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-mock1-q27",
-        "content": "Câu 27 [Lecture 6: Quantitative Analysis 1]: 67 hours",
+        "content": "Câu 26 [Lecture 6 : Quantitative Analysis 1]: A process takes 8 hours per attempt and repeats with probability 25% after each attempt. What is the expected time in the rework block?",
         "options": {
-          "A": "8 hours",
-          "B": "2 hours",
-          "C": "32 hours"
+          "A": "10.67 hours",
+          "B": "8 hours",
+          "C": "2 hours",
+          "D": "32 hours"
         },
         "correctAnswer": "A",
         "correctAnswers": [
@@ -1398,27 +1386,48 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock1-q28",
-        "content": "Câu 28 [Lecture 6: Quantitative Analysis 1]: A service receives 12 cases per hour and has average WIP of 36 cases. By Little’s Law, what is average cycle time?",
+        "id": "bps301-fa26-mock1-q27",
+        "content": "Câu 27 [Lecture 6 : Quantitative Analysis 1]: A process has 6 hours of value-adding processing time and 30 hours total cycle time. What is its cycle time efficiency?",
         "options": {
-          "A": "3 hours"
+          "A": "5%",
+          "B": "20%",
+          "C": "36%",
+          "D": "80%"
         },
-        "correctAnswer": "A",
+        "correctAnswer": "B",
         "correctAnswers": [
-          "A"
+          "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: ",
+        "explanation": "Trọng tâm: CTE = processing time / cycle time = 6/30 = 0.20 = 20%.",
         "imageUrl": "",
-        "answerNote": "Đáp án: A"
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock1-q28",
+        "content": "Câu 28 [Lecture 6 : Quantitative Analysis 1]: A service receives 12 cases per hour and has average WIP of 36 cases. By Little’s Law, what is average cycle time?",
+        "options": {
+          "A": "0.33 hours",
+          "B": "24 hours",
+          "C": "3 hours",
+          "D": "432 hours"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: Little’s Law WIP=λ×CT, do đó CT=36/12=3 giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
       },
       {
         "id": "bps301-fa26-mock1-q29",
-        "content": "Câu 29 [Lecture 7: Queueing and Simulation]: In an M/M/1 queue, what does the first M represent?",
+        "content": "Câu 29 [Lecture 7 : Queueing and Simulation]: In an M/M/1 queue, what does the first M represent?",
         "options": {
           "A": "Multiple servers",
           "B": "Manual service",
-          "C": "finite waiting room",
+          "C": "A finite waiting room",
           "D": "Exponential inter-arrival times (Poisson arrivals)"
         },
         "correctAnswer": "D",
@@ -1432,7 +1441,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q30",
-        "content": "Câu 30 [Lecture 7: Queueing and Simulation]: For a stable M/M/1 queue, which condition must hold?",
+        "content": "Câu 30 [Lecture 7 : Queueing and Simulation]: For a stable M/M/1 queue, which condition must hold?",
         "options": {
           "A": "Arrival rate λ is less than service rate μ",
           "B": "λ is greater than μ",
@@ -1450,51 +1459,61 @@
       },
       {
         "id": "bps301-fa26-mock1-q31",
-        "content": "Câu 31 [Lecture 7: Queueing and Simulation]: In an M/M/1 system, λ=2 cases/hour and μ=5 cases/hour. What is utilization ρ?",
-        "options": {},
-        "correctAnswer": "A",
+        "content": "Câu 31 [Lecture 7 : Queueing and Simulation]: In an M/M/1 system, λ=2 cases/hour and μ=5 cases/hour. What is utilization ρ?",
+        "options": {
+          "A": "2.5",
+          "B": "0.4",
+          "C": "3",
+          "D": "7"
+        },
+        "correctAnswer": "B",
         "correctAnswers": [
-          "A"
+          "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: ",
+        "explanation": "Trọng tâm: ρ=λ/μ=2/5=0.4, tức trung bình server bận 40% thời gian.",
         "imageUrl": "",
-        "answerNote": "Đáp án: A"
+        "answerNote": "Đáp án: B"
       },
       {
         "id": "bps301-fa26-mock1-q32",
-        "content": "Câu 32 [Lecture 7: Queueing and Simulation]: 4",
-        "options": {},
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: ",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-mock1-q33",
-        "content": "Câu 33 [Lecture 7: Queueing and Simulation]: A Poisson arrival process implies that inter-arrival times follow which distribution?",
+        "content": "Câu 32 [Lecture 7 : Queueing and Simulation]: A Poisson arrival process implies that inter-arrival times follow which distribution?",
         "options": {
           "A": "Uniform distribution",
           "B": "Normal distribution",
-          "C": "Constant distribution",
-          "D": "Exponential distribution"
+          "C": "Exponential distribution",
+          "D": "Constant distribution"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: Poisson arrivals tương đương khoảng thời gian giữa các arrivals độc lập, phân phối mũ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock1-q33",
+        "content": "Câu 33 [Lecture 7 : Queueing and Simulation]: Which is a required input to a process simulation model?",
+        "options": {
+          "A": "Only the process name",
+          "B": "Only the number of end events",
+          "C": "Only the cost of software licenses",
+          "D": "Activity time distributions, branching probabilities, arrival pattern and resource pools"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Poisson arrivals tương đương khoảng thời gian giữa các arrivals độc lập, phân phối mũ.",
+        "explanation": "Trọng tâm: Mô hình mô phỏng cần thời gian xử lý, xác suất nhánh, tốc độ/lịch đến và thông tin pool nguồn lực.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock1-q34",
-        "content": "Câu 34 [Lecture 8: Process Redesign 1]: What does “Don’t automate, obliterate” recommend?",
+        "content": "Câu 34 [Lecture 8 : Process Redesign 1]: What does “Don’t automate, obliterate” recommend?",
         "options": {
           "A": "Question and remove unnecessary work before automating the process",
           "B": "Automate every existing step first",
@@ -1512,7 +1531,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q35",
-        "content": "Câu 35 [Lecture 8: Process Redesign 1]: What is the difference between an AS-IS and a TO-BE model?",
+        "content": "Câu 35 [Lecture 8 : Process Redesign 1]: What is the difference between an AS-IS and a TO-BE model?",
         "options": {
           "A": "AS-IS is executable; TO-BE is always conceptual",
           "B": "AS-IS describes the current process; TO-BE prescribes the redesigned process",
@@ -1530,7 +1549,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q36",
-        "content": "Câu 36 [Lecture 8: Process Redesign 1]: Which redesign principle reduces repeated data entry?",
+        "content": "Câu 36 [Lecture 8 : Process Redesign 1]: Which redesign principle reduces repeated data entry?",
         "options": {
           "A": "Add another approval step",
           "B": "Send copies to every department",
@@ -1548,25 +1567,25 @@
       },
       {
         "id": "bps301-fa26-mock1-q37",
-        "content": "Câu 37 [Lecture 8: Process Redesign 1]: A redesigned process lets customers enter their own request data through a portal. Which principle is illustrated?",
+        "content": "Câu 37 [Lecture 8 : Process Redesign 1]: “Put the decision point where the work is performed” mainly aims to:",
         "options": {
-          "A": "Over-production",
-          "B": "Resource idleness",
-          "C": "Process termination",
-          "D": "Self-service and capturing information at the source"
+          "A": "Move every decision to senior management",
+          "B": "Remove all process controls",
+          "C": "Create more handovers",
+          "D": "Empower workers with information and controls to decide locally"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Khách hàng tự nhập thông tin qua portal giúp thu thập tại nguồn và có thể giảm công việc nhập liệu trung gian.",
+        "explanation": "Trọng tâm: Trao quyền cho người thực hiện cùng thông tin và kiểm soát phù hợp giúp giảm vòng chuyển giao qua quản lý.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock1-q38",
-        "content": "Câu 38 [Lecture 9: Heuristic Process Redesign]: Which performance dimensions form the Devil’s Quadrangle?",
+        "content": "Câu 38 [Lecture 9 : Heuristic Process Redesign]: Which performance dimensions form the Devil’s Quadrangle?",
         "options": {
           "A": "Cost, time, quality and flexibility",
           "B": "People, process, platform and product",
@@ -1584,7 +1603,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q39",
-        "content": "Câu 39 [Lecture 9: Heuristic Process Redesign]: Removing a non-value-adding forwarding step is which heuristic?",
+        "content": "Câu 39 [Lecture 9 : Heuristic Process Redesign]: Removing a non-value-adding forwarding step is which heuristic?",
         "options": {
           "A": "Triage",
           "B": "Task elimination",
@@ -1602,7 +1621,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q40",
-        "content": "Câu 40 [Lecture 9: Heuristic Process Redesign]: Merging “check purchase necessity” and “check budget” into one activity illustrates:",
+        "content": "Câu 40 [Lecture 9 : Heuristic Process Redesign]: Merging “check purchase necessity” and “check budget” into one activity illustrates:",
         "options": {
           "A": "Task decomposition",
           "B": "Triage",
@@ -1620,7 +1639,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q41",
-        "content": "Câu 41 [Lecture 9: Heuristic Process Redesign]: Separating “prepare quote” into bill-of-materials, production-plan and cost-estimation tasks is:",
+        "content": "Câu 41 [Lecture 9 : Heuristic Process Redesign]: Separating “prepare quote” into bill-of-materials, production-plan and cost-estimation tasks is:",
         "options": {
           "A": "Task composition",
           "B": "Task elimination",
@@ -1638,7 +1657,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q42",
-        "content": "Câu 42 [Lecture 9: Heuristic Process Redesign]: Perform the check that rejects the most cases first. Which heuristic is this?",
+        "content": "Câu 42 [Lecture 9 : Heuristic Process Redesign]: Perform the check that rejects the most cases first. Which heuristic is this?",
         "options": {
           "A": "Re-sequencing",
           "B": "Parallelism enhancement",
@@ -1656,7 +1675,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q43",
-        "content": "Câu 43 [Lecture 10: Process Automation]: How does a conceptual TO-BE model differ from an executable model?",
+        "content": "Câu 43 [Lecture 10 : Process Automation]: How does a conceptual TO-BE model differ from an executable model?",
         "options": {
           "A": "Conceptual models contain more API details",
           "B": "Conceptual models support stakeholder understanding; executable models must be unambiguous and machine-readable",
@@ -1674,7 +1693,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q44",
-        "content": "Câu 44 [Lecture 10: Process Automation]: Which is the correct order of the five-step transformation method?",
+        "content": "Câu 44 [Lecture 10 : Process Automation]: Which is the correct order of the five-step transformation method?",
         "options": {
           "A": "Specify APIs, automate all tasks, identify users, draw pools, monitor",
           "B": "Complete the model, remove exceptions, identify boundaries, add staff, deploy",
@@ -1692,7 +1711,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q45",
-        "content": "Câu 45 [Lecture 10: Process Automation]: A task requiring physical judgment that the BPMS cannot observe should be:",
+        "content": "Câu 45 [Lecture 10 : Process Automation]: A task requiring physical judgment that the BPMS cannot observe should be:",
         "options": {
           "A": "Marked as an automated service task regardless",
           "B": "Deleted from the real-world process",
@@ -1710,30 +1729,30 @@
       },
       {
         "id": "bps301-fa26-mock1-q46",
-        "content": "Câu 46 [Lecture 10: Process Automation]: What does CRUD analysis help determine?",
+        "content": "Câu 46 [Lecture 10 : Process Automation]: Why must an executable process model capture exceptions?",
         "options": {
-          "A": "Which business objects each task creates, reads, updates or deletes",
-          "B": "Which gateways are XOR or AND",
-          "C": "How many resources are idle",
-          "D": "Which process is core"
+          "A": "Real cases may be late, incomplete, rejected or otherwise deviate from the happy path",
+          "B": "Exceptions occur only in manual processes",
+          "C": "The engine automatically infers every business exception",
+          "D": "Exceptions are represented by data stores only"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: CRUD kiểm kê dữ liệu theo task; quyết định cần biết dữ liệu nào và handoff cần dữ liệu nào.",
+        "explanation": "Trọng tâm: Bài giảng nhấn mạnh exceptions are the rule; cần xử lý không phản hồi, phản hồi muộn, sai định dạng và lỗi nội bộ.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock1-q47",
-        "content": "Câu 47 [Lecture 11: Process Monitoring and Mining]: What is a process performance dashboard?",
+        "content": "Câu 47 [Lecture 11 : Process Monitoring and Mining]: What is a process performance dashboard?",
         "options": {
-          "A": "process model that executes tasks",
-          "B": "visualization of performance measures that helps users answer business questions",
-          "C": "repository of BPMN symbols",
-          "D": "raw database table with no analysis"
+          "A": "A process model that executes tasks",
+          "B": "A visualization of performance measures that helps users answer business questions",
+          "C": "A repository of BPMN symbols",
+          "D": "A raw database table with no analysis"
         },
         "correctAnswer": "B",
         "correctAnswers": [
@@ -1746,7 +1765,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q48",
-        "content": "Câu 48 [Lecture 11: Process Monitoring and Mining]: Which audience and purpose best fit an operational dashboard?",
+        "content": "Câu 48 [Lecture 11 : Process Monitoring and Mining]: Which audience and purpose best fit an operational dashboard?",
         "options": {
           "A": "Executives linking processes to strategic objectives only",
           "B": "Analysts designing a reference model",
@@ -1764,7 +1783,7 @@
       },
       {
         "id": "bps301-fa26-mock1-q49",
-        "content": "Câu 49 [Lecture 11: Process Monitoring and Mining]: Which dashboard best supports an executive’s question about process contribution to strategic goals?",
+        "content": "Câu 49 [Lecture 11 : Process Monitoring and Mining]: Which dashboard best supports an executive’s question about process contribution to strategic goals?",
         "options": {
           "A": "Operational dashboard",
           "B": "Task worklist",
@@ -1782,19 +1801,19 @@
       },
       {
         "id": "bps301-fa26-mock1-q50",
-        "content": "Câu 50 [Lecture 11: Process Monitoring and Mining]: What is a key purpose of process mining?",
+        "content": "Câu 50 [Lecture 11 : Process Monitoring and Mining]: A chart shows average cycle time by month. What kind of view is this?",
         "options": {
-          "A": "Use event data and process models to discover, check or analyze process behavior",
-          "B": "Replace event logs with interviews",
-          "C": "Create a process without data",
-          "D": "Run a BPMS worklist"
+          "A": "Longitudinal",
+          "B": "Cross-sectional",
+          "C": "Data-flow",
+          "D": "Resource assignment"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Process mining khai thác event logs để khám phá, kiểm tra tuân thủ và phân tích quy trình.",
+        "explanation": "Trọng tâm: Longitudinal chart theo dõi measure theo thời gian; cross-sectional so sánh theo thuộc tính như khu vực hoặc loại case.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       }
@@ -1808,169 +1827,169 @@
     "questions": [
       {
         "id": "bps301-fa26-mock2-q01",
-        "content": "Câu 01 [Lecture 1: Introduction to BPM]: Which set contains the three basic process performance dimensions?",
+        "content": "Câu 01 [Lecture 1 : Introduction to BPM]: In Rummler’s framework, process performance is considered together with which broader context?",
         "options": {
-          "A": "Staff, technology and budget",
-          "B": "Scope, risk and authority",
-          "C": "Speed, location and volume",
-          "D": "Time, cost and quality"
+          "A": "Only individual employee motivation",
+          "B": "Only the IT department",
+          "C": "Only customer satisfaction",
+          "D": "Business environment, organization and resources"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Ba chiều cơ bản trong slide là thời gian, chi phí và chất lượng.",
+        "explanation": "Trọng tâm: Khung Rummler đặt quy trình trong môi trường kinh doanh, tổ chức và nguồn lực; cải tiến quy trình cần xét các tầng liên quan.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock2-q02",
-        "content": "Câu 02 [Lecture 1: Introduction to BPM]: In Rummler’s framework, process performance is considered together with which broader context?",
+        "content": "Câu 02 [Lecture 1 : Introduction to BPM]: A process owner is primarily accountable for which responsibility?",
         "options": {
-          "A": "Business environment, organization and resources",
-          "B": "Only individual employee motivation",
-          "C": "Only the IT department",
-          "D": "Only customer satisfaction"
+          "A": "Overall performance and improvement of the process",
+          "B": "Writing every task-level instruction personally",
+          "C": "Operating every software service",
+          "D": "Approving every employee’s leave"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Khung Rummler đặt quy trình trong môi trường kinh doanh, tổ chức và nguồn lực; cải tiến quy trình cần xét các tầng liên quan.",
+        "explanation": "Trọng tâm: Process owner chịu trách nhiệm tổng thể về kết quả và cải tiến quy trình, dù công việc do nhiều người/bộ phận thực hiện.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock2-q03",
-        "content": "Câu 03 [Lecture 1: Introduction to BPM]: A process owner is primarily accountable for which responsibility?",
+        "content": "Câu 03 [Lecture 1 : Introduction to BPM]: What is the best first move when a process has poor performance?",
         "options": {
-          "A": "Writing every task-level instruction personally",
-          "B": "Overall performance and improvement of the process",
-          "C": "Operating every software service",
-          "D": "Approving every employee’s leave"
+          "A": "Buy a BPMS immediately",
+          "B": "Identify and understand the process and its performance before choosing changes",
+          "C": "Remove all controls",
+          "D": "Increase every resource pool"
         },
         "correctAnswer": "B",
         "correctAnswers": [
           "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Process owner chịu trách nhiệm tổng thể về kết quả và cải tiến quy trình, dù công việc do nhiều người/bộ phận thực hiện.",
+        "explanation": "Trọng tâm: Cần hiểu phạm vi, cách vận hành và hiệu suất hiện tại trước khi chọn can thiệp; chọn giải pháp trước khi chẩn đoán dễ xử lý sai nguyên nhân.",
         "imageUrl": "",
         "answerNote": "Đáp án: B"
       },
       {
         "id": "bps301-fa26-mock2-q04",
-        "content": "Câu 04 [Lecture 1: Introduction to BPM]: What is the best first move when a process has poor performance?",
+        "content": "Câu 04 [Lecture 2 : Process Identification]: Which relationship describes one process being a more specific version of another?",
         "options": {
-          "A": "Buy a BPMS immediately",
-          "B": "Remove all controls",
-          "C": "Identify and understand the process and its performance before choosing changes",
-          "D": "Increase every resource pool"
+          "A": "Sequence",
+          "B": "Message flow",
+          "C": "Specialization",
+          "D": "Resource assignment"
         },
         "correctAnswer": "C",
         "correctAnswers": [
           "C"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Cần hiểu phạm vi, cách vận hành và hiệu suất hiện tại trước khi chọn can thiệp; chọn giải pháp trước khi chẩn đoán dễ xử lý sai nguyên nhân.",
+        "explanation": "Trọng tâm: Specialization nối quy trình tổng quát với phiên bản chuyên biệt, ví dụ quy trình theo sản phẩm hoặc địa lý.",
         "imageUrl": "",
         "answerNote": "Đáp án: C"
       },
       {
         "id": "bps301-fa26-mock2-q05",
-        "content": "Câu 05 [Lecture 2: Process Identification]: What is the purpose of a process architecture?",
+        "content": "Câu 05 [Lecture 2 : Process Identification]: In a value chain, what does an upstream/downstream relation normally express?",
         "options": {
-          "A": "To list every employee’s daily schedule",
-          "B": "To show only the IT system architecture",
-          "C": "To replace all detailed process models",
-          "D": "To show the organization’s processes and their relationships at suitable levels"
+          "A": "The reporting hierarchy of employees",
+          "B": "The size of the data store",
+          "C": "The gateway type used in BPMN",
+          "D": "The order in which processes contribute to delivering value"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Process architecture mô tả hệ thống quy trình và mối quan hệ giữa chúng, thường phân cấp từ landscape đến quy trình con.",
+        "explanation": "Trọng tâm: Quan hệ ngang upstream/downstream biểu diễn trình tự các quy trình trong chuỗi giá trị.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock2-q06",
-        "content": "Câu 06 [Lecture 2: Process Identification]: In a value chain, what does an upstream/downstream relation normally express?",
+        "content": "Câu 06 [Lecture 2 : Process Identification]: What is a reference model such as APQC PCF or SCOR used for?",
         "options": {
-          "A": "The order in which processes contribute to delivering value",
-          "B": "The reporting hierarchy of employees",
-          "C": "The size of the data store",
-          "D": "The gateway type used in BPMN"
+          "A": "As a template or benchmark when identifying and structuring processes",
+          "B": "As an executable BPMN engine",
+          "C": "As a method for calculating queue lengths",
+          "D": "As a replacement for stakeholder input"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Quan hệ ngang upstream/downstream biểu diễn trình tự các quy trình trong chuỗi giá trị.",
+        "explanation": "Trọng tâm: Reference model cung cấp khung tham khảo để nhận diện/phân loại quy trình; cần điều chỉnh theo tổ chức thực tế.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock2-q07",
-        "content": "Câu 07 [Lecture 2: Process Identification]: What is a reference model such as APQC PCF or SCOR used for?",
+        "content": "Câu 07 [Lecture 3 : Process Modeling 1]: An order is sent to Amsterdam only if relevant items are there and to Hamburg only if items are there. Which gateway fits?",
         "options": {
-          "A": "As an executable BPMN engine",
-          "B": "As a template or benchmark when identifying and structuring processes",
-          "C": "As a method for calculating queue lengths",
-          "D": "As a replacement for stakeholder input"
+          "A": "Exclusive XOR-split",
+          "B": "Inclusive OR-split",
+          "C": "Event-based gateway",
+          "D": "Terminate end event"
         },
         "correctAnswer": "B",
         "correctAnswers": [
           "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Reference model cung cấp khung tham khảo để nhận diện/phân loại quy trình; cần điều chỉnh theo tổ chức thực tế.",
+        "explanation": "Trọng tâm: Có thể chọn một hoặc cả hai nhánh tùy điều kiện; đây là Inclusive OR-split.",
         "imageUrl": "",
         "answerNote": "Đáp án: B"
       },
       {
         "id": "bps301-fa26-mock2-q08",
-        "content": "Câu 08 [Lecture 3: Process Modeling 1]: An order is sent to Amsterdam only if relevant items are there and to Hamburg only if items are there. Which gateway fits?",
+        "content": "Câu 08 [Lecture 3 : Process Modeling 1]: Which BPMN naming convention is clearest for an activity?",
         "options": {
-          "A": "Exclusive XOR-split",
-          "B": "Event-based gateway",
-          "C": "Inclusive OR-split",
-          "D": "Terminate end event"
+          "A": "Past-tense event phrase, e.g. “Risk assessed”",
+          "B": "A vague label such as “Handle”",
+          "C": "Verb followed by business object, e.g. “Assess credit risk”",
+          "D": "A department name only"
         },
         "correctAnswer": "C",
         "correctAnswers": [
           "C"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Có thể chọn một hoặc cả hai nhánh tùy điều kiện; đây là Inclusive OR-split.",
+        "explanation": "Trọng tâm: Task nên đặt bằng động từ + đối tượng nghiệp vụ; event thường là đối tượng + quá khứ phân từ.",
         "imageUrl": "",
         "answerNote": "Đáp án: C"
       },
       {
         "id": "bps301-fa26-mock2-q09",
-        "content": "Câu 09 [Lecture 3: Process Modeling 1]: Which BPMN naming convention is clearest for an activity?",
+        "content": "Câu 09 [Lecture 4 : Process Modeling 2]: A customer may cancel an order while “Acquire materials” is running, and that work must stop. How should this be modeled?",
         "options": {
-          "A": "Past-tense event phrase, e.g. “Risk assessed”",
-          "B": "vague label such as “Handle”",
-          "C": "department name only",
-          "D": "Verb followed by business object, e.g. “Assess credit risk”"
+          "A": "A non-interrupting timer event",
+          "B": "A data object on the pool boundary",
+          "C": "An AND-join",
+          "D": "An interrupting boundary message event on the activity/sub-process"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Task nên đặt bằng động từ + đối tượng nghiệp vụ; event thường là đối tượng + quá khứ phân từ.",
+        "explanation": "Trọng tâm: Yêu cầu hủy từ bên ngoài làm dừng hoạt động hiện tại, nên dùng interrupting boundary message event.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock2-q10",
-        "content": "Câu 10 [Lecture 4: Process Modeling 2]: Which statement about a terminate end event is correct?",
+        "content": "Câu 10 [Lecture 4 : Process Modeling 2]: Which statement about a terminate end event is correct?",
         "options": {
           "A": "It ends the whole process instance and removes remaining active tokens",
           "B": "It only ends the current task and leaves all tokens unchanged",
@@ -1988,7 +2007,7 @@
       },
       {
         "id": "bps301-fa26-mock2-q11",
-        "content": "Câu 11 [Lecture 5: Qualitative Process Analysis]: A Five Whys analysis is primarily used to do what?",
+        "content": "Câu 11 [Lecture 5 : Qualitative Process Analysis]: A Five Whys analysis is primarily used to do what?",
         "options": {
           "A": "Estimate process cost from activity durations",
           "B": "Trace a problem through successive causes toward a root cause",
@@ -2006,7 +2025,7 @@
       },
       {
         "id": "bps301-fa26-mock2-q12",
-        "content": "Câu 12 [Lecture 5: Qualitative Process Analysis]: In a fishbone diagram, delays caused by unresponsive external suppliers belong to which “M”?",
+        "content": "Câu 12 [Lecture 5 : Qualitative Process Analysis]: In a fishbone diagram, delays caused by unresponsive external suppliers belong to which “M”?",
         "options": {
           "A": "Machine",
           "B": "Method",
@@ -2024,111 +2043,43 @@
       },
       {
         "id": "bps301-fa26-mock2-q13",
-        "content": "Câu 13 [Lecture 6: Quantitative Analysis 1]: A process has 6 hours of value-adding processing time and 30 hours total cycle time. What is its cycle time efficiency?",
+        "content": "Câu 13 [Lecture 6 : Quantitative Analysis 1]: Why can flow analysis underestimate actual cycle time in a congested process?",
         "options": {
-          "A": "5%",
-          "B": "36%",
-          "C": "80%",
-          "D": "20%"
+          "A": "It always assumes every task is automated",
+          "B": "It counts only message flows",
+          "C": "It cannot add sequential activity times",
+          "D": "It may ignore arrival rate, resource capacity and resulting queues"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: CTE = processing time / cycle time = 6/30 = 0.20 = 20%.",
+        "explanation": "Trọng tâm: Flow analysis thường tính logic/thời lượng cấu trúc nhưng không phản ánh đầy đủ tranh chấp nguồn lực và chờ do tải.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
         "id": "bps301-fa26-mock2-q14",
-        "content": "Câu 14 [Lecture 6: Quantitative Analysis 1]: 33 hours",
+        "content": "Câu 14 [Lecture 6 : Quantitative Analysis 1]: Which statement about high resource utilization is generally true?",
         "options": {
-          "A": "24 hours",
-          "B": "432 hours"
+          "A": "Near 100% utilization can cause waiting time to rise sharply",
+          "B": "It always minimizes cycle time",
+          "C": "It eliminates variability",
+          "D": "It guarantees zero WIP"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Little’s Law WIP=λ×CT, do đó CT=36/12=3 giờ.",
+        "explanation": "Trọng tâm: Khi sử dụng nguồn lực gần 100%, biến thiên nhỏ cũng tạo hàng đợi lớn và thời gian chờ tăng mạnh.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
         "id": "bps301-fa26-mock2-q15",
-        "content": "Câu 15 [Lecture 6: Quantitative Analysis 1]: Why can flow analysis underestimate actual cycle time in a congested process?",
-        "options": {
-          "A": "It always assumes every task is automated",
-          "B": "It may ignore arrival rate, resource capacity and resulting queues",
-          "C": "It counts only message flows",
-          "D": "It cannot add sequential activity times"
-        },
-        "correctAnswer": "B",
-        "correctAnswers": [
-          "B"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: Flow analysis thường tính logic/thời lượng cấu trúc nhưng không phản ánh đầy đủ tranh chấp nguồn lực và chờ do tải.",
-        "imageUrl": "",
-        "answerNote": "Đáp án: B"
-      },
-      {
-        "id": "bps301-fa26-mock2-q16",
-        "content": "Câu 16 [Lecture 6: Quantitative Analysis 1]: Which statement about high resource utilization is generally true?",
-        "options": {
-          "A": "It always minimizes cycle time",
-          "B": "It eliminates variability",
-          "C": "Near 100% utilization can cause waiting time to rise sharply",
-          "D": "It guarantees zero WIP"
-        },
-        "correctAnswer": "C",
-        "correctAnswers": [
-          "C"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: Khi sử dụng nguồn lực gần 100%, biến thiên nhỏ cũng tạo hàng đợi lớn và thời gian chờ tăng mạnh.",
-        "imageUrl": "",
-        "answerNote": "Đáp án: C"
-      },
-      {
-        "id": "bps301-fa26-mock2-q17",
-        "content": "Câu 17 [Lecture 7: Queueing and Simulation]: 5",
-        "options": {
-          "A": "3",
-          "B": "7"
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: ρ=λ/μ=2/5=0.4, tức trung bình server bận 40% thời gian.",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-mock2-q18",
-        "content": "Câu 18 [Lecture 7: Queueing and Simulation]: Which is a required input to a process simulation model?",
-        "options": {
-          "A": "Activity time distributions, branching probabilities, arrival pattern and resource pools",
-          "B": "Only the process name",
-          "C": "Only the number of end events",
-          "D": "Only the cost of software licenses"
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: Mô hình mô phỏng cần thời gian xử lý, xác suất nhánh, tốc độ/lịch đến và thông tin pool nguồn lực.",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-mock2-q19",
-        "content": "Câu 19 [Lecture 7: Queueing and Simulation]: Why should a simulation be run multiple times?",
+        "content": "Câu 15 [Lecture 7 : Queueing and Simulation]: Why should a simulation be run multiple times?",
         "options": {
           "A": "The first run never creates process instances",
           "B": "Random variation can make results differ between runs; repetitions support averages and confidence intervals",
@@ -2145,8 +2096,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q20",
-        "content": "Câu 20 [Lecture 7: Queueing and Simulation]: What is a sound way to validate an “as-is” simulation?",
+        "id": "bps301-fa26-mock2-q16",
+        "content": "Câu 16 [Lecture 7 : Queueing and Simulation]: What is a sound way to validate an “as-is” simulation?",
         "options": {
           "A": "Assume the model is correct if it runs without errors",
           "B": "Increase arrival rate until results look realistic",
@@ -2163,26 +2114,26 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q21",
-        "content": "Câu 21 [Lecture 8: Process Redesign 1]: “Put the decision point where the work is performed” mainly aims to:",
+        "id": "bps301-fa26-mock2-q17",
+        "content": "Câu 17 [Lecture 8 : Process Redesign 1]: A redesigned process lets customers enter their own request data through a portal. Which principle is illustrated?",
         "options": {
-          "A": "Move every decision to senior management",
-          "B": "Remove all process controls",
-          "C": "Create more handovers",
-          "D": "Empower workers with information and controls to decide locally"
+          "A": "Over-production",
+          "B": "Resource idleness",
+          "C": "Process termination",
+          "D": "Self-service and capturing information at the source"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Trao quyền cho người thực hiện cùng thông tin và kiểm soát phù hợp giúp giảm vòng chuyển giao qua quản lý.",
+        "explanation": "Trọng tâm: Khách hàng tự nhập thông tin qua portal giúp thu thập tại nguồn và có thể giảm công việc nhập liệu trung gian.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-mock2-q22",
-        "content": "Câu 22 [Lecture 8: Process Redesign 1]: A company pools similar staff across locations so that work can go to any available qualified worker. What is the likely benefit?",
+        "id": "bps301-fa26-mock2-q18",
+        "content": "Câu 18 [Lecture 8 : Process Redesign 1]: A company pools similar staff across locations so that work can go to any available qualified worker. What is the likely benefit?",
         "options": {
           "A": "Lower waiting through a larger shared resource pool",
           "B": "Guaranteed zero cost",
@@ -2199,13 +2150,13 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock2-q23",
-        "content": "Câu 23 [Lecture 8: Process Redesign 1]: BPR is best characterized as which type of redesign?",
+        "id": "bps301-fa26-mock2-q19",
+        "content": "Câu 19 [Lecture 8 : Process Redesign 1]: BPR is best characterized as which type of redesign?",
         "options": {
-          "A": "minor adjustment to task labels only",
+          "A": "A minor adjustment to task labels only",
           "B": "Transformative and outcome-driven, questioning fundamental assumptions",
-          "C": "queueing formula",
-          "D": "process monitoring dashboard"
+          "C": "A queueing formula",
+          "D": "A process monitoring dashboard"
         },
         "correctAnswer": "B",
         "correctAnswers": [
@@ -2217,8 +2168,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q24",
-        "content": "Câu 24 [Lecture 9: Heuristic Process Redesign]: Two independent approval tasks are performed at the same time. Which heuristic is applied?",
+        "id": "bps301-fa26-mock2-q20",
+        "content": "Câu 20 [Lecture 9 : Heuristic Process Redesign]: Two independent approval tasks are performed at the same time. Which heuristic is applied?",
         "options": {
           "A": "Task elimination",
           "B": "Triage",
@@ -2235,8 +2186,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q25",
-        "content": "Câu 25 [Lecture 9: Heuristic Process Redesign]: Creating separate processes for small and large purchases is an example of:",
+        "id": "bps301-fa26-mock2-q21",
+        "content": "Câu 21 [Lecture 9 : Heuristic Process Redesign]: Creating separate processes for small and large purchases is an example of:",
         "options": {
           "A": "Process standardization",
           "B": "Resource batching",
@@ -2253,26 +2204,26 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-mock2-q26",
-        "content": "Câu 26 [Lecture 10: Process Automation]: Why must an executable process model capture exceptions?",
+        "id": "bps301-fa26-mock2-q22",
+        "content": "Câu 22 [Lecture 10 : Process Automation]: What does CRUD analysis help determine?",
         "options": {
-          "A": "Real cases may be late, incomplete, rejected or otherwise deviate from the happy path",
-          "B": "Exceptions occur only in manual processes",
-          "C": "The engine automatically infers every business exception",
-          "D": "Exceptions are represented by data stores only"
+          "A": "Which business objects each task creates, reads, updates or deletes",
+          "B": "Which gateways are XOR or AND",
+          "C": "How many resources are idle",
+          "D": "Which process is core"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Bài giảng nhấn mạnh exceptions are the rule; cần xử lý không phản hồi, phản hồi muộn, sai định dạng và lỗi nội bộ.",
+        "explanation": "Trọng tâm: CRUD kiểm kê dữ liệu theo task; quyết định cần biết dữ liệu nào và handoff cần dữ liệu nào.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock2-q27",
-        "content": "Câu 27 [Lecture 10: Process Automation]: Why aggregate consecutive tasks assigned to the same performer?",
+        "id": "bps301-fa26-mock2-q23",
+        "content": "Câu 23 [Lecture 10 : Process Automation]: Why aggregate consecutive tasks assigned to the same performer?",
         "options": {
           "A": "To make every task atomic regardless of performer",
           "B": "To coordinate handovers and choose useful task granularity",
@@ -2289,8 +2240,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q28",
-        "content": "Câu 28 [Lecture 10: Process Automation]: Which BPMS component creates process instances and orchestrates work among people and services?",
+        "id": "bps301-fa26-mock2-q24",
+        "content": "Câu 24 [Lecture 10 : Process Automation]: Which BPMS component creates process instances and orchestrates work among people and services?",
         "options": {
           "A": "Worklist handler only",
           "B": "Model repository",
@@ -2307,31 +2258,31 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q29",
-        "content": "Câu 29 [Lecture 11: Process Monitoring and Mining]: A chart shows average cycle time by month. What kind of view is this?",
+        "id": "bps301-fa26-mock2-q25",
+        "content": "Câu 25 [Lecture 11 : Process Monitoring and Mining]: What is a key purpose of process mining?",
         "options": {
-          "A": "Cross-sectional",
-          "B": "Data-flow",
-          "C": "Resource assignment",
-          "D": "Longitudinal"
+          "A": "Replace event logs with interviews",
+          "B": "Create a process without data",
+          "C": "Run a BPMS worklist",
+          "D": "Use event data and process models to discover, check or analyze process behavior"
         },
         "correctAnswer": "D",
         "correctAnswers": [
           "D"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Longitudinal chart theo dõi measure theo thời gian; cross-sectional so sánh theo thuộc tính như khu vực hoặc loại case.",
+        "explanation": "Trọng tâm: Process mining khai thác event logs để khám phá, kiểm tra tuân thủ và phân tích quy trình.",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-mock2-q30",
-        "content": "Câu 30 [Lecture 11: Process Monitoring and Mining]: A conformance check compares which two things?",
+        "id": "bps301-fa26-mock2-q26",
+        "content": "Câu 26 [Lecture 11 : Process Monitoring and Mining]: A conformance check compares which two things?",
         "options": {
           "A": "Recorded event-log behavior and a reference process model",
           "B": "Two dashboard colors",
-          "C": "process owner and a process analyst",
-          "D": "task duration and its wage only"
+          "C": "A process owner and a process analyst",
+          "D": "A task duration and its wage only"
         },
         "correctAnswer": "A",
         "correctAnswers": [
@@ -2343,8 +2294,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock2-q31",
-        "content": "Câu 31 [Lecture 11: Process Monitoring and Mining]: A model can replay all observed traces but allows many behavior patterns never seen in the log. Which quality issue is likely?",
+        "id": "bps301-fa26-mock2-q27",
+        "content": "Câu 27 [Lecture 11 : Process Monitoring and Mining]: A model can replay all observed traces but allows many behavior patterns never seen in the log. Which quality issue is likely?",
         "options": {
           "A": "Low fitness",
           "B": "Low precision",
@@ -2361,8 +2312,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q32",
-        "content": "Câu 32 [Little's Law & Flow Analysis]: A loan processing center receives applications at an arrival rate of λ = 20 applications per day. The average cycle time to process an application is CT = 5 days. According to Little's Law, what is the average Work-In-Progress (WIP) in the center?",
+        "id": "bps301-fa26-mock2-q28",
+        "content": "Câu 28 [Little's Law & Flow Analysis]: A loan processing center receives applications at an arrival rate of λ = 20 applications per day. The average cycle time to process an application is CT = 5 days. According to Little's Law, what is the average Work-In-Progress (WIP) in the center?",
         "options": {
           "A": "4 applications",
           "B": "100 applications",
@@ -2379,8 +2330,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q33",
-        "content": "Câu 33 [Cycle Time with XOR Split]: A claim settlement process branches at an XOR-split into: Branch A (Simple claims, probability = 70%, CT = 2 days) and Branch B (Complex claims, probability = 30%, CT = 12 days). What is the expected cycle time of this XOR-block?",
+        "id": "bps301-fa26-mock2-q29",
+        "content": "Câu 29 [Cycle Time with XOR Split]: A claim settlement process branches at an XOR-split into: Branch A (Simple claims, probability = 70%, CT = 2 days) and Branch B (Complex claims, probability = 30%, CT = 12 days). What is the expected cycle time of this XOR-block?",
         "options": {
           "A": "7.0 days",
           "B": "8.5 days",
@@ -2397,8 +2348,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q34",
-        "content": "Câu 34 [Parallel Flow Analysis]: In a mortgage verification sub-process, three activities run in parallel after an AND-split: 'Credit Check' (takes 4 hours), 'Property Valuation' (takes 9 hours), and 'Title Search' (takes 6 hours). They rejoin at an AND-join. Neglecting waiting time, what is the cycle time of this parallel block?",
+        "id": "bps301-fa26-mock2-q30",
+        "content": "Câu 30 [Parallel Flow Analysis]: In a mortgage verification sub-process, three activities run in parallel after an AND-split: 'Credit Check' (takes 4 hours), 'Property Valuation' (takes 9 hours), and 'Title Search' (takes 6 hours). They rejoin at an AND-join. Neglecting waiting time, what is the cycle time of this parallel block?",
         "options": {
           "A": "6.3 hours",
           "B": "19.0 hours",
@@ -2415,8 +2366,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-mock2-q35",
-        "content": "Câu 35 [Cycle Time Efficiency]: A customer complaint process has a Theoretical Cycle Time (TCT - pure processing time) of 3 hours, but the actual average Cycle Time (CT) including waiting in queues is 30 hours. What is the Cycle Time Efficiency (CTE)?",
+        "id": "bps301-fa26-mock2-q31",
+        "content": "Câu 31 [Cycle Time Efficiency]: A customer complaint process has a Theoretical Cycle Time (TCT - pure processing time) of 3 hours, but the actual average Cycle Time (CT) including waiting in queues is 30 hours. What is the Cycle Time Efficiency (CTE)?",
         "options": {
           "A": "10%",
           "B": "30%",
@@ -2433,8 +2384,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock2-q36",
-        "content": "Câu 36 [Queueing Theory - Utilization]: In a service desk with c = 2 technicians, service requests arrive at a rate of λ = 6 requests/hour. Each technician can process on average μ = 4 requests/hour. What is the resource utilization rate (ρ)?",
+        "id": "bps301-fa26-mock2-q32",
+        "content": "Câu 32 [Queueing Theory - Utilization]: In a service desk with c = 2 technicians, service requests arrive at a rate of λ = 6 requests/hour. Each technician can process on average μ = 4 requests/hour. What is the resource utilization rate (ρ)?",
         "options": {
           "A": "50%",
           "B": "75%",
@@ -2451,8 +2402,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q37",
-        "content": "Câu 37 [Knock-out Heuristic Optimization]: A company conducts two checks on incoming job applications: Check 1 (Cost = $10, rejects 20% of applicants) and Check 2 (Cost = $5, rejects 40% of applicants). If either check fails, the application is rejected immediately. According to the Knock-out heuristic, what is the optimal sequence?",
+        "id": "bps301-fa26-mock2-q33",
+        "content": "Câu 33 [Knock-out Heuristic Optimization]: A company conducts two checks on incoming job applications: Check 1 (Cost = $10, rejects 20% of applicants) and Check 2 (Cost = $5, rejects 40% of applicants). If either check fails, the application is rejected immediately. According to the Knock-out heuristic, what is the optimal sequence?",
         "options": {
           "A": "Perform Check 1 first, then Check 2.",
           "B": "Perform both checks in parallel using an AND-split.",
@@ -2469,8 +2420,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q38",
-        "content": "Câu 38 [Devil's Quadrangle]: A bank redesigns its credit approval process by replacing individual committee approvals with an automated credit scoring rule. Cycle time drops from 5 days to 10 minutes, and processing cost is reduced by 60%. However, 2% of approved applicants later default on payments because the model missed complex fraud cues. In terms of the Devil's Quadrangle, which dimension suffered?",
+        "id": "bps301-fa26-mock2-q34",
+        "content": "Câu 34 [Devil's Quadrangle]: A bank redesigns its credit approval process by replacing individual committee approvals with an automated credit scoring rule. Cycle time drops from 5 days to 10 minutes, and processing cost is reduced by 60%. However, 2% of approved applicants later default on payments because the model missed complex fraud cues. In terms of the Devil's Quadrangle, which dimension suffered?",
         "options": {
           "A": "Time",
           "B": "Cost",
@@ -2487,8 +2438,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-mock2-q39",
-        "content": "Câu 39 [Process Mining - Footprint Matrix]: In Alpha Miner algorithm, if event 'a' is immediately followed by event 'b' (a > b) in the log, but 'b' is never followed by 'a' (NOT b > a), what is the causal relation between 'a' and 'b'?",
+        "id": "bps301-fa26-mock2-q35",
+        "content": "Câu 35 [Process Mining - Footprint Matrix]: In Alpha Miner algorithm, if event 'a' is immediately followed by event 'b' (a > b) in the log, but 'b' is never followed by 'a' (NOT b > a), what is the causal relation between 'a' and 'b'?",
         "options": {
           "A": "Causal succession: a -> b",
           "B": "Choice: a # b",
@@ -2505,8 +2456,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock2-q40",
-        "content": "Câu 40 [Process Mining - Conformance Dimensions]: A discovered process model allows for every possible trace of activities (including random, illogical sequences), easily replaying all log traces with a fitness of 1.0. Which conformance quality dimension does this model severely violate?",
+        "id": "bps301-fa26-mock2-q36",
+        "content": "Câu 36 [Process Mining - Conformance Dimensions]: A discovered process model allows for every possible trace of activities (including random, illogical sequences), easily replaying all log traces with a fitness of 1.0. Which conformance quality dimension does this model severely violate?",
         "options": {
           "A": "Fitness",
           "B": "Precision",
@@ -2523,8 +2474,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q41",
-        "content": "Câu 41 [Process Mining - Token Replay]: During token replay conformance checking, when an event occurs in the event log but the corresponding transition in the Petri net / BPMN model cannot fire because required input tokens are absent, what does the replay algorithm do?",
+        "id": "bps301-fa26-mock2-q37",
+        "content": "Câu 37 [Process Mining - Token Replay]: During token replay conformance checking, when an event occurs in the event log but the corresponding transition in the Petri net / BPMN model cannot fire because required input tokens are absent, what does the replay algorithm do?",
         "options": {
           "A": "Aborts the replay and marks the entire log as invalid.",
           "B": "Deletes the event from the trace and continues.",
@@ -2541,8 +2492,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q42",
-        "content": "Câu 42 [BPMN Advanced - Boundary Events]: An analyst models a long-running activity 'Analyze Claim' with an attached Intermediate Timer Boundary Event set to '48 hours'. The timer icon has a single solid boundary circle. When 48 hours elapse, what happens?",
+        "id": "bps301-fa26-mock2-q38",
+        "content": "Câu 38 [BPMN Advanced - Boundary Events]: An analyst models a long-running activity 'Analyze Claim' with an attached Intermediate Timer Boundary Event set to '48 hours'. The timer icon has a single solid boundary circle. When 48 hours elapse, what happens?",
         "options": {
           "A": "The task continues and a reminder notification is sent in parallel.",
           "B": "The token is duplicated into two tokens.",
@@ -2559,8 +2510,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-mock2-q43",
-        "content": "Câu 43 [BPMN Advanced - Event-Based Gateway]: Which modeling constraint MUST be strictly followed when configuring an Event-Based Gateway?",
+        "id": "bps301-fa26-mock2-q39",
+        "content": "Câu 39 [BPMN Advanced - Event-Based Gateway]: Which modeling constraint MUST be strictly followed when configuring an Event-Based Gateway?",
         "options": {
           "A": "It must be followed by intermediate catching events (e.g. Timer, Message) or Receive tasks, with NO sequence flow conditions.",
           "B": "It must be followed only by intermediate throwing message events.",
@@ -2577,8 +2528,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock2-q44",
-        "content": "Câu 44 [Process Automation - Camunda]: In Camunda BPMN 2.0 execution, which task type is used to invoke automated Java code, Spring beans, or an external REST worker?",
+        "id": "bps301-fa26-mock2-q40",
+        "content": "Câu 40 [Process Automation - Camunda]: In Camunda BPMN 2.0 execution, which task type is used to invoke automated Java code, Spring beans, or an external REST worker?",
         "options": {
           "A": "Manual Task",
           "B": "Service Task",
@@ -2595,8 +2546,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q45",
-        "content": "Câu 45 [Process Automation - Worklist]: In a BPMS architecture, what is the role of the 'Process Engine' versus the 'Worklist Handler'?",
+        "id": "bps301-fa26-mock2-q41",
+        "content": "Câu 41 [Process Automation - Worklist]: In a BPMS architecture, what is the role of the 'Process Engine' versus the 'Worklist Handler'?",
         "options": {
           "A": "Process Engine handles human interaction forms; Worklist Handler executes database migrations.",
           "B": "Process Engine is a reporting dashboard; Worklist Handler compiles BPMN XML.",
@@ -2613,8 +2564,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q46",
-        "content": "Câu 46 [Value-Added Analysis]: A hospital process step 'Check patient insurance eligibility before non-emergency surgery' is evaluated. Patients don't care about insurance paperwork, but the hospital requires it to guarantee payment. How is this step classified?",
+        "id": "bps301-fa26-mock2-q42",
+        "content": "Câu 42 [Value-Added Analysis]: A hospital process step 'Check patient insurance eligibility before non-emergency surgery' is evaluated. Patients don't care about insurance paperwork, but the hospital requires it to guarantee payment. How is this step classified?",
         "options": {
           "A": "Value-Adding (VA)",
           "B": "Non-Value-Adding (NVA)",
@@ -2631,8 +2582,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-mock2-q47",
-        "content": "Câu 47 [Root Cause Analysis - Fishbone]: In a manufacturing delay investigation using Ishikawa (Fishbone) diagram, 'Insufficient training of machine operators' should be categorized under which of the 6Ms?",
+        "id": "bps301-fa26-mock2-q43",
+        "content": "Câu 43 [Root Cause Analysis - Fishbone]: In a manufacturing delay investigation using Ishikawa (Fishbone) diagram, 'Insufficient training of machine operators' should be categorized under which of the 6Ms?",
         "options": {
           "A": "Manpower (People)",
           "B": "Machine",
@@ -2649,8 +2600,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-mock2-q48",
-        "content": "Câu 48 [Redesign Heuristics - Case Manager]: In a customer onboarding process where clients previously had to deal with 4 different departments (Sales, Legal, Credit, IT), the company assigns a single dedicated contact person who handles the case from start to finish. Which redesign heuristic was applied?",
+        "id": "bps301-fa26-mock2-q44",
+        "content": "Câu 44 [Redesign Heuristics - Case Manager]: In a customer onboarding process where clients previously had to deal with 4 different departments (Sales, Legal, Credit, IT), the company assigns a single dedicated contact person who handles the case from start to finish. Which redesign heuristic was applied?",
         "options": {
           "A": "Task elimination",
           "B": "Case Manager (Case Handler)",
@@ -2667,8 +2618,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-mock2-q49",
-        "content": "Câu 49 [Process Architecture]: In Porter's value chain classification within process architecture, which of the following is typically a 'Support Process' rather than a Core Process?",
+        "id": "bps301-fa26-mock2-q45",
+        "content": "Câu 45 [Process Architecture]: In Porter's value chain classification within process architecture, which of the following is typically a 'Support Process' rather than a Core Process?",
         "options": {
           "A": "Inbound logistics",
           "B": "Order-to-cash fulfillment",
@@ -2685,8 +2636,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-mock2-q50",
-        "content": "Câu 50 [Process Identification - Selection]: When evaluating processes for a BPM improvement initiative, a process has high strategic importance, high dysfunctional performance (poor health), but very low change feasibility due to legacy ERP constraints and political resistance. What is the recommended management strategy?",
+        "id": "bps301-fa26-mock2-q46",
+        "content": "Câu 46 [Process Identification - Selection]: When evaluating processes for a BPM improvement initiative, a process has high strategic importance, high dysfunctional performance (poor health), but very low change feasibility due to legacy ERP constraints and political resistance. What is the recommended management strategy?",
         "options": {
           "A": "Start with this process immediately to achieve maximum impact.",
           "B": "Decommission or eliminate the process completely.",
@@ -2699,6 +2650,78 @@
         ],
         "weight": 1,
         "explanation": "Trọng tâm: Theo khuyến nghị của Dumas & Davenport: Quy trình quan trọng nhưng tính khả thi thấp (Feasibility thấp) cần được chia nhỏ thành các dự án nhỏ khả thi (quick-wins) hoặc tạm hoãn để chuẩn bị nguồn lực, tránh rủi ro thất bại quy mô lớn.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-mock2-q47",
+        "content": "Câu 47 [7 Wastes - Transportation]: In a physical hospital layout, nurses have to walk back and forth 500 meters between the patient ward and the medicine storage room for every single prescription. This is an example of which Lean waste?",
+        "options": {
+          "A": "Transportation / Motion waste",
+          "B": "Over-production waste",
+          "C": "Defect waste",
+          "D": "Inventory waste"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: Việc di chuyển vật lý không cần thiết của nhân viên giữa các phòng ban thuộc loại lãng phí Motion / Transportation trong Lean.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-mock2-q48",
+        "content": "Câu 48 [Process Discovery - Challenges]: During process discovery interviews, different department heads provide conflicting descriptions of how the same customer inquiry is handled. This classic challenge is known as:",
+        "options": {
+          "A": "Thinking in cases",
+          "B": "Fragmented knowledge",
+          "C": "Tacit knowledge",
+          "D": "Exceptional behavior"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: Thách thức 'Fragmented knowledge' (Tri thức bị phân mảnh): Mỗi phòng ban chỉ nhìn thấy một mảnh vụn của quy trình và có góc nhìn mâu thuẫn nhau.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-mock2-q49",
+        "content": "Câu 49 [Process Modeling - Pool Boundaries]: What is the strict rule regarding Sequence Flows and Pool boundaries in BPMN 2.0?",
+        "options": {
+          "A": "Sequence flows can freely cross pool boundaries.",
+          "B": "Sequence flows can only connect pools if they are both black-box pools.",
+          "C": "Sequence flows CANNOT cross pool boundaries; only Message Flows can connect different pools.",
+          "D": "Message flows cannot cross pool boundaries."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: Luồng tuần tự (Sequence Flow) chỉ được đi trong cùng một Pool. Giao tiếp giữa 2 Pool khác nhau BẮT BUỘC phải dùng Luồng thông điệp (Message Flow).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-mock2-q50",
+        "content": "Câu 50 [Process Mining - Event Log Minimal Fields]: What are the 3 strictly required attributes for an event log to enable automated process discovery?",
+        "options": {
+          "A": "User ID, Cost, Location",
+          "B": "Activity Name, Status, Priority",
+          "C": "Server IP, Database Name, Memory Usage",
+          "D": "Case ID, Activity Name, Timestamp"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: Ba trường tối thiểu bắt buộc: Case ID (định danh ca), Activity Name (tên hành động), và Timestamp (dấu thời gian để xếp thứ tự).",
         "imageUrl": "",
         "answerNote": "Đáp án: D"
       }
@@ -4521,19 +4544,19 @@
     ]
   },
   {
-    "id": "bps301-fa26-review-81",
-    "name": "[FE] BPS301 - FA26 - Ôn Tập Trọng Tâm 11 Bài Giảng (81 câu)",
+    "id": "bps301-fa26-review-77",
+    "name": "[FE] BPS301 - FA26 - Ôn Tập Trọng Tâm 11 Bài Giảng (77 câu)",
     "subject": "BPS301",
     "createdAt": 1770000020000,
     "questions": [
       {
         "id": "bps301-fa26-rev-q01",
-        "content": "[Lecture 1: Introduction to BPM] Which statement best defines a business process?",
+        "content": "[Lecture 1 : Introduction to BPM] Which statement best defines a business process?",
         "options": {
-          "A": "department’s list of job descriptions",
-          "B": "chain of events, activities and decisions involving actors and objects, triggered by a need and leading to a valuable outcome",
-          "C": "collection of unrelated software applications",
-          "D": "one-time management decision"
+          "A": "A department’s list of job descriptions",
+          "B": "A chain of events, activities and decisions involving actors and objects, triggered by a need and leading to a valuable outcome",
+          "C": "A collection of unrelated software applications",
+          "D": "A one-time management decision"
         },
         "correctAnswer": "B",
         "correctAnswers": [
@@ -4546,7 +4569,7 @@
       },
       {
         "id": "bps301-fa26-rev-q02",
-        "content": "[Lecture 1: Introduction to BPM] What is the main aim of Business Process Management (BPM)?",
+        "content": "[Lecture 1 : Introduction to BPM] What is the main aim of Business Process Management (BPM)?",
         "options": {
           "A": "To automate every activity",
           "B": "To remove all human decisions",
@@ -4564,7 +4587,7 @@
       },
       {
         "id": "bps301-fa26-rev-q03",
-        "content": "[Lecture 1: Introduction to BPM] Which set contains the three basic process performance dimensions?",
+        "content": "[Lecture 1 : Introduction to BPM] Which set contains the three basic process performance dimensions?",
         "options": {
           "A": "Staff, technology and budget",
           "B": "Scope, risk and authority",
@@ -4582,7 +4605,7 @@
       },
       {
         "id": "bps301-fa26-rev-q04",
-        "content": "[Lecture 1: Introduction to BPM] Which sequence best represents the BPM lifecycle?",
+        "content": "[Lecture 1 : Introduction to BPM] Which sequence best represents the BPM lifecycle?",
         "options": {
           "A": "Identification, discovery, analysis, redesign, implementation and monitoring",
           "B": "Recruitment, training, appraisal and dismissal",
@@ -4600,7 +4623,7 @@
       },
       {
         "id": "bps301-fa26-rev-q05",
-        "content": "[Lecture 1: Introduction to BPM] In Rummler’s framework, process performance is considered together with which broader context?",
+        "content": "[Lecture 1 : Introduction to BPM] In Rummler’s framework, process performance is considered together with which broader context?",
         "options": {
           "A": "Only individual employee motivation",
           "B": "Business environment, organization and resources",
@@ -4618,7 +4641,7 @@
       },
       {
         "id": "bps301-fa26-rev-q06",
-        "content": "[Lecture 1: Introduction to BPM] A process owner is primarily accountable for which responsibility?",
+        "content": "[Lecture 1 : Introduction to BPM] A process owner is primarily accountable for which responsibility?",
         "options": {
           "A": "Writing every task-level instruction personally",
           "B": "Operating every software service",
@@ -4636,7 +4659,7 @@
       },
       {
         "id": "bps301-fa26-rev-q07",
-        "content": "[Lecture 1: Introduction to BPM] What is the best first move when a process has poor performance?",
+        "content": "[Lecture 1 : Introduction to BPM] What is the best first move when a process has poor performance?",
         "options": {
           "A": "Buy a BPMS immediately",
           "B": "Remove all controls",
@@ -4654,7 +4677,7 @@
       },
       {
         "id": "bps301-fa26-rev-q08",
-        "content": "[Lecture 2: Process Identification] Which is most likely a core process for a university?",
+        "content": "[Lecture 2 : Process Identification] Which is most likely a core process for a university?",
         "options": {
           "A": "Student admission",
           "B": "Payroll administration",
@@ -4672,7 +4695,7 @@
       },
       {
         "id": "bps301-fa26-rev-q09",
-        "content": "[Lecture 2: Process Identification] Which is most likely a support process?",
+        "content": "[Lecture 2 : Process Identification] Which is most likely a support process?",
         "options": {
           "A": "Delivering the organization’s main service to customers",
           "B": "Recruitment and onboarding of employees",
@@ -4690,7 +4713,7 @@
       },
       {
         "id": "bps301-fa26-rev-q10",
-        "content": "[Lecture 2: Process Identification] Which three criteria are commonly used to prioritize processes for management?",
+        "content": "[Lecture 2 : Process Identification] Which three criteria are commonly used to prioritize processes for management?",
         "options": {
           "A": "Cost, location and ownership",
           "B": "Age, size and popularity",
@@ -4708,7 +4731,7 @@
       },
       {
         "id": "bps301-fa26-rev-q11",
-        "content": "[Lecture 2: Process Identification] What is the purpose of a process architecture?",
+        "content": "[Lecture 2 : Process Identification] What is the purpose of a process architecture?",
         "options": {
           "A": "To list every employee’s daily schedule",
           "B": "To show only the IT system architecture",
@@ -4726,7 +4749,7 @@
       },
       {
         "id": "bps301-fa26-rev-q12",
-        "content": "[Lecture 2: Process Identification] Which relationship describes one process being a more specific version of another?",
+        "content": "[Lecture 2 : Process Identification] Which relationship describes one process being a more specific version of another?",
         "options": {
           "A": "Specialization",
           "B": "Sequence",
@@ -4744,7 +4767,7 @@
       },
       {
         "id": "bps301-fa26-rev-q13",
-        "content": "[Lecture 2: Process Identification] In a value chain, what does an upstream/downstream relation normally express?",
+        "content": "[Lecture 2 : Process Identification] In a value chain, what does an upstream/downstream relation normally express?",
         "options": {
           "A": "The reporting hierarchy of employees",
           "B": "The order in which processes contribute to delivering value",
@@ -4762,7 +4785,7 @@
       },
       {
         "id": "bps301-fa26-rev-q14",
-        "content": "[Lecture 2: Process Identification] What is a reference model such as APQC PCF or SCOR used for?",
+        "content": "[Lecture 2 : Process Identification] What is a reference model such as APQC PCF or SCOR used for?",
         "options": {
           "A": "As an executable BPMN engine",
           "B": "As a method for calculating queue lengths",
@@ -4780,7 +4803,7 @@
       },
       {
         "id": "bps301-fa26-rev-q15",
-        "content": "[Lecture 3: Process Modeling 1] Which are the four core BPMN flow elements?",
+        "content": "[Lecture 3 : Process Modeling 1] Which are the four core BPMN flow elements?",
         "options": {
           "A": "Pools, data stores, annotations and messages",
           "B": "Actors, documents, databases and APIs",
@@ -4798,7 +4821,7 @@
       },
       {
         "id": "bps301-fa26-rev-q16",
-        "content": "[Lecture 3: Process Modeling 1] What does a start event do in the token game?",
+        "content": "[Lecture 3 : Process Modeling 1] What does a start event do in the token game?",
         "options": {
           "A": "Creates a token and starts a process instance",
           "B": "Synchronizes all incoming branches",
@@ -4816,7 +4839,7 @@
       },
       {
         "id": "bps301-fa26-rev-q17",
-        "content": "[Lecture 3: Process Modeling 1] A task has two outgoing sequence flows with no gateway. What behavior is implied?",
+        "content": "[Lecture 3 : Process Modeling 1] A task has two outgoing sequence flows with no gateway. What behavior is implied?",
         "options": {
           "A": "Exactly one path is chosen, like XOR",
           "B": "Both paths are taken, like an AND-split",
@@ -4834,7 +4857,7 @@
       },
       {
         "id": "bps301-fa26-rev-q18",
-        "content": "[Lecture 3: Process Modeling 1] When does an XOR-join proceed?",
+        "content": "[Lecture 3 : Process Modeling 1] When does an XOR-join proceed?",
         "options": {
           "A": "Only after tokens arrive on every incoming branch",
           "B": "Only after all active branches are known",
@@ -4852,7 +4875,7 @@
       },
       {
         "id": "bps301-fa26-rev-q19",
-        "content": "[Lecture 3: Process Modeling 1] When does an AND-join proceed?",
+        "content": "[Lecture 3 : Process Modeling 1] When does an AND-join proceed?",
         "options": {
           "A": "As soon as one incoming token arrives",
           "B": "After any one condition becomes true",
@@ -4870,7 +4893,7 @@
       },
       {
         "id": "bps301-fa26-rev-q20",
-        "content": "[Lecture 3: Process Modeling 1] An order is sent to Amsterdam only if relevant items are there and to Hamburg only if items are there. Which gateway fits?",
+        "content": "[Lecture 3 : Process Modeling 1] An order is sent to Amsterdam only if relevant items are there and to Hamburg only if items are there. Which gateway fits?",
         "options": {
           "A": "Inclusive OR-split",
           "B": "Exclusive XOR-split",
@@ -4888,12 +4911,12 @@
       },
       {
         "id": "bps301-fa26-rev-q21",
-        "content": "[Lecture 3: Process Modeling 1] Which BPMN naming convention is clearest for an activity?",
+        "content": "[Lecture 3 : Process Modeling 1] Which BPMN naming convention is clearest for an activity?",
         "options": {
           "A": "Past-tense event phrase, e.g. “Risk assessed”",
           "B": "Verb followed by business object, e.g. “Assess credit risk”",
-          "C": "vague label such as “Handle”",
-          "D": "department name only"
+          "C": "A vague label such as “Handle”",
+          "D": "A department name only"
         },
         "correctAnswer": "B",
         "correctAnswers": [
@@ -4906,7 +4929,7 @@
       },
       {
         "id": "bps301-fa26-rev-q22",
-        "content": "[Lecture 4: Process Modeling 2] Why decompose a large process into sub-processes?",
+        "content": "[Lecture 4 : Process Modeling 2] Why decompose a large process into sub-processes?",
         "options": {
           "A": "To add more gateways to every model",
           "B": "To hide all process decisions",
@@ -4924,7 +4947,7 @@
       },
       {
         "id": "bps301-fa26-rev-q23",
-        "content": "[Lecture 4: Process Modeling 2] Which case is best represented by a parallel multi-instance activity?",
+        "content": "[Lecture 4 : Process Modeling 2] Which case is best represented by a parallel multi-instance activity?",
         "options": {
           "A": "Repeating one task until a reviewer approves it",
           "B": "Choosing one of two paths based on stock data",
@@ -4942,7 +4965,7 @@
       },
       {
         "id": "bps301-fa26-rev-q24",
-        "content": "[Lecture 4: Process Modeling 2] A reviewer may reject a draft, requiring preparation and review again. Which repetition construct is suitable?",
+        "content": "[Lecture 4 : Process Modeling 2] A reviewer may reject a draft, requiring preparation and review again. Which repetition construct is suitable?",
         "options": {
           "A": "Loop activity or a structured cycle with a completion condition",
           "B": "Message flow between pools",
@@ -4960,7 +4983,7 @@
       },
       {
         "id": "bps301-fa26-rev-q25",
-        "content": "[Lecture 4: Process Modeling 2] When should an event-based gateway be used?",
+        "content": "[Lecture 4 : Process Modeling 2] When should an event-based gateway be used?",
         "options": {
           "A": "When a decision can be made immediately from available data",
           "B": "When the next path depends on which event happens first",
@@ -4978,11 +5001,11 @@
       },
       {
         "id": "bps301-fa26-rev-q26",
-        "content": "[Lecture 4: Process Modeling 2] Which element can directly follow an event-based gateway?",
+        "content": "[Lecture 4 : Process Modeling 2] Which element can directly follow an event-based gateway?",
         "options": {
-          "A": "send task",
+          "A": "A send task",
           "B": "An end event only",
-          "C": "catching event or receive task that waits for an event/message",
+          "C": "A catching event or receive task that waits for an event/message",
           "D": "An arbitrary automated task"
         },
         "correctAnswer": "C",
@@ -4996,10 +5019,10 @@
       },
       {
         "id": "bps301-fa26-rev-q27",
-        "content": "[Lecture 4: Process Modeling 2] A customer may cancel an order while “Acquire materials” is running, and that work must stop. How should this be modeled?",
+        "content": "[Lecture 4 : Process Modeling 2] A customer may cancel an order while “Acquire materials” is running, and that work must stop. How should this be modeled?",
         "options": {
-          "A": "non-interrupting timer event",
-          "B": "data object on the pool boundary",
+          "A": "A non-interrupting timer event",
+          "B": "A data object on the pool boundary",
           "C": "An AND-join",
           "D": "An interrupting boundary message event on the activity/sub-process"
         },
@@ -5014,7 +5037,7 @@
       },
       {
         "id": "bps301-fa26-rev-q28",
-        "content": "[Lecture 4: Process Modeling 2] Which statement about a terminate end event is correct?",
+        "content": "[Lecture 4 : Process Modeling 2] Which statement about a terminate end event is correct?",
         "options": {
           "A": "It ends the whole process instance and removes remaining active tokens",
           "B": "It only ends the current task and leaves all tokens unchanged",
@@ -5032,7 +5055,7 @@
       },
       {
         "id": "bps301-fa26-rev-q29",
-        "content": "[Lecture 5: Qualitative Process Analysis] Which step is value-adding (VA) from the customer’s perspective?",
+        "content": "[Lecture 5 : Qualitative Process Analysis] Which step is value-adding (VA) from the customer’s perspective?",
         "options": {
           "A": "Forwarding a form between departments",
           "B": "Repairing the customer’s faulty appliance",
@@ -5050,12 +5073,12 @@
       },
       {
         "id": "bps301-fa26-rev-q30",
-        "content": "[Lecture 5: Qualitative Process Analysis] A regulatory identity check is required even though the customer would not pay for it. How is it classified?",
+        "content": "[Lecture 5 : Qualitative Process Analysis] A regulatory identity check is required even though the customer would not pay for it. How is it classified?",
         "options": {
           "A": "Value-adding (VA)",
           "B": "Non-value-adding (NVA) by definition",
           "C": "Business value-adding (BVA)",
-          "D": "customer outcome"
+          "D": "A customer outcome"
         },
         "correctAnswer": "C",
         "correctAnswers": [
@@ -5068,7 +5091,7 @@
       },
       {
         "id": "bps301-fa26-rev-q31",
-        "content": "[Lecture 5: Qualitative Process Analysis] A task waits for an approval resource to become available. Which Lean waste is this?",
+        "content": "[Lecture 5 : Qualitative Process Analysis] A task waits for an approval resource to become available. Which Lean waste is this?",
         "options": {
           "A": "Motion",
           "B": "Over-production",
@@ -5086,7 +5109,7 @@
       },
       {
         "id": "bps301-fa26-rev-q32",
-        "content": "[Lecture 5: Qualitative Process Analysis] Sending a paper form between two offices is which waste?",
+        "content": "[Lecture 5 : Qualitative Process Analysis] Sending a paper form between two offices is which waste?",
         "options": {
           "A": "Transportation",
           "B": "Motion",
@@ -5104,7 +5127,7 @@
       },
       {
         "id": "bps301-fa26-rev-q33",
-        "content": "[Lecture 5: Qualitative Process Analysis] Repeatedly fixing an application because it contains errors is which waste?",
+        "content": "[Lecture 5 : Qualitative Process Analysis] Repeatedly fixing an application because it contains errors is which waste?",
         "options": {
           "A": "Inventory",
           "B": "Defects",
@@ -5122,7 +5145,7 @@
       },
       {
         "id": "bps301-fa26-rev-q34",
-        "content": "[Lecture 5: Qualitative Process Analysis] A Five Whys analysis is primarily used to do what?",
+        "content": "[Lecture 5 : Qualitative Process Analysis] A Five Whys analysis is primarily used to do what?",
         "options": {
           "A": "Estimate process cost from activity durations",
           "B": "Prioritize process models by importance",
@@ -5140,7 +5163,7 @@
       },
       {
         "id": "bps301-fa26-rev-q35",
-        "content": "[Lecture 5: Qualitative Process Analysis] In a fishbone diagram, delays caused by unresponsive external suppliers belong to which “M”?",
+        "content": "[Lecture 5 : Qualitative Process Analysis] In a fishbone diagram, delays caused by unresponsive external suppliers belong to which “M”?",
         "options": {
           "A": "Machine",
           "B": "Method",
@@ -5158,7 +5181,7 @@
       },
       {
         "id": "bps301-fa26-rev-q36",
-        "content": "[Lecture 6: Quantitative Analysis 1] Three sequential activities take 2, 5 and 3 days. Ignoring waiting and resource contention, what is the cycle time?",
+        "content": "[Lecture 6 : Quantitative Analysis 1] Three sequential activities take 2, 5 and 3 days. Ignoring waiting and resource contention, what is the cycle time?",
         "options": {
           "A": "10 days",
           "B": "5 days",
@@ -5176,7 +5199,7 @@
       },
       {
         "id": "bps301-fa26-rev-q37",
-        "content": "[Lecture 6: Quantitative Analysis 1] Two parallel branches take 4 and 7 hours, then rejoin. What is the block cycle time?",
+        "content": "[Lecture 6 : Quantitative Analysis 1] Two parallel branches take 4 and 7 hours, then rejoin. What is the block cycle time?",
         "options": {
           "A": "11 hours",
           "B": "7 hours",
@@ -5194,73 +5217,48 @@
       },
       {
         "id": "bps301-fa26-rev-q38",
-        "content": "[Lecture 6: Quantitative Analysis 1] A process takes 8 hours per attempt and repeats with probability 25% after each attempt. What is the expected time in the rework block?",
-        "options": {},
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: ",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-rev-q39",
-        "content": "[Lecture 6: Quantitative Analysis 1] 67 hours",
+        "content": "[Lecture 6 : Quantitative Analysis 1] A process takes 8 hours per attempt and repeats with probability 25% after each attempt. What is the expected time in the rework block?",
         "options": {
           "A": "8 hours",
           "B": "2 hours",
-          "C": "32 hours"
+          "C": "10.67 hours",
+          "D": "32 hours"
         },
-        "correctAnswer": "A",
+        "correctAnswer": "C",
         "correctAnswers": [
-          "A"
+          "C"
         ],
         "weight": 1,
         "explanation": "Trọng tâm: Với xác suất lặp r=0.25, số lần thực hiện kỳ vọng là 1/(1-r); CT=8/0.75≈10.67 giờ.",
         "imageUrl": "",
-        "answerNote": "Đáp án: A"
+        "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q40",
-        "content": "[Lecture 6: Quantitative Analysis 1] A process has 6 hours of value-adding processing time and 30 hours total cycle time. What is its cycle time efficiency?",
+        "id": "bps301-fa26-rev-q39",
+        "content": "[Lecture 6 : Quantitative Analysis 1] A process has 6 hours of value-adding processing time and 30 hours total cycle time. What is its cycle time efficiency?",
         "options": {
-          "A": "20%",
-          "B": "5%",
-          "C": "36%",
-          "D": "80%"
+          "A": "5%",
+          "B": "36%",
+          "C": "80%",
+          "D": "20%"
         },
-        "correctAnswer": "A",
+        "correctAnswer": "D",
         "correctAnswers": [
-          "A"
+          "D"
         ],
         "weight": 1,
         "explanation": "Trọng tâm: CTE = processing time / cycle time = 6/30 = 0.20 = 20%.",
         "imageUrl": "",
-        "answerNote": "Đáp án: A"
+        "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q41",
-        "content": "[Lecture 6: Quantitative Analysis 1] A service receives 12 cases per hour and has average WIP of 36 cases. By Little’s Law, what is average cycle time?",
+        "id": "bps301-fa26-rev-q40",
+        "content": "[Lecture 6 : Quantitative Analysis 1] A service receives 12 cases per hour and has average WIP of 36 cases. By Little’s Law, what is average cycle time?",
         "options": {
-          "A": "3 hours"
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: ",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-rev-q42",
-        "content": "[Lecture 6: Quantitative Analysis 1] 33 hours",
-        "options": {
-          "A": "24 hours",
-          "B": "432 hours"
+          "A": "3 hours",
+          "B": "0.33 hours",
+          "C": "24 hours",
+          "D": "432 hours"
         },
         "correctAnswer": "A",
         "correctAnswers": [
@@ -5272,122 +5270,98 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q43",
-        "content": "[Lecture 6: Quantitative Analysis 1] Why can flow analysis underestimate actual cycle time in a congested process?",
+        "id": "bps301-fa26-rev-q41",
+        "content": "[Lecture 6 : Quantitative Analysis 1] Why can flow analysis underestimate actual cycle time in a congested process?",
         "options": {
           "A": "It always assumes every task is automated",
-          "B": "It counts only message flows",
-          "C": "It cannot add sequential activity times",
-          "D": "It may ignore arrival rate, resource capacity and resulting queues"
-        },
-        "correctAnswer": "D",
-        "correctAnswers": [
-          "D"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: Flow analysis thường tính logic/thời lượng cấu trúc nhưng không phản ánh đầy đủ tranh chấp nguồn lực và chờ do tải.",
-        "imageUrl": "",
-        "answerNote": "Đáp án: D"
-      },
-      {
-        "id": "bps301-fa26-rev-q44",
-        "content": "[Lecture 6: Quantitative Analysis 1] Which statement about high resource utilization is generally true?",
-        "options": {
-          "A": "Near 100% utilization can cause waiting time to rise sharply",
-          "B": "It always minimizes cycle time",
-          "C": "It eliminates variability",
-          "D": "It guarantees zero WIP"
-        },
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: Khi sử dụng nguồn lực gần 100%, biến thiên nhỏ cũng tạo hàng đợi lớn và thời gian chờ tăng mạnh.",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-rev-q45",
-        "content": "[Lecture 7: Queueing and Simulation] In an M/M/1 queue, what does the first M represent?",
-        "options": {
-          "A": "Multiple servers",
-          "B": "Exponential inter-arrival times (Poisson arrivals)",
-          "C": "Manual service",
-          "D": "finite waiting room"
+          "B": "It may ignore arrival rate, resource capacity and resulting queues",
+          "C": "It counts only message flows",
+          "D": "It cannot add sequential activity times"
         },
         "correctAnswer": "B",
         "correctAnswers": [
           "B"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: M/M/1 giả định thời gian giữa các lần đến có phân phối mũ (arrival Poisson), thời gian phục vụ mũ, một server.",
+        "explanation": "Trọng tâm: Flow analysis thường tính logic/thời lượng cấu trúc nhưng không phản ánh đầy đủ tranh chấp nguồn lực và chờ do tải.",
         "imageUrl": "",
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q46",
-        "content": "[Lecture 7: Queueing and Simulation] For a stable M/M/1 queue, which condition must hold?",
+        "id": "bps301-fa26-rev-q42",
+        "content": "[Lecture 6 : Quantitative Analysis 1] Which statement about high resource utilization is generally true?",
         "options": {
-          "A": "λ is greater than μ",
-          "B": "λ equals μ",
-          "C": "Arrival rate λ is less than service rate μ",
-          "D": "There must be at least two servers"
+          "A": "It always minimizes cycle time",
+          "B": "It eliminates variability",
+          "C": "Near 100% utilization can cause waiting time to rise sharply",
+          "D": "It guarantees zero WIP"
         },
         "correctAnswer": "C",
         "correctAnswers": [
           "C"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: Hệ ổn định khi ρ=λ/μ<1, tức μ>λ; nếu tải đến bằng/vượt công suất phục vụ thì hàng đợi không ổn định.",
+        "explanation": "Trọng tâm: Khi sử dụng nguồn lực gần 100%, biến thiên nhỏ cũng tạo hàng đợi lớn và thời gian chờ tăng mạnh.",
         "imageUrl": "",
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q47",
-        "content": "[Lecture 7: Queueing and Simulation] In an M/M/1 system, λ=2 cases/hour and μ=5 cases/hour. What is utilization ρ?",
-        "options": {},
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: ",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-rev-q48",
-        "content": "[Lecture 7: Queueing and Simulation] 4",
-        "options": {},
-        "correctAnswer": "A",
-        "correctAnswers": [
-          "A"
-        ],
-        "weight": 1,
-        "explanation": "Trọng tâm: ",
-        "imageUrl": "",
-        "answerNote": "Đáp án: A"
-      },
-      {
-        "id": "bps301-fa26-rev-q49",
-        "content": "[Lecture 7: Queueing and Simulation] 5",
+        "id": "bps301-fa26-rev-q43",
+        "content": "[Lecture 7 : Queueing and Simulation] In an M/M/1 queue, what does the first M represent?",
         "options": {
-          "A": "3",
-          "B": "7"
+          "A": "Multiple servers",
+          "B": "Manual service",
+          "C": "A finite waiting room",
+          "D": "Exponential inter-arrival times (Poisson arrivals)"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: M/M/1 giả định thời gian giữa các lần đến có phân phối mũ (arrival Poisson), thời gian phục vụ mũ, một server.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-rev-q44",
+        "content": "[Lecture 7 : Queueing and Simulation] For a stable M/M/1 queue, which condition must hold?",
+        "options": {
+          "A": "Arrival rate λ is less than service rate μ",
+          "B": "λ is greater than μ",
+          "C": "λ equals μ",
+          "D": "There must be at least two servers"
         },
         "correctAnswer": "A",
         "correctAnswers": [
           "A"
         ],
         "weight": 1,
-        "explanation": "Trọng tâm: ρ=λ/μ=2/5=0.4, tức trung bình server bận 40% thời gian.",
+        "explanation": "Trọng tâm: Hệ ổn định khi ρ=λ/μ<1, tức μ>λ; nếu tải đến bằng/vượt công suất phục vụ thì hàng đợi không ổn định.",
         "imageUrl": "",
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q50",
-        "content": "[Lecture 7: Queueing and Simulation] A Poisson arrival process implies that inter-arrival times follow which distribution?",
+        "id": "bps301-fa26-rev-q45",
+        "content": "[Lecture 7 : Queueing and Simulation] In an M/M/1 system, λ=2 cases/hour and μ=5 cases/hour. What is utilization ρ?",
+        "options": {
+          "A": "2.5",
+          "B": "0.4",
+          "C": "3",
+          "D": "7"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "Trọng tâm: ρ=λ/μ=2/5=0.4, tức trung bình server bận 40% thời gian.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-rev-q46",
+        "content": "[Lecture 7 : Queueing and Simulation] A Poisson arrival process implies that inter-arrival times follow which distribution?",
         "options": {
           "A": "Uniform distribution",
           "B": "Normal distribution",
@@ -5404,8 +5378,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q51",
-        "content": "[Lecture 7: Queueing and Simulation] Which is a required input to a process simulation model?",
+        "id": "bps301-fa26-rev-q47",
+        "content": "[Lecture 7 : Queueing and Simulation] Which is a required input to a process simulation model?",
         "options": {
           "A": "Only the process name",
           "B": "Only the number of end events",
@@ -5422,8 +5396,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q52",
-        "content": "[Lecture 7: Queueing and Simulation] Why should a simulation be run multiple times?",
+        "id": "bps301-fa26-rev-q48",
+        "content": "[Lecture 7 : Queueing and Simulation] Why should a simulation be run multiple times?",
         "options": {
           "A": "Random variation can make results differ between runs; repetitions support averages and confidence intervals",
           "B": "The first run never creates process instances",
@@ -5440,8 +5414,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q53",
-        "content": "[Lecture 7: Queueing and Simulation] What is a sound way to validate an “as-is” simulation?",
+        "id": "bps301-fa26-rev-q49",
+        "content": "[Lecture 7 : Queueing and Simulation] What is a sound way to validate an “as-is” simulation?",
         "options": {
           "A": "Assume the model is correct if it runs without errors",
           "B": "Compare simulated outputs with observed process data and investigate differences",
@@ -5458,8 +5432,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q54",
-        "content": "[Lecture 8: Process Redesign 1] What does “Don’t automate, obliterate” recommend?",
+        "id": "bps301-fa26-rev-q50",
+        "content": "[Lecture 8 : Process Redesign 1] What does “Don’t automate, obliterate” recommend?",
         "options": {
           "A": "Automate every existing step first",
           "B": "Eliminate all customer interactions",
@@ -5476,8 +5450,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q55",
-        "content": "[Lecture 8: Process Redesign 1] What is the difference between an AS-IS and a TO-BE model?",
+        "id": "bps301-fa26-rev-q51",
+        "content": "[Lecture 8 : Process Redesign 1] What is the difference between an AS-IS and a TO-BE model?",
         "options": {
           "A": "AS-IS is executable; TO-BE is always conceptual",
           "B": "AS-IS covers customers; TO-BE covers only employees",
@@ -5494,8 +5468,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q56",
-        "content": "[Lecture 8: Process Redesign 1] Which redesign principle reduces repeated data entry?",
+        "id": "bps301-fa26-rev-q52",
+        "content": "[Lecture 8 : Process Redesign 1] Which redesign principle reduces repeated data entry?",
         "options": {
           "A": "Capture information once at its source",
           "B": "Add another approval step",
@@ -5512,8 +5486,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q57",
-        "content": "[Lecture 8: Process Redesign 1] “Put the decision point where the work is performed” mainly aims to:",
+        "id": "bps301-fa26-rev-q53",
+        "content": "[Lecture 8 : Process Redesign 1] “Put the decision point where the work is performed” mainly aims to:",
         "options": {
           "A": "Move every decision to senior management",
           "B": "Empower workers with information and controls to decide locally",
@@ -5530,8 +5504,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q58",
-        "content": "[Lecture 8: Process Redesign 1] A redesigned process lets customers enter their own request data through a portal. Which principle is illustrated?",
+        "id": "bps301-fa26-rev-q54",
+        "content": "[Lecture 8 : Process Redesign 1] A redesigned process lets customers enter their own request data through a portal. Which principle is illustrated?",
         "options": {
           "A": "Over-production",
           "B": "Resource idleness",
@@ -5548,8 +5522,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q59",
-        "content": "[Lecture 8: Process Redesign 1] A company pools similar staff across locations so that work can go to any available qualified worker. What is the likely benefit?",
+        "id": "bps301-fa26-rev-q55",
+        "content": "[Lecture 8 : Process Redesign 1] A company pools similar staff across locations so that work can go to any available qualified worker. What is the likely benefit?",
         "options": {
           "A": "Guaranteed zero cost",
           "B": "No need for work instructions",
@@ -5566,13 +5540,13 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q60",
-        "content": "[Lecture 8: Process Redesign 1] BPR is best characterized as which type of redesign?",
+        "id": "bps301-fa26-rev-q56",
+        "content": "[Lecture 8 : Process Redesign 1] BPR is best characterized as which type of redesign?",
         "options": {
           "A": "Transformative and outcome-driven, questioning fundamental assumptions",
-          "B": "minor adjustment to task labels only",
-          "C": "queueing formula",
-          "D": "process monitoring dashboard"
+          "B": "A minor adjustment to task labels only",
+          "C": "A queueing formula",
+          "D": "A process monitoring dashboard"
         },
         "correctAnswer": "A",
         "correctAnswers": [
@@ -5584,8 +5558,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q61",
-        "content": "[Lecture 9: Heuristic Process Redesign] Which performance dimensions form the Devil’s Quadrangle?",
+        "id": "bps301-fa26-rev-q57",
+        "content": "[Lecture 9 : Heuristic Process Redesign] Which performance dimensions form the Devil’s Quadrangle?",
         "options": {
           "A": "People, process, platform and product",
           "B": "Cost, time, quality and flexibility",
@@ -5602,8 +5576,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q62",
-        "content": "[Lecture 9: Heuristic Process Redesign] Removing a non-value-adding forwarding step is which heuristic?",
+        "id": "bps301-fa26-rev-q58",
+        "content": "[Lecture 9 : Heuristic Process Redesign] Removing a non-value-adding forwarding step is which heuristic?",
         "options": {
           "A": "Triage",
           "B": "Resource batching",
@@ -5620,8 +5594,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q63",
-        "content": "[Lecture 9: Heuristic Process Redesign] Merging “check purchase necessity” and “check budget” into one activity illustrates:",
+        "id": "bps301-fa26-rev-q59",
+        "content": "[Lecture 9 : Heuristic Process Redesign] Merging “check purchase necessity” and “check budget” into one activity illustrates:",
         "options": {
           "A": "Task decomposition",
           "B": "Triage",
@@ -5638,8 +5612,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q64",
-        "content": "[Lecture 9: Heuristic Process Redesign] Separating “prepare quote” into bill-of-materials, production-plan and cost-estimation tasks is:",
+        "id": "bps301-fa26-rev-q60",
+        "content": "[Lecture 9 : Heuristic Process Redesign] Separating “prepare quote” into bill-of-materials, production-plan and cost-estimation tasks is:",
         "options": {
           "A": "Task decomposition",
           "B": "Task composition",
@@ -5656,8 +5630,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q65",
-        "content": "[Lecture 9: Heuristic Process Redesign] Perform the check that rejects the most cases first. Which heuristic is this?",
+        "id": "bps301-fa26-rev-q61",
+        "content": "[Lecture 9 : Heuristic Process Redesign] Perform the check that rejects the most cases first. Which heuristic is this?",
         "options": {
           "A": "Parallelism enhancement",
           "B": "Re-sequencing",
@@ -5674,8 +5648,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q66",
-        "content": "[Lecture 9: Heuristic Process Redesign] Two independent approval tasks are performed at the same time. Which heuristic is applied?",
+        "id": "bps301-fa26-rev-q62",
+        "content": "[Lecture 9 : Heuristic Process Redesign] Two independent approval tasks are performed at the same time. Which heuristic is applied?",
         "options": {
           "A": "Task elimination",
           "B": "Triage",
@@ -5692,8 +5666,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q67",
-        "content": "[Lecture 9: Heuristic Process Redesign] Creating separate processes for small and large purchases is an example of:",
+        "id": "bps301-fa26-rev-q63",
+        "content": "[Lecture 9 : Heuristic Process Redesign] Creating separate processes for small and large purchases is an example of:",
         "options": {
           "A": "Process standardization",
           "B": "Resource batching",
@@ -5710,8 +5684,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q68",
-        "content": "[Lecture 10: Process Automation] How does a conceptual TO-BE model differ from an executable model?",
+        "id": "bps301-fa26-rev-q64",
+        "content": "[Lecture 10 : Process Automation] How does a conceptual TO-BE model differ from an executable model?",
         "options": {
           "A": "Conceptual models support stakeholder understanding; executable models must be unambiguous and machine-readable",
           "B": "Conceptual models contain more API details",
@@ -5728,8 +5702,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q69",
-        "content": "[Lecture 10: Process Automation] Which is the correct order of the five-step transformation method?",
+        "id": "bps301-fa26-rev-q65",
+        "content": "[Lecture 10 : Process Automation] Which is the correct order of the five-step transformation method?",
         "options": {
           "A": "Specify APIs, automate all tasks, identify users, draw pools, monitor",
           "B": "Identify automation boundaries, review manual tasks, complete the model, adjust granularity, specify execution properties",
@@ -5746,8 +5720,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q70",
-        "content": "[Lecture 10: Process Automation] A task requiring physical judgment that the BPMS cannot observe should be:",
+        "id": "bps301-fa26-rev-q66",
+        "content": "[Lecture 10 : Process Automation] A task requiring physical judgment that the BPMS cannot observe should be:",
         "options": {
           "A": "Marked as an automated service task regardless",
           "B": "Deleted from the real-world process",
@@ -5764,8 +5738,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q71",
-        "content": "[Lecture 10: Process Automation] Why must an executable process model capture exceptions?",
+        "id": "bps301-fa26-rev-q67",
+        "content": "[Lecture 10 : Process Automation] Why must an executable process model capture exceptions?",
         "options": {
           "A": "Exceptions occur only in manual processes",
           "B": "The engine automatically infers every business exception",
@@ -5782,8 +5756,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q72",
-        "content": "[Lecture 10: Process Automation] What does CRUD analysis help determine?",
+        "id": "bps301-fa26-rev-q68",
+        "content": "[Lecture 10 : Process Automation] What does CRUD analysis help determine?",
         "options": {
           "A": "Which business objects each task creates, reads, updates or deletes",
           "B": "Which gateways are XOR or AND",
@@ -5800,8 +5774,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q73",
-        "content": "[Lecture 10: Process Automation] Why aggregate consecutive tasks assigned to the same performer?",
+        "id": "bps301-fa26-rev-q69",
+        "content": "[Lecture 10 : Process Automation] Why aggregate consecutive tasks assigned to the same performer?",
         "options": {
           "A": "To make every task atomic regardless of performer",
           "B": "To coordinate handovers and choose useful task granularity",
@@ -5818,8 +5792,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q74",
-        "content": "[Lecture 10: Process Automation] Which BPMS component creates process instances and orchestrates work among people and services?",
+        "id": "bps301-fa26-rev-q70",
+        "content": "[Lecture 10 : Process Automation] Which BPMS component creates process instances and orchestrates work among people and services?",
         "options": {
           "A": "Worklist handler only",
           "B": "Model repository",
@@ -5836,13 +5810,13 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q75",
-        "content": "[Lecture 11: Process Monitoring and Mining] What is a process performance dashboard?",
+        "id": "bps301-fa26-rev-q71",
+        "content": "[Lecture 11 : Process Monitoring and Mining] What is a process performance dashboard?",
         "options": {
-          "A": "process model that executes tasks",
-          "B": "repository of BPMN symbols",
-          "C": "raw database table with no analysis",
-          "D": "visualization of performance measures that helps users answer business questions"
+          "A": "A process model that executes tasks",
+          "B": "A repository of BPMN symbols",
+          "C": "A raw database table with no analysis",
+          "D": "A visualization of performance measures that helps users answer business questions"
         },
         "correctAnswer": "D",
         "correctAnswers": [
@@ -5854,8 +5828,8 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q76",
-        "content": "[Lecture 11: Process Monitoring and Mining] Which audience and purpose best fit an operational dashboard?",
+        "id": "bps301-fa26-rev-q72",
+        "content": "[Lecture 11 : Process Monitoring and Mining] Which audience and purpose best fit an operational dashboard?",
         "options": {
           "A": "Process workers and operational managers monitoring WIP, overdue cases and resource load",
           "B": "Executives linking processes to strategic objectives only",
@@ -5872,8 +5846,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q77",
-        "content": "[Lecture 11: Process Monitoring and Mining] Which dashboard best supports an executive’s question about process contribution to strategic goals?",
+        "id": "bps301-fa26-rev-q73",
+        "content": "[Lecture 11 : Process Monitoring and Mining] Which dashboard best supports an executive’s question about process contribution to strategic goals?",
         "options": {
           "A": "Operational dashboard",
           "B": "Strategic dashboard",
@@ -5890,8 +5864,8 @@
         "answerNote": "Đáp án: B"
       },
       {
-        "id": "bps301-fa26-rev-q78",
-        "content": "[Lecture 11: Process Monitoring and Mining] A chart shows average cycle time by month. What kind of view is this?",
+        "id": "bps301-fa26-rev-q74",
+        "content": "[Lecture 11 : Process Monitoring and Mining] A chart shows average cycle time by month. What kind of view is this?",
         "options": {
           "A": "Cross-sectional",
           "B": "Data-flow",
@@ -5908,8 +5882,8 @@
         "answerNote": "Đáp án: C"
       },
       {
-        "id": "bps301-fa26-rev-q79",
-        "content": "[Lecture 11: Process Monitoring and Mining] What is a key purpose of process mining?",
+        "id": "bps301-fa26-rev-q75",
+        "content": "[Lecture 11 : Process Monitoring and Mining] What is a key purpose of process mining?",
         "options": {
           "A": "Replace event logs with interviews",
           "B": "Create a process without data",
@@ -5926,13 +5900,13 @@
         "answerNote": "Đáp án: D"
       },
       {
-        "id": "bps301-fa26-rev-q80",
-        "content": "[Lecture 11: Process Monitoring and Mining] A conformance check compares which two things?",
+        "id": "bps301-fa26-rev-q76",
+        "content": "[Lecture 11 : Process Monitoring and Mining] A conformance check compares which two things?",
         "options": {
           "A": "Recorded event-log behavior and a reference process model",
           "B": "Two dashboard colors",
-          "C": "process owner and a process analyst",
-          "D": "task duration and its wage only"
+          "C": "A process owner and a process analyst",
+          "D": "A task duration and its wage only"
         },
         "correctAnswer": "A",
         "correctAnswers": [
@@ -5944,8 +5918,8 @@
         "answerNote": "Đáp án: A"
       },
       {
-        "id": "bps301-fa26-rev-q81",
-        "content": "[Lecture 11: Process Monitoring and Mining] A model can replay all observed traces but allows many behavior patterns never seen in the log. Which quality issue is likely?",
+        "id": "bps301-fa26-rev-q77",
+        "content": "[Lecture 11 : Process Monitoring and Mining] A model can replay all observed traces but allows many behavior patterns never seen in the log. Which quality issue is likely?",
         "options": {
           "A": "Low fitness",
           "B": "Low precision",
