@@ -513,6 +513,13 @@ export default function Chatbot() {
               >
                 📌 Mẹo nhớ khi thi
               </button>
+              <button
+                disabled={loading}
+                onClick={() => doSendMessage('Mở rộng: Trong trường hợp đề thi đổi câu hỏi hoặc tình huống như thế nào thì sẽ chọn các phương án còn lại (khi nào chọn A, B, C, D)?')}
+                className="whitespace-nowrap px-2.5 py-1 rounded-full bg-white dark:bg-gray-700 border border-amber-300 dark:border-amber-600 text-amber-700 dark:text-amber-300 text-[11px] font-medium hover:bg-amber-50 dark:hover:bg-amber-900/30 transition shadow-2xs"
+              >
+                🔄 Khi nào chọn đáp án khác?
+              </button>
             </div>
           )}
 

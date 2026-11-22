@@ -595,6 +595,15 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
                   >
                     📌 Mẹo nhớ thi
                   </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleAskAi('Mở rộng: Khi nào thì đề thi sẽ chọn các phương án còn lại (khi nào chọn A, B, C, D)? Đưa ra các tình huống biến thể.');
+                    }}
+                    className="px-2.5 py-1 text-xs bg-white dark:bg-gray-800 text-amber-700 dark:text-amber-300 font-medium rounded-lg border border-amber-200 dark:border-amber-700 hover:bg-amber-100 dark:hover:bg-amber-900/40 transition-colors shadow-2xs"
+                  >
+                    🔄 Khi nào chọn đáp án khác?
+                  </button>
                 </div>
               </div>
             </div>
