@@ -912,6 +912,1814 @@
     "createdAt": 1770000070000
   },
   {
+    "id": "bps301-fa26-100-selected",
+    "name": "[FE] BPS301 - FA26 - Bộ Đề Luyện Thi FE Tuyển Chọn (100 câu)",
+    "subject": "BPS301",
+    "createdAt": 1770000065000,
+    "questions": [
+      {
+        "id": "bps301-fa26-100q-q001",
+        "content": "Q1. An AND-join gateway passes a token to its output arc when:",
+        "options": {
+          "A": "At least one token arrives from any branch.",
+          "B": "The preceding AND-split sends a signal.",
+          "C": "Tokens have arrived on all incoming branches.",
+          "D": "An external participant approves it."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Cổng AND-join chuyển một token tới nhánh đầu ra khi nào?\n\n🔑 **Từ khóa nhận diện:** `AND-join` + `passes token` ➔ Đồng bộ hóa (Synchronization).\n\n💡 **Giải thích:** Cổng AND-join có nhiệm vụ đồng bộ hóa: nó bắt buộc phải chờ cho đến khi TẤT CẢ các nhánh đầu vào đều đã có token thì mới cho phép token đi tiếp.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q002",
+        "content": "Q2. After sending a quotation, a process must wait for either the customer's acceptance message or a 14-day timer, whichever occurs first. Which construct should follow the send task?",
+        "options": {
+          "A": "Data-based XOR split",
+          "B": "Parallel AND split",
+          "C": "Inclusive OR split",
+          "D": "Event-based XOR split"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Sau khi gửi báo giá, quy trình phải chờ tin nhắn chấp nhận của khách hàng HOẶC bộ hẹn giờ 14 ngày (tùy điều kiện nào đến trước). Cấu trúc nào nên theo sau tác vụ gửi?\n\n🔑 **Từ khóa nhận diện:** `wait for either ... or ... whichever occurs first` ➔ Event-based XOR split (Rẽ nhánh theo sự kiện ngoại sinh).\n\n💡 **Giải thích:** Khi quy trình phải chờ đợi một trong nhiều sự kiện ngoại sinh từ đối tác bên ngoài (tin nhắn hoặc thời gian hết hạn), sự kiện nào xảy ra trước sẽ kích hoạt nhánh đó ➔ Bắt buộc dùng Event-based Gateway.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q003",
+        "content": "Q3. A non-interrupting boundary timer event is attached to the task \"Approve Request\". What happens when the timer fires?",
+        "options": {
+          "A": "The task is cancelled and the process follows the exception flow.",
+          "B": "The task continues and an additional flow starts from the event.",
+          "C": "The whole process instance is terminated.",
+          "D": "The timer is ignored until the task ends."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một sự kiện biên timer không ngắt quãng (non-interrupting) được gắn vào tác vụ 'Approve Request'. Điều gì xảy ra khi bộ đếm timer kích hoạt?\n\n🔑 **Từ khóa nhận diện:** `non-interrupting boundary event` ➔ Tác vụ chính tiếp tục chạy, sinh thêm luồng mới song song.\n\n💡 **Giải thích:** Sự kiện biên không ngắt quãng (viền đôi nét đứt) cho phép tác vụ chính tiếp tục chạy bình thường, đồng thời kích hoạt thêm một nhánh xử lý phụ song song (ví dụ: gửi email nhắc nhở).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q004",
+        "content": "Q4. Which of the following is a violation of BPMN modeling rules?",
+        "options": {
+          "A": "A message flow connecting two tasks inside the same pool.",
+          "B": "A message flow connecting tasks in two different pools.",
+          "C": "A sequence flow connecting two tasks in different lanes of one pool.",
+          "D": "A message flow ending at a collapsed (black-box) pool."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Điều nào sau đây là vi phạm quy tắc mô hình hóa BPMN?\n\n🔑 **Từ khóa nhận diện:** `violation` + `message flow connecting two tasks inside the same pool`.\n\n💡 **Giải thích:** Message Flow (luồng thông điệp) chỉ được phép kết nối giữa các Pool độc lập với nhau (giao tiếp B2B). Bên trong cùng một Pool bắt buộc phải sử dụng Sequence Flow (luồng tuần tự).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q005",
+        "content": "Q5. An OR-split has three branches X, Y, Z. The conditions evaluate as X = true, Y = false, Z = true. All branches reconnect at an OR-join. What happens?",
+        "options": {
+          "A": "Only X is executed; the join passes immediately.",
+          "B": "Tokens go to X and Z, and the join waits for both of them.",
+          "C": "The join waits for all three branches, including Y.",
+          "D": "One of X and Z is chosen randomly."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Cổng OR-split có 3 nhánh X, Y, Z. Các điều kiện được đánh giá: X = true, Y = false, Z = true. Cả 3 nhánh kết nối lại ở một cổng OR-join. Điều gì xảy ra?\n\n🔑 **Từ khóa nhận diện:** `OR-split` + `OR-join synchronization` ➔ Token đi vào các nhánh có điều kiện True và cổng OR-join chờ đủ các nhánh đó.\n\n💡 **Giải thích:** Cổng OR-split kích hoạt tất cả các nhánh có điều kiện đúng (X và Z). Cổng OR-join thông minh chỉ đồng bộ và chờ token từ những nhánh thực sự được kích hoạt (X và Z), không chờ nhánh Y.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q006",
+        "content": "Q6. A model has an XOR-split whose two branches are reconnected by an AND-join. Why is this a modeling error?",
+        "options": {
+          "A": "The AND-join sends two tokens to the next task.",
+          "B": "XOR-splits can only be closed by XOR-joins in BPMN.",
+          "C": "The AND-join waits for a token from the branch that was never activated, causing a deadlock.",
+          "D": "The XOR-split destroys the token."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một mô hình có cổng XOR-split mà hai nhánh của nó lại được nối lại bằng một cổng AND-join. Tại sao đây là lỗi mô hình hóa?\n\n🔑 **Từ khóa nhận diện:** `XOR-split` + `AND-join` ➔ Deadlock (Bế tắc vĩnh viễn).\n\n💡 **Giải thích:** Cổng XOR-split chỉ kích hoạt đúng 1 nhánh duy nhất (1 token). Trong khi đó cổng AND-join lại yêu cầu phải có token từ CẢ HAI nhánh mới cho đi tiếp ➔ AND-join sẽ ngồi chờ mãi mãi nhánh không được kích hoạt, gây ra bế tắc hoàn toàn (Deadlock).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q007",
+        "content": "Q7. An AND-split's two branches are reconnected by an XOR-join, followed by task \"Ship\". What is the behavior of the model?",
+        "options": {
+          "A": "The model deadlocks at the XOR-join.",
+          "B": "\"Ship\" is executed once after synchronization.",
+          "C": "\"Ship\" is never executed.",
+          "D": "\"Ship\" is executed twice (lack of synchronization)."
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Hai nhánh của cổng AND-split được nối lại bằng một cổng XOR-join, theo sau là tác vụ 'Ship'. Hành vi của mô hình này là gì?\n\n🔑 **Từ khóa nhận diện:** `AND-split` + `XOR-join` ➔ Thiếu đồng bộ (Lack of synchronization) ➔ Tác vụ sau bị chạy lặp lại 2 lần.\n\n💡 **Giải thích:** Cổng AND-split nhân đôi token chạy song song trên 2 nhánh. Cổng XOR-join không có tính năng đồng bộ hóa mà cho từng token đi qua ngay lập tức ➔ Tác vụ 'Ship' sẽ bị kích hoạt thực hiện 2 lần riêng biệt.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q008",
+        "content": "Q8. A Terminate End Event is reached in the top-level process while other branches are still active. What happens?",
+        "options": {
+          "A": "All remaining tokens are destroyed and the whole process instance ends.",
+          "B": "Only the current branch ends.",
+          "C": "The other branches are completed first.",
+          "D": "A compensation handler is automatically triggered."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một sự kiện Terminate End Event được kích hoạt ở quy trình cấp cao nhất trong khi các nhánh khác vẫn đang hoạt động. Điều gì xảy ra?\n\n🔑 **Từ khóa nhận diện:** `Terminate End Event` ➔ Tiêu hủy tất cả token và chấm dứt ngay toàn bộ process instance.\n\n💡 **Giải thích:** Sự kiện kết thúc hủy bỏ (Terminate End Event - biểu tượng hình tròn đen đặc) sẽ tiêu hủy toàn bộ mọi token đang tồn tại trên các nhánh khác và chấm dứt ngay lập tức ca quy trình đó.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q009",
+        "content": "Q9. Which boundary event is always interrupting?",
+        "options": {
+          "A": "Timer boundary event",
+          "B": "Message boundary event",
+          "C": "Error boundary event",
+          "D": "Signal boundary event"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Sự kiện biên nào LUÔN LUÔN là sự kiện ngắt quãng (interrupting)?\n\n🔑 **Từ khóa nhận diện:** `always interrupting` ➔ Error boundary event.\n\n💡 **Giải thích:** Theo chuẩn BPMN 2.0, Error Boundary Event bắt buộc luôn luôn là Interrupting (viền nét liền). Khi xảy ra lỗi thì tác vụ chính bắt buộc phải bị hủy bỏ ngay lập tức, không thể chạy song song.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q010",
+        "content": "Q10. A customer may ask for a status inquiry at any moment while an order is processed, without disturbing the main flow. Which construct is most appropriate?",
+        "options": {
+          "A": "Interrupting error boundary event on each task",
+          "B": "Event sub-process with a non-interrupting message start event",
+          "C": "Terminate end event",
+          "D": "Data-based XOR split after every task"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Khách hàng có thể yêu cầu tra cứu trạng thái đơn hàng bất kỳ lúc nào trong khi đơn đang được xử lý, mà không làm gián đoạn luồng chính. Cấu trúc nào là phù hợp nhất?\n\n🔑 **Từ khóa nhận diện:** `at any moment` + `without disturbing the main flow` ➔ Event sub-process với non-interrupting start event.\n\n💡 **Giải thích:** Để xử lý một sự kiện có thể xảy ra bất kỳ lúc nào trong toàn bộ vòng đời quy trình mà không làm gián đoạn luồng công việc chính, giải pháp chuẩn là dùng Event Sub-process có Start Event dạng không ngắt quãng (nét đứt).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q011",
+        "content": "Q11. A flight was booked and paid; later the hotel booking fails, so the flight booking must be undone. Which BPMN mechanism models this?",
+        "options": {
+          "A": "Compensation event and compensation handler",
+          "B": "Timer boundary event",
+          "C": "Parallel gateway",
+          "D": "Terminate end event"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một chuyến bay đã được đặt và thanh toán; sau đó việc đặt phòng khách sạn bị thất bại, nên việc đặt vé máy bay phải được hoàn tác. Cơ chế BPMN nào mô hình hóa điều này?\n\n🔑 **Từ khóa nhận diện:** `booking must be undone` / `hoàn tác tác vụ đã xong` ➔ Compensation event.\n\n💡 **Giải thích:** Sự kiện bù trừ (Compensation Event - biểu tượng tua lại ⏮) được thiết kế chuyên biệt để thực hiện nghiệp vụ hoàn tác/hủy bỏ kết quả của một tác vụ đã hoàn tất thành công trước đó.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q012",
+        "content": "Q12. For each of the n order lines, task \"Check Item\" must be executed, and all instances can run at the same time. Which marker is used?",
+        "options": {
+          "A": "Loop marker",
+          "B": "Ad hoc marker",
+          "C": "Sequential multi-instance marker (three horizontal bars)",
+          "D": "Parallel multi-instance marker (three vertical bars)"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Với mỗi dòng trong số n dòng của đơn hàng, tác vụ 'Check Item' phải được thực thi và tất cả các phiên bản có thể chạy cùng một lúc. Ký hiệu đánh dấu nào được sử dụng?\n\n🔑 **Từ khóa nhận diện:** `all instances can run at the same time` ➔ Parallel multi-instance (Ba vạch dọc |||).\n\n💡 **Giải thích:** Ký hiệu 3 vạch kẻ dọc (|||) thể hiện Multi-Instance song song (nhiều phiên bản của cùng một tác vụ chạy đồng thời). Ký hiệu 3 vạch ngang (≡) là chạy tuần tự từng cái một.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q013",
+        "content": "Q13. Customer master data must survive after the process instance ends and be available to other processes. Which BPMN element represents it?",
+        "options": {
+          "A": "Data object",
+          "B": "Message",
+          "C": "Data store",
+          "D": "Group"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Dữ liệu hồ sơ khách hàng cần phải tồn tại lâu dài sau khi ca quy trình kết thúc và có thể được sử dụng bởi các quy trình khác. Phần tử BPMN nào đại diện cho dữ liệu này?\n\n🔑 **Từ khóa nhận diện:** `survive after process ends` + `available to other processes` ➔ Data store.\n\n💡 **Giải thích:** Data Store (biểu tượng hình trụ cơ sở dữ liệu) lưu trữ dữ liệu tồn tại vĩnh viễn ngoài phạm vi một instance. Ngược lại, Data Object (hình trang giấy) chỉ tồn tại trong vòng đời của phiên chạy đó.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q014",
+        "content": "Q14. The activity \"Process Payment\" is used by the Sales, Booking, and Renewal processes. How should it be modeled for reuse?",
+        "options": {
+          "A": "As an embedded sub-process copied three times",
+          "B": "As a call activity referring to a global process",
+          "C": "As an event sub-process",
+          "D": "As three different tasks"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Hoạt động 'Process Payment' được sử dụng chung bởi cả ba quy trình: Bán hàng (Sales), Đặt chỗ (Booking) và Gia hạn (Renewal). Nó nên được mô hình hóa như thế nào để tái sử dụng?\n\n🔑 **Từ khóa nhận diện:** `used by multiple processes` + `modeled for reuse` ➔ Call activity.\n\n💡 **Giải thích:** Call Activity (tác vụ có viền đậm) dùng để gọi một quy trình con toàn cục được định nghĩa độc lập, cho phép tái sử dụng lại ở nhiều quy trình khác nhau mà không phải vẽ lặp lại.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q015",
+        "content": "Q15. When is it appropriate to draw a partner as a collapsed (black-box) pool?",
+        "options": {
+          "A": "When its internal process is unknown or irrelevant, and only the message exchange matters.",
+          "B": "When the partner has no messages to exchange.",
+          "C": "When the partner is an internal department.",
+          "D": "When the partner has more than three lanes."
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Khi nào thì thích hợp để vẽ một đối tác dưới dạng Pool đóng (collapsed / black-box pool)?\n\n🔑 **Từ khóa nhận diện:** `collapsed (black-box) pool` ➔ Khi quy trình nội bộ của đối tác không rõ hoặc không cần quan tâm, chỉ quan tâm đến trao đổi message.\n\n💡 **Giải thích:** Black-box Pool (hộp đen) được sử dụng khi đối tác là bên ngoài (như Khách hàng, Ngân hàng, Nhà cung cấp) mà ta chỉ cần mô hình hóa các luồng trao đổi thông điệp (Message Flow) giữa hai bên.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q016",
+        "content": "Q16. A ward has an average WIP of 40 patients and an arrival rate of 5 patients per hour. What is the average cycle time?",
+        "options": {
+          "A": "0.125 hours",
+          "B": "5 hours",
+          "C": "45 hours",
+          "D": "8 hours"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một khu điều trị nội trú có lượng bệnh nhân đang nằm điều trị trung bình là WIP = 40 bệnh nhân và tốc độ tiếp nhận là 5 bệnh nhân/giờ. Thời gian chu kỳ nằm viện trung bình là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Định luật Little: `WIP = λ * CT` ➔ `CT = WIP / λ`.\n\n💡 **Giải thích:** Theo định luật Little: $CT = \\frac{WIP}{\\lambda} = \\frac{40}{5} = 8$ giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q017",
+        "content": "Q17. A process has an XOR-split: Branch A (CT = 2 days, prob = 0.7) and Branch B (CT = 12 days, prob = 0.3). What is the CT of the XOR-block?",
+        "options": {
+          "A": "7 days",
+          "B": "5 days",
+          "C": "3.5 days",
+          "D": "14 days"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một quy trình có cổng XOR-split: Nhánh A (CT = 2 ngày, xác suất 0.7) và Nhánh B (CT = 12 ngày, xác suất 0.3). Thời gian chu kỳ kỳ vọng của khối XOR này là:\n\n🔑 **Từ khóa nhận diện:** Công thức Flow Analysis khối XOR: `CT = ∑ (p_i * T_i)`.\n\n💡 **Giải thích:** Thời gian chu kỳ bình quân gia quyền theo xác suất: $CT = (0.7 \\times 2) + (0.3 \\times 12) = 1.4 + 3.6 = 5$ ngày.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q018",
+        "content": "Q18. Task B takes 6 hours on average. After each execution, there is a 25% probability that it must be repeated. What is the average total time spent in this rework block?",
+        "options": {
+          "A": "7.5 hours",
+          "B": "6 hours",
+          "C": "8 hours",
+          "D": "1.5 hours"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tác vụ B mất trung bình 6 giờ thực hiện. Sau mỗi lần thực hiện, có xác suất 25% là nó phải bị lặp lại. Thời gian trung bình dành cho khối lặp này là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Công thức khối lặp Rework loop: `CT = T / (1 - r)`.\n\n💡 **Giải thích:** Với tỷ lệ lặp $r = 25\\% = 0.25$, số lần thực hiện trung bình là $\\frac{1}{1 - r} = \\frac{1}{0.75} = \\frac{4}{3}$. Tổng thời gian: $CT = \\frac{6}{1 - 0.25} = \\frac{6}{0.75} = 8$ giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q019",
+        "content": "Q19. The total processing time of a case is 2 hours, while its cycle time is 10 hours. What is the cycle time efficiency?",
+        "options": {
+          "A": "20%",
+          "B": "80%",
+          "C": "12%",
+          "D": "500%"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tổng thời gian thực tế thao tác xử lý một ca là 2 giờ, trong khi tổng thời gian chu kỳ (gồm cả chờ đợi) là 10 giờ. Hiệu suất thời gian chu kỳ (CTE) là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Hiệu suất chu kỳ: `CTE = Processing Time (TCT) / Cycle Time (CT)`.\n\n💡 **Giải thích:** $$CTE = \\frac{\\text{Thời gian xử lý}}{\\text{Tổng chu kỳ}} = \\frac{2}{10} = 0.20 = 20\\%.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q020",
+        "content": "Q20. Task A takes 3 hours. Then an AND-block runs Branch B (6 hours) and Branch C (9 hours) in parallel, followed by Task D (2 hours). What is the cycle time of the whole process (ignoring waiting)?",
+        "options": {
+          "A": "20 hours",
+          "B": "11 hours",
+          "C": "17 hours",
+          "D": "14 hours"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tác vụ A mất 3 giờ. Sau đó một khối AND chạy song song Nhánh B (6 giờ) và Nhánh C (9 giờ), tiếp theo là Tác vụ D (2 giờ). Thời gian chu kỳ của toàn bộ quy trình (bỏ qua chờ đợi) là:\n\n🔑 **Từ khóa nhận diện:** Khối song song AND: `max(nhánh)`, tuần tự thì cộng dồn.\n\n💡 **Giải thích:** Khối AND lấy thời gian của nhánh dài nhất (đường găng): $\\max(6, 9) = 9$ giờ. Tổng thời gian toàn quy trình: $3 + 9 + 2 = 14$ giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q021",
+        "content": "Q21. Cases arrive at a rate of 4 per hour; each takes 10 minutes of work. Two employees share the work equally. What is the utilization of each employee?",
+        "options": {
+          "A": "66.7%",
+          "B": "33.3%",
+          "C": "133%",
+          "D": "20%"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Các ca quy trình đến với tốc độ 4 ca/giờ; mỗi ca mất 10 phút làm việc. Hai nhân viên chia sẻ khối lượng công việc bằng nhau. Hệ số sử dụng tài nguyên của mỗi nhân viên là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Tổng tải công việc = `λ * thời gian` / số nhân viên.\n\n💡 **Giải thích:** Mỗi ca mất 10 phút = 1/6 giờ. Tổng giờ làm việc cần trong 1 giờ: $4 \\times \\frac{1}{6} = \\frac{2}{3}$ giờ. Chia đều cho 2 nhân viên: $\\frac{2/3}{2} = \\frac{1}{3} \\approx 33.3\\%$.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q022",
+        "content": "Q22. In an M/M/1 system, the arrival rate λ = 6 per hour and the service rate μ = 8 per hour. What is the utilization ρ?",
+        "options": {
+          "A": "133%",
+          "B": "25%",
+          "C": "75%",
+          "D": "14%"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong hệ thống hàng đợi M/M/1, tốc độ đến λ = 6 ca/giờ và tốc độ phục vụ μ = 8 ca/giờ. Hệ số sử dụng tài nguyên ρ là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Công thức Utilization M/M/1: `ρ = λ / μ`.\n\n💡 **Giải thích:** $$\\rho = \\frac{\\lambda}{\\mu} = \\frac{6}{8} = 0.75 = 75\\%.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q023",
+        "content": "Q23. A task takes 20 minutes and the employee costs 90 per hour. There are 500 cases per day. What is the daily labor cost of this task?",
+        "options": {
+          "A": "15,000",
+          "B": "45,000",
+          "C": "900",
+          "D": "4,500"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một tác vụ mất 20 phút và chi phí nhân viên là 90 USD/giờ. Có 500 ca mỗi ngày. Chi phí nhân công hàng ngày của tác vụ này là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Chi phí 1 ca = `(thời gian giờ) * đơn giá`, sau đó nhân với số ca.\n\n💡 **Giải thích:** Thời gian 1 ca: 20 phút = 1/3 giờ. Chi phí nhân công 1 ca: $\\frac{1}{3} \\times 90 = 30$ USD. Chi phí 500 ca/ngày: $30 \\times 500 = 15,000$ USD.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q024",
+        "content": "Q24. In Value-Added Analysis, a step that the customer does not care about but is mandated by law to reduce business risk is classified as:",
+        "options": {
+          "A": "Value-Adding (VA)",
+          "B": "Business Value-Adding (BVA)",
+          "C": "Non-Value-Adding (NVA)",
+          "D": "Necessary Waste (NW)"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong phân tích giá trị gia tăng (VAA), một bước mà khách hàng không quan tâm nhưng bắt buộc phải làm theo luật để giảm thiểu rủi ro kinh doanh được phân loại là:\n\n🔑 **Từ khóa nhận diện:** Khách không trả tiền + Bắt buộc theo luật/rủi ro ➔ Business Value-Adding (BVA).\n\n💡 **Giải thích:** Các bước bắt buộc để tuân thủ pháp luật, kiểm toán, hoặc kiểm soát rủi ro tài chính của doanh nghiệp mà khách hàng không trực tiếp nhận giá trị được phân loại là BVA.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q025",
+        "content": "Q25. Applications wait two days in an inbox before anyone looks at them. Which Lean waste is this?",
+        "options": {
+          "A": "Overproduction",
+          "B": "Defect",
+          "C": "Waiting",
+          "D": "Motion"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Các đơn đăng ký nằm chờ 2 ngày trong hộp thư đến trước khi có người mở ra xem. Đây là loại lãng phí Lean nào?\n\n🔑 **Từ khóa nhận diện:** `wait two days in an inbox` ➔ Lãng phí chờ đợi (Waiting).\n\n💡 **Giải thích:** Hồ sơ, tài liệu hoặc công việc nằm ứ đọng trong hàng đợi không được xử lý là lãng phí Waiting.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q026",
+        "content": "Q26. A department produces weekly reports that nobody reads. Which waste category applies?",
+        "options": {
+          "A": "Waiting",
+          "B": "Transportation",
+          "C": "Motion",
+          "D": "Overproduction"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một phòng ban sản xuất các báo cáo hàng tuần mà không một ai đọc. Loại lãng phí nào được áp dụng?\n\n🔑 **Từ khóa nhận diện:** `reports that nobody reads` ➔ Lãng phí sản xuất thừa (Overproduction).\n\n💡 **Giải thích:** Làm ra sản phẩm, báo cáo hoặc dịch vụ mà không ai có nhu cầu sử dụng được xếp vào lãng phí Overproduction (Sản xuất thừa).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q027",
+        "content": "Q27. In a Fishbone diagram, \"newly hired staff were never trained on the procedure\" belongs to which of the 6 M's?",
+        "options": {
+          "A": "Man",
+          "B": "Machine",
+          "C": "Milieu",
+          "D": "Measurement"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong biểu đồ Xương cá (Ishikawa), 'nhân viên mới tuyển dụng chưa từng được đào tạo về quy trình' thuộc chữ M nào trong 6M?\n\n🔑 **Từ khóa nhận diện:** `staff were never trained` ➔ Yếu tố con người: Man (Manpower).\n\n💡 **Giải thích:** Các vấn đề về năng lực, đào tạo, kỹ năng hoặc thái độ của nhân sự thuộc nhóm yếu tố Man.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q028",
+        "content": "Q28. \"The scanner frequently jams and blurs documents.\" Which of the 6 M's?",
+        "options": {
+          "A": "Method",
+          "B": "Machine",
+          "C": "Material",
+          "D": "Man"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** 'Máy scan thường xuyên bị kẹt giấy và làm mờ tài liệu'. Thuộc chữ M nào trong 6M?\n\n🔑 **Từ khóa nhận diện:** `scanner frequently jams` ➔ Lỗi thiết bị/công nghệ: Machine.\n\n💡 **Giải thích:** Hư hỏng máy móc, công cụ phần cứng, trang thiết bị hoặc lỗi hệ thống thuộc nhóm Machine.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q029",
+        "content": "Q29. \"There is no standard procedure describing how to approve exceptions.\" Which of the 6 M's?",
+        "options": {
+          "A": "Machine",
+          "B": "Milieu",
+          "C": "Method",
+          "D": "Measurement"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** 'Không có quy trình chuẩn nào mô tả cách phê duyệt các trường hợp ngoại lệ'. Thuộc chữ M nào trong 6M?\n\n🔑 **Từ khóa nhận diện:** `no standard procedure` ➔ Thiếu quy trình chuẩn: Method.\n\n💡 **Giải thích:** Thiếu sót về tài liệu hướng dẫn, chính sách nghiệp vụ hoặc phương pháp làm việc thuộc nhóm Method.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q030",
+        "content": "Q30. On a PICK chart, an issue has low payoff and is difficult to implement. Where is it placed?",
+        "options": {
+          "A": "Implement",
+          "B": "Possible",
+          "C": "Challenge",
+          "D": "Kill"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trên biểu đồ PICK, một vấn đề có lợi ích thấp (low payoff) và rất khó thực hiện (difficult to implement) sẽ được xếp vào ô nào?\n\n🔑 **Từ khóa nhận diện:** Low payoff + High difficulty ➔ Kill (Hủy bỏ).\n\n💡 **Giải thích:** Ma trận PICK: Lợi ích thấp mà lại khó làm thì phải loại bỏ ngay (Kill) để tránh lãng phí nguồn lực.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q031",
+        "content": "Q31. \"Handle Insurance Claim\" is broken down into \"Register Claim\", \"Assess Claim\", and \"Pay Claim\". Which relationship is this?",
+        "options": {
+          "A": "Decomposition",
+          "B": "Sequence",
+          "C": "Specialization",
+          "D": "Association"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** 'Xử lý khiếu nại bảo hiểm' được chia nhỏ thành 'Đăng ký khiếu nại', 'Thẩm định khiếu nại' và 'Chi trả khiếu nại'. Đây là mối quan hệ nào trong kiến trúc quy trình?\n\n🔑 **Từ khóa nhận diện:** `broken down into` / chia nhỏ quy trình cha thành các quy trình con ➔ Phân rã (Decomposition).\n\n💡 **Giải thích:** Chia nhỏ một quy trình cấp cao thành chuỗi các quy trình con ở mức độ chi tiết hơn là mối quan hệ phân rã theo chiều dọc (Decomposition).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q032",
+        "content": "Q32. In an order-to-cash chain, \"Shipment\" relative to \"Order Booking\" is:",
+        "options": {
+          "A": "An upstream process",
+          "B": "A downstream process",
+          "C": "A specialization",
+          "D": "A management process"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong chuỗi từ Đặt hàng đến Thu tiền (Order-to-cash), quy trình 'Giao hàng' (Shipment) so với 'Tiếp nhận đơn hàng' (Order Booking) là:\n\n🔑 **Từ khóa nhận diện:** Quy trình diễn ra sau ➔ Downstream (xuôi dòng).\n\n💡 **Giải thích:** Shipment diễn ra sau và nhận đầu vào từ Order Booking nên nó là quy trình xuôi dòng (Downstream process).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q033",
+        "content": "Q33. In a bank, \"Recruit Employees\" is classified as which type of process?",
+        "options": {
+          "A": "Core process",
+          "B": "Management process",
+          "C": "Support process",
+          "D": "Specialized process"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong một ngân hàng, quy trình 'Tuyển dụng nhân viên' được phân loại là loại quy trình nào?\n\n🔑 **Từ khóa nhận diện:** `Recruit Employees` trong ngân hàng ➔ Quy trình hỗ trợ (Support process).\n\n💡 **Giải thích:** Tuyển dụng nhân sự cung cấp tài nguyên con người cho hoạt động nội bộ ngân hàng, không trực tiếp tạo ra doanh thu hay cung cấp dịch vụ cho khách hàng bên ngoài nên là Support Process.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q034",
+        "content": "Q34. In process selection, which criterion assesses whether a process can realistically be improved (management support, technical possibility, cost)?",
+        "options": {
+          "A": "Strategic importance",
+          "B": "Health",
+          "C": "Performance",
+          "D": "Feasibility"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong lựa chọn quy trình, tiêu chí nào đánh giá xem một quy trình có thực sự có khả năng cải tiến được hay không (sự ủng hộ của lãnh đạo, khả thi kỹ thuật, chi phí)?\n\n🔑 **Từ khóa nhận diện:** `realistically be improved` ➔ Tính khả thi (Feasibility).\n\n💡 **Giải thích:** Ba tiêu chí chọn quy trình của Dumas: Tầm quan trọng chiến lược (Importance), Mức độ trục trặc (Health), và Tính khả thi (Feasibility).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q035",
+        "content": "Q35. Which attribute of an event log allows events to be grouped into traces?",
+        "options": {
+          "A": "Case ID",
+          "B": "Resource",
+          "C": "Event cost",
+          "D": "Event description"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Thuộc tính nào trong nhật ký sự kiện (event log) cho phép gom các sự kiện lại thành các ca quy trình (traces)?\n\n🔑 **Từ khóa nhận diện:** `grouped into traces` ➔ Case ID (Mã định danh ca).\n\n💡 **Giải thích:** Case ID là mã duy nhất dùng để xâu chuỗi tất cả các hoạt động thuộc về cùng một phiên xử lý/đơn hàng thành một trace hoàn chỉnh.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q036",
+        "content": "Q36. Which technique compares an event log with a normative model to detect deviations?",
+        "options": {
+          "A": "Automated process discovery",
+          "B": "Conformance checking",
+          "C": "Simulation",
+          "D": "Value-added analysis"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Kỹ thuật nào so sánh nhật ký sự kiện (event log) với mô hình chuẩn để phát hiện các sai lệch?\n\n🔑 **Từ khóa nhận diện:** `compares event log with normative model to detect deviations` ➔ Conformance checking.\n\n💡 **Giải thích:** Conformance checking (kiểm tra sự tuân thủ) lấy mô hình lý thuyết đối chiếu với dữ liệu thực tế trong log để tìm ra nhân viên làm tắt bước hoặc làm sai quy trình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q037",
+        "content": "Q37. In token-replay, a trace requires a token that is not available in the model. This indicates a problem of:",
+        "options": {
+          "A": "Complexity",
+          "B": "Precision",
+          "C": "Fitness",
+          "D": "Simplicity"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong kỹ thuật token-replay, một vết sự kiện đòi hỏi một token mà mô hình không có sẵn. Điều này chỉ ra vấn đề gì về chất lượng?\n\n🔑 **Từ khóa nhận diện:** `requires token not available in model` (missing token) ➔ Vấn đề Fitness.\n\n💡 **Giải thích:** Mô hình không thể phát lại (replay) được sự kiện thực tế trong log do thiếu token biểu thị độ phù hợp thấp (Low Fitness).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q038",
+        "content": "Q38. A discovered model contains only the exact traces seen in the log and rejects plausible, unseen but valid behavior. Which quality dimension is weak?",
+        "options": {
+          "A": "Fitness",
+          "B": "Precision",
+          "C": "Simplicity",
+          "D": "Generalization"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một mô hình được khám phá chỉ chứa chính xác những vết đã quan sát thấy trong log và từ chối các hành vi hợp lệ hợp lý nhưng chưa từng xuất hiện. Chiều chất lượng nào bị yếu?\n\n🔑 **Từ khóa nhận diện:** `rejects plausible, unseen but valid behavior` ➔ Kém tính khái quát (Low Generalization).\n\n💡 **Giải thích:** Mô hình bị quá khớp (overfitting), không có khả năng khái quát hóa để chấp nhận các ca hợp lệ trong tương lai nên chiều Generalization bị thấp.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q039",
+        "content": "Q39. Which guideline of the 7PMG recommends using one start event and one end event?",
+        "options": {
+          "A": "G3",
+          "B": "G1",
+          "C": "G5",
+          "D": "G6"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Hướng dẫn nào trong 7PMG khuyến nghị chỉ nên sử dụng một Start Event và một End Event duy nhất?\n\n🔑 **Từ khóa nhận diện:** `one start event and one end event` ➔ Guideline G3.\n\n💡 **Giải thích:** 7PMG: G1 (ít phần tử nhất), G2 (giảm đường rẽ), G3 (1 Start và 1 End), G4 (cấu trúc khối), G5 (tránh OR), G6 (động từ + danh từ), G7 (phân rã nếu > 50 phần tử).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q040",
+        "content": "Q40. An analyst interviews a domain expert to confirm that the model correctly represents the real process. This activity is:",
+        "options": {
+          "A": "Verification",
+          "B": "Validation",
+          "C": "Simulation",
+          "D": "Certification"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một nhà phân tích phỏng vấn chuyên gia nghiệp vụ để xác nhận xem mô hình có phản ánh đúng quy trình thực tế hay không. Hoạt động này là:\n\n🔑 **Từ khóa nhận diện:** `confirm model correctly represents real process` ➔ Thẩm định nội dung (Validation).\n\n💡 **Giải thích:** Validation (thẩm định) kiểm tra xem mô hình có mô tả đúng thế giới thực không. Verification (kiểm minh) kiểm tra tính đúng đắn về cú pháp và logic toán học (như không có deadlock).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q041",
+        "content": "Q41. A model is sound if it:",
+        "options": {
+          "A": "Contains no OR gateways.",
+          "B": "Uses only lanes and no pools.",
+          "C": "Has no deadlocks, no dead activities, and completes properly.",
+          "D": "Has fewer than 50 elements."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một mô hình quy trình được coi là 'Sound' (đúng đắn về hành vi) nếu nó thỏa mãn điều kiện nào?\n\n🔑 **Từ khóa nhận diện:** `Sound model` ➔ Không có deadlock, không có dead activity, hoàn thành đúng cách.\n\n💡 **Giải thích:** Tính đúng đắn (Soundness) của mô hình gồm 3 điều kiện: Option to complete (luôn có đường về đích), Proper completion (không để lại token thừa), và Không chứa hoạt động chết (No dead activity).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q042",
+        "content": "Q42. Which BPMS component offers work items to participants and records their completion?",
+        "options": {
+          "A": "Process model repository",
+          "B": "Execution engine",
+          "C": "External service",
+          "D": "Worklist handler"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Thành phần nào của hệ thống BPMS phân phối các mục công việc tới người dùng và ghi nhận khi họ hoàn thành?\n\n🔑 **Từ khóa nhận diện:** `offers work items to participants and records completion` ➔ Worklist handler.\n\n💡 **Giải thích:** Worklist Handler là giao diện danh sách công việc hiển thị các tác vụ cần làm cho người dùng và nhận tín hiệu khi người dùng submit hoàn tất.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q043",
+        "content": "Q43. To evaluate the condition \"amount > 1000\" at an XOR-split in an executable model, the engine needs:",
+        "options": {
+          "A": "Process data (variables) holding the amount",
+          "B": "A user task",
+          "C": "A timer event",
+          "D": "A collapsed pool"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Để đánh giá điều kiện 'amount > 1000' tại một cổng XOR-split trong mô hình thực thi, Process Engine bắt buộc cần có gì?\n\n🔑 **Từ khóa nhận diện:** `evaluate condition amount > 1000` ➔ Dữ liệu quy trình (Process data / variables).\n\n💡 **Giải thích:** Nguyên lý 'No data implies no decisions': Engine phải có biến số quy trình (process variable `amount`) lưu trữ giá trị tiền thì mới có thể so sánh logic để rẽ nhánh.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q044",
+        "content": "Q44. An alert is raised when a running case exceeds its deadline. This is an example of:",
+        "options": {
+          "A": "Offline process monitoring",
+          "B": "Online process monitoring",
+          "C": "Process discovery",
+          "D": "Process redesign"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một cảnh báo được phát ra ngay lập tức khi một ca đang chạy bị vượt quá thời hạn cam kết. Đây là ví dụ của:\n\n🔑 **Từ khóa nhận diện:** `running case exceeds deadline` + cảnh báo tức thì ➔ Online process monitoring.\n\n💡 **Giải thích:** Giám sát trực tuyến (Online monitoring / BAM) theo dõi các ca đang chạy theo thời gian thực để cảnh báo sự cố ngay lập tức.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q045",
+        "content": "Q45. A fraud check that cheaply rejects most invalid applications is moved to the beginning of the process. Which redesign heuristic?",
+        "options": {
+          "A": "Triage",
+          "B": "Parallelism",
+          "C": "Knock-out",
+          "D": "Case manager"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một bước kiểm tra gian lận có chi phí rẻ và loại bỏ được phần lớn hồ sơ không hợp lệ được chuyển lên đầu quy trình. Đây là heuristic nào?\n\n🔑 **Từ khóa nhận diện:** `cheaply rejects most invalid applications moved to beginning` ➔ Knock-out heuristic.\n\n💡 **Giải thích:** Knock-out Heuristic: Ưu tiên đưa các bước kiểm tra có tỷ lệ loại bỏ cao nhất với chi phí rẻ nhất lên đầu để sàng lọc sớm các hồ sơ không đạt.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q046",
+        "content": "Q46. A single employee is made responsible for a claim from registration to payment. Which redesign heuristic?",
+        "options": {
+          "A": "Parallelism",
+          "B": "Triage",
+          "C": "Knock-out",
+          "D": "Case manager"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một nhân viên duy nhất được giao trách nhiệm phụ trách hồ sơ bồi thường từ khâu đăng ký đến khi chi trả. Đây là heuristic nào?\n\n🔑 **Từ khóa nhận diện:** `single employee made responsible end-to-end` ➔ Case manager.\n\n💡 **Giải thích:** Case Manager: Bố trí một đầu mối duy nhất chịu trách nhiệm toàn diện cho một ca quy trình từ đầu đến cuối.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q047",
+        "content": "Q47. In Six Sigma DMAIC, control charts are used to sustain gains after the improvement. In which phase?",
+        "options": {
+          "A": "Control",
+          "B": "Define",
+          "C": "Measure",
+          "D": "Analyze"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong Six Sigma DMAIC, biểu đồ kiểm soát (control charts) được sử dụng để duy trì thành quả sau cải tiến. Biểu đồ này nằm ở giai đoạn nào?\n\n🔑 **Từ khóa nhận diện:** `sustain gains after improvement` ➔ Giai đoạn Control (Kiểm soát).\n\n💡 **Giải thích:** Giai đoạn Control (C trong DMAIC) là giai đoạn cuối cùng nhằm duy trì và kiểm soát quy trình để các lỗi không bị tái diễn.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q048",
+        "content": "Q48. Which BPM lifecycle phase puts the to-be model into operation, including change management and automation?",
+        "options": {
+          "A": "Process analysis",
+          "B": "Process implementation",
+          "C": "Process identification",
+          "D": "Process discovery"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Giai đoạn nào trong vòng đời BPM đưa mô hình to-be vào vận hành thực tế, bao gồm cả quản trị sự thay đổi và tự động hóa?\n\n🔑 **Từ khóa nhận diện:** `puts to-be model into operation` ➔ Process implementation (Triển khai quy trình).\n\n💡 **Giải thích:** Process Implementation biến mô hình thiết kế lại TO-BE thành hiện thực thông qua phát triển phần mềm, tích hợp hệ thống và đào tạo quản lý thay đổi.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q049",
+        "content": "Q49. Which role is accountable for the end-to-end performance of a process spanning several departments?",
+        "options": {
+          "A": "BPM methodologist",
+          "B": "Process analyst",
+          "C": "Process owner",
+          "D": "IT director"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Vai trò nào chịu trách nhiệm giải trình cao nhất về hiệu suất từ đầu đến cuối của một quy trình xuyên suốt qua nhiều phòng ban?\n\n🔑 **Từ khóa nhận diện:** `accountable for end-to-end performance across departments` ➔ Process owner.\n\n💡 **Giải thích:** Process Owner (Chủ sở hữu quy trình) là người nắm quyền chỉ đạo và chịu trách nhiệm tối cao về kết quả của quy trình liên phòng ban.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q050",
+        "content": "Q50. In the Devil's Quadrangle, the percentage of cases that need rework is a measure of which dimension?",
+        "options": {
+          "A": "Time",
+          "B": "Cost",
+          "C": "Flexibility",
+          "D": "Quality"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong Tứ giác Ác quỷ (Devil's Quadrangle), tỷ lệ các ca quy trình phải làm lại (rework) là thước đo của chiều nào?\n\n🔑 **Từ khóa nhận diện:** `percentage of cases needing rework` ➔ Chiều Chất lượng (Quality).\n\n💡 **Giải thích:** Tỷ lệ sai lỗi, phàn nàn và phải làm lại là chỉ số đo lường trực tiếp chất lượng đầu ra (Quality) của quy trình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q051",
+        "content": "Q51. In interview-based process discovery, an analyst finds that no single interviewee can describe the process from start to finish. Which challenge is this?",
+        "options": {
+          "A": "Fragmented process knowledge",
+          "B": "Outdated documentation",
+          "C": "Thinking in cases instead of rules",
+          "D": "Technical faults in the information system"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong khám phá quy trình bằng phỏng vấn, nhà phân tích thấy không một ai có thể mô tả quy trình từ đầu đến cuối. Đây là thách thức kinh điển nào?\n\n🔑 **Từ khóa nhận diện:** `no single interviewee can describe process start to finish` ➔ Fragmented process knowledge.\n\n💡 **Giải thích:** Kiến thức bị phân mảnh (Fragmented knowledge): Do chuyên môn hóa theo phòng ban hình thành các 'ốc đảo thông tin' (silos), mỗi nhân viên chỉ biết công việc trong phạm vi của mình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q052",
+        "content": "Q52. What is the main advantage of workshop-based process discovery over separate one-to-one interviews?",
+        "options": {
+          "A": "It is always cheaper.",
+          "B": "It needs no domain experts.",
+          "C": "Inconsistent views can be resolved immediately with all experts present.",
+          "D": "It produces a log automatically."
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Ưu điểm chính của việc tổ chức hội thảo khám phá quy trình (workshop-based) so với phỏng vấn riêng lẻ từng người là gì?\n\n🔑 **Từ khóa nhận diện:** `workshop-based advantage` ➔ Giải quyết ngay các quan điểm mâu thuẫn tại chỗ.\n\n💡 **Giải thích:** Hội thảo tập hợp tất cả các bên liên quan cùng ngồi lại, giúp đối chất và giải quyết triệt để các góc nhìn mâu thuẫn ngay lập tức.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q053",
+        "content": "Q53. In the systematic process modeling method, which step identifies the tasks and events that make up the process?",
+        "options": {
+          "A": "Step 1: identify the process boundaries",
+          "B": "Step 2: identify the activities and events",
+          "C": "Step 3: identify resources and handovers",
+          "D": "Step 5: add data objects and exceptions"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong phương pháp mô hình hóa quy trình có hệ thống, bước nào chịu trách nhiệm xác định các tác vụ và sự kiện cấu thành nên quy trình?\n\n🔑 **Từ khóa nhận diện:** `identifies tasks and events` ➔ Bước 2: Identify activities and events.\n\n💡 **Giải thích:** 5 bước mô hình hóa chuẩn: 1. Ranh giới (Boundaries) ➔ 2. Tác vụ và sự kiện (Activities & Events) ➔ 3. Tài nguyên (Resources/Lanes) ➔ 4. Luồng điều khiển (Control flow) ➔ 5. Ngoại lệ và dữ liệu.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q054",
+        "content": "Q54. In an M/M/1 queue, λ = 3 cases per hour and μ = 5 cases per hour. What is the average time a case spends in the system (waiting + service)?",
+        "options": {
+          "A": "0.5 hours",
+          "B": "1.5 hours",
+          "C": "0.33 hours",
+          "D": "2 hours"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong hàng đợi M/M/1, λ = 3 ca/giờ và μ = 5 ca/giờ. Thời gian trung bình một ca nằm trong hệ thống (gồm cả chờ đợi và phục vụ) là:\n\n🔑 **Từ khóa nhận diện:** Thời gian trong hệ thống M/M/1: `W = 1 / (μ - λ)`.\n\n💡 **Giải thích:** $$W = \\frac{1}{\\mu - \\lambda} = \\frac{1}{5 - 3} = \\frac{1}{2} = 0.5 \\text{ giờ} = 30 \\text{ phút}.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q055",
+        "content": "Q55. A process has an average cycle time of 2 hours and an average WIP of 18 cases. What is the average arrival rate (in steady state)?",
+        "options": {
+          "A": "36 per hour",
+          "B": "20 per hour",
+          "C": "16 per hour",
+          "D": "9 per hour"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một quy trình có thời gian chu kỳ trung bình CT = 2 giờ và lượng công việc dở dang bình quân WIP = 18 ca. Tốc độ đến trung bình λ là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Định luật Little: `WIP = λ * CT` ➔ `λ = WIP / CT`.\n\n💡 **Giải thích:** $$\\lambda = \\frac{WIP}{CT} = \\frac{18}{2} = 9 \\text{ ca/giờ}.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q056",
+        "content": "Q56. Task A takes 4 hours. Then an XOR-split sends 60% of the cases to B (10 hours) and 40% to C (5 hours). Afterwards all cases do D (1 hour). What is the expected cycle time (no waiting)?",
+        "options": {
+          "A": "20 hours",
+          "B": "13 hours",
+          "C": "16 hours",
+          "D": "15 hours"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tác vụ A mất 4 giờ. Sau đó cổng XOR gửi 60% ca sang B (10 giờ) và 40% ca sang C (5 giờ). Cuối cùng tất cả cùng thực hiện D (1 giờ). Thời gian chu kỳ kỳ vọng là:\n\n🔑 **Từ khóa nhận diện:** Cộng tuần tự: `A + (XOR-block) + D`.\n\n💡 **Giải thích:** Khối XOR: $(0.6 \\times 10) + (0.4 \\times 5) = 6 + 2 = 8$ giờ. Tổng thời gian: $4 + 8 + 1 = 13$ giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q057",
+        "content": "Q57. Task X takes 4 hours. After each execution, there is a 50% probability that it has to be repeated. What is the expected total time spent on X?",
+        "options": {
+          "A": "4 hours",
+          "B": "8 hours",
+          "C": "6 hours",
+          "D": "2 hours"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tác vụ X mất 4 giờ. Sau mỗi lần thực hiện, có 50% xác suất phải lặp lại. Thời gian trung bình thực tế dành cho tác vụ X là:\n\n🔑 **Từ khóa nhận diện:** Khối lặp: `CT = T / (1 - r)` với `r = 0.5`.\n\n💡 **Giải thích:** $$CT = \\frac{4}{1 - 0.5} = \\frac{4}{0.5} = 8 \\text{ giờ}.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q058",
+        "content": "Q58. A case needs 30 minutes of actual work but its cycle time is 6 hours. What is the cycle time efficiency?",
+        "options": {
+          "A": "5%",
+          "B": "8.33%",
+          "C": "12%",
+          "D": "50%"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một ca quy trình chỉ cần 30 phút (0.5 giờ) làm việc thực sự nhưng tổng thời gian chu kỳ là 6 giờ. Hiệu suất thời gian chu kỳ (CTE) là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Hiệu suất: `CTE = TCT / CT`.\n\n💡 **Giải thích:** $$CTE = \\frac{0.5}{6} \\approx 0.0833 = 8.33\\%.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q059",
+        "content": "Q59. Each case needs 15 minutes of work. Three employees work in parallel on this task. What is the maximum throughput of this task?",
+        "options": {
+          "A": "4 cases per hour",
+          "B": "12 cases per hour",
+          "C": "3 cases per hour",
+          "D": "45 cases per hour"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Mỗi ca quy trình cần 15 phút xử lý. Có 3 nhân viên làm việc song song cho tác vụ này. Công suất tối đa (maximum throughput) của tác vụ này là:\n\n🔑 **Từ khóa nhận diện:** Công suất 1 người = `60 / 15 = 4 ca/giờ`. 3 người = `4 * 3`.\n\n💡 **Giải thích:** Một người xử lý được $60 / 15 = 4$ ca/giờ. Ba người làm song song đạt tối đa $4 \\times 3 = 12$ ca/giờ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q060",
+        "content": "Q60. A task costs 25 per case. There are 40 cases per day and 250 working days per year. What is the yearly cost of the task?",
+        "options": {
+          "A": "1,000",
+          "B": "10,000",
+          "C": "250,000",
+          "D": "62,500"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một tác vụ có chi phí 25 USD cho mỗi ca. Có 40 ca mỗi ngày và 250 ngày làm việc mỗi năm. Chi phí hàng năm của tác vụ này là:\n\n🔑 **Từ khóa nhận diện:** Chi phí năm = `chi phí/ca * số ca/ngày * số ngày/năm`.\n\n💡 **Giải thích:** Chi phí mỗi ngày: $25 \\times 40 = 1,000$ USD. Chi phí cả năm: $1,000 \\times 250 = 250,000$ USD.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q061",
+        "content": "Q61. On a PICK chart, an issue has a high payoff and is easy to implement. Where does it go?",
+        "options": {
+          "A": "Implement",
+          "B": "Possible",
+          "C": "Challenge",
+          "D": "Kill"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trên ma trận PICK, một vấn đề có lợi ích cao (high payoff) và dễ thực hiện (easy to implement) sẽ được xếp vào ô nào?\n\n🔑 **Từ khóa nhận diện:** High payoff + Low difficulty ➔ Implement (Thực hiện ngay).\n\n💡 **Giải thích:** Vấn đề nằm ở góc 'Lợi ích cao và Dễ làm' là giải pháp thắng nhanh (quick win), cần phải đưa vào thực hiện ngay lập tức (Implement).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q062",
+        "content": "Q62. In a process portfolio, a process with high strategic importance and poor health is:",
+        "options": {
+          "A": "A candidate to ignore",
+          "B": "A priority candidate for improvement",
+          "C": "A candidate for outsourcing only",
+          "D": "A support process"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong danh mục quy trình (Process Portfolio), một quy trình có tầm quan trọng chiến lược cao nhưng tình trạng sức khỏe kém là:\n\n🔑 **Từ khóa nhận diện:** High strategic importance + Poor health ➔ Priority candidate for improvement.\n\n💡 **Giải thích:** Quy trình ảnh hưởng sống còn đến công ty mà lại hoạt động trục trặc, nhiều lỗi là đối tượng ưu tiên số 1 để đầu tư cải tiến.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q063",
+        "content": "Q63. In an issue register, \"the issue causes 12 hours of rework per week\" should be recorded as:",
+        "options": {
+          "A": "Qualitative impact",
+          "B": "Quantitative impact",
+          "C": "Data and assumptions only",
+          "D": "Priority analysis"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong bảng đăng ký vấn đề (Issue Register), mục 'vấn đề này gây lãng phí 12 giờ làm lại mỗi tuần' nên được ghi vào cột nào?\n\n🔑 **Từ khóa nhận diện:** `causes 12 hours of rework per week` (đo đếm được con số) ➔ Quantitative impact.\n\n💡 **Giải thích:** Tác động có thể đo lường trực tiếp bằng con số cụ thể (thời gian trễ, tiền thiệt hại) được xếp vào cột Tác động định lượng (Quantitative impact).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q064",
+        "content": "Q64. According to the Pareto principle, how are causes usually distributed?",
+        "options": {
+          "A": "All causes contribute equally.",
+          "B": "A few causes account for most of the problem.",
+          "C": "Most causes account for most of the problem.",
+          "D": "Causes are always independent."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Theo nguyên lý Pareto (Quy tắc 80/20), các nguyên nhân gây ra vấn đề thường được phân bố như thế nào?\n\n🔑 **Từ khóa nhận diện:** Nguyên lý Pareto 80/20 ➔ A few causes account for most of the problem.\n\n💡 **Giải thích:** Khoảng 20% số lượng nguyên nhân cốt tử (the vital few) là thủ phạm gây ra 80% hậu quả hoặc sự cố trong quy trình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q065",
+        "content": "Q65. What is the main purpose of the \"5 Whys\" technique?",
+        "options": {
+          "A": "To compute cycle time",
+          "B": "To drill down from a symptom to its root cause",
+          "C": "To rank issues by payoff",
+          "D": "To check model syntax"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Mục đích chính của kỹ thuật '5 Whys' trong phân tích định tính là gì?\n\n🔑 **Từ khóa nhận diện:** `5 Whys technique` ➔ Drill down from symptom to root cause.\n\n💡 **Giải thích:** Hỏi câu hỏi 'Tại sao' liên tiếp để bóc tách từ các triệu chứng bề nổi đào sâu xuống tận nguyên nhân gốc rễ của vấn đề.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q066",
+        "content": "Q66. A company redesigns the process so that all required information is collected from the customer in one request instead of several. Which heuristic?",
+        "options": {
+          "A": "Contact reduction",
+          "B": "Resequencing",
+          "C": "Triage",
+          "D": "Parallelism"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một công ty thiết kế lại quy trình để thu thập tất cả thông tin cần thiết từ khách hàng trong một lần yêu cầu duy nhất thay vì nhiều lần. Heuristic nào được áp dụng?\n\n🔑 **Từ khóa nhận diện:** `collected in one request instead of several` ➔ Contact reduction.\n\n💡 **Giải thích:** Contact Reduction (Giảm số lần tiếp xúc): Gộp các đợt hỏi thông tin lại làm một lần duy nhất để giảm thiểu số vòng trao đổi qua lại giữa hai bên.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q067",
+        "content": "Q67. Three small consecutive tasks done by the same employee are merged into one task. Which heuristic?",
+        "options": {
+          "A": "Task elimination",
+          "B": "Task composition",
+          "C": "Parallelism",
+          "D": "Knock-out"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Ba tác vụ nhỏ liên tiếp do cùng một nhân viên thực hiện được gộp lại thành một tác vụ duy nhất. Heuristic nào được áp dụng?\n\n🔑 **Từ khóa nhận diện:** `consecutive tasks merged into one` ➔ Task composition.\n\n💡 **Giải thích:** Task Composition (Hợp nhất tác vụ): Ghép các bước nhỏ liên tiếp do cùng một người làm lại với nhau để giảm thao tác chuyển ngữ cảnh và giảm độ trễ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q068",
+        "content": "Q68. An expensive check is moved to after a cheaper check that rejects many cases. Which heuristic?",
+        "options": {
+          "A": "Contact reduction",
+          "B": "Case manager",
+          "C": "Resequencing",
+          "D": "Task composition"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một bước kiểm tra tốn kém được chuyển ra phía sau một bước kiểm tra rẻ hơn mà lại loại bỏ được nhiều hồ sơ. Heuristic nào được áp dụng?\n\n🔑 **Từ khóa nhận diện:** `expensive check moved after cheaper check` ➔ Resequencing (Sắp xếp lại trình tự).\n\n💡 **Giải thích:** Resequencing: Thay đổi thứ tự các tác vụ kiểm tra để các bài kiểm tra rẻ và loại nhiều chạy trước, tránh lãng phí chi phí kiểm tra đắt đỏ cho các hồ sơ sắp bị loại.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q069",
+        "content": "Q69. Work can be given to any qualified employee instead of being fixed to one specific person. Which heuristic?",
+        "options": {
+          "A": "Flexible assignment",
+          "B": "Task elimination",
+          "C": "Knock-out",
+          "D": "Specialization"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Công việc có thể được giao cho bất kỳ nhân viên nào có đủ năng lực thay vì bị cố định cho một người cụ thể. Heuristic nào được áp dụng?\n\n🔑 **Từ khóa nhận diện:** `given to any qualified employee instead of fixed person` ➔ Flexible assignment.\n\n💡 **Giải thích:** Flexible Assignment (Phân công linh hoạt): Phân bổ công việc vào bể tài nguyên chung cho bất kỳ ai rảnh tay xử lý, giảm thời gian ca quy trình phải nằm chờ một cá nhân.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q070",
+        "content": "Q70. Documents are physically carried between two buildings several times per day. Which Lean waste is this?",
+        "options": {
+          "A": "Inventory",
+          "B": "Transportation",
+          "C": "Overprocessing",
+          "D": "Defect"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tài liệu được chuyển phát vật lý qua lại giữa hai tòa nhà nhiều lần mỗi ngày. Đây là loại lãng phí Lean nào?\n\n🔑 **Từ khóa nhận diện:** `physically carried between two buildings` ➔ Transportation.\n\n💡 **Giải thích:** Di chuyển vật lý không cần thiết của tài liệu, linh kiện hoặc vật tư giữa các địa điểm là lãng phí Vận chuyển (Transportation).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q071",
+        "content": "Q71. An employee re-verifies signatures that were already verified in an earlier step. Which waste?",
+        "options": {
+          "A": "Overprocessing",
+          "B": "Waiting",
+          "C": "Motion",
+          "D": "Overproduction"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một nhân viên kiểm tra lại chữ ký đã được xác thực ở một bước trước đó. Đây là loại lãng phí nào?\n\n🔑 **Từ khóa nhận diện:** `re-verifies signatures already verified earlier` ➔ Overprocessing (Xử lý thừa).\n\n💡 **Giải thích:** Kiểm tra lặp lại, đối soát thừa mức cần thiết mà không mang lại thêm giá trị bảo đảm mới là lãng phí Overprocessing.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q072",
+        "content": "Q72. In a batch of 500 applications, each with 4 opportunities for defects, 30 defects are found. What is the DPMO?",
+        "options": {
+          "A": "6,000",
+          "B": "60,000",
+          "C": "15,000",
+          "D": "1,500"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong một lô gồm 500 đơn đăng ký, mỗi đơn có 4 cơ hội xảy ra lỗi, người ta phát hiện được 30 lỗi. Chỉ số DPMO là bao nhiêu?\n\n🔑 **Từ khóa nhận diện:** Công thức DPMO: `[Số lỗi / (Số đơn * Số cơ hội lỗi)] * 1,000,000`.\n\n💡 **Giải thích:** $$DPMO = \\frac{30}{500 \\times 4} \\times 1,000,000 = \\frac{30}{2000} \\times 1,000,000 = 15,000.$$",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q073",
+        "content": "Q73. In which DMAIC phase are solutions designed and tested?",
+        "options": {
+          "A": "Define",
+          "B": "Measure",
+          "C": "Analyze",
+          "D": "Improve"
+        },
+        "correctAnswer": "D",
+        "correctAnswers": [
+          "D"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong các giai đoạn DMAIC của Six Sigma, các giải pháp cải tiến được thiết kế và thử nghiệm ở giai đoạn nào?\n\n🔑 **Từ khóa nhận diện:** `solutions designed and tested` ➔ Giai đoạn Improve (Cải tiến).\n\n💡 **Giải thích:** Giai đoạn Improve (I trong DMAIC) là giai đoạn trực tiếp sáng tạo, thiết kế giải pháp và thử nghiệm pilot trước khi triển khai rộng rãi.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: D"
+      },
+      {
+        "id": "bps301-fa26-100q-q074",
+        "content": "Q74. What is the main output of the process identification phase?",
+        "options": {
+          "A": "A detailed BPMN model of every task",
+          "B": "A process architecture and a selection of processes to work on",
+          "C": "An executable model",
+          "D": "A simulation report"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Đầu ra chính của giai đoạn Nhận diện quy trình (Process Identification) là gì?\n\n🔑 **Từ khóa nhận diện:** `main output of process identification` ➔ Kiến trúc quy trình và danh mục quy trình được chọn.\n\n💡 **Giải thích:** Giai đoạn Identification tạo ra bản đồ kiến trúc quy trình (Process Architecture / Landscape Model) và danh mục các quy trình được ưu tiên chọn để cải tiến.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q075",
+        "content": "Q75. In the BPM maturity model, which factor covers process owners, steering committees, and accountability?",
+        "options": {
+          "A": "Methods",
+          "B": "People",
+          "C": "Governance",
+          "D": "Culture"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong mô hình độ trưởng thành BPM (BPM Maturity Model), yếu tố nào bao quát về chủ sở hữu quy trình, hội đồng chỉ đạo và trách nhiệm giải trình?\n\n🔑 **Từ khóa nhận diện:** `steering committees and accountability` ➔ Yếu tố Governance (Quản trị).\n\n💡 **Giải thích:** Yếu tố Governance (Quản trị) xác định rõ vai trò, trách nhiệm, cơ chế ra quyết định và kiểm soát trong quản trị quy trình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q076",
+        "content": "Q76. Which maturity factor covers the skills and knowledge of employees involved in BPM?",
+        "options": {
+          "A": "IT",
+          "B": "Governance",
+          "C": "People",
+          "D": "Strategic alignment"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Yếu tố độ trưởng thành BPM nào bao quát về kỹ năng, kiến thức và năng lực của nhân viên tham gia vào BPM?\n\n🔑 **Từ khóa nhận diện:** `skills and knowledge of employees` ➔ Yếu tố People (Con người).\n\n💡 **Giải thích:** Yếu tố People trong mô hình trưởng thành Rosemann & de Bruin tập trung vào trình độ chuyên môn, đào tạo và năng lực thực thi BPM của nhân viên.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q077",
+        "content": "Q77. Which format is the IEEE standard for storing event logs for process mining?",
+        "options": {
+          "A": "XES",
+          "B": "BPMN XML",
+          "C": "XSD",
+          "D": "SQL dump"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Định dạng nào là chuẩn quốc tế của IEEE (IEEE 1849) để lưu trữ nhật ký sự kiện cho Process Mining?\n\n🔑 **Từ khóa nhận diện:** `IEEE standard for storing event logs` ➔ XES (eXtensible Event Stream).\n\n💡 **Giải thích:** XES (eXtensible Event Stream) là chuẩn dữ liệu chính thức của IEEE dùng để trao đổi và lưu trữ các tệp Event Log phục vụ khai phá quy trình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q078",
+        "content": "Q78. Which of the three main types of process mining uses log data to improve or extend an existing model (e.g., adding performance information)?",
+        "options": {
+          "A": "Discovery",
+          "B": "Conformance",
+          "C": "Enhancement",
+          "D": "Simulation"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Loại nào trong 3 loại chính của Process Mining sử dụng dữ liệu log để cải thiện hoặc mở rộng một mô hình đã có sẵn (ví dụ: gắn thêm thông tin hiệu suất)?\n\n🔑 **Từ khóa nhận diện:** `improve or extend existing model` ➔ Enhancement (Nâng cấp mô hình).\n\n💡 **Giải thích:** Enhancement lấy mô hình hiện tại kết hợp với dữ liệu thực tế từ Event Log để làm giàu mô hình (gắn thêm thời gian, chi phí, chỉ ra nút thắt hoặc sửa đổi luồng).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q079",
+        "content": "Q79. A process map shows average waiting times between activities, highlighting where cases wait the longest. What is this analysis used for?",
+        "options": {
+          "A": "Bottleneck detection through performance mining",
+          "B": "Syntax verification",
+          "C": "Model validation with experts",
+          "D": "Case ID extraction"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một sơ đồ quy trình hiển thị thời gian chờ đợi trung bình giữa các hoạt động, làm nổi bật nơi các ca quy trình bị chờ lâu nhất. Phân tích này dùng để làm gì?\n\n🔑 **Từ khóa nhận diện:** `waiting times highlighting where cases wait longest` ➔ Phát hiện nút thắt cổ chai (Bottleneck detection).\n\n💡 **Giải thích:** Chiếu thời gian chờ lên sơ đồ quy trình (Performance Mining) giúp nhà quản lý nhận diện chính xác các điểm nghẽn cổ chai (bottlenecks) đang làm chậm toàn bộ tiến độ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q080",
+        "content": "Q80. In an executable process model, how is a manual task treated by the BPMS?",
+        "options": {
+          "A": "It is executed automatically by the engine.",
+          "B": "The engine does not manage or track it.",
+          "C": "It is executed by a web service.",
+          "D": "It must be removed from the model."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong một mô hình quy trình thực thi, một tác vụ thủ công (Manual Task) được hệ thống BPMS đối xử như thế nào?\n\n🔑 **Từ khóa nhận diện:** `how manual task is treated by BPMS` ➔ Engine không quản lý hay theo dõi được nó.\n\n💡 **Giải thích:** Manual Task là công việc vật lý ngoài đời không kết nối với phần mềm, do đó Process Engine hoàn toàn không theo dõi hay điều khiển được nó.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q081",
+        "content": "Q81. Which BPMN task type is typically used to evaluate a decision table (DMN) automatically?",
+        "options": {
+          "A": "Manual task",
+          "B": "Business rule task",
+          "C": "Receive task",
+          "D": "User task"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Loại tác vụ BPMN nào thường được sử dụng để tự động đánh giá một bảng luật quyết định (Decision Table theo chuẩn DMN)?\n\n🔑 **Từ khóa nhận diện:** `evaluate decision table (DMN) automatically` ➔ Business rule task.\n\n💡 **Giải thích:** Business Rule Task (biểu tượng bảng tính) được liên kết với bộ máy thực thi luật DMN để tự động tính toán các quyết định nghiệp vụ phức tạp.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q082",
+        "content": "Q82. What best describes a choreography diagram?",
+        "options": {
+          "A": "The internal logic of a single participant",
+          "B": "The interactions between participants without a central controller",
+          "C": "A data model of the process",
+          "D": "A simulation scenario"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Điều nào mô tả chính xác nhất về một biểu đồ vũ đạo (Choreography diagram) trong BPMN?\n\n🔑 **Từ khóa nhận diện:** `choreography diagram` ➔ Mô tả tương tác giữa các bên tham gia mà không có bộ điều phối trung tâm.\n\n💡 **Giải thích:** Choreography mô tả chuỗi trao đổi thông điệp trực tiếp giữa các đối tác độc lập với nhau mà không có một máy chủ trung tâm nào đứng ra điều hành.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q083",
+        "content": "Q83. Which notation is intended for knowledge-intensive, unstructured work where the next step depends on case data and human judgment?",
+        "options": {
+          "A": "BPMN",
+          "B": "EPC",
+          "C": "CMMN",
+          "D": "SIPOC"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Ký hiệu chuẩn nào được thiết kế dành cho các công việc thâm dụng tri thức, ít có cấu trúc cố định, nơi bước tiếp theo phụ thuộc vào dữ liệu ca và phán đoán của con người?\n\n🔑 **Từ khóa nhận diện:** `knowledge-intensive, unstructured work` ➔ CMMN (Case Management Model and Notation).\n\n💡 **Giải thích:** CMMN (Case Management Model and Notation) là chuẩn chuyên biệt cho quản lý tình huống nghiệp vụ phi cấu trúc (như chẩn đoán y tế, giải quyết tranh chấp pháp lý).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q084",
+        "content": "Q84. Why should a simulation be run with multiple replications?",
+        "options": {
+          "A": "To remove the need for input data",
+          "B": "To reduce the effect of random variation on the results",
+          "C": "To verify syntax",
+          "D": "To compute the cycle time exactly"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tại sao một mô hình mô phỏng quy trình (simulation) nên được chạy lặp lại nhiều lần (multiple replications)?\n\n🔑 **Từ khóa nhận diện:** `why simulation run with multiple replications` ➔ Giảm tác động của sự biến thiên ngẫu nhiên.\n\n💡 **Giải thích:** Mô phỏng dựa trên các biến số ngẫu nhiên (Monte Carlo), chạy nhiều lần giúp triệt tiêu sai số ngẫu nhiên và cho ra kết quả trung bình có độ tin cậy cao.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q085",
+        "content": "Q85. Which of the following is a typical input for a process simulation?",
+        "options": {
+          "A": "Case arrival rate and task processing time distributions",
+          "B": "The final average cycle time",
+          "C": "The utilization of each resource",
+          "D": "The number of deadlocks"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Điều nào sau đây là dữ liệu đầu vào điển hình của một mô hình mô phỏng quy trình?\n\n🔑 **Từ khóa nhận diện:** `typical input for process simulation` ➔ Tốc độ đến và phân phối thời gian xử lý tác vụ.\n\n💡 **Giải thích:** Đầu vào mô phỏng gồm: tốc độ đến của ca, phân phối thời gian xử lý, xác suất rẽ nhánh và lịch làm việc của tài nguyên. Thời gian chu kỳ và độ sử dụng là kết quả đầu ra.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q086",
+        "content": "Q86. A model contains an infinite loop with no exit. Which behavioral property is violated?",
+        "options": {
+          "A": "Proper completion",
+          "B": "Option to complete",
+          "C": "Fitness",
+          "D": "Precision"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một mô hình chứa một vòng lặp vô hạn không có lối thoát ra. Thuộc tính hành vi đúng đắn nào bị vi phạm?\n\n🔑 **Từ khóa nhận diện:** `infinite loop with no exit` (Livelock) ➔ Vi phạm Option to complete.\n\n💡 **Giải thích:** Thuộc tính 'Option to complete' đòi hỏi từ mọi trạng thái hợp lệ của quy trình luôn luôn phải có ít nhất một đường đi về được End Event. Vòng lặp vô tận (Livelock) vi phạm thuộc tính này.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q087",
+        "content": "Q87. An activity in a model can never be executed in any process instance. This is called:",
+        "options": {
+          "A": "A dead activity",
+          "B": "A deadlock",
+          "C": "A livelock",
+          "D": "A black-box"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một hoạt động trong mô hình không bao giờ có thể được thực thi trong bất kỳ phiên chạy nào. Hoạt động này được gọi là:\n\n🔑 **Từ khóa nhận diện:** `never executed in any instance` ➔ Dead activity (Hoạt động chết).\n\n💡 **Giải thích:** Tác vụ nằm trên nhánh không bao giờ nhận được token trong bất kỳ hoàn cảnh nào được gọi là Dead Activity.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q088",
+        "content": "Q88. Which 7PMG guideline recommends modeling as structured as possible (matching splits and joins)?",
+        "options": {
+          "A": "G2",
+          "B": "G4",
+          "C": "G6",
+          "D": "G7"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Hướng dẫn nào trong 7PMG khuyến nghị mô hình hóa có cấu trúc khối chặt chẽ nhất có thể (các cổng rẽ nhánh Split và gộp Join tương ứng nhau)?\n\n🔑 **Từ khóa nhận diện:** `structured as possible (matching splits and joins)` ➔ Guideline G4.\n\n💡 **Giải thích:** 7PMG G4 khuyến nghị mô hình hóa theo cấu trúc khối (Block-structured): một XOR-split nên đóng lại bằng XOR-join, AND-split đóng lại bằng AND-join tương ứng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q089",
+        "content": "Q89. A large model needs to continue on another page. Which BPMN event works like an off-page connector?",
+        "options": {
+          "A": "Link event",
+          "B": "Signal event",
+          "C": "Error event",
+          "D": "Escalation event"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một mô hình quy trình quá lớn cần vẽ tiếp sang một trang khác. Sự kiện BPMN nào hoạt động như một điểm nối chuyển trang (off-page connector)?\n\n🔑 **Từ khóa nhận diện:** `works like an off-page connector` ➔ Link event.\n\n💡 **Giải thích:** Link Event (sự kiện liên kết - hình mũi tên) hoạt động như một cặp nhãn nối nguồn và đích để chuyển luồng quy trình sang trang khác mà không phải vẽ dây nối dài.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q090",
+        "content": "Q90. A signal event differs from a message event because a signal:",
+        "options": {
+          "A": "Has exactly one receiver.",
+          "B": "Can be broadcast to multiple receivers.",
+          "C": "Can only be used in start events.",
+          "D": "Cannot cross pool boundaries."
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Sự kiện tín hiệu (Signal Event) khác với sự kiện thông điệp (Message Event) ở điểm mấu chốt nào?\n\n🔑 **Từ khóa nhận diện:** `signal event differs from message` ➔ Signal phát quảng bá (broadcast) tới nhiều bên nhận.\n\n💡 **Giải thích:** Message Event là giao tiếp điểm-điểm (1 người gửi ➔ đúng 1 người nhận). Signal Event là phát sóng quảng bá (1 người phát ➔ tất cả các bên đang lắng nghe đều nhận được).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q091",
+        "content": "Q91. In BPM governance, which body typically provides strategic direction and decisions about BPM priorities?",
+        "options": {
+          "A": "BPM steering committee",
+          "B": "Process participants",
+          "C": "Event log",
+          "D": "Worklist handler"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong quản trị BPM, cơ quan nào thường đưa ra định hướng chiến lược và các quyết định ưu tiên cho toàn bộ chương trình BPM?\n\n🔑 **Từ khóa nhận diện:** `strategic direction and decisions about priorities` ➔ BPM steering committee.\n\n💡 **Giải thích:** Hội đồng chỉ đạo BPM (BPM Steering Committee) bao gồm các lãnh đạo cấp cao đưa ra quyết định về ngân sách, chiến lược và thứ tự ưu tiên của các dự án quy trình.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q092",
+        "content": "Q92. A value chain diagram shows high-level processes arranged as chevrons. What does the arrangement mainly represent?",
+        "options": {
+          "A": "The sequence of high-level processes from start to delivered value",
+          "B": "The organizational hierarchy",
+          "C": "The data model",
+          "D": "The simulation scenarios"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một sơ đồ chuỗi giá trị (Value Chain Diagram) hiển thị các quy trình cấp cao sắp xếp dạng các mũi tên chevron nối tiếp nhau. Cách sắp xếp này đại diện cho điều gì?\n\n🔑 **Từ khóa nhận diện:** `high-level processes arranged as chevrons` ➔ Chuỗi các quy trình tạo giá trị từ đầu đến cuối.\n\n💡 **Giải thích:** Biểu đồ chuỗi giá trị mô tả dòng chảy tuần tự của các nhóm quy trình lớn nhằm tạo ra và phân phối giá trị hoàn chỉnh cho khách hàng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q093",
+        "content": "Q93. In Kendall's notation, what does M/D/1 describe?",
+        "options": {
+          "A": "Exponential service times and 1 server with deterministic arrivals",
+          "B": "Poisson arrivals, deterministic (constant) service times, and 1 server",
+          "C": "Deterministic arrivals and 1 queue with many servers",
+          "D": "Three servers and a deterministic queue"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Trong ký hiệu chuẩn Kendall, ký hiệu M/D/1 mô tả hệ thống hàng đợi nào?\n\n🔑 **Từ khóa nhận diện:** Ký hiệu Kendall `A/B/c`: M (Poisson/Exponential), D (Deterministic/Hằng số), 1 (1 máy chủ).\n\n💡 **Giải thích:** Chữ M đầu là Poisson arrivals (thời gian đến hàm mũ), chữ D là Deterministic (thời gian phục vụ cố định không đổi), số 1 là có đúng một nhân viên/máy chủ phục vụ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q094",
+        "content": "Q94. For a single-server queue to be stable in the long run, the utilization ρ must be:",
+        "options": {
+          "A": "Exactly 1",
+          "B": "Greater than 1",
+          "C": "Less than 1",
+          "D": "Equal to 0"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Để một hệ thống hàng đợi có một máy chủ phục vụ (single-server) vận hành ổn định trong dài hạn, hệ số sử dụng tài nguyên ρ bắt buộc phải:\n\n🔑 **Từ khóa nhận diện:** `queue to be stable in the long run` ➔ Hệ số sử dụng ρ < 1.\n\n💡 **Giải thích:** Điều kiện ổn định: tốc độ đến phải nhỏ hơn tốc độ phục vụ ($\\lambda < \\mu$), tức $\\rho < 1$. Nếu $\\rho \\ge 1$, số người xếp hàng sẽ tăng lên vô hạn và hệ thống bị sụp đổ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q095",
+        "content": "Q95. Which BPMN element is used to represent a department or role within one organization's pool?",
+        "options": {
+          "A": "Lane",
+          "B": "Group",
+          "C": "Message flow",
+          "D": "Data store"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Phần tử BPMN nào được sử dụng để đại diện cho một bộ phận hoặc một vai trò cụ thể bên trong một Pool của tổ chức?\n\n🔑 **Từ khóa nhận diện:** `represent department or role within pool` ➔ Lane (Làn).\n\n💡 **Giải thích:** Lane (làn bơi) chia nhỏ một Pool thành các phân vùng trách nhiệm đại diện cho các phòng ban, vai trò hoặc chức danh công việc nội bộ.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q096",
+        "content": "Q96. A process must wait three days before sending a reminder. Which element models the waiting?",
+        "options": {
+          "A": "Intermediate catching timer event",
+          "B": "Message start event",
+          "C": "Terminate end event",
+          "D": "Event-based gateway with no outgoing flows"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Quy trình phải chờ đúng 3 ngày trước khi gửi email nhắc nhở. Phần tử nào mô hình hóa khoảng thời gian chờ này?\n\n🔑 **Từ khóa nhận diện:** `wait three days before sending reminder` ➔ Intermediate catching timer event.\n\n💡 **Giải thích:** Sự kiện Timer trung gian dạng bắt (Catching Timer) đặt trên luồng tuần tự sẽ giữ token lại trong khoảng thời gian quy định (3 ngày) rồi mới cho đi tiếp.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      },
+      {
+        "id": "bps301-fa26-100q-q097",
+        "content": "Q97. A process starts when an order email from a customer arrives. Which start event is appropriate?",
+        "options": {
+          "A": "None start event",
+          "B": "Timer start event",
+          "C": "Message start event",
+          "D": "Error start event"
+        },
+        "correctAnswer": "C",
+        "correctAnswers": [
+          "C"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một quy trình khởi động khi nhận được một email đặt hàng từ khách hàng gửi tới. Sự kiện bắt đầu nào là phù hợp nhất?\n\n🔑 **Từ khóa nhận diện:** `starts when an order email arrives` ➔ Message start event.\n\n💡 **Giải thích:** Message Start Event (sự kiện bắt đầu bằng thông điệp - hình phong bì) được kích hoạt khi nhận được một thông điệp/dữ liệu từ tác nhân bên ngoài.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: C"
+      },
+      {
+        "id": "bps301-fa26-100q-q098",
+        "content": "Q98. A value stream mapping (Lean) typically shows:",
+        "options": {
+          "A": "Only the organizational chart",
+          "B": "The flow of material and information with value-added and waiting times",
+          "C": "The DMN decision tables",
+          "D": "A UML class model"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Một sơ đồ dòng giá trị (Value Stream Mapping - VSM trong Lean) thường thể hiện những thông tin gì?\n\n🔑 **Từ khóa nhận diện:** `value stream mapping shows` ➔ Dòng vật liệu và thông tin kèm thời gian tạo giá trị và thời gian chờ.\n\n💡 **Giải thích:** VSM trực quan hóa toàn bộ dòng chảy vật liệu và luồng thông tin, bóc tách rõ thời gian tạo giá trị (Processing Time) và các khoảng thời gian lãng phí nằm chờ (Waiting Time).",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q099",
+        "content": "Q99. Business Process Reengineering (BPR) differs from continuous improvement mainly because it:",
+        "options": {
+          "A": "Uses only small incremental changes",
+          "B": "Applies radical redesign of processes",
+          "C": "Never uses technology",
+          "D": "Only works for support processes"
+        },
+        "correctAnswer": "B",
+        "correctAnswers": [
+          "B"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Tái thiết kế quy trình kinh doanh (BPR) khác biệt căn bản so với cải tiến liên tục (Continuous Improvement) ở điểm nào?\n\n🔑 **Từ khóa nhận diện:** `BPR differs from continuous improvement` ➔ Thiết kế lại một cách triệt để, căn bản (Radical redesign).\n\n💡 **Giải thích:** BPR (Business Process Reengineering) đập đi xây lại hoàn toàn quy trình từ con số 0 (Radical overhaul), trong khi cải tiến liên tục (Kaizen) thực hiện các bước tinh chỉnh nhỏ tiệm tiến.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: B"
+      },
+      {
+        "id": "bps301-fa26-100q-q100",
+        "content": "Q100. Removing all approval steps reduces processing time and cost, but more errors reach customers. Which Devil's Quadrangle trade-off is this?",
+        "options": {
+          "A": "Time and cost improve at the expense of quality",
+          "B": "Quality improves at the expense of time",
+          "C": "Flexibility improves at the expense of cost",
+          "D": "There is no trade-off"
+        },
+        "correctAnswer": "A",
+        "correctAnswers": [
+          "A"
+        ],
+        "weight": 1,
+        "explanation": "📖 **Dịch câu hỏi:** Việc loại bỏ toàn bộ các bước phê duyệt giúp giảm thời gian và chi phí xử lý, nhưng dẫn tới nhiều lỗi hơn lọt tới tay khách hàng. Đây là sự đánh đổi nào trong Tứ giác Devil's Quadrangle?\n\n🔑 **Từ khóa nhận diện:** `time and cost improve at expense of quality` ➔ Đánh đổi giữa Thời gian - Chi phí với Chất lượng.\n\n💡 **Giải thích:** Bỏ kiểm soát nội bộ giúp quy trình chạy nhanh hơn (Time) và rẻ hơn (Cost) nhưng đẩy rủi ro sai sót ra ngoài, làm suy giảm chất lượng phục vụ (Quality) đối với khách hàng.",
+        "imageUrl": "",
+        "answerNote": "Đáp án: A"
+      }
+    ]
+  },
+  {
     "id": "bps301-fa26-mock-01",
     "name": "[FE] BPS301 - FA26 - Đề Thi Thử Chuẩn FE - Đề 01 (50 câu)",
     "subject": "BPS301",
