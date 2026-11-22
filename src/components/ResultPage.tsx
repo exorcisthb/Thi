@@ -1,6 +1,7 @@
 import { getImageUrl } from '../utils/imageUrl';
 import { useState } from 'react';
 import type { ExamResult, Question } from '../types';
+import { FormattedExplanation } from './FormattedExplanation';
 
 interface ResultPageProps {
   result: ExamResult;
@@ -260,9 +261,8 @@ export default function ResultPage({ result, questions, onRetry, onBack }: Resul
                 )}
 
                 {q.explanation && (
-                  <div className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
-                    <p className="text-xs font-medium text-blue-700 dark:text-blue-400 mb-1">💡 Giải thích:</p>
-                    <p className="text-sm text-blue-700 dark:text-blue-400">{q.explanation}</p>
+                  <div className="p-3.5 bg-blue-50/70 dark:bg-blue-900/25 rounded-xl border border-blue-200/60 dark:border-blue-800/40">
+                    <FormattedExplanation explanation={q.explanation} />
                   </div>
                 )}
 

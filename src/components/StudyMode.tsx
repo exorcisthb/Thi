@@ -2,6 +2,7 @@ import { getImageUrl } from '../utils/imageUrl';
 import { useState, useEffect } from 'react';
 import type { Question, AnswerKey } from '../types';
 import { getCorrectAnswers } from '../types';
+import { FormattedExplanation } from './FormattedExplanation';
 
 interface StudyModeProps {
   questions: Question[];
@@ -556,11 +557,8 @@ export default function StudyMode({ questions, setId }: StudyModeProps) {
 
               {/* Phần giải thích (nếu có) */}
               {current.explanation && (
-                <div className="p-4 bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800/60 rounded-xl text-sm text-blue-900 dark:text-blue-200 leading-relaxed">
-                  <span className="font-bold flex items-center gap-1 mb-1 text-blue-700 dark:text-blue-400">
-                    💡 Giải thích:
-                  </span>
-                  {current.explanation}
+                <div className="p-4 bg-blue-50/70 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800/60 rounded-xl shadow-2xs">
+                  <FormattedExplanation explanation={current.explanation} />
                 </div>
               )}
               {/* Trợ lý Gemini 2.5 Flash */}
